@@ -1,34 +1,34 @@
 <codelist name="ActivityScope" date-last-modifed="2013-05-10T22:30:07.092Z" version="1.0" xml:lang="en">
-    <ActivityScope>
+    <codelist-item>
         <code>1</code>
         <name>Global</name>
-    </ActivityScope>
-    <ActivityScope>
+    </codelist-item>
+    <codelist-item>
         <code>2</code>
         <name>Regional</name>
-    </ActivityScope>
-    <ActivityScope>
+    </codelist-item>
+    <codelist-item>
         <code>3</code>
         <name>Multi-national</name>
-    </ActivityScope>
-    <ActivityScope>
+    </codelist-item>
+    <codelist-item>
         <code>4</code>
         <name>National</name>
-    </ActivityScope>
-    <ActivityScope>
+    </codelist-item>
+    <codelist-item>
         <code>5</code>
         <name>Sub-national: Multi-first-level administrative areas</name>
-    </ActivityScope>
-    <ActivityScope>
+    </codelist-item>
+    <codelist-item>
         <code>6</code>
         <name>Sub-national: Single first-level administrative area</name>
-    </ActivityScope>
-    <ActivityScope>
+    </codelist-item>
+    <codelist-item>
         <code>7</code>
         <name>Sub-national: Single second-level administrative area</name>
-    </ActivityScope>
-    <ActivityScope>
+    </codelist-item>
+    <codelist-item>
         <code>8</code>
         <name>Single location</name>
-    </ActivityScope>
+    </codelist-item>
 </codelist>

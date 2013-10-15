@@ -1,34 +1,34 @@
 <codelist name="Vocabulary" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
-    <Vocabulary>
+    <codelist-item>
         <code>ADT</code>
         <name>AidData</name>
-    </Vocabulary>
-    <Vocabulary>
+    </codelist-item>
+    <codelist-item>
         <code>COFOG</code>
         <name>Classification of the Functions of Government (UN)</name>
-    </Vocabulary>
-    <Vocabulary>
+    </codelist-item>
+    <codelist-item>
         <code>DAC</code>
         <name>OECD Development Assistance Committee</name>
-    </Vocabulary>
-    <Vocabulary>
+    </codelist-item>
+    <codelist-item>
         <code>DAC-3</code>
         <name>OECD Development Assistance Committee 3 digit codes</name>
-    </Vocabulary>
-    <Vocabulary>
+    </codelist-item>
+    <codelist-item>
         <code>ISO</code>
         <name>International Organization for Standardization</name>
-    </Vocabulary>
-    <Vocabulary>
+    </codelist-item>
+    <codelist-item>
         <code>NTEE</code>
         <name>National Taxonomy for Exempt Entities (USA)</name>
-    </Vocabulary>
-    <Vocabulary>
+    </codelist-item>
+    <codelist-item>
         <code>RO</code>
         <name>Reporting Organisation (i.e. maintained by the organisation referred to in the &lt;reporting-org&gt; element.</name>
-    </Vocabulary>
-    <Vocabulary>
+    </codelist-item>
+    <codelist-item>
         <code>WB</code>
         <name>World Bank</name>
-    </Vocabulary>
+    </codelist-item>
 </codelist>

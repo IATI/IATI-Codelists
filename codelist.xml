@@ -1,262 +1,262 @@
 <codelists>
-    <codelist>
+    <codelist-item>
         <name>ActivityDateType</name>
         <description>Types of date for activities</description>
         <count>4</count>
         <fields>code,name</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>ActivityStatus</name>
         <description>Lifecycle status of the activity from pipeline to completion</description>
         <count>5</count>
         <fields>code,name,language</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>ActivityScope</name>
         <description>Geographic scope of activity</description>
         <count>8</count>
         <fields>code,name</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>AidTypeFlag</name>
         <description/>
         <count>4</count>
         <fields>code,name</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>AidType</name>
         <description>DAC/CRS classification used to distinguish aid modalities. </description>
         <count>15</count>
         <fields>code,name,description,language,category,category-name,category-description</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>BudgetIdentifier</name>
         <description>IATI Functional and Administrative Common Code : One of several possible Budget Identifier Vocabularies</description>
         <count>153</count>
         <fields>code,name,category,sector</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>BudgetIdentifierVocabulary</name>
         <description/>
         <count>5</count>
         <fields>code,name</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>Country</name>
         <description>ISO 3166 alpha 2 Country codes</description>
         <count>249</count>
         <fields>code,name,language</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>BudgetType</name>
         <description/>
         <count>2</count>
         <fields>code,name,language</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>CollaborationType</name>
         <description>DAC/CRS classification used to determine the character of resource flows (bilateral or multilateral).</description>
         <count>5</count>
         <fields>code,name,description,language</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>ConditionType</name>
         <description/>
         <count>3</count>
         <fields>code,name,language</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>ContactType</name>
         <description>Type of Contact</description>
         <count>4</count>
         <fields>code,name</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>Currency</name>
         <description>ISO 4217 Currency used for all transactions and budgets</description>
         <count>167</count>
         <fields>code,name,language</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>DescriptionType</name>
         <description>Activity decription types. (General, objectives, etc)</description>
         <count>3</count>
         <fields>code,name,description</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>DisbursementChannel</name>
         <description/>
         <count>4</count>
         <fields>code,name</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>DocumentCategory</name>
         <description>Categories of information included in published documents</description>
         <count>21</count>
         <fields>code,name,description,category,category-name</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>FileFormat</name>
         <description>File format of published documents</description>
         <count>9</count>
         <fields>code,name</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>FinanceType</name>
         <description>DAC/CRS transaction classification used to distinguish financial instruments,  e.g. grants or loans.</description>
         <count>44</count>
         <fields>code,name,category,category-name,category-description</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>FlowType</name>
         <description>DAC/CRS distinction between ODA (official development assistance) and other types of resource flow.</description>
         <count>6</count>
         <fields>code,name,description</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>GazetteerAgency</name>
         <description>An online resource that holds coordinates and descriptions of geographic locations </description>
         <count>3</count>
         <fields>code,name</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>GeographicalPrecision</name>
         <description>A system for clarifying the accuracy and usage of geographical coordinates </description>
         <count>9</count>
         <fields>code,name,description</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>IndicatorMeasure</name>
         <description/>
         <count>2</count>
         <fields>code,name</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>Language</name>
         <description>To specify the language of titles, descriptions and documents</description>
         <count>181</count>
         <fields>code,name</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>LoanRepaymentType</name>
         <description>used in additional CRS elements</description>
         <count>4</count>
         <fields>code,name</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>LoanRepaymentPeriod</name>
         <description>CRS Loan Repayment No of Payments </description>
         <count>4</count>
         <fields>code,name</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>LocationType</name>
         <description/>
         <count>10</count>
         <fields>code,name</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>OrganisationIdentifier</name>
         <description>This list is composed of the three separate lists on the original IATI site.</description>
         <count>441</count>
         <fields>code,abbreviation,name</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>OrganisationRole</name>
         <description/>
         <count>4</count>
         <fields>code,name,description</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>OrganisationType</name>
         <description/>
         <count>10</count>
         <fields>code,name</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>PolicyMarker</name>
         <description/>
         <count>8</count>
         <fields>code,name</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>PolicySignificance</name>
         <description/>
         <count>4</count>
         <fields>code,name,description</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>PublisherType</name>
         <description/>
         <count>3</count>
         <fields>code,name</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>Region</name>
         <description/>
         <count>16</count>
         <fields>code,name</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>RegionVocabulary</name>
         <description/>
         <count>2</count>
         <fields>code,name</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>RelatedActivityType</name>
         <description/>
         <count>4</count>
         <fields>code,name,description</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>ResultType</name>
         <description/>
         <count>3</count>
         <fields>code,name</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>Sector</name>
         <description/>
         <count>202</count>
         <fields>code,name,description,category,category-name,category-description</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>SectorCategory</name>
         <description>The categories of DAC Sector codes</description>
         <count>37</count>
         <fields>code,name,description</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>TiedStatus</name>
         <description/>
         <count>3</count>
         <fields>code,name,description</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>TransactionType</name>
         <description/>
         <description>Added 3 new options to the codelist: QP - Purchase of Equity, QS - Sale of
                 Equity ,CG - Credit Guarantee </description>
         <count>10</count>
         <fields>code,name,description</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>ValueType</name>
         <description>A derived  enlarged version of TransactionType to include PD (planned Disbursements)  and TB (Budget) </description>
         <count>12</count>
         <fields>code,name,description</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>VerificationStatus</name>
         <description/>
         <count>2</count>
         <fields>code,name</fields>
-    </codelist>
-    <codelist>
+    </codelist-item>
+    <codelist-item>
         <name>Vocabulary</name>
         <description/>
         <count>8</count>
         <fields>code,name</fields>
-    </codelist>
+    </codelist-item>
 </codelists>

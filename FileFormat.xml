@@ -1,38 +1,38 @@
 <codelist name="FileFormat" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
-    <FileFormat>
+    <codelist-item>
         <code>application/msword</code>
         <name>Microsoft Word</name>
-    </FileFormat>
-    <FileFormat>
+    </codelist-item>
+    <codelist-item>
         <code>application/pdf</code>
         <name>Portable Data Format</name>
-    </FileFormat>
-    <FileFormat>
+    </codelist-item>
+    <codelist-item>
         <code>application/rtf</code>
         <name>Rich Text Format</name>
-    </FileFormat>
-    <FileFormat>
+    </codelist-item>
+    <codelist-item>
         <code>application/vnd.ms-excel</code>
         <name>Microsoft Excel</name>
-    </FileFormat>
-    <FileFormat>
+    </codelist-item>
+    <codelist-item>
         <code>application/vnd.ms-powerpoint</code>
         <name>Microsoft Powerpoint</name>
-    </FileFormat>
-    <FileFormat>
+    </codelist-item>
+    <codelist-item>
         <code>text/csv</code>
         <name>Comma Separated Values</name>
-    </FileFormat>
-    <FileFormat>
+    </codelist-item>
+    <codelist-item>
         <code>text/html</code>
         <name>Hypertext Markup Language</name>
-    </FileFormat>
-    <FileFormat>
+    </codelist-item>
+    <codelist-item>
         <code>text/plain</code>
         <name>Text only</name>
-    </FileFormat>
-    <FileFormat>
+    </codelist-item>
+    <codelist-item>
         <code>text/xml</code>
         <name>Extensible Markup Language</name>
-    </FileFormat>
+    </codelist-item>
 </codelist>

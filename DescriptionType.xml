@@ -1,17 +1,17 @@
 <codelist name="DescriptionType" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
-    <DescriptionType>
+    <codelist-item>
         <code>1</code>
         <name>General</name>
         <description>Long description of the activity with no particular structure</description>
-    </DescriptionType>
-    <DescriptionType>
+    </codelist-item>
+    <codelist-item>
         <code>2</code>
         <name>Objectives</name>
         <description>Objectives for the activity, for example from a logical framework</description>
-    </DescriptionType>
-    <DescriptionType>
+    </codelist-item>
+    <codelist-item>
         <code>3</code>
         <name>Target Groups</name>
         <description>Statement of groups targeted to benefit from the activity</description>
-    </DescriptionType>
+    </codelist-item>
 </codelist>

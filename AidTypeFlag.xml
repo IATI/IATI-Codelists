@@ -1,18 +1,18 @@
 <codelist name="AidTypeFlag" date-last-modifed="2013-05-10T22:30:07.092Z" version="1.0" xml:lang="en">
-    <AidTypeFlag>
+    <codelist-item>
         <code>1</code>
         <name>Free standing technical cooperation</name>
-    </AidTypeFlag>
-    <AidTypeFlag>
+    </codelist-item>
+    <codelist-item>
         <code>2</code>
         <name>Programme-based approach</name>
-    </AidTypeFlag>
-    <AidTypeFlag>
+    </codelist-item>
+    <codelist-item>
         <code>3</code>
         <name>Investment project</name>
-    </AidTypeFlag>
-    <AidTypeFlag>
+    </codelist-item>
+    <codelist-item>
         <code>4</code>
         <name>Associated financing</name>
-    </AidTypeFlag>
+    </codelist-item>
 </codelist>

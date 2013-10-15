@@ -1,5 +1,5 @@
 <codelist name="Sector" date-last-modified="2013-03-20T16:37:03.457Z" version="1.01" xml:lang="en">
-    <Sector>
+    <codelist-item>
         <code>11110</code>
         <name>Education policy and administrative management</name>
         <description>Education sector policy, planning and programmes; aid to education ministries,
@@ -11,8 +11,8 @@
         <category-description>The codes in this category are to be used only when level of education
             is unspecified or unknown (e.g. training of primary school teachers should be coded
             under 11220).</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>11120</code>
         <name>Education facilities and training</name>
         <description>Educational buildings, equipment, materials; subsidiary services to education
@@ -23,8 +23,8 @@
         <category-description>The codes in this category are to be used only when level of education
             is unspecified or unknown (e.g. training of primary school teachers should be coded
             under 11220).</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>11130</code>
         <name>Teacher training</name>
         <description>Teacher education (where the level of education is unspecified); in-service and
@@ -34,8 +34,8 @@
         <category-description>The codes in this category are to be used only when level of education
             is unspecified or unknown (e.g. training of primary school teachers should be coded
             under 11220).</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>11182</code>
         <name>Educational research</name>
         <description>Research and studies on education effectiveness, relevance and quality;
@@ -45,8 +45,8 @@
         <category-description>The codes in this category are to be used only when level of education
             is unspecified or unknown (e.g. training of primary school teachers should be coded
             under 11220).</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>11220</code>
         <name>Primary education</name>
         <description>Formal and non-formal primary education for children; all elementary and first
@@ -54,8 +54,8 @@
         <category>112</category>
         <category-name>Basic education</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>11230</code>
         <name>Basic life skills for youth and adults</name>
         <description>Formal and non-formal education for basic life skills for young people and
@@ -63,16 +63,16 @@
         <category>112</category>
         <category-name>Basic education</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>11240</code>
         <name>Early childhood education</name>
         <description>Formal and non-formal pre-school education.</description>
         <category>112</category>
         <category-name>Basic education</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>11320</code>
         <name>Secondary education</name>
         <description>Second cycle systematic instruction at both junior and senior
@@ -80,8 +80,8 @@
         <category>113</category>
         <category-name>Secondary education</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>11330</code>
         <name>Vocational training</name>
         <description>Elementary vocational training and secondary level technical education; on-the
@@ -89,8 +89,8 @@
         <category>113</category>
         <category-name>Secondary education</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>11420</code>
         <name>Higher education</name>
         <description>Degree and diploma programmes at universities, colleges and polytechnics;
@@ -98,8 +98,8 @@
         <category>114</category>
         <category-name>Post-secondary education</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>11430</code>
         <name>Advanced technical and managerial training</name>
         <description>Professional-level vocational training programmes and in-service
@@ -107,8 +107,8 @@
         <category>114</category>
         <category-name>Post-secondary education</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>12110</code>
         <name>Health policy and administrative management</name>
         <description>Health sector policy, planning and programmes; aid to health ministries, public
@@ -117,24 +117,24 @@
         <category>121</category>
         <category-name>Health, general</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>12181</code>
         <name>Medical education/training</name>
         <description>Medical education and training for tertiary level services.</description>
         <category>121</category>
         <category-name>Health, general</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>12182</code>
         <name>Medical research</name>
         <description>General medical research (excluding basic health research).</description>
         <category>121</category>
         <category-name>Health, general</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>12191</code>
         <name>Medical services</name>
         <description>Laboratories, specialised clinics and hospitals (including equipment and
@@ -144,8 +144,8 @@
         <category>121</category>
         <category-name>Health, general</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>12220</code>
         <name>Basic health care</name>
         <description>Basic and primary health care programmes; paramedical and nursing care
@@ -154,8 +154,8 @@
         <category>122</category>
         <category-name>Basic health</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>12230</code>
         <name>Basic health infrastructure</name>
         <description>District-level hospitals, clinics and dispensaries and related medical
@@ -163,8 +163,8 @@
         <category>122</category>
         <category-name>Basic health</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>12240</code>
         <name>Basic nutrition</name>
         <description>Direct feeding programmes (maternal feeding, breastfeeding and weaning foods,
@@ -174,8 +174,8 @@
         <category>122</category>
         <category-name>Basic health</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>12250</code>
         <name>Infectious disease control</name>
         <description>Immunisation; prevention and control of infectious and parasite diseases,
@@ -186,8 +186,8 @@
         <category>122</category>
         <category-name>Basic health</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>12261</code>
         <name>Health education</name>
         <description>Information, education and training of the population for improving health
@@ -195,32 +195,32 @@
         <category>122</category>
         <category-name>Basic health</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>12262</code>
         <name>Malaria control</name>
         <description>Prevention and control of malaria.</description>
         <category>122</category>
         <category-name>Basic health</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>12263</code>
         <name>Tuberculosis control</name>
         <description>Immunisation, prevention and control of tuberculosis.</description>
         <category>122</category>
         <category-name>Basic health</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>12281</code>
         <name>Health personnel development</name>
         <description>Training of health staff for basic health care services.</description>
         <category>122</category>
         <category-name>Basic health</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>13010</code>
         <name>Population policy and administrative management</name>
         <description>Population/development policies; census work, vital registration; migration
@@ -229,8 +229,8 @@
         <category>130</category>
         <category-name>POPULATION POLICIES/PROGRAMMES AND REPRODUCTIVE HEALTH</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>13020</code>
         <name>Reproductive health care</name>
         <description>Promotion of reproductive health; prenatal and postnatal care including
@@ -239,8 +239,8 @@
         <category>130</category>
         <category-name>POPULATION POLICIES/PROGRAMMES AND REPRODUCTIVE HEALTH</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>13030</code>
         <name>Family planning</name>
         <description>Family planning services including counselling; information, education and
@@ -249,8 +249,8 @@
         <category>130</category>
         <category-name>POPULATION POLICIES/PROGRAMMES AND REPRODUCTIVE HEALTH</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>13040</code>
         <name>STD control including HIV/AIDS</name>
         <description>All activities related to sexually transmitted diseases and HIV/AIDS control
@@ -259,8 +259,8 @@
         <category>130</category>
         <category-name>POPULATION POLICIES/PROGRAMMES AND REPRODUCTIVE HEALTH</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>13081</code>
         <name>Personnel development for population and reproductive health</name>
         <description>Education and training of health staff for population and reproductive health
@@ -268,8 +268,8 @@
         <category>130</category>
         <category-name>POPULATION POLICIES/PROGRAMMES AND REPRODUCTIVE HEALTH</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>14010</code>
         <name>Water resources policy and administrative management</name>
         <description>Water sector policy, planning and programmes; water legislation and management;
@@ -279,8 +279,8 @@
         <category>140</category>
         <category-name>WATER AND SANITATION</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>14015</code>
         <name>Water resources protection</name>
         <description>Inland surface waters (rivers, lakes, etc.); conservation and rehabilitation of
@@ -289,8 +289,8 @@
         <category>140</category>
         <category-name>WATER AND SANITATION</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>14020</code>
         <name>Water supply and sanitation - large systems</name>
         <description>Water desalination plants; intakes, storage, treatment, pumping stations,
@@ -299,8 +299,8 @@
         <category>140</category>
         <category-name>WATER AND SANITATION</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>14021</code>
         <name>Water supply - large systems </name>
         <description>Potable water treatment plants; intake works; storage; water supply pumping
@@ -308,8 +308,8 @@
         <category>140</category>
         <category-name>WATER AND SANITATION</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>14022</code>
         <name>Sanitation - large systems</name>
         <description>Large scale sewerage including trunk sewers and sewage pumping stations;
@@ -317,8 +317,8 @@
         <category>140</category>
         <category-name>WATER AND SANITATION</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>14030</code>
         <name>Basic drinking water supply and basic sanitation</name>
         <description>Water supply and sanitation through low-cost technologies such as handpumps,
@@ -328,8 +328,8 @@
         <category>140</category>
         <category-name>WATER AND SANITATION</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>14031</code>
         <name>Basic drinking water supply</name>
         <description>Rural water supply schemes using handpumps, spring catchments, gravity-fed
@@ -339,8 +339,8 @@
         <category>140</category>
         <category-name>WATER AND SANITATION</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>14032</code>
         <name>Basic sanitation</name>
         <description>Latrines, on-site disposal and alternative sanitation systems, including the
@@ -350,8 +350,8 @@
         <category>140</category>
         <category-name>WATER AND SANITATION</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>14040</code>
         <name>River development</name>
         <description>Integrated river basin projects; river flow control; dams and reservoirs
@@ -360,8 +360,8 @@
         <category>140</category>
         <category-name>WATER AND SANITATION</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>14050</code>
         <name>Waste management/disposal</name>
         <description>Municipal and industrial solid waste management, including hazardous and toxic
@@ -370,16 +370,16 @@
         <category>140</category>
         <category-name>WATER AND SANITATION</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>14081</code>
         <name>Education and training in water supply and sanitation</name>
         <description/>
         <category>140</category>
         <category-name>WATER AND SANITATION</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>15110</code>
         <name>Economic and development policy/planning</name>
         <description>Institution-building assistance to strengthen core public sector management
@@ -392,8 +392,8 @@
         <category>151</category>
         <category-name>Government and civil society, general</category-name>
         <category-description>N.B. Use code 51010 for general budget support.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>15111</code>
         <name>Public finance management</name>
         <description>Fiscal policy and planning; support to ministries of finance; strengthening
@@ -404,8 +404,8 @@
         <category>151</category>
         <category-name>Government and civil society, general</category-name>
         <category-description>N.B. Use code 51010 for general budget support.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>15112</code>
         <name>Decentralisation and support to subnational government</name>
         <description>Decentralisation processes (including political, administrative and fiscal
@@ -416,8 +416,8 @@
         <category>151</category>
         <category-name>Government and civil society, general</category-name>
         <category-description>N.B. Use code 51010 for general budget support.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>15113</code>
         <name>Anti-corruption organisations and institutions</name>
         <description>Specialised organisations, institutions and frameworks for the prevention of
@@ -429,8 +429,8 @@
         <category>151</category>
         <category-name>Government and civil society, general</category-name>
         <category-description>N.B. Use code 51010 for general budget support.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>15120</code>
         <name>Public sector financial management</name>
         <description>Strengthening financial and managerial accountability; public expenditure
@@ -439,8 +439,8 @@
         <category>151</category>
         <category-name>Government and civil society, general</category-name>
         <category-description>N.B. Use code 51010 for general budget support.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>15130</code>
         <name>Legal and judicial development</name>
         <description>Constitutional development, legal drafting; institutional strengthening of
@@ -449,8 +449,8 @@
         <category>151</category>
         <category-name>Government and civil society, general</category-name>
         <category-description>N.B. Use code 51010 for general budget support.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>15140</code>
         <name>Government administration</name>
         <description>Systems of government including parliament, local government, decentralisation;
@@ -461,8 +461,8 @@
         <category>151</category>
         <category-name>Government and civil society, general</category-name>
         <category-description>N.B. Use code 51010 for general budget support.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>15150</code>
         <name>Democratic participation and civil society</name>
         <description>Support to the exercise of democracy and diverse forms of participation of
@@ -476,8 +476,8 @@
         <category>151</category>
         <category-name>Government and civil society, general</category-name>
         <category-description>N.B. Use code 51010 for general budget support.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>15151</code>
         <name>Elections</name>
         <description>Electoral management bodies and processes, election observation, voters'
@@ -486,8 +486,8 @@
         <category>151</category>
         <category-name>Government and civil society, general</category-name>
         <category-description>N.B. Use code 51010 for general budget support.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>15152</code>
         <name>Legislatures and political parties</name>
         <description>Assistance to strengthen key functions of legislatures/ parliaments including
@@ -499,8 +499,8 @@
         <category>151</category>
         <category-name>Government and civil society, general</category-name>
         <category-description>N.B. Use code 51010 for general budget support.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>15153</code>
         <name>Media and free flow of information</name>
         <description>Activities that support free and uncensored flow of information on public
@@ -510,8 +510,8 @@
         <category>151</category>
         <category-name>Government and civil society, general</category-name>
         <category-description>N.B. Use code 51010 for general budget support.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>15160</code>
         <name>Human rights</name>
         <description>Measures to support specialised official human rights institutions and
@@ -528,8 +528,8 @@
         <category>151</category>
         <category-name>Government and civil society, general</category-name>
         <category-description>N.B. Use code 51010 for general budget support.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>15170</code>
         <name>Women's equality organisations and institutions *</name>
         <description>
@@ -538,8 +538,8 @@
         <category>151</category>
         <category-name>Government and civil society, general</category-name>
         <category-description>N.B. Use code 51010 for general budget support.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>15210</code>
         <name>Security system management and reform</name>
         <description>Technical co-operation provided to parliament, government ministries, law
@@ -556,8 +556,8 @@
         <category-description>N.B. Further notes on ODA eligibility (and exclusions) of conflict,
             peace and security related activities are given in paragraphs 41-46 of the DAC
             Statistical Reporting Directives.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>15220</code>
         <name>Civilian peace-building, conflict prevention and resolution</name>
         <description>Support for civilian activities related to peace building, conflict prevention
@@ -568,8 +568,8 @@
         <category-description>N.B. Further notes on ODA eligibility (and exclusions) of conflict,
             peace and security related activities are given in paragraphs 41-46 of the DAC
             Statistical Reporting Directives.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>15230</code>
         <name>Post-conflict peace-building (UN)</name>
         <description>Participation in the post-conflict peace-building phase of United Nations peace
@@ -586,8 +586,8 @@
         <category-description>N.B. Further notes on ODA eligibility (and exclusions) of conflict,
             peace and security related activities are given in paragraphs 41-46 of the DAC
             Statistical Reporting Directives.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>15240</code>
         <name>Reintegration and SALW control</name>
         <description>Reintegration of demobilised military personnel into the economy; conversion of
@@ -601,8 +601,8 @@
         <category-description>N.B. Further notes on ODA eligibility (and exclusions) of conflict,
             peace and security related activities are given in paragraphs 41-46 of the DAC
             Statistical Reporting Directives.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>15250</code>
         <name>Land mine clearance</name>
         <description>Explosive mine removal for developmental purposes [other than in connection
@@ -612,8 +612,8 @@
         <category-description>N.B. Further notes on ODA eligibility (and exclusions) of conflict,
             peace and security related activities are given in paragraphs 41-46 of the DAC
             Statistical Reporting Directives.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>15261</code>
         <name>Child soldiers (Prevention and demobilisation)</name>
         <description>Technical co-operation provided to government and assistance to civil society
@@ -625,8 +625,8 @@
         <category-description>N.B. Further notes on ODA eligibility (and exclusions) of conflict,
             peace and security related activities are given in paragraphs 41-46 of the DAC
             Statistical Reporting Directives.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>16010</code>
         <name>Social/ welfare services</name>
         <description>Social legislation and administration; institution capacity building and
@@ -637,8 +637,8 @@
         <category>160</category>
         <category-name>OTHER SOCIAL INFRASTRUCTURE AND SERVICES</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>16020</code>
         <name>Employment policy and administrative management</name>
         <description>Employment policy and planning; labour law; labour unions; institution capacity
@@ -648,8 +648,8 @@
         <category>160</category>
         <category-name>OTHER SOCIAL INFRASTRUCTURE AND SERVICES</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>16030</code>
         <name>Housing policy and administrative management</name>
         <description>Housing sector policy, planning and programmes; excluding low-cost housing and
@@ -657,16 +657,16 @@
         <category>160</category>
         <category-name>OTHER SOCIAL INFRASTRUCTURE AND SERVICES</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>16040</code>
         <name>Low-cost housing</name>
         <description>Including slum clearance.</description>
         <category>160</category>
         <category-name>OTHER SOCIAL INFRASTRUCTURE AND SERVICES</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>16050</code>
         <name>Multisector aid for basic social services</name>
         <description>Basic social services are defined to include basic education, basic health,
@@ -675,16 +675,16 @@
         <category>160</category>
         <category-name>OTHER SOCIAL INFRASTRUCTURE AND SERVICES</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>16061</code>
         <name>Culture and recreation</name>
         <description>Including libraries and museums.</description>
         <category>160</category>
         <category-name>OTHER SOCIAL INFRASTRUCTURE AND SERVICES</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>16062</code>
         <name>Statistical capacity building</name>
         <description>Both in national statistical offices and any other government
@@ -692,8 +692,8 @@
         <category>160</category>
         <category-name>OTHER SOCIAL INFRASTRUCTURE AND SERVICES</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>16063</code>
         <name>Narcotics control</name>
         <description>In-country and customs controls including training of the police; educational
@@ -702,8 +702,8 @@
         <category>160</category>
         <category-name>OTHER SOCIAL INFRASTRUCTURE AND SERVICES</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>16064</code>
         <name>Social mitigation of HIV/AIDS</name>
         <description>Special programmes to address the consequences of HIV/AIDS, e.g. social, legal
@@ -713,8 +713,8 @@
         <category>160</category>
         <category-name>OTHER SOCIAL INFRASTRUCTURE AND SERVICES</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>21010</code>
         <name>Transport policy and administrative management</name>
         <description>Transport sector policy, planning and programmes; aid to transport ministries;
@@ -724,8 +724,8 @@
         <category-name>TRANSPORT AND STORAGE</category-name>
         <category-description>Note: Manufacturing of transport equipment should be included under
             code 32172.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>21020</code>
         <name>Road transport</name>
         <description>Road infrastructure, road vehicles; passenger road transport, motor passenger
@@ -734,8 +734,8 @@
         <category-name>TRANSPORT AND STORAGE</category-name>
         <category-description>Note: Manufacturing of transport equipment should be included under
             code 32172.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>21030</code>
         <name>Rail transport</name>
         <description>Rail infrastructure, rail equipment, locomotives, other rolling stock;
@@ -744,8 +744,8 @@
         <category-name>TRANSPORT AND STORAGE</category-name>
         <category-description>Note: Manufacturing of transport equipment should be included under
             code 32172.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>21040</code>
         <name>Water transport</name>
         <description>Harbours and docks, harbour guidance systems, ships and boats; river and other
@@ -754,8 +754,8 @@
         <category-name>TRANSPORT AND STORAGE</category-name>
         <category-description>Note: Manufacturing of transport equipment should be included under
             code 32172.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>21050</code>
         <name>Air transport</name>
         <description>Airports, airport guidance systems, aeroplanes, aeroplane maintenance
@@ -764,8 +764,8 @@
         <category-name>TRANSPORT AND STORAGE</category-name>
         <category-description>Note: Manufacturing of transport equipment should be included under
             code 32172.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>21061</code>
         <name>Storage</name>
         <description>Whether or not related to transportation.</description>
@@ -773,8 +773,8 @@
         <category-name>TRANSPORT AND STORAGE</category-name>
         <category-description>Note: Manufacturing of transport equipment should be included under
             code 32172.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>21081</code>
         <name>Education and training in transport and storage</name>
         <description/>
@@ -782,8 +782,8 @@
         <category-name>TRANSPORT AND STORAGE</category-name>
         <category-description>Note: Manufacturing of transport equipment should be included under
             code 32172.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>22010</code>
         <name>Communications policy and administrative management</name>
         <description>Communications sector policy, planning and programmes; institution capacity
@@ -792,16 +792,16 @@
         <category>220</category>
         <category-name>COMMUNICATION</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>22020</code>
         <name>Telecommunications</name>
         <description>Telephone networks, telecommunication satellites, earth stations.</description>
         <category>220</category>
         <category-name>COMMUNICATION</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>22030</code>
         <name>Radio/television/print media</name>
         <description>Radio and TV links, equipment; newspapers; printing and
@@ -809,8 +809,8 @@
         <category>220</category>
         <category-name>COMMUNICATION</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>22040</code>
         <name>Information and communication technology (ICT)</name>
         <description>Computer hardware and software; internet access; IT training. When sector
@@ -818,8 +818,8 @@
         <category>220</category>
         <category-name>COMMUNICATION</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>23010</code>
         <name>Energy policy and administrative management</name>
         <description>Energy sector policy, planning and programmes; aid to energy ministries;
@@ -830,8 +830,8 @@
         <category-description>Note: Extraction of raw materials for power generation should be
             included in the mining sector. Energy manufacturing should be included in the industry
             sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>23020</code>
         <name>Power generation/non-renewable sources</name>
         <description>Thermal power plants including when heat source cannot be determined; combined
@@ -841,8 +841,8 @@
         <category-description>Note: Extraction of raw materials for power generation should be
             included in the mining sector. Energy manufacturing should be included in the industry
             sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>23030</code>
         <name>Power generation/renewable sources</name>
         <description>Including policy, planning, development programmes, surveys and incentives.
@@ -852,8 +852,8 @@
         <category-description>Note: Extraction of raw materials for power generation should be
             included in the mining sector. Energy manufacturing should be included in the industry
             sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>23040</code>
         <name>Electrical transmission/ distribution</name>
         <description>Distribution from power source to end user; transmission lines.</description>
@@ -862,8 +862,8 @@
         <category-description>Note: Extraction of raw materials for power generation should be
             included in the mining sector. Energy manufacturing should be included in the industry
             sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>23050</code>
         <name>Gas distribution</name>
         <description>Delivery for use by ultimate consumer.</description>
@@ -872,8 +872,8 @@
         <category-description>Note: Extraction of raw materials for power generation should be
             included in the mining sector. Energy manufacturing should be included in the industry
             sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>23061</code>
         <name>Oil-fired power plants</name>
         <description>Including diesel power plants.</description>
@@ -882,8 +882,8 @@
         <category-description>Note: Extraction of raw materials for power generation should be
             included in the mining sector. Energy manufacturing should be included in the industry
             sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>23062</code>
         <name>Gas-fired power plants</name>
         <description/>
@@ -892,8 +892,8 @@
         <category-description>Note: Extraction of raw materials for power generation should be
             included in the mining sector. Energy manufacturing should be included in the industry
             sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>23063</code>
         <name>Coal-fired power plants</name>
         <description/>
@@ -902,8 +902,8 @@
         <category-description>Note: Extraction of raw materials for power generation should be
             included in the mining sector. Energy manufacturing should be included in the industry
             sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>23064</code>
         <name>Nuclear power plants</name>
         <description>Including nuclear safety.</description>
@@ -912,8 +912,8 @@
         <category-description>Note: Extraction of raw materials for power generation should be
             included in the mining sector. Energy manufacturing should be included in the industry
             sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>23065</code>
         <name>Hydro-electric power plants</name>
         <description>Including power-generating river barges.</description>
@@ -922,8 +922,8 @@
         <category-description>Note: Extraction of raw materials for power generation should be
             included in the mining sector. Energy manufacturing should be included in the industry
             sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>23066</code>
         <name>Geothermal energy</name>
         <description/>
@@ -932,8 +932,8 @@
         <category-description>Note: Extraction of raw materials for power generation should be
             included in the mining sector. Energy manufacturing should be included in the industry
             sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>23067</code>
         <name>Solar energy</name>
         <description>Including photo-voltaic cells, solar thermal applications and solar
@@ -943,8 +943,8 @@
         <category-description>Note: Extraction of raw materials for power generation should be
             included in the mining sector. Energy manufacturing should be included in the industry
             sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>23068</code>
         <name>Wind power</name>
         <description>Wind energy for water lifting and electric power generation.</description>
@@ -953,8 +953,8 @@
         <category-description>Note: Extraction of raw materials for power generation should be
             included in the mining sector. Energy manufacturing should be included in the industry
             sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>23069</code>
         <name>Ocean power</name>
         <description>Including ocean thermal energy conversion, tidal and wave power.</description>
@@ -963,8 +963,8 @@
         <category-description>Note: Extraction of raw materials for power generation should be
             included in the mining sector. Energy manufacturing should be included in the industry
             sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>23070</code>
         <name>Biomass</name>
         <description>Densification technologies and use of biomass for direct power generation
@@ -975,8 +975,8 @@
         <category-description>Note: Extraction of raw materials for power generation should be
             included in the mining sector. Energy manufacturing should be included in the industry
             sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>23081</code>
         <name>Energy education/training</name>
         <description>Applies to all energy sub-sectors; all levels of training.</description>
@@ -985,8 +985,8 @@
         <category-description>Note: Extraction of raw materials for power generation should be
             included in the mining sector. Energy manufacturing should be included in the industry
             sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>23082</code>
         <name>Energy research</name>
         <description>Including general inventories, surveys.</description>
@@ -995,8 +995,8 @@
         <category-description>Note: Extraction of raw materials for power generation should be
             included in the mining sector. Energy manufacturing should be included in the industry
             sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>24010</code>
         <name>Financial policy and administrative management</name>
         <description>Finance sector policy, planning and programmes; institution capacity building
@@ -1004,16 +1004,16 @@
         <category>240</category>
         <category-name>BANKING AND FINANCIAL SERVICES</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>24020</code>
         <name>Monetary institutions</name>
         <description>Central banks.</description>
         <category>240</category>
         <category-name>BANKING AND FINANCIAL SERVICES</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>24030</code>
         <name>Formal sector financial intermediaries</name>
         <description>All formal sector financial intermediaries; credit lines; insurance, leasing,
@@ -1021,24 +1021,24 @@
         <category>240</category>
         <category-name>BANKING AND FINANCIAL SERVICES</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>24040</code>
         <name>Informal/semi-formal financial intermediaries</name>
         <description>Micro credit, savings and credit co-operatives etc.</description>
         <category>240</category>
         <category-name>BANKING AND FINANCIAL SERVICES</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>24081</code>
         <name>Education/training in banking and financial services</name>
         <description/>
         <category>240</category>
         <category-name>BANKING AND FINANCIAL SERVICES</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>25010</code>
         <name>Business support services and institutions</name>
         <description>Support to trade and business associations, chambers of commerce; legal and
@@ -1050,8 +1050,8 @@
         <category>250</category>
         <category-name>BUSINESS AND OTHER SERVICES</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>25020</code>
         <name>Privatisation</name>
         <description>When sector cannot be specified. Including general state enterprise
@@ -1060,8 +1060,8 @@
         <category>250</category>
         <category-name>BUSINESS AND OTHER SERVICES</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31110</code>
         <name>Agricultural policy and administrative management</name>
         <description>Agricultural sector policy, planning and programmes; aid to agricultural
@@ -1070,16 +1070,16 @@
         <category>311</category>
         <category-name>AGRICULTURE</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31120</code>
         <name>Agricultural development</name>
         <description>Integrated projects; farm development.</description>
         <category>311</category>
         <category-name>AGRICULTURE</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31130</code>
         <name>Agricultural land resources</name>
         <description>Including soil degradation control; soil improvement; drainage of water logged
@@ -1088,8 +1088,8 @@
         <category>311</category>
         <category-name>AGRICULTURE</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31140</code>
         <name>Agricultural water resources</name>
         <description>Irrigation, reservoirs, hydraulic structures, ground water exploitation for
@@ -1097,16 +1097,16 @@
         <category>311</category>
         <category-name>AGRICULTURE</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31150</code>
         <name>Agricultural inputs</name>
         <description>Supply of seeds, fertilizers, agricultural machinery/equipment.</description>
         <category>311</category>
         <category-name>AGRICULTURE</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31161</code>
         <name>Food crop production</name>
         <description>Including grains (wheat, rice, barley, maize, rye, oats, millet, sorghum);
@@ -1115,8 +1115,8 @@
         <category>311</category>
         <category-name>AGRICULTURE</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31162</code>
         <name>Industrial crops/export crops</name>
         <description>Including sugar; coffee, cocoa, tea; oil seeds, nuts, kernels; fibre crops;
@@ -1124,24 +1124,24 @@
         <category>311</category>
         <category-name>AGRICULTURE</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31163</code>
         <name>Livestock</name>
         <description>Animal husbandry; animal feed aid.</description>
         <category>311</category>
         <category-name>AGRICULTURE</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31164</code>
         <name>Agrarian reform</name>
         <description>Including agricultural sector adjustment.</description>
         <category>311</category>
         <category-name>AGRICULTURE</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31165</code>
         <name>Agricultural alternative development</name>
         <description>Projects to reduce illicit drug cultivation through other agricultural
@@ -1150,24 +1150,24 @@
         <category>311</category>
         <category-name>AGRICULTURE</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31166</code>
         <name>Agricultural extension</name>
         <description>Non-formal training in agriculture.</description>
         <category>311</category>
         <category-name>AGRICULTURE</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31181</code>
         <name>Agricultural education/training</name>
         <description/>
         <category>311</category>
         <category-name>AGRICULTURE</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31182</code>
         <name>Agricultural research</name>
         <description>Plant breeding, physiology, genetic resources, ecology, taxonomy, disease
@@ -1176,8 +1176,8 @@
         <category>311</category>
         <category-name>AGRICULTURE</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31191</code>
         <name>Agricultural services</name>
         <description>Marketing policies and organisation; storage and transportation, creation of
@@ -1185,8 +1185,8 @@
         <category>311</category>
         <category-name>AGRICULTURE</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31192</code>
         <name>Plant and post-harvest protection and pest control</name>
         <description>Including integrated plant protection, biological plant protection activities,
@@ -1195,8 +1195,8 @@
         <category>311</category>
         <category-name>AGRICULTURE</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31193</code>
         <name>Agricultural financial services</name>
         <description>Financial intermediaries for the agricultural sector including credit schemes;
@@ -1204,24 +1204,24 @@
         <category>311</category>
         <category-name>AGRICULTURE</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31194</code>
         <name>Agricultural co-operatives</name>
         <description>Including farmersÂ’ organisations.</description>
         <category>311</category>
         <category-name>AGRICULTURE</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31195</code>
         <name>Livestock/veterinary services</name>
         <description>Animal health and management, genetic resources, feed resources.</description>
         <category>311</category>
         <category-name>AGRICULTURE</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31210</code>
         <name>Forestry policy and administrative management</name>
         <description>Forestry sector policy, planning and programmes; institution capacity building
@@ -1230,8 +1230,8 @@
         <category>312</category>
         <category-name>FORESTRY</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31220</code>
         <name>Forestry development</name>
         <description>Afforestation for industrial and rural consumption; exploitation and
@@ -1240,8 +1240,8 @@
         <category>312</category>
         <category-name>FORESTRY</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31261</code>
         <name>Fuelwood/charcoal</name>
         <description>Forestry development whose primary purpose is production of fuelwood and
@@ -1249,16 +1249,16 @@
         <category>312</category>
         <category-name>FORESTRY</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31281</code>
         <name>Forestry education/training</name>
         <description/>
         <category>312</category>
         <category-name>FORESTRY</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31282</code>
         <name>Forestry research</name>
         <description>Including artificial regeneration, genetic improvement, production methods,
@@ -1266,16 +1266,16 @@
         <category>312</category>
         <category-name>FORESTRY</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31291</code>
         <name>Forestry services</name>
         <description/>
         <category>312</category>
         <category-name>FORESTRY</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31310</code>
         <name>Fishing policy and administrative management</name>
         <description>Fishing sector policy, planning and programmes; institution capacity building
@@ -1284,8 +1284,8 @@
         <category>313</category>
         <category-name>FISHING</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31320</code>
         <name>Fishery development</name>
         <description>Exploitation and utilisation of fisheries; fish stock protection; aquaculture;
@@ -1293,24 +1293,24 @@
         <category>313</category>
         <category-name>FISHING</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31381</code>
         <name>Fishery education/training</name>
         <description/>
         <category>313</category>
         <category-name>FISHING</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31382</code>
         <name>Fishery research</name>
         <description>Pilot fish culture; marine/freshwater biological research.</description>
         <category>313</category>
         <category-name>FISHING</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>31391</code>
         <name>Fishery services</name>
         <description>Fishing harbours; fish markets; fishery transport and cold
@@ -1318,8 +1318,8 @@
         <category>313</category>
         <category-name>FISHING</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32110</code>
         <name>Industrial policy and administrative management</name>
         <description>Industrial sector policy, planning and programmes; institution capacity
@@ -1329,8 +1329,8 @@
         <category-name>INDUSTRY</category-name>
         <category-description>Only includes aid to production or manufacturing. Provision of
             finished products should be included under relevant sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32120</code>
         <name>Industrial development</name>
         <description/>
@@ -1338,8 +1338,8 @@
         <category-name>INDUSTRY</category-name>
         <category-description>Only includes aid to production or manufacturing. Provision of
             finished products should be included under relevant sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32130</code>
         <name>Small and medium-sized enterprises (SME) development</name>
         <description>Direct support to the development of small and medium-sized enterprises in the
@@ -1348,8 +1348,8 @@
         <category-name>INDUSTRY</category-name>
         <category-description>Only includes aid to production or manufacturing. Provision of
             finished products should be included under relevant sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32140</code>
         <name>Cottage industries and handicraft</name>
         <description/>
@@ -1357,8 +1357,8 @@
         <category-name>INDUSTRY</category-name>
         <category-description>Only includes aid to production or manufacturing. Provision of
             finished products should be included under relevant sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32161</code>
         <name>Agro-industries</name>
         <description>Staple food processing, dairy products, slaughter houses and equipment, meat
@@ -1368,8 +1368,8 @@
         <category-name>INDUSTRY</category-name>
         <category-description>Only includes aid to production or manufacturing. Provision of
             finished products should be included under relevant sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32162</code>
         <name>Forest industries</name>
         <description>Wood production, pulp/paper production.</description>
@@ -1377,8 +1377,8 @@
         <category-name>INDUSTRY</category-name>
         <category-description>Only includes aid to production or manufacturing. Provision of
             finished products should be included under relevant sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32163</code>
         <name>Textiles, leather and substitutes</name>
         <description>Including knitting factories.</description>
@@ -1386,8 +1386,8 @@
         <category-name>INDUSTRY</category-name>
         <category-description>Only includes aid to production or manufacturing. Provision of
             finished products should be included under relevant sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32164</code>
         <name>Chemicals</name>
         <description>Industrial and non-industrial production facilities; includes pesticides
@@ -1396,8 +1396,8 @@
         <category-name>INDUSTRY</category-name>
         <category-description>Only includes aid to production or manufacturing. Provision of
             finished products should be included under relevant sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32165</code>
         <name>Fertilizer plants</name>
         <description/>
@@ -1405,8 +1405,8 @@
         <category-name>INDUSTRY</category-name>
         <category-description>Only includes aid to production or manufacturing. Provision of
             finished products should be included under relevant sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32166</code>
         <name>Cement/lime/plaster</name>
         <description/>
@@ -1414,8 +1414,8 @@
         <category-name>INDUSTRY</category-name>
         <category-description>Only includes aid to production or manufacturing. Provision of
             finished products should be included under relevant sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32167</code>
         <name>Energy manufacturing</name>
         <description>Including gas liquefaction; petroleum refineries.</description>
@@ -1423,8 +1423,8 @@
         <category-name>INDUSTRY</category-name>
         <category-description>Only includes aid to production or manufacturing. Provision of
             finished products should be included under relevant sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32168</code>
         <name>Pharmaceutical production</name>
         <description>Medical equipment/supplies; drugs, medicines, vaccines; hygienic
@@ -1433,8 +1433,8 @@
         <category-name>INDUSTRY</category-name>
         <category-description>Only includes aid to production or manufacturing. Provision of
             finished products should be included under relevant sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32169</code>
         <name>Basic metal industries</name>
         <description>Iron and steel, structural metal production.</description>
@@ -1442,8 +1442,8 @@
         <category-name>INDUSTRY</category-name>
         <category-description>Only includes aid to production or manufacturing. Provision of
             finished products should be included under relevant sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32170</code>
         <name>Non-ferrous metal industries</name>
         <description/>
@@ -1451,8 +1451,8 @@
         <category-name>INDUSTRY</category-name>
         <category-description>Only includes aid to production or manufacturing. Provision of
             finished products should be included under relevant sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32171</code>
         <name>Engineering</name>
         <description>Manufacturing of electrical and non-electrical machinery,
@@ -1461,8 +1461,8 @@
         <category-name>INDUSTRY</category-name>
         <category-description>Only includes aid to production or manufacturing. Provision of
             finished products should be included under relevant sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32172</code>
         <name>Transport equipment industry</name>
         <description>Shipbuilding, fishing boats building; railroad equipment; motor vehicles and
@@ -1471,8 +1471,8 @@
         <category-name>INDUSTRY</category-name>
         <category-description>Only includes aid to production or manufacturing. Provision of
             finished products should be included under relevant sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32182</code>
         <name>Technological research and development</name>
         <description>Including industrial standards; quality management; metrology; testing;
@@ -1481,8 +1481,8 @@
         <category-name>INDUSTRY</category-name>
         <category-description>Only includes aid to production or manufacturing. Provision of
             finished products should be included under relevant sector.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32210</code>
         <name>Mineral/mining policy and administrative management</name>
         <description>Mineral and mining sector policy, planning and programmes; mining legislation,
@@ -1491,8 +1491,8 @@
         <category>322</category>
         <category-name>MINERAL RESOURCES AND MINING</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32220</code>
         <name>Mineral prospection and exploration</name>
         <description>Geology, geophysics, geochemistry; excluding hydrogeology (14010) and
@@ -1501,16 +1501,16 @@
         <category>322</category>
         <category-name>MINERAL RESOURCES AND MINING</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32261</code>
         <name>Coal</name>
         <description>Including lignite and peat.</description>
         <category>322</category>
         <category-name>MINERAL RESOURCES AND MINING</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32262</code>
         <name>Oil and gas</name>
         <description>Petroleum, natural gas, condensates, liquefied petroleum gas (LPG), liquefied
@@ -1518,32 +1518,32 @@
         <category>322</category>
         <category-name>MINERAL RESOURCES AND MINING</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32263</code>
         <name>Ferrous metals</name>
         <description>Iron and ferro-alloy metals.</description>
         <category>322</category>
         <category-name>MINERAL RESOURCES AND MINING</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32264</code>
         <name>Nonferrous metals</name>
         <description>Aluminium, copper, lead, nickel, tin, zinc.</description>
         <category>322</category>
         <category-name>MINERAL RESOURCES AND MINING</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32265</code>
         <name>Precious metals/materials</name>
         <description>Gold, silver, platinum, diamonds, gemstones.</description>
         <category>322</category>
         <category-name>MINERAL RESOURCES AND MINING</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32266</code>
         <name>Industrial minerals</name>
         <description>Baryte, limestone, feldspar, kaolin, sand, gypsym, gravel, ornamental
@@ -1551,24 +1551,24 @@
         <category>322</category>
         <category-name>MINERAL RESOURCES AND MINING</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32267</code>
         <name>Fertilizer minerals</name>
         <description>Phosphates, potash.</description>
         <category>322</category>
         <category-name>MINERAL RESOURCES AND MINING</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32268</code>
         <name>Offshore minerals</name>
         <description>Polymetallic nodules, phosphorites, marine placer deposits.</description>
         <category>322</category>
         <category-name>MINERAL RESOURCES AND MINING</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>32310</code>
         <name>Construction policy and administrative management</name>
         <description>Construction sector policy and planning; excluding construction activities
@@ -1576,8 +1576,8 @@
         <category>323</category>
         <category-name>CONSTRUCTION</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>33110</code>
         <name>Trade policy and administrative management</name>
         <description>Trade policy and planning; support to ministries and departments responsible
@@ -1590,8 +1590,8 @@
         <category>331</category>
         <category-name>TRADE POLICY AND REGULATIONS AND TRADE-RELATED ADJUSTMENT</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>33120</code>
         <name>Trade facilitation</name>
         <description>Simplification and harmonisation of international import and export procedures
@@ -1600,8 +1600,8 @@
         <category>331</category>
         <category-name>TRADE POLICY AND REGULATIONS AND TRADE-RELATED ADJUSTMENT</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>33130</code>
         <name>Regional trade agreements (RTAs)</name>
         <description>Support to regional trade arrangements [e.g. Southern African Development
@@ -1613,8 +1613,8 @@
         <category>331</category>
         <category-name>TRADE POLICY AND REGULATIONS AND TRADE-RELATED ADJUSTMENT</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>33140</code>
         <name>Multilateral trade negotiations</name>
         <description>Support developing countries' effective participation in multilateral trade
@@ -1624,8 +1624,8 @@
         <category>331</category>
         <category-name>TRADE POLICY AND REGULATIONS AND TRADE-RELATED ADJUSTMENT</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>33150</code>
         <name>Trade-related adjustment</name>
         <description>Contributions to the government budget to assist the implementation of
@@ -1635,8 +1635,8 @@
         <category>331</category>
         <category-name>TRADE POLICY AND REGULATIONS AND TRADE-RELATED ADJUSTMENT</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>33181</code>
         <name>Trade education/training</name>
         <description>Human resources development in trade not included under any of the above codes.
@@ -1644,16 +1644,16 @@
         <category>331</category>
         <category-name>TRADE POLICY AND REGULATIONS AND TRADE-RELATED ADJUSTMENT</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>33210</code>
         <name>Tourism policy and administrative management</name>
         <description/>
         <category>332</category>
         <category-name>TOURISM</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>41010</code>
         <name>Environmental policy and administrative management</name>
         <description>Environmental policy, laws, regulations and economic instruments;
@@ -1663,8 +1663,8 @@
         <category>410</category>
         <category-name>General environmental protection</category-name>
         <category-description>Non-sector specific.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>41020</code>
         <name>Biosphere protection</name>
         <description>Air pollution control, ozone layer preservation; marine pollution
@@ -1672,8 +1672,8 @@
         <category>410</category>
         <category-name>General environmental protection</category-name>
         <category-description>Non-sector specific.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>41030</code>
         <name>Bio-diversity</name>
         <description>Including natural reserves and actions in the surrounding areas; other measures
@@ -1682,8 +1682,8 @@
         <category>410</category>
         <category-name>General environmental protection</category-name>
         <category-description>Non-sector specific.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>41040</code>
         <name>Site preservation</name>
         <description>Applies to unique cultural landscape; including sites/objects of historical,
@@ -1691,8 +1691,8 @@
         <category>410</category>
         <category-name>General environmental protection</category-name>
         <category-description>Non-sector specific.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>41050</code>
         <name>Flood prevention/control</name>
         <description>Floods from rivers or the sea; including sea water intrusion control and sea
@@ -1700,16 +1700,16 @@
         <category>410</category>
         <category-name>General environmental protection</category-name>
         <category-description>Non-sector specific.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>41081</code>
         <name>Environmental education/ training</name>
         <description/>
         <category>410</category>
         <category-name>General environmental protection</category-name>
         <category-description>Non-sector specific.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>41082</code>
         <name>Environmental research</name>
         <description>Including establishment of databases, inventories/accounts of physical and
@@ -1718,16 +1718,16 @@
         <category>410</category>
         <category-name>General environmental protection</category-name>
         <category-description>Non-sector specific.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>43010</code>
         <name>Multisector aid</name>
         <description/>
         <category>430</category>
         <category-name>Other multisector</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>43030</code>
         <name>Urban development and management</name>
         <description>Integrated urban development projects; local development and urban management;
@@ -1737,8 +1737,8 @@
         <category>430</category>
         <category-name>Other multisector</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>43040</code>
         <name>Rural development</name>
         <description>Integrated rural development projects; e.g. regional development planning;
@@ -1751,8 +1751,8 @@
         <category>430</category>
         <category-name>Other multisector</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>43050</code>
         <name>Non-agricultural alternative development</name>
         <description>Projects to reduce illicit drug cultivation through, for example,
@@ -1761,24 +1761,24 @@
         <category>430</category>
         <category-name>Other multisector</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>43081</code>
         <name>Multisector education/training</name>
         <description>Including scholarships.</description>
         <category>430</category>
         <category-name>Other multisector</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>43082</code>
         <name>Research/scientific institutions</name>
         <description>When sector cannot be identified.</description>
         <category>430</category>
         <category-name>Other multisector</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>51010</code>
         <name>General budget support</name>
         <description>Unearmarked contributions to the government budget; support for the
@@ -1789,8 +1789,8 @@
         <category-name>General budget support</category-name>
         <category-description>Budget support in the form of sector-wide approaches (SWAps) should be
             included in the respective sectors.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>52010</code>
         <name>Food aid/Food security programmes</name>
         <description>Supply of edible human food under national or international programmes
@@ -1800,8 +1800,8 @@
         <category>520</category>
         <category-name>Developmental food aid/Food security assistance</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>53030</code>
         <name>Import support (capital goods)</name>
         <description>Capital goods and services; lines of credit.</description>
@@ -1809,8 +1809,8 @@
         <category-name>Other commodity assistance</category-name>
         <category-description>Non-food commodity assistance (when benefiting sector not
             specified).</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>53040</code>
         <name>Import support (commodities)</name>
         <description>Commodities, general goods and services, oil imports.</description>
@@ -1818,8 +1818,8 @@
         <category-name>Other commodity assistance</category-name>
         <category-description>Non-food commodity assistance (when benefiting sector not
             specified).</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>60010</code>
         <name>Action relating to debt</name>
         <description>Actions falling outside the code headings below; training in debt
@@ -1827,16 +1827,16 @@
         <category>600</category>
         <category-name>ACTION RELATING TO DEBT</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>60020</code>
         <name>Debt forgiveness</name>
         <description/>
         <category>600</category>
         <category-name>ACTION RELATING TO DEBT</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>60030</code>
         <name>Relief of multilateral debt</name>
         <description>Grants or credits to cover debt owed to multilateral financial institutions;
@@ -1845,16 +1845,16 @@
         <category>600</category>
         <category-name>ACTION RELATING TO DEBT</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>60040</code>
         <name>Rescheduling and refinancing</name>
         <description/>
         <category>600</category>
         <category-name>ACTION RELATING TO DEBT</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>60061</code>
         <name>Debt for development swap</name>
         <description>Allocation of debt claims to use for development (e.g., debt for education,
@@ -1862,8 +1862,8 @@
         <category>600</category>
         <category-name>ACTION RELATING TO DEBT</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>60062</code>
         <name>Other debt swap</name>
         <description>Where the debt swap benefits an external agent i.e. is not specifically for
@@ -1871,16 +1871,16 @@
         <category>600</category>
         <category-name>ACTION RELATING TO DEBT</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>60063</code>
         <name>Debt buy-back</name>
         <description>Purchase of debt for the purpose of cancellation.</description>
         <category>600</category>
         <category-name>ACTION RELATING TO DEBT</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>72010</code>
         <name>Material relief assistance and services</name>
         <description>Shelter, water, sanitation and health services, supply of medicines and other
@@ -1890,8 +1890,8 @@
         <category-name>Emergency Response</category-name>
         <category-description>An emergency is a situation which results from man made crises and/or
             natural disasters.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>72040</code>
         <name>Emergency food aid</name>
         <description>Food aid normally for general free distribution or special supplementary
@@ -1902,8 +1902,8 @@
         <category-name>Emergency Response</category-name>
         <category-description>An emergency is a situation which results from man made crises and/or
             natural disasters.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>72050</code>
         <name>Relief co-ordination; protection and support services</name>
         <description>Measures to co-ordinate delivery of humanitarian aid, including logistics and
@@ -1915,8 +1915,8 @@
         <category-name>Emergency Response</category-name>
         <category-description>An emergency is a situation which results from man made crises and/or
             natural disasters.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>73010</code>
         <name>Reconstruction relief and rehabilitation</name>
         <description>Short-term reconstruction work after emergency or conflict limited to restoring
@@ -1933,8 +1933,8 @@
             services should be reported under the relevant economic and social sector codes. See
             also guideline on distinguishing humanitarian from sector-allocable
             aid.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>74010</code>
         <name>Disaster prevention and preparedness</name>
         <description>Disaster risk reduction activities (e.g. developing knowledge, natural risks
@@ -1945,48 +1945,48 @@
         <category-name>Disaster prevention and preparedness</category-name>
         <category-description>See codes 41050 and 15220 for prevention of floods and
             conflicts.</category-description>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>91010</code>
         <name>Administrative costs</name>
         <description/>
         <category>910</category>
         <category-name>ADMINISTRATIVE COSTS OF DONORS</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>92010</code>
         <name>Support to national NGOs</name>
         <description>In the donor country.</description>
         <category>920</category>
         <category-name>SUPPORT TO NON- GOVERNMENTAL ORGANISATIONS (NGOs)</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>92020</code>
         <name>Support to international NGOs</name>
         <description/>
         <category>920</category>
         <category-name>SUPPORT TO NON- GOVERNMENTAL ORGANISATIONS (NGOs)</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>92030</code>
         <name>Support to local and regional NGOs</name>
         <description>In the recipient country or region.</description>
         <category>920</category>
         <category-name>SUPPORT TO NON- GOVERNMENTAL ORGANISATIONS (NGOs)</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>93010</code>
         <name>Refugees in donor countries</name>
         <description/>
         <category>930</category>
         <category-name>REFUGEES IN DONOR COUNTRIES</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>99810</code>
         <name>Sectors not specified</name>
         <description>Contributions to general development of the recipient should be included under
@@ -1994,8 +1994,8 @@
         <category>998</category>
         <category-name>UNALLOCATED/ UNSPECIFIED</category-name>
         <category-description/>
-    </Sector>
-    <Sector>
+    </codelist-item>
+    <codelist-item>
         <code>99820</code>
         <name>Promotion of development awareness</name>
         <description>Spending in donor country for heightened awareness/interest in development
@@ -2003,5 +2003,5 @@
         <category>998</category>
         <category-name>UNALLOCATED/ UNSPECIFIED</category-name>
         <category-description/>
-    </Sector>
+    </codelist-item>
 </codelist>

@@ -1,10 +1,10 @@
 <codelist name="IndicatorMeasure" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
-    <IndicatorMeasure>
+    <codelist-item>
         <code>1</code>
         <name>Unit</name>
-    </IndicatorMeasure>
-    <IndicatorMeasure>
+    </codelist-item>
+    <codelist-item>
         <code>2</code>
         <name>Percentage</name>
-    </IndicatorMeasure>
+    </codelist-item>
 </codelist>

@@ -1,27 +1,27 @@
 <codelist name="ActivityStatus" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
-    <ActivityStatus>
+    <codelist-item>
         <code>1</code>
         <name>Pipeline/identification</name>
         <language>en</language>
-    </ActivityStatus>
-    <ActivityStatus>
+    </codelist-item>
+    <codelist-item>
         <code>2</code>
         <name>Implementation</name>
         <language>en</language>
-    </ActivityStatus>
-    <ActivityStatus>
+    </codelist-item>
+    <codelist-item>
         <code>3</code>
         <name>Completion</name>
         <language>en</language>
-    </ActivityStatus>
-    <ActivityStatus>
+    </codelist-item>
+    <codelist-item>
         <code>4</code>
         <name>Post-completion</name>
         <language>en</language>
-    </ActivityStatus>
-    <ActivityStatus>
+    </codelist-item>
+    <codelist-item>
         <code>5</code>
         <name>Cancelled</name>
         <language>en</language>
-    </ActivityStatus>
+    </codelist-item>
 </codelist>

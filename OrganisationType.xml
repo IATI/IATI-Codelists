@@ -1,42 +1,42 @@
 <codelist name="OrganisationType" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
-    <OrganisationType>
+    <codelist-item>
         <code>10</code>
         <name>Government</name>
-    </OrganisationType>
-    <OrganisationType>
+    </codelist-item>
+    <codelist-item>
         <code>15</code>
         <name>Other Public Sector</name>
-    </OrganisationType>
-    <OrganisationType>
+    </codelist-item>
+    <codelist-item>
         <code>21</code>
         <name>International NGO</name>
-    </OrganisationType>
-    <OrganisationType>
+    </codelist-item>
+    <codelist-item>
         <code>22</code>
         <name>National NGO</name>
-    </OrganisationType>
-    <OrganisationType>
+    </codelist-item>
+    <codelist-item>
         <code>23</code>
         <name>Regional NGO</name>
-    </OrganisationType>
-    <OrganisationType>
+    </codelist-item>
+    <codelist-item>
         <code>30</code>
         <name>Public Private Partnership</name>
-    </OrganisationType>
-    <OrganisationType>
+    </codelist-item>
+    <codelist-item>
         <code>40</code>
         <name>Multilateral</name>
-    </OrganisationType>
-    <OrganisationType>
+    </codelist-item>
+    <codelist-item>
         <code>60</code>
         <name>Foundation</name>
-    </OrganisationType>
-    <OrganisationType>
+    </codelist-item>
+    <codelist-item>
         <code>70</code>
         <name>Private Sector</name>
-    </OrganisationType>
-    <OrganisationType>
+    </codelist-item>
+    <codelist-item>
         <code>80</code>
         <name>Academic, Training and Research</name>
-    </OrganisationType>
+    </codelist-item>
 </codelist>

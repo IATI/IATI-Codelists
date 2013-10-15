@@ -1,34 +1,34 @@
 <codelist name="PolicyMarker" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
-    <PolicyMarker>
+    <codelist-item>
         <code>1</code>
         <name>Gender Equality</name>
-    </PolicyMarker>
-    <PolicyMarker>
+    </codelist-item>
+    <codelist-item>
         <code>2</code>
         <name>Aid to Environment</name>
-    </PolicyMarker>
-    <PolicyMarker>
+    </codelist-item>
+    <codelist-item>
         <code>3</code>
         <name>Participatory Development/Good Governance</name>
-    </PolicyMarker>
-    <PolicyMarker>
+    </codelist-item>
+    <codelist-item>
         <code>4</code>
         <name>Trade Development</name>
-    </PolicyMarker>
-    <PolicyMarker>
+    </codelist-item>
+    <codelist-item>
         <code>5</code>
         <name>Aid Targeting the Objectives of the Convention on Biological Diversity</name>
-    </PolicyMarker>
-    <PolicyMarker>
+    </codelist-item>
+    <codelist-item>
         <code>6</code>
         <name>Aid Targeting the Objectives of the Framework Convention on Climate Change - Mitigation</name>
-    </PolicyMarker>
-    <PolicyMarker>
+    </codelist-item>
+    <codelist-item>
         <code>7</code>
         <name>Aid Targeting the Objectives of the Framework Convention on Climate Change - Adaptation</name>
-    </PolicyMarker>
-    <PolicyMarker>
+    </codelist-item>
+    <codelist-item>
         <code>8</code>
         <name>Aid Targeting the Objectives of the Convention to Combat Desertification</name>
-    </PolicyMarker>
+    </codelist-item>
 </codelist>

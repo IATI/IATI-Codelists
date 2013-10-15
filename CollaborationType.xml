@@ -1,11 +1,11 @@
 <codelist name="CollaborationType" date-last-modified="2013-03-20T16:37:03.457Z" version="1.01" xml:lang="en">
-    <CollaborationType>
+    <codelist-item>
         <code>1</code>
         <name>Bilateral</name>
         <description>Bilateral transactions are those undertaken by a donor, excluding core contributions to other organisations (codes 2 and 3 below). It includes transactions channelled through other organisations.</description>
         <language>en</language>
-    </CollaborationType>
-    <CollaborationType>
+    </codelist-item>
+    <codelist-item>
         <code>2</code>
         <name>Multilateral</name>
         <description>Multilateral contributions are those made to a recipient institution which: 
@@ -13,23 +13,23 @@ i. conducts all or part of its activities in favour of development;
 ii. is an international agency, institution or organisation whose members are governments, or a fund managed autonomously by such an agency; and 
 iii. pools contributions so that they lose their identity and become an integral part of its financial assets.</description>
         <language>en</language>
-    </CollaborationType>
-    <CollaborationType>
+    </codelist-item>
+    <codelist-item>
         <code>3</code>
         <name>Bilateral, core contributions to NGOs and other private bodies / PPPs</name>
         <description>Bilateral funds paid over to national and international non-governmental organisations (NGOs), Public Private Partnerships (PPPs), or other private bodies for use at their discretion.</description>
         <language>en</language>
-    </CollaborationType>
-    <CollaborationType>
+    </codelist-item>
+    <codelist-item>
         <code>4</code>
         <name>Multilateral outflows</name>
         <description>Aid activities financed from the multilateral institutions' regular budgets.</description>
         <language>en</language>
-    </CollaborationType>
-    <CollaborationType>
+    </codelist-item>
+    <codelist-item>
         <code>6</code>
         <name>Private sector outflow</name>
         <description/>
         <language>en</language>
-    </CollaborationType>
+    </codelist-item>
 </codelist>

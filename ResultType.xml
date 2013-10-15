@@ -1,14 +1,14 @@
 <codelist name="ResultType" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
-    <ResultType>
+    <codelist-item>
         <code>1</code>
         <name>Output</name>
-    </ResultType>
-    <ResultType>
+    </codelist-item>
+    <codelist-item>
         <code>2</code>
         <name>Outcome</name>
-    </ResultType>
-    <ResultType>
+    </codelist-item>
+    <codelist-item>
         <code>3</code>
         <name>Impact</name>
-    </ResultType>
+    </codelist-item>
 </codelist>
