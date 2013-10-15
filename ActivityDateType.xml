@@ -1,0 +1,18 @@
+<codelist name="ActivityDateType" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
+    <ActivityDateType>
+        <code>end-actual</code>
+        <name>The actual end date, such as date of last disbursement</name>
+    </ActivityDateType>
+    <ActivityDateType>
+        <code>end-planned</code>
+        <name>The planned end date as recorded in project documentation</name>
+    </ActivityDateType>
+    <ActivityDateType>
+        <code>start-actual</code>
+        <name>The actual start date, such as date of first disbursement</name>
+    </ActivityDateType>
+    <ActivityDateType>
+        <code>start-planned</code>
+        <name>The planned start date as recorded in project documentation. Can be date of signature of activity agreement or approval by relevant body</name>
+    </ActivityDateType>
+</codelist>

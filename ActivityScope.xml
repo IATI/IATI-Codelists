@@ -1,0 +1,34 @@
+<codelist name="ActivityScope" date-last-modifed="2013-05-10T22:30:07.092Z" version="1.0" xml:lang="en">
+    <ActivityScope>
+        <code>1</code>
+        <name>Global</name>
+    </ActivityScope>
+    <ActivityScope>
+        <code>2</code>
+        <name>Regional</name>
+    </ActivityScope>
+    <ActivityScope>
+        <code>3</code>
+        <name>Multi-national</name>
+    </ActivityScope>
+    <ActivityScope>
+        <code>4</code>
+        <name>National</name>
+    </ActivityScope>
+    <ActivityScope>
+        <code>5</code>
+        <name>Sub-national: Multi-first-level administrative areas</name>
+    </ActivityScope>
+    <ActivityScope>
+        <code>6</code>
+        <name>Sub-national: Single first-level administrative area</name>
+    </ActivityScope>
+    <ActivityScope>
+        <code>7</code>
+        <name>Sub-national: Single second-level administrative area</name>
+    </ActivityScope>
+    <ActivityScope>
+        <code>8</code>
+        <name>Single location</name>
+    </ActivityScope>
+</codelist>

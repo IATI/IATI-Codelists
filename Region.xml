@@ -1,0 +1,66 @@
+<codelist name="Region" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
+    <Region>
+        <code>89</code>
+        <name>Europe, regional</name>
+    </Region>
+    <Region>
+        <code>189</code>
+        <name>North of Sahara, regional</name>
+    </Region>
+    <Region>
+        <code>289</code>
+        <name>South of Sahara, regional</name>
+    </Region>
+    <Region>
+        <code>298</code>
+        <name>Africa, regional</name>
+    </Region>
+    <Region>
+        <code>380</code>
+        <name>West Indies, regional</name>
+    </Region>
+    <Region>
+        <code>389</code>
+        <name>North and Central America, regional</name>
+    </Region>
+    <Region>
+        <code>489</code>
+        <name>South America, regional</name>
+    </Region>
+    <Region>
+        <code>498</code>
+        <name>America, regional</name>
+    </Region>
+    <Region>
+        <code>589</code>
+        <name>Middle East, regional</name>
+    </Region>
+    <Region>
+        <code>619</code>
+        <name>Central Asia, regional</name>
+    </Region>
+    <Region>
+        <code>679</code>
+        <name>South Asia, regional</name>
+    </Region>
+    <Region>
+        <code>689</code>
+        <name>South and Central Asia, regional</name>
+    </Region>
+    <Region>
+        <code>789</code>
+        <name>Far East Asia, regional</name>
+    </Region>
+    <Region>
+        <code>798</code>
+        <name>Asia, regional</name>
+    </Region>
+    <Region>
+        <code>889</code>
+        <name>Oceania, regional</name>
+    </Region>
+    <Region>
+        <code>998</code>
+        <name>Bilateral, unspecified</name>
+    </Region>
+</codelist>

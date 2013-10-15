@@ -1,0 +1,22 @@
+<codelist name="BudgetIdentifierVocabulary" date-last-modifed="2013-05-10T22:30:07.092Z" version="1.0" xml:lang="en">
+    <BudgetIdentifierVocabulary>
+        <code>1</code>
+        <name>IATI</name>
+    </BudgetIdentifierVocabulary>
+    <BudgetIdentifierVocabulary>
+        <code>2</code>
+        <name>Country Chart of Accounts</name>
+    </BudgetIdentifierVocabulary>
+    <BudgetIdentifierVocabulary>
+        <code>3</code>
+        <name>Other Country System</name>
+    </BudgetIdentifierVocabulary>
+    <BudgetIdentifierVocabulary>
+        <code>4</code>
+        <name>Reporting Organisation</name>
+    </BudgetIdentifierVocabulary>
+    <BudgetIdentifierVocabulary>
+        <code>5</code>
+        <name>Other</name>
+    </BudgetIdentifierVocabulary>
+</codelist>

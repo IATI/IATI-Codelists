@@ -1,0 +1,18 @@
+<codelist name="LoanRepaymentType" date-last-modifed="2013-05-10T22:30:07.092Z" version="1.0" xml:lang="en">
+    <LoanRepaymentType>
+        <code>1</code>
+        <name>Equal Principal Payments (EPP)</name>
+    </LoanRepaymentType>
+    <LoanRepaymentType>
+        <code>2</code>
+        <name>Annuity</name>
+    </LoanRepaymentType>
+    <LoanRepaymentType>
+        <code>3</code>
+        <name>Lump sum</name>
+    </LoanRepaymentType>
+    <LoanRepaymentType>
+        <code>5</code>
+        <name>Other</name>
+    </LoanRepaymentType>
+</codelist>

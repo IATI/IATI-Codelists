@@ -1,0 +1,2215 @@
+<codelist name="OrganisationIdentifier" date-last-modified="2012-10-01T12:00:00Z" version="1.01" xml:lang="en">
+    <OrganisationalIdentifier>
+        <code>AT-1</code>
+        <abbreviation>BMF</abbreviation>
+        <name>Federal Ministry of Finance</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>AT-10</code>
+        <abbreviation>BMLFUW</abbreviation>
+        <name>Ministry for Agriculture and Environment</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>AT-11</code>
+        <abbreviation>BMLV</abbreviation>
+        <name>Ministry of Defense</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>AT-12</code>
+        <abbreviation>BMI</abbreviation>
+        <name>Ministry of Interior</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>AT-2</code>
+        <abbreviation>MIN</abbreviation>
+        <name>Various ministries</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>AT-3</code>
+        <abbreviation>Breg</abbreviation>
+        <name>Federal Government of Austria</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>AT-4</code>
+        <abbreviation>OeKB</abbreviation>
+        <name>Oesterreichische Kontrollbank AG</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>AT-5</code>
+        <abbreviation>BMA</abbreviation>
+        <name>Federal Ministry of Foreign Affairs</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>AT-6</code>
+        <abbreviation>Reg</abbreviation>
+        <name>Provincial governments, local communities </name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>AT-8</code>
+        <abbreviation>ADA</abbreviation>
+        <name>Austrian Development Agency</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>AT-9</code>
+        <abbreviation>BM/BWK</abbreviation>
+        <name>Education and Science Ministry</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>AT-99</code>
+        <abbreviation>MISC</abbreviation>
+        <name>Miscellaneous</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>AU-5</code>
+        <abbreviation>AusAID</abbreviation>
+        <name>Australian Agency for International Development</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>AU-72</code>
+        <abbreviation>EFIC</abbreviation>
+        <name>Export Finance and Insurance Corporation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>BE-10</code>
+        <abbreviation>DGCD</abbreviation>
+        <name>Directorate General for Co-operation and Development</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>BE-20</code>
+        <abbreviation>SPAE</abbreviation>
+        <name>Official Federal Service of Foreign Affairs (excl. DGCD)</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>BE-30</code>
+        <abbreviation>SPFF</abbreviation>
+        <name>Official Federal Service of Finance</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>BE-31</code>
+        <abbreviation>OND</abbreviation>
+        <name>Ducroire National Office</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>BE-39</code>
+        <abbreviation>ASPF</abbreviation>
+        <name>Other Official Federal Services</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>BE-70</code>
+        <abbreviation>MPRF</abbreviation>
+        <name>Flanders Official Regional Ministries</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>BE-80</code>
+        <abbreviation>MPRW</abbreviation>
+        <name>Walloon Official Regional Ministries</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>BE-91</code>
+        <abbreviation>MPRB</abbreviation>
+        <name>Brussels Official Regional Ministries</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>BE-94</code>
+        <abbreviation>MPRG</abbreviation>
+        <name>German speaking Official Regional Ministries</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>CA-1</code>
+        <abbreviation>CIDA</abbreviation>
+        <name>Canadian International Development Agency</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>CA-2</code>
+        <abbreviation>IDRC</abbreviation>
+        <name>International Development Research Centre</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>CA-31</code>
+        <abbreviation>EDC</abbreviation>
+        <name>Export Development Corporation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>CA-4</code>
+        <abbreviation>DF</abbreviation>
+        <name>Department of Finance</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>CH-1</code>
+        <abbreviation>FA</abbreviation>
+        <name>Federal Administration (various departments)</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>CH-10</code>
+        <abbreviation>SAEFL</abbreviation>
+        <name>Swiss Agency for the Environment, Forests and Landscape </name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>CH-11</code>
+        <abbreviation>MUNIC</abbreviation>
+        <name>Municipalities</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>CH-4</code>
+        <abbreviation>SDC</abbreviation>
+        <name>Swiss Agency for Development and Co-operation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>CH-5</code>
+        <abbreviation>Seco</abbreviation>
+        <name>State Secretariat for Economic Affairs</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>CH-6</code>
+        <abbreviation>DFA</abbreviation>
+        <name>Federal Department of Foreign Affairs</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>CH-7</code>
+        <abbreviation>SER</abbreviation>
+        <name>State Secretariat for Education and Research</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>CH-8</code>
+        <abbreviation>FOM</abbreviation>
+        <name>Federal Office for Migration</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>CH-9</code>
+        <abbreviation>DDPS</abbreviation>
+        <name>Federal Department for Defence, Civil Protection and Sports </name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>DE-1</code>
+        <abbreviation>BMZ</abbreviation>
+        <name>Bundesministerium für Wirtschaftliche Zusammenarbeit und Entwicklung</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>DE-11</code>
+        <abbreviation>F O</abbreviation>
+        <name>Foreign Office</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>DE-12</code>
+        <abbreviation>L G</abbreviation>
+        <name>Federal States &amp; Local Governments</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>DE-14</code>
+        <abbreviation>Fed Inst</abbreviation>
+        <name>Federal Institutions</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>DE-16</code>
+        <abbreviation>Fed Min</abbreviation>
+        <name>Federal Ministries</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>DE-17</code>
+        <abbreviation>Found</abbreviation>
+        <name>Foundations/Societies/Misc. (non federal)</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>DE-2</code>
+        <abbreviation>KFW</abbreviation>
+        <name>Kreditanstalt für Wiederaufbau</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>DE-34</code>
+        <abbreviation>HERMES</abbreviation>
+        <name>Hermes Kreditversicherungs-AG</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>DE-4</code>
+        <abbreviation>DEG</abbreviation>
+        <name>German Investment and Development Company</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>DE-52</code>
+        <abbreviation>GTZ</abbreviation>
+        <name>Deutsche Gesellschaft für Technische Zusammenarbeit</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>DK-1</code>
+        <abbreviation>MFA</abbreviation>
+        <name>Ministry of Foreign Affairs</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>DK-2</code>
+        <abbreviation>DANIDA</abbreviation>
+        <name>Danish International Development Agency (Not in CRS Directives)</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>DK-4</code>
+        <abbreviation>DANCED</abbreviation>
+        <name>Not in CRS Directives</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>DK-72</code>
+        <abbreviation>EKR</abbreviation>
+        <name>EKR</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>ES-1</code>
+        <abbreviation>ICO</abbreviation>
+        <name>Instituto de Credito Oficial</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>ES-10</code>
+        <abbreviation>ENV</abbreviation>
+        <name>Ministry of Environment</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>ES-11</code>
+        <abbreviation>MOH</abbreviation>
+        <name>Ministry of Health</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>ES-12</code>
+        <abbreviation>EMP</abbreviation>
+        <name>Ministry of Labour and Social Affairs</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>ES-13</code>
+        <abbreviation>INT</abbreviation>
+        <name>Ministry of Interior</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>ES-14</code>
+        <abbreviation>MPA</abbreviation>
+        <name>Ministry of Public Administration</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>ES-15</code>
+        <abbreviation>CESCE</abbreviation>
+        <name>Compania Espanola de Seguros de Credito a la Exportación</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>ES-16</code>
+        <abbreviation>MUNIC</abbreviation>
+        <name>Municipalities</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>ES-17</code>
+        <abbreviation>MISC</abbreviation>
+        <name>Miscellaneous</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>ES-18</code>
+        <abbreviation>MST</abbreviation>
+        <name>Ministry of Science and Technology</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>ES-19</code>
+        <abbreviation>DEF</abbreviation>
+        <name>Ministry of Defense</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>ES-2</code>
+        <abbreviation>AG</abbreviation>
+        <name>Autonomous Governments</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>ES-4</code>
+        <abbreviation>AGR</abbreviation>
+        <name>Ministry of Agriculture, Fisheries, and Food </name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>ES-5</code>
+        <abbreviation>MFA</abbreviation>
+        <name>Ministry of Foreign Affairs</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>ES-6</code>
+        <abbreviation>ECON</abbreviation>
+        <name>Ministry of Economy and Finance</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>ES-7</code>
+        <abbreviation>EDUC</abbreviation>
+        <name>Ministry of Education, Culture and Sports </name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>ES-8</code>
+        <abbreviation>MPW</abbreviation>
+        <name>Ministry of Public Works</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>ES-9</code>
+        <abbreviation>MIE</abbreviation>
+        <name>Ministry of Industry and Energy</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>EU-1</code>
+        <abbreviation>CEC</abbreviation>
+        <name>Commission of the European Communities</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>EU-2</code>
+        <abbreviation>EDF</abbreviation>
+        <name>European Development Fund</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>EU-3</code>
+        <abbreviation>EIB</abbreviation>
+        <name>European Investment Bank</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>EU-4</code>
+        <abbreviation>ECHO</abbreviation>
+        <name>Humanitarian Aid Office of the European Commission</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>FI-1</code>
+        <abbreviation>FG</abbreviation>
+        <name>Finnish Government</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>FI-2</code>
+        <abbreviation>FF</abbreviation>
+        <name>FinnFund</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>FI-3</code>
+        <abbreviation>MFA</abbreviation>
+        <name>Ministry of Foreign Affairs</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>FI-4</code>
+        <abbreviation>FIDE</abbreviation>
+        <name>FIDE</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>FI-72</code>
+        <abbreviation>FINNVERA</abbreviation>
+        <name>FinnVera</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>FR-10</code>
+        <abbreviation>MINEFI</abbreviation>
+        <name>Ministry of Economy, Finance and Industry </name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>FR-17</code>
+        <abbreviation>MEN</abbreviation>
+        <name>Ministry of Education, Higher education and Research </name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>FR-3</code>
+        <abbreviation>AFD</abbreviation>
+        <name>French Development Agency</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>FR-43</code>
+        <abbreviation>COFACE</abbreviation>
+        <name>Coface</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>FR-6</code>
+        <abbreviation>MAE</abbreviation>
+        <name>Ministry of Foreign Affairs</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>GB-1</code>
+        <abbreviation>DFID</abbreviation>
+        <name>Department for International Development</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>GB-2</code>
+        <abbreviation>CDC</abbreviation>
+        <name>CDC Capital Partners PLC</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>GB-5</code>
+        <abbreviation>ECGD</abbreviation>
+        <name>Export Credit Guarantee Department</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>GR-1</code>
+        <abbreviation>YPEJ</abbreviation>
+        <name>Ministry of Foreign Affairs</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>GR-2</code>
+        <abbreviation>YPEUO</abbreviation>
+        <name>Ministry of National Economy</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>GR-20</code>
+        <abbreviation>ALLOI</abbreviation>
+        <name>Miscellaneous</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>GR-3</code>
+        <abbreviation>YPESDDA</abbreviation>
+        <name>Ministry of the Interior, Public Administration and Decentralisation </name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>GR-4</code>
+        <abbreviation>YPEUA</abbreviation>
+        <name>Ministry of National Defence</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>GR-5</code>
+        <abbreviation>YPEHODE</abbreviation>
+        <name>Ministry of the Environment, Land Planning and Public Works </name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>GR-6</code>
+        <abbreviation>YPEPU</abbreviation>
+        <name>Ministry of National Education and Religions</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>GR-7</code>
+        <abbreviation>YPGE</abbreviation>
+        <name>Ministry of Agriculture</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>GR-8</code>
+        <abbreviation>YPYG-PR</abbreviation>
+        <name>Ministry of Health - Welfare</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>GR-9</code>
+        <abbreviation>YEN</abbreviation>
+        <name>Ministry of Merchant Marine</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>IE-1</code>
+        <abbreviation>DFA</abbreviation>
+        <name>Department of Foreign Affairs</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>IE-71</code>
+        <abbreviation>DIC</abbreviation>
+        <name>Department of Industry and Commerce</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>IT-2</code>
+        <abbreviation>AGEA</abbreviation>
+        <name>Agenzia Erogazioni Per l'Agricoltura</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>IT-4</code>
+        <abbreviation>DGCS</abbreviation>
+        <name>Direzione Generale per la Cooperazione allo Sviluppo</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>IT-5</code>
+        <abbreviation>MC</abbreviation>
+        <name>Not in CRS Directives</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>IT-7</code>
+        <abbreviation>CA</abbreviation>
+        <name>Central administration</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>IT-74</code>
+        <abbreviation>SACE</abbreviation>
+        <name>Sezione Speciale per l'Assicurazione del Credito all'Esportazione</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>IT-8</code>
+        <abbreviation>LA</abbreviation>
+        <name>Local administration</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>IT-9</code>
+        <abbreviation>ART</abbreviation>
+        <name>Artigiancassa</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>JP-1</code>
+        <abbreviation>MAFF</abbreviation>
+        <name>Ministry of Agriculture, Forestry and Fisheries </name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>JP-10</code>
+        <abbreviation>JODC</abbreviation>
+        <name>Japan Overseas Development Co-operation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>JP-11</code>
+        <abbreviation>JBIC</abbreviation>
+        <name>Japan Bank for International Co-operation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>JP-12</code>
+        <abbreviation>Oth MIN</abbreviation>
+        <name>Other Ministries</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>JP-13</code>
+        <abbreviation>PC</abbreviation>
+        <name>Public Corporations</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>JP-14</code>
+        <abbreviation>PRF</abbreviation>
+        <name>Prefectures</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>JP-15</code>
+        <abbreviation>ODC</abbreviation>
+        <name>Ordinance-designed Cities</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>JP-2</code>
+        <abbreviation>MOFA</abbreviation>
+        <name>Ministry of Foreign Affairs</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>JP-7</code>
+        <abbreviation>OFCF</abbreviation>
+        <name>Overseas Fishery Co-operation Foundation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>JP-71</code>
+        <abbreviation>NEXI</abbreviation>
+        <name>Nippon Export and Investment Insurance</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>JP-8</code>
+        <abbreviation>JICA</abbreviation>
+        <name>Japanese International Co-operation Agency</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>LU-1</code>
+        <abbreviation>LuxDev</abbreviation>
+        <name>Lux-Development</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>LU-2</code>
+        <abbreviation>MFA</abbreviation>
+        <name>Ministry of Foreign Affairs</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>LU-22</code>
+        <abbreviation>ODL</abbreviation>
+        <name>Ducroire Office</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>NL-1</code>
+        <abbreviation>MFA</abbreviation>
+        <name>Ministry of Foreign Affairs (DGIS)</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>NL-33</code>
+        <abbreviation>NCM</abbreviation>
+        <name>NCM Credit Management Worldwide</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>NL-4</code>
+        <abbreviation>NIO/FMO</abbreviation>
+        <name>Netherlands Gov. through Netherlands Investment Bank for Developing Countries</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>NO-1</code>
+        <abbreviation>NORAD</abbreviation>
+        <name>Norwegian Agency for Development Co-operation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>NO-4</code>
+        <abbreviation>MFA</abbreviation>
+        <name>Ministry of Foreign Affairs</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>NO-7</code>
+        <abbreviation>SND</abbreviation>
+        <name>Statens Nærings og Distriksutviklingsfond</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>NO-71</code>
+        <abbreviation>GIEK</abbreviation>
+        <name>Garantiinstituttet for Eksportkreditt</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>NO-72</code>
+        <abbreviation>EF</abbreviation>
+        <name>Eksport Finans</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>NO-8</code>
+        <abbreviation>NORFUND</abbreviation>
+        <name>NORFUND</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>NZ-1</code>
+        <abbreviation>NZG</abbreviation>
+        <name>Ministry of Foreign Affairs and Trade</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>NZ-2</code>
+        <abbreviation>NZAid</abbreviation>
+        <name>New Zealand International Aid and Development Agency</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>PT-1</code>
+        <abbreviation>GP</abbreviation>
+        <name>Portuguese Government</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>PT-2</code>
+        <abbreviation>IPAD</abbreviation>
+        <name>Institute for Portuguese Development Aid</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>PT-3</code>
+        <abbreviation>Other</abbreviation>
+        <name>Other</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>PT-71</code>
+        <abbreviation>COSEC</abbreviation>
+        <name>Conselho de garantias financeiras</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>SE-2</code>
+        <abbreviation>MFA</abbreviation>
+        <name>Ministry of Foreign Affairs</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>SE-6</code>
+        <abbreviation>Sida</abbreviation>
+        <name>Swedish International Development Authority</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>SE-71</code>
+        <abbreviation>EKN</abbreviation>
+        <name>Swedish Export Credits Guarantee Board</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>US-1</code>
+        <abbreviation>AID</abbreviation>
+        <name>Agency for International Development</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>US-10</code>
+        <abbreviation>PEACE</abbreviation>
+        <name>Peace Corps</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>US-11</code>
+        <abbreviation>STATE</abbreviation>
+        <name>State Department</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>US-12</code>
+        <abbreviation>TDA</abbreviation>
+        <name>Trade and Development Agency</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>US-13</code>
+        <abbreviation>ADF</abbreviation>
+        <name>African Development Foundation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>US-15</code>
+        <abbreviation>CDC</abbreviation>
+        <name>Centers for Disease Control and Prevention</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>US-16</code>
+        <abbreviation>NIH</abbreviation>
+        <name>National Institutes of Health</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>US-17</code>
+        <abbreviation>LABOR</abbreviation>
+        <name>Department of Labor</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>US-2</code>
+        <abbreviation>AGR</abbreviation>
+        <name>Department of Agriculture</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>US-31</code>
+        <abbreviation>EXIM</abbreviation>
+        <name>Export Import Bank</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>US-5</code>
+        <abbreviation>DOT</abbreviation>
+        <name>Department of Transportation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>US-6</code>
+        <abbreviation>DTRE</abbreviation>
+        <name>Department of Treasury</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>US-7</code>
+        <abbreviation>DOD</abbreviation>
+        <name>Department of Defense</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>US-8</code>
+        <abbreviation>MISC</abbreviation>
+        <name>Miscellaneous</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>US-9</code>
+        <abbreviation>INTERIOR</abbreviation>
+        <name>Department of Interior</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41101</code>
+        <abbreviation>UNCCD</abbreviation>
+        <name>Convention to Combat Desertification</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41102</code>
+        <abbreviation>DLCO-EA</abbreviation>
+        <name>Desert Locust Control Organisation for Eastern Africa</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41103</code>
+        <abbreviation>ECA</abbreviation>
+        <name>Economic Commission for Africa</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41104</code>
+        <abbreviation>ECLAC</abbreviation>
+        <name>Economic Commission for Latin America and the Caribbean</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41105</code>
+        <abbreviation>ESCWA</abbreviation>
+        <name>Economic and Social Commission for Western Asia</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41106</code>
+        <abbreviation>ESCAP</abbreviation>
+        <name>Economic and Social Commission for Asia and the Pacific</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41107</code>
+        <abbreviation>IAEA-TCF</abbreviation>
+        <name>International Atomic Energy Agency (Contributions to Technical Cooperation Fund Only)</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41108</code>
+        <abbreviation>IFAD</abbreviation>
+        <name>International Fund for Agricultural Development</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41109</code>
+        <abbreviation>INSTRAW</abbreviation>
+        <name>International Research and Training Institute for the Advancement of Women</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41110</code>
+        <abbreviation>UNAIDS</abbreviation>
+        <name>Joint United Nations Programme on HIV/AIDS</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41111</code>
+        <abbreviation>UNCDF</abbreviation>
+        <name>United Nations Capital Development Fund</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41112</code>
+        <abbreviation>UNCTAD</abbreviation>
+        <name>United Nations Conference on Trade and Development</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41114</code>
+        <abbreviation>UNDP</abbreviation>
+        <name>United Nations Development Programme</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41116</code>
+        <abbreviation>UNEP</abbreviation>
+        <name>United Nations Environment Programme</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41118</code>
+        <abbreviation>UNFCCC</abbreviation>
+        <name>United Nations Framework Convention on Climate Change</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41119</code>
+        <abbreviation>UNFPA</abbreviation>
+        <name>United Nations Population Fund</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41120</code>
+        <abbreviation>UN Habitat</abbreviation>
+        <name>United Nations Human Settlement Programme</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41121</code>
+        <abbreviation>UNHCR</abbreviation>
+        <name>United Nations Office of the United Nations High Commissioner for Refugees</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41122</code>
+        <abbreviation>UNICEF</abbreviation>
+        <name>United Nations Children's Fund</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41123</code>
+        <abbreviation>UNIDO</abbreviation>
+        <name>United Nations Industrial Development Organisation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41124</code>
+        <abbreviation>UNIFEM</abbreviation>
+        <name>United Nations Development Fund for Women</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41125</code>
+        <abbreviation>UNITAR</abbreviation>
+        <name>United Nations Institute for Training and Research</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41126</code>
+        <abbreviation>UNMAS</abbreviation>
+        <name>United Nations Mine Action Service</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41127</code>
+        <abbreviation>UNOCHA</abbreviation>
+        <name>United Nations Office of Co-ordination of Humanitarian Affairs</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41128</code>
+        <abbreviation>UNODC</abbreviation>
+        <name>United Nations Office on Drugs and Crime</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41129</code>
+        <abbreviation>UNRISD</abbreviation>
+        <name>United Nations Research Institute for Social Development</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41130</code>
+        <abbreviation>UNRWA</abbreviation>
+        <name>United Nations Relief and Works Agency for Palestine Refugees in the Near East</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41131</code>
+        <abbreviation>UNSSC</abbreviation>
+        <name>United Nations System Staff College</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41132</code>
+        <abbreviation>UNSCN</abbreviation>
+        <name>United Nations System Standing Committee on Nutrition</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41133</code>
+        <abbreviation>UNSIA</abbreviation>
+        <name>United Nations Special Initiative on Africa</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41134</code>
+        <abbreviation>UNU</abbreviation>
+        <name>United Nations University (including Endowment Fund)</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41135</code>
+        <abbreviation>UNV</abbreviation>
+        <name>United Nations Volunteers</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41136</code>
+        <abbreviation>UNVFD</abbreviation>
+        <name>United Nations Voluntary Fund on Disability</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41137</code>
+        <abbreviation>UNVFTC</abbreviation>
+        <name>United Nations Voluntary Fund for Technical Co-operation in the Field of Human Rights</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41138</code>
+        <abbreviation>UNVFVT</abbreviation>
+        <name>United Nations Voluntary Fund for Victims of Torture</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41140</code>
+        <abbreviation>WFP</abbreviation>
+        <name>World Food Programme</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41141</code>
+        <abbreviation>PBF Window 2</abbreviation>
+        <name>United Nations Peacebuilding Fund (Window Two: Restricted Contributions Only)</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41142</code>
+        <abbreviation>UNDEF</abbreviation>
+        <name>United Nations Democracy Fund</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41143</code>
+        <abbreviation>WHO-CVCA</abbreviation>
+        <name>World Health Organisation - core voluntary contributions account</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41301</code>
+        <abbreviation>FAO</abbreviation>
+        <name>Food and Agricultural Organisation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41302</code>
+        <abbreviation>ILO</abbreviation>
+        <name>International Labour Organisation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41303</code>
+        <abbreviation>ITU</abbreviation>
+        <name>International Telecommunications Union</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41304</code>
+        <abbreviation>UNESCO</abbreviation>
+        <name>United Nations Educational, Scientific and Cultural Organisation </name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41305</code>
+        <abbreviation>UN</abbreviation>
+        <name>United Nations</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41306</code>
+        <abbreviation>UPU</abbreviation>
+        <name>Universal Postal Union</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41307</code>
+        <abbreviation>WHO-Assessed</abbreviation>
+        <name>World Health Organisation - assessed contributions</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41308</code>
+        <abbreviation>WIPO</abbreviation>
+        <name>World Intellectual Property Organisation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41309</code>
+        <abbreviation>WMO</abbreviation>
+        <name>World Meteorological Organisation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41310</code>
+        <abbreviation>UNDPKO</abbreviation>
+        <name>United Nations Department of Peacekeeping Operations (excluding UNTSO, UNMOGIP, UNFICYP, UNDOF) </name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41311</code>
+        <abbreviation>PBF Window 1</abbreviation>
+        <name>United Nations Peacebuilding Fund (Window One: Flexible Contributions Only)</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41312</code>
+        <abbreviation>IAEA-Assessed</abbreviation>
+        <name>International Atomic Energy Agency - assessed contributions</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41313</code>
+        <abbreviation>OHCHR</abbreviation>
+        <name>United Nations High Commissioner for Human Rights (extrabudgetary contributions only)</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41314</code>
+        <abbreviation>UNECE</abbreviation>
+        <name>United Nations Economic Commission for Europe (extrabudgetary contributions only)</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>42001</code>
+        <abbreviation>EC</abbreviation>
+        <name>European Commission - Development Share of Budget</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>42003</code>
+        <abbreviation>EDF</abbreviation>
+        <name>European Commission - European Development Fund</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>42004</code>
+        <abbreviation>EIB</abbreviation>
+        <name>European Investment Bank (interest subsidies only)</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>42005</code>
+        <abbreviation>FEMIP</abbreviation>
+        <name>Facility for Euro-Mediterranean Investment and Partnership Trust Fund</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>42006</code>
+        <abbreviation>GEEREF</abbreviation>
+        <name>Global Energy Efficiency and Renewable Energy Fund</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>43001</code>
+        <abbreviation>IMF-PRGF Trust</abbreviation>
+        <name>International Monetary Fund - Poverty Reduction and Growth Facility Trust</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>43002</code>
+        <abbreviation>IMF-PRGF-HIPC Trust</abbreviation>
+        <name>International Monetary Fund - Poverty Reduction and Growth Facility - Heavily Indebted Poor Countries Initiative Trust (includes HIPC, PRGF and PRGF-HIPC sub-accounts) </name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>43003</code>
+        <abbreviation>IMF-ENDA</abbreviation>
+        <name>International Monetary Fund - Subsidization of IMF Emergency Assistance for Natural Disasters</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>44001</code>
+        <abbreviation>IBRD</abbreviation>
+        <name>International Bank for Reconstruction and Development</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>44002</code>
+        <abbreviation>IDA</abbreviation>
+        <name>International Development Association</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>44003</code>
+        <abbreviation>IDA-HIPC</abbreviation>
+        <name>International Development Association - Heavily Indebted Poor Countries Debt Initiative Trust Fund</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>44004</code>
+        <abbreviation>IFC</abbreviation>
+        <name>International Finance Corporation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>44005</code>
+        <abbreviation>MIGA</abbreviation>
+        <name>Multilateral Investment Guarantee Agency</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>44006</code>
+        <abbreviation>AMCs</abbreviation>
+        <name>Advance Market Commitments</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>44007</code>
+        <abbreviation>IDA-MDRI</abbreviation>
+        <name>International Development Association - Multilateral Debt Relief Initiative</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>45001</code>
+        <abbreviation>WTO-ITC</abbreviation>
+        <name>World Trade Organisation - International Trade Centre</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>45002</code>
+        <abbreviation>WTO-ACWL</abbreviation>
+        <name>World Trade Organisation - Advisory Centre on WTO Law</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>45003</code>
+        <abbreviation>WTO-DDAGTF</abbreviation>
+        <name>World Trade Organisation - Doha Development Agenda Global Trust Fund</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>46001</code>
+        <abbreviation>ASF</abbreviation>
+        <name>African Solidarity Fund</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>46002</code>
+        <abbreviation>Afr.DB</abbreviation>
+        <name>African Development Bank</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>46003</code>
+        <abbreviation>Afr.DF</abbreviation>
+        <name>African Development Fund</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>46004</code>
+        <abbreviation>AsDB</abbreviation>
+        <name>Asian Development Bank</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>46005</code>
+        <abbreviation>AsDF</abbreviation>
+        <name>Asian Development Fund</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>46006</code>
+        <abbreviation>BSTDB</abbreviation>
+        <name>Black Sea Trade and Development Bank</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>46007</code>
+        <abbreviation>CABEI</abbreviation>
+        <name>Central American Bank for Economic Integration</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>46008</code>
+        <abbreviation>CAF</abbreviation>
+        <name>Andean Development Corporation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>46009</code>
+        <abbreviation>CDB</abbreviation>
+        <name>Caribbean Development Bank</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>46012</code>
+        <abbreviation>IDB</abbreviation>
+        <name>Inter-American Development Bank, Inter-American Investment Corporation and Multilateral Investment Fund </name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>46013</code>
+        <abbreviation>IDB Sp.F.</abbreviation>
+        <name>Inter-American Development Fund for Special Operations</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47001</code>
+        <abbreviation>ACBF</abbreviation>
+        <name>African Capacity Building Foundation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47002</code>
+        <abbreviation>APO</abbreviation>
+        <name>Asian Productivity Organisation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47003</code>
+        <abbreviation>ASEAN</abbreviation>
+        <name>Association of South East Asian Nations: Economic Co-operation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47004</code>
+        <abbreviation>ASEAN (CF)</abbreviation>
+        <name>ASEAN Cultural Fund</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47005</code>
+        <abbreviation>AU</abbreviation>
+        <name>African Union (excluding peacekeeping facilities)</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47008</code>
+        <abbreviation>AVRDC</abbreviation>
+        <name>World Vegetable Centre</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47009</code>
+        <abbreviation>CAMES</abbreviation>
+        <name>African and Malagasy Council for Higher Education</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47010</code>
+        <abbreviation>CAPAM</abbreviation>
+        <name>Commonwealth Agency for Public Administration and Management</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47011</code>
+        <abbreviation>CARICOM</abbreviation>
+        <name>Caribbean Community Secretariat</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47012</code>
+        <abbreviation>CAREC</abbreviation>
+        <name>Caribbean Epidemiology Centre</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47013</code>
+        <abbreviation>CF</abbreviation>
+        <name>Commonwealth Foundation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47014</code>
+        <abbreviation>CFTC</abbreviation>
+        <name>Commonwealth Fund for Technical Co-operation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47015</code>
+        <abbreviation>CGIAR</abbreviation>
+        <name>Consultative Group on International Agricultural Research</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47016</code>
+        <abbreviation>CI</abbreviation>
+        <name>Commonwealth Institute</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47017</code>
+        <abbreviation>CIAT</abbreviation>
+        <name>International Centre for Tropical Agriculture</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47018</code>
+        <abbreviation>CIFOR</abbreviation>
+        <name>Centre for International Forestry Research</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47019</code>
+        <abbreviation>CIHEAM</abbreviation>
+        <name>International Centre for Advanced Mediterranean Agronomic Studies</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47020</code>
+        <abbreviation>CIMMYT</abbreviation>
+        <name>International Maize and Wheat Improvement Centre</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47021</code>
+        <abbreviation>CIP</abbreviation>
+        <name>International Potato Centre</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47022</code>
+        <abbreviation>CITES</abbreviation>
+        <name>Convention on International Trade in Endangered Species of Wild Flora and Fauna</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47023</code>
+        <abbreviation>CLAS</abbreviation>
+        <name>Commonwealth Legal Advisory Service</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47024</code>
+        <abbreviation>CMDF</abbreviation>
+        <name>Commonwealth Media Development Fund</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47025</code>
+        <abbreviation>COL</abbreviation>
+        <name>Commonwealth of Learning</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47026</code>
+        <abbreviation>CPLP</abbreviation>
+        <name>Community of Portuguese Speaking Countries</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47027</code>
+        <abbreviation>CP</abbreviation>
+        <name>Colombo Plan</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47028</code>
+        <abbreviation>CPTM</abbreviation>
+        <name>Commonwealth Partnership for Technical Management</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47029</code>
+        <abbreviation>SWAC</abbreviation>
+        <name>Sahel and West Africa Club</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47030</code>
+        <abbreviation>CSC</abbreviation>
+        <name>Commonwealth Scientific Council</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47031</code>
+        <abbreviation>CSSO</abbreviation>
+        <name>Commonwealth Small States Office</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47032</code>
+        <abbreviation>CTIAF</abbreviation>
+        <name>Commonwealth Trade and Investment Access Facility</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47033</code>
+        <abbreviation>CYP</abbreviation>
+        <name>Commonwealth Youth Programme</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47034</code>
+        <abbreviation>ECOWAS</abbreviation>
+        <name>Economic Community of West African States</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47035</code>
+        <abbreviation>ENDA</abbreviation>
+        <name>Environmental Development Action in the Third World</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47036</code>
+        <abbreviation>EPPO</abbreviation>
+        <name>European and Mediterranean Plant Protection Organisation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47037</code>
+        <abbreviation>EROPA</abbreviation>
+        <name>Eastern-Regional Organisation of Public Administration</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47038</code>
+        <abbreviation>FASTPED</abbreviation>
+        <name>INTERPOL Fund for Aid and Technical Assistance to Developing Countries</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47040</code>
+        <abbreviation>FFA</abbreviation>
+        <name>Forum Fisheries Agency</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47041</code>
+        <abbreviation>FFTC</abbreviation>
+        <name>Food and Fertilizer Technology Centre</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47042</code>
+        <abbreviation>FIT</abbreviation>
+        <name>Foundation for International Training</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47043</code>
+        <abbreviation/>
+        <name>Global Crop Diversity Trust</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47044</code>
+        <abbreviation>GEF</abbreviation>
+        <name>Global Environment Facility</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47045</code>
+        <abbreviation>Global Fund</abbreviation>
+        <name>Global Fund to Fight AIDS, Tuberculosis and Malaria </name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47046</code>
+        <abbreviation>OIF</abbreviation>
+        <name>International Organisation of the Francophonic</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47047</code>
+        <abbreviation>IAI</abbreviation>
+        <name>International African Institute</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47048</code>
+        <abbreviation>IAII</abbreviation>
+        <name>Inter-American Indian Institute</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47049</code>
+        <abbreviation>IBE</abbreviation>
+        <name>International Bureau of Education - International Educational Reporting System (IERS)</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47050</code>
+        <abbreviation>ICAC</abbreviation>
+        <name>International Cotton Advisory Committee</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47051</code>
+        <abbreviation>ICARDA</abbreviation>
+        <name>International Centre for Agricultural Research in Dry Areas</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47053</code>
+        <abbreviation>ICDDR,B </abbreviation>
+        <name>Centre for Health and Population Research</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47054</code>
+        <abbreviation>ICIPE</abbreviation>
+        <name>International Centre of Insect Physiology and Ecology</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47055</code>
+        <abbreviation>ICRA</abbreviation>
+        <name>International Centre for Development Oriented Research in Agriculture</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47056</code>
+        <abbreviation>ICRAF</abbreviation>
+        <name>World AgroForestry Centre</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47057</code>
+        <abbreviation>ICRISAT</abbreviation>
+        <name>International Crop Research for Semi-Arid Tropics</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47058</code>
+        <abbreviation>IDEA</abbreviation>
+        <name>International Institute for Democracy and Electoral Assistance</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47059</code>
+        <abbreviation>IDLO</abbreviation>
+        <name>International Development Law Organisation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47060</code>
+        <abbreviation>IIC</abbreviation>
+        <name>International Institute for Cotton</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47061</code>
+        <abbreviation>IICA</abbreviation>
+        <name>Inter-American Institute for Co-operation on Agriculture</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47062</code>
+        <abbreviation>IITA</abbreviation>
+        <name>International Institute of Tropical Agriculture</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47063</code>
+        <abbreviation>ILRI</abbreviation>
+        <name>International Livestock Research Institute</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47064</code>
+        <abbreviation>INBAR</abbreviation>
+        <name>International Network for Bamboo and Rattan</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47065</code>
+        <abbreviation>IOC</abbreviation>
+        <name>Intergovernmental Oceanographic Commission</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47066</code>
+        <abbreviation>IOM</abbreviation>
+        <name>International Organisation for Migration</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47067</code>
+        <abbreviation>IPCC</abbreviation>
+        <name>Intergovernmental Panel on Climate Change</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47068</code>
+        <abbreviation>APFIC</abbreviation>
+        <name>Asia-Pacific Fishery Commission</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47069</code>
+        <abbreviation/>
+        <name>Biodiversity International</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47070</code>
+        <abbreviation>IRRI</abbreviation>
+        <name>International Rice Research Institute</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47071</code>
+        <abbreviation>ISTA</abbreviation>
+        <name>International Seed Testing Association</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47073</code>
+        <abbreviation>ITTO</abbreviation>
+        <name>International Tropical Timber Organisation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47074</code>
+        <abbreviation>IVI</abbreviation>
+        <name>International Vaccine Institute</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47075</code>
+        <abbreviation>IWMI</abbreviation>
+        <name>International Water Management Institute</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47076</code>
+        <abbreviation>JSCA</abbreviation>
+        <name>Justice Studies Centre of the Americas</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47077</code>
+        <abbreviation>MRC</abbreviation>
+        <name>Mekong River Commission</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47078</code>
+        <abbreviation>Montreal Protocol</abbreviation>
+        <name>Multilateral Fund for the Implementation of the Montreal Protocol</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47079</code>
+        <abbreviation>OAS</abbreviation>
+        <name>Organisation of American States</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47080</code>
+        <abbreviation>OECD</abbreviation>
+        <name>Organisation for Economic Co-operation and Development (Contributions to special funds for Technical Co-operation Activities Only)</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47081</code>
+        <abbreviation>OECD-Dev. Centre</abbreviation>
+        <name>OECD Development Centre</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47082</code>
+        <abbreviation>OECS</abbreviation>
+        <name>Organisation of Eastern Caribbean States</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47083</code>
+        <abbreviation>PAHO</abbreviation>
+        <name>Pan-American Health Organisation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47084</code>
+        <abbreviation>PAIGH</abbreviation>
+        <name>Pan-American Institute of Geography and History</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47085</code>
+        <abbreviation>PARCA</abbreviation>
+        <name>Pan-American Railway Congress Association</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47086</code>
+        <abbreviation>PIDG</abbreviation>
+        <name>Private Infrastructure Development Group</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47087</code>
+        <abbreviation>PIFS</abbreviation>
+        <name>Pacific Islands Forum Secretariat</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47088</code>
+        <abbreviation>RN</abbreviation>
+        <name>Relief Net</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47089</code>
+        <abbreviation>SADC</abbreviation>
+        <name>Southern African Development Community</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47090</code>
+        <abbreviation>SATCC</abbreviation>
+        <name>Southern African Transport and Communications Commission</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47091</code>
+        <abbreviation>SCAAP</abbreviation>
+        <name>(Colombo Plan) Special Commonwealth African Assistance Programme</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47092</code>
+        <abbreviation>SEAFDC</abbreviation>
+        <name>South East Asian Fisheries Development Centre</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47093</code>
+        <abbreviation>SEAMEO</abbreviation>
+        <name>South East Asian Ministers of Education</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47094</code>
+        <abbreviation>SOPAC</abbreviation>
+        <name>South Pacific Applied Geoscience Commission</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47095</code>
+        <abbreviation>SPBEA</abbreviation>
+        <name>South Pacific Board for Educational Assessment</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47096</code>
+        <abbreviation>SPC</abbreviation>
+        <name>Secretariat of the Pacific Community</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47097</code>
+        <abbreviation>SPREP</abbreviation>
+        <name>Pacific Regional Environment Programme</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47098</code>
+        <abbreviation>UNPO</abbreviation>
+        <name>Unrepresented Nations and Peoples' Organisation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47099</code>
+        <abbreviation>USP</abbreviation>
+        <name>University of the South Pacific</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47100</code>
+        <abbreviation>WAMU</abbreviation>
+        <name>West African Monetary Union</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47101</code>
+        <abbreviation>WARDA</abbreviation>
+        <name>Africa Rice Centre</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47102</code>
+        <abbreviation>WCO-Fellowship Prog.</abbreviation>
+        <name>World Customs Organisation Fellowship Programme</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47103</code>
+        <abbreviation>WMU</abbreviation>
+        <name>World Maritime University</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47104</code>
+        <abbreviation>WorldFish Centre</abbreviation>
+        <name>WorldFish Centre</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47105</code>
+        <abbreviation>CFC</abbreviation>
+        <name>Common Fund for Commodities</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47106</code>
+        <abbreviation>DCAF</abbreviation>
+        <name>Geneva Centre for the Democratic Control of Armed Forces</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47107</code>
+        <abbreviation>IFFIm</abbreviation>
+        <name>International Finance Facility for Immunisation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47108</code>
+        <abbreviation>MDRP</abbreviation>
+        <name>Multi-Country Demobilisation and Reintegration Program</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47109</code>
+        <abbreviation>APEC ASF</abbreviation>
+        <name>Asia-Pacific Economic Cooperation Support Fund (except contributions tied to counter-terrorism activities)</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47110</code>
+        <abbreviation>BSEC</abbreviation>
+        <name>Organisation of the Black Sea Economic Cooperation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47111</code>
+        <abbreviation/>
+        <name>Adaptation Fund</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47112</code>
+        <abbreviation>CEI-Climate Fund</abbreviation>
+        <name>Central European Initiative - Special Fund for Climate and Environmental Protection</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47113</code>
+        <abbreviation>CEMAC</abbreviation>
+        <name>Economic and Monetary Community of Central Africa</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47116</code>
+        <abbreviation>IF</abbreviation>
+        <name>Integrated Framework for Trade-Related Technical Assistance to Least Developed Countries</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47117</code>
+        <abbreviation>NEPAD</abbreviation>
+        <name>New Partnership for Africa's Development</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47118</code>
+        <abbreviation>CREFIAF</abbreviation>
+        <name>Regional Organisation for the Strengthening of Supreme Audit Institutions of Francophone Sub-Saharan Countries</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47119</code>
+        <abbreviation>OSS</abbreviation>
+        <name>Sahara and Sahel Observatory</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47120</code>
+        <abbreviation>SAARC</abbreviation>
+        <name>South Asian Association for Regional Cooperation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47121</code>
+        <abbreviation>UCLGA</abbreviation>
+        <name>United Cities and Local Governments of Africa</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47122</code>
+        <abbreviation>GAVI</abbreviation>
+        <name>Global Alliance for Vaccines and Immunization</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47123</code>
+        <abbreviation>GICHD</abbreviation>
+        <name>Geneva International Centre for Humanitarian Demining</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47125</code>
+        <abbreviation>ETC</abbreviation>
+        <name>European Bank for Reconstruction and Development - Early Transition Countries Initiative</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47126</code>
+        <abbreviation/>
+        <name>European Bank for Reconstruction and Development - Western Balkans Trust Fund</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47127</code>
+        <abbreviation>OLADE</abbreviation>
+        <name>Latin-American Energy Organisation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21001</code>
+        <abbreviation>AGID</abbreviation>
+        <name>Association of Geoscientists for International Development</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21002</code>
+        <abbreviation>AITIC</abbreviation>
+        <name>Agency for International Trade Information and Co-operation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21003</code>
+        <abbreviation>CLASCO</abbreviation>
+        <name>Latin American Council for Social Sciences</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21004</code>
+        <abbreviation>CODESRIA</abbreviation>
+        <name>Council for the Development of Economic and Social Research in Africa</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21005</code>
+        <abbreviation>CUTS</abbreviation>
+        <name>Consumer Unity and Trust Society International</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21006</code>
+        <abbreviation/>
+        <name>Development Gateway Foundation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21007</code>
+        <abbreviation>ELCI</abbreviation>
+        <name>Environmental Liaison Centre International</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21008</code>
+        <abbreviation>Eurostep</abbreviation>
+        <name>Eurostep</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21009</code>
+        <abbreviation>FARA</abbreviation>
+        <name>Forum for Agricultural Research in Africa</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21010</code>
+        <abbreviation>FAWE</abbreviation>
+        <name>Forum for African Women Educationalists</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21011</code>
+        <abbreviation>GCE</abbreviation>
+        <name>Global Campaign for Education</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21013</code>
+        <abbreviation>HAI</abbreviation>
+        <name>Health Action International</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21014</code>
+        <abbreviation>HURIDOCS</abbreviation>
+        <name>Human Rights Information and Documentation Systems</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21015</code>
+        <abbreviation>ICRA</abbreviation>
+        <name>International Catholic Rural Association</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21016</code>
+        <abbreviation>ICRC</abbreviation>
+        <name>International Committee of the Red Cross</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21017</code>
+        <abbreviation>ICTSD</abbreviation>
+        <name>International Centre for Trade and Sustainable Development</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21018</code>
+        <abbreviation>IFRCRCS</abbreviation>
+        <name>International Federation of Red Cross and Red Crescent Societies</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21019</code>
+        <abbreviation>IFS</abbreviation>
+        <name>International Federation of Settlements and Neighbourhood Centres</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21020</code>
+        <abbreviation/>
+        <name>International HIV/AIDS Alliance</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21021</code>
+        <abbreviation>IIED</abbreviation>
+        <name>International Institute for Environment and Development</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21022</code>
+        <abbreviation>INAFI</abbreviation>
+        <name>International Network for Alternative Financial Institutions</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21023</code>
+        <abbreviation>IPPF</abbreviation>
+        <name>International Planned Parenthood Federation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21024</code>
+        <abbreviation>IPS</abbreviation>
+        <name>Inter Press Service, International Association </name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21025</code>
+        <abbreviation>ISC</abbreviation>
+        <name>International Seismological Centre</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21026</code>
+        <abbreviation>ISHR</abbreviation>
+        <name>International Service for Human Rights</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21027</code>
+        <abbreviation>ITF</abbreviation>
+        <name>International Trust Fund for Demining and Mine Victims Assistance</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21028</code>
+        <abbreviation>IUEF</abbreviation>
+        <name>International University Exchange Fund - IUEF Stip. in Africa and Latin America</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21029</code>
+        <abbreviation>MSF</abbreviation>
+        <name>Doctors Without Borders</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21030</code>
+        <abbreviation>PAID</abbreviation>
+        <name>Pan African Institute for Development</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21031</code>
+        <abbreviation>PANOS</abbreviation>
+        <name>PANOS Institute</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21032</code>
+        <abbreviation>PSI</abbreviation>
+        <name>Population Services International</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21033</code>
+        <abbreviation>TI</abbreviation>
+        <name>Transparency International</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21034</code>
+        <abbreviation>UNION</abbreviation>
+        <name>International Union Against Tuberculosis and Lung Disease</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21035</code>
+        <abbreviation>OMCT</abbreviation>
+        <name>World Organisation Against Torture</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21036</code>
+        <abbreviation>WUS</abbreviation>
+        <name>World University Service</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21037</code>
+        <abbreviation>WWB</abbreviation>
+        <name>Women's World Banking</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21038</code>
+        <abbreviation/>
+        <name>International Alert</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21039</code>
+        <abbreviation>IISD</abbreviation>
+        <name>International Institute for Sustainable Development</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21040</code>
+        <abbreviation>IWTC</abbreviation>
+        <name>International Women's Tribune Centre</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21041</code>
+        <abbreviation>SID</abbreviation>
+        <name>Society for International Development</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21042</code>
+        <abbreviation>Interpeace</abbreviation>
+        <name>International Peacebuilding Alliance</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21043</code>
+        <abbreviation>AWEPA</abbreviation>
+        <name>European Parliamentarians for Africa</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21044</code>
+        <abbreviation>ICCIDD</abbreviation>
+        <name>International Council for the Control of Iodine Deficiency Disorders</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21045</code>
+        <abbreviation>AMREF</abbreviation>
+        <name>African Medical and Research Foundation</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21046</code>
+        <abbreviation>ACORD</abbreviation>
+        <name>Agency for Cooperation and Research in Development</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21047</code>
+        <abbreviation/>
+        <name>AgriCord</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21048</code>
+        <abbreviation>AAU</abbreviation>
+        <name>Association of African Universities</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21049</code>
+        <abbreviation>ECDPM</abbreviation>
+        <name>European Centre for Development Policy Management</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21050</code>
+        <abbreviation/>
+        <name>Geneva Call</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21051</code>
+        <abbreviation>ISPEC</abbreviation>
+        <name>Institut Supérieur Panafricaine d'Economie Coopérative</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21053</code>
+        <abbreviation/>
+        <name>IPAS-Protecting Women's Health, Advancing Women's Reproductive Rights </name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21054</code>
+        <abbreviation>LPI</abbreviation>
+        <name>Life and Peace Institute</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21055</code>
+        <abbreviation>RATN</abbreviation>
+        <name>Regional AIDS Training Network</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21056</code>
+        <abbreviation>REEEP</abbreviation>
+        <name>Renewable Energy and Energy Efficiency Partnership</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21057</code>
+        <abbreviation>ICTJ</abbreviation>
+        <name>International Centre for Transitional Justice</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>30001</code>
+        <abbreviation>GAIN</abbreviation>
+        <name>Global Alliance for Improved Nutrition</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>30003</code>
+        <abbreviation>GeSCI</abbreviation>
+        <name>Global e-Schools and Communities Initiative</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>30004</code>
+        <abbreviation>GWP</abbreviation>
+        <name>Global Water Partnership</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>30005</code>
+        <abbreviation>IAVI</abbreviation>
+        <name>International AIDS Vaccine Initiative</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>30006</code>
+        <abbreviation>IPM</abbreviation>
+        <name>International Partnership on Microbicides</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>30007</code>
+        <abbreviation>GAID</abbreviation>
+        <name>Global Alliance for ICT and Development</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>30008</code>
+        <abbreviation/>
+        <name>Cities Alliance</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>30009</code>
+        <abbreviation>SAS</abbreviation>
+        <name>Small Arms Survey</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>30010</code>
+        <abbreviation>UNITAID</abbreviation>
+        <name>International drug purchase facility</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>30011</code>
+        <abbreviation>IUCN</abbreviation>
+        <name>International Union for the Conservation of Nature</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>31001</code>
+        <abbreviation>GDN</abbreviation>
+        <name>Global Development Network</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>31002</code>
+        <abbreviation>GKP</abbreviation>
+        <name>Global Knowledge Partnership</name>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>10000</code>
+        <name>Public Sector Institutions</name>
+        <category/>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>11000</code>
+        <name>Donor Government</name>
+        <category/>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>12000</code>
+        <name>Recipient Government</name>
+        <category/>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>13000</code>
+        <name>Third Country Government (Delegated co-operation)</name>
+        <category/>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>20000</code>
+        <name>Non-Governmental Organisations and Civil Society</name>
+        <category/>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>21000</code>
+        <name>International NGO</name>
+        <category/>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>22000</code>
+        <name>Donor country-based NGO</name>
+        <category/>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>23000</code>
+        <name>Development country-based NGO</name>
+        <category/>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>30000</code>
+        <name>Public-Private Partnerships and Networks</name>
+        <category/>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>31000</code>
+        <name>Public-Private Partnerships</name>
+        <abbreviation>PP</abbreviation>
+        <category/>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>32000</code>
+        <name>Network</name>
+        <category/>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>40000</code>
+        <name>Multi-lateral Organisations</name>
+        <category/>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>41000</code>
+        <name>United Nations agency, fund or commission</name>
+        <abbreviation>UN</abbreviation>
+        <category/>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>42000</code>
+        <name>European Union Institution</name>
+        <abbreviation>EU</abbreviation>
+        <category/>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>43000</code>
+        <name>International Monetary Fund</name>
+        <abbreviation>IIMF</abbreviation>
+        <category/>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>44000</code>
+        <name>World Bank Group</name>
+        <abbreviation>WBG</abbreviation>
+        <category/>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>45000</code>
+        <name>World Trade Organisation</name>
+        <abbreviation>WTO</abbreviation>
+        <category/>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>46000</code>
+        <name>Regional Development Bank</name>
+        <abbreviation>RDB</abbreviation>
+        <category/>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>47000</code>
+        <name>Other Multi-lateral Institution</name>
+        <category/>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>50000</code>
+        <name>Other</name>
+        <category/>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>51000</code>
+        <name>University,college or other teaching institution, research institute or
+            think-tank</name>
+        <category/>
+    </OrganisationalIdentifier>
+    <OrganisationalIdentifier>
+        <code>52000</code>
+        <name>Other</name>
+        <category/>
+    </OrganisationalIdentifier>
+</codelist>

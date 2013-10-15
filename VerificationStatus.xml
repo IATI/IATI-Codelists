@@ -1,0 +1,10 @@
+<codelist name="VerificationStatus" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
+    <VerificationStatus>
+        <code>0</code>
+        <name>Not verified</name>
+    </VerificationStatus>
+    <VerificationStatus>
+        <code>1</code>
+        <name>Verified</name>
+    </VerificationStatus>
+</codelist>

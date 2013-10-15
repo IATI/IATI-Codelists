@@ -1,0 +1,42 @@
+<codelist name="LocationType" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
+    <LocationType>
+        <code>ADM1</code>
+        <name>first-order administrative division</name>
+    </LocationType>
+    <LocationType>
+        <code>ADM2</code>
+        <name>second-order administrative division</name>
+    </LocationType>
+    <LocationType>
+        <code>CNS</code>
+        <name>concession area</name>
+    </LocationType>
+    <LocationType>
+        <code>FRM</code>
+        <name>farm</name>
+    </LocationType>
+    <LocationType>
+        <code>PCL</code>
+        <name>political entity (i.e. a country)</name>
+    </LocationType>
+    <LocationType>
+        <code>PPL</code>
+        <name>populated place</name>
+    </LocationType>
+    <LocationType>
+        <code>PPLA</code>
+        <name>seat of a first-order administrative division</name>
+    </LocationType>
+    <LocationType>
+        <code>PPLA2</code>
+        <name>seat of a second-order administrative division</name>
+    </LocationType>
+    <LocationType>
+        <code>PPLC</code>
+        <name>capital of a political entity</name>
+    </LocationType>
+    <LocationType>
+        <code>RES</code>
+        <name>reserve</name>
+    </LocationType>
+</codelist>

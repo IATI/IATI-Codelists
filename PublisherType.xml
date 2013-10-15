@@ -1,0 +1,14 @@
+<codelist name="PublisherType" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
+    <PublisherType>
+        <code>1</code>
+        <name>Aid Provider</name>
+    </PublisherType>
+    <PublisherType>
+        <code>2</code>
+        <name>Aid Recipient</name>
+    </PublisherType>
+    <PublisherType>
+        <code>3</code>
+        <name>Aggregator</name>
+    </PublisherType>
+</codelist>
