@@ -35,8 +35,8 @@ for fname in os.listdir('xml'):
         'abbreviation'
     ]
     dw = csv.DictWriter(open('out/csv/{0}.csv'.format(attrib['name']), 'w'), fieldnames)
+    dw.writeheader()
     for row in codelist_dicts:
-        dw.writeheader()
         dw.writerow(utf8_encode_dict(row))
 
     ## JSON
