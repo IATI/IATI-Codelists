@@ -1,4 +1,4 @@
-<codelist name="GeographicalPrecision" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
+<codelist description="A system for clarifying the accuracy and usage of geographical coordinates " name="GeographicalPrecision" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
     <codelist-item>
         <code>1</code>
         <name>Exact location</name>

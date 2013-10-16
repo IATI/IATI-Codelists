@@ -1,4 +1,4 @@
-<codelist name="ValueType" date-last-modified="2012-10-02T11:02:03.321Z" version="1.01" xml:lang="en">
+<codelist description="A derived  enlarged version of TransactionType to include PD (planned Disbursements)  and TB (Budget) " name="ValueType" date-last-modified="2012-10-02T11:02:03.321Z" version="1.01" xml:lang="en">
     <codelist-item>
         <code>C</code>
         <name>Commitment</name>

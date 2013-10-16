@@ -1,4 +1,4 @@
-<codelist name="TiedStatus" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
+<codelist description="Added 3 new options to the codelist: QP - Purchase of Equity, QS - Sale of Equity ,CG - Credit Guarantee " name="TiedStatus" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
     <codelist-item>
         <code>3</code>
         <name>Partially tied</name>

@@ -1,4 +1,4 @@
-<codelist name="ConditionType" date-last-modified="2013-03-22T16:37:03.457Z" version="1.01" xml:lang="en">
+<codelist description="Type of Contact" name="ConditionType" date-last-modified="2013-03-22T16:37:03.457Z" version="1.01" xml:lang="en">
     <codelist-item>
         <code>2</code>
         <name>Performance</name>

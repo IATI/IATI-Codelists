@@ -1,4 +1,4 @@
-<codelist name="FinanceType" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
+<codelist description="DAC/CRS transaction classification used to distinguish financial instruments,  e.g. grants or loans." name="FinanceType" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
     <codelist-item>
         <code>110</code>
         <name>Aid grant excluding debt reorganisation</name>
