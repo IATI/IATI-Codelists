@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm -r out
+rm -rf out
 mkdir out
 cp -r xml out
 mkdir out/json out/csv
