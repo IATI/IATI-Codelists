@@ -27,12 +27,8 @@ for fname in os.listdir('xml'):
         'code',
         'name',
         'description',
-        'language',
         'category',
-        'category-name',
-        'category-description',
         'sector',
-        'abbreviation'
     ]
     dw = csv.DictWriter(open('out/csv/{0}.csv'.format(attrib['name']), 'w'), fieldnames)
     dw.writeheader()
