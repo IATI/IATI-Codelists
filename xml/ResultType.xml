@@ -2,13 +2,16 @@
     <codelist-item>
         <code>1</code>
         <name>Output</name>
+        <name xml:lang="fr">Donateur</name>
     </codelist-item>
     <codelist-item>
         <code>2</code>
         <name>Outcome</name>
+        <name xml:lang="fr">Effet</name>
     </codelist-item>
     <codelist-item>
         <code>3</code>
         <name>Impact</name>
+        <name xml:lang="fr">Impact</name>
     </codelist-item>
 </codelist>

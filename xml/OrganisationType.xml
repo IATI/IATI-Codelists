@@ -2,41 +2,51 @@
     <codelist-item>
         <code>10</code>
         <name>Government</name>
+        <name xml:lang="fr">Gouvernement</name>
     </codelist-item>
     <codelist-item>
         <code>15</code>
         <name>Other Public Sector</name>
+        <name xml:lang="fr">Autre secteur public</name>
     </codelist-item>
     <codelist-item>
         <code>21</code>
         <name>International NGO</name>
+        <name xml:lang="fr">ONG internationale</name>
     </codelist-item>
     <codelist-item>
         <code>22</code>
         <name>National NGO</name>
+        <name xml:lang="fr">ONG nationale</name>
     </codelist-item>
     <codelist-item>
         <code>23</code>
         <name>Regional NGO</name>
+        <name xml:lang="fr">ONG regionale</name>
     </codelist-item>
     <codelist-item>
         <code>30</code>
         <name>Public Private Partnership</name>
+        <name xml:lang="fr">Partenariat public-privé</name>
     </codelist-item>
     <codelist-item>
         <code>40</code>
         <name>Multilateral</name>
+        <name xml:lang="fr">Multilatéral</name>
     </codelist-item>
     <codelist-item>
         <code>60</code>
         <name>Foundation</name>
+        <name xml:lang="fr">Fondation</name>
     </codelist-item>
     <codelist-item>
         <code>70</code>
         <name>Private Sector</name>
+        <name xml:lang="fr">Secteur privé</name>
     </codelist-item>
     <codelist-item>
         <code>80</code>
         <name>Academic, Training and Research</name>
+        <name xml:lang="fr">Universitaire, formation et recherche</name>
     </codelist-item>
 </codelist>

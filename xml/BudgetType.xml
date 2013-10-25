@@ -2,9 +2,11 @@
     <codelist-item>
         <code>1</code>
         <name>Original</name>
+        <name xml:lang="fr">Original</name>
     </codelist-item>
     <codelist-item>
         <code>2</code>
         <name>Revised</name>
+        <name xml:lang="fr">Révisé</name>
     </codelist-item>
 </codelist>
