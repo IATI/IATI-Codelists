@@ -19,10 +19,7 @@
       <xs:element name="name" type="text"/>
       <xs:element name="description" type="text" minOccurs="0"/>
       <xs:element name="category" type="xs:string" minOccurs="0"/>
-      <xs:element name="category-name" type="xs:string" minOccurs="0"/>
-      <xs:element name="category-description" type="xs:string" minOccurs="0"/>
       <xs:element name="sector" type="xs:string" minOccurs="0"/>
-      <xs:element name="abbreviation" type="xs:string" minOccurs="0"/>
     </xs:choice>
   </xs:complexType>
 </xs:element>
@@ -35,6 +32,7 @@
     <xs:attribute name="ref" use="optional"/>
     <xs:attribute name="name" use="optional"/>
     <xs:attribute name="description" use="optional"/>
+    <xs:attribute name="category-codelist" use="optional"/>
     <xs:attribute ref="xml:lang" use="optional" />
   </xs:complexType>
 </xs:element>

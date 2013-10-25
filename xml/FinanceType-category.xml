@@ -1,0 +1,222 @@
+<codelist name="FinanceType-category" xml:lang="en">
+    <codelist-item>
+        <code>100</code>
+        <name>GRANT</name>
+        <description>Transfers in cash or in kind for which no legal debt is incurred by the recipient.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>100</code>
+        <name>GRANT</name>
+        <description>Transfers in cash or in kind for which no legal debt is incurred by the recipient.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>200</code>
+        <name>INTEREST SUBSIDY</name>
+        <description>Subsidies to soften the terms of private export credits, or loans or credits by the banking sector.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>200</code>
+        <name>INTEREST SUBSIDY</name>
+        <description>Subsidies to soften the terms of private export credits, or loans or credits by the banking sector.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>300</code>
+        <name>CAPITAL SUBSCRIPTION</name>
+        <description>Payments to multilateral agencies in the form of notes and similar instruments, unconditionally cashable at sight by the recipient institutions.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>300</code>
+        <name>CAPITAL SUBSCRIPTION</name>
+        <description>Payments to multilateral agencies in the form of notes and similar instruments, unconditionally cashable at sight by the recipient institutions.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>400</code>
+        <name>LOAN</name>
+        <description>Transfers in cash or in kind for which the recipient incurs legal debt.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>400</code>
+        <name>LOAN</name>
+        <description>Transfers in cash or in kind for which the recipient incurs legal debt.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>400</code>
+        <name>LOAN</name>
+        <description>Transfers in cash or in kind for which the recipient incurs legal debt.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>400</code>
+        <name>LOAN</name>
+        <description>Transfers in cash or in kind for which the recipient incurs legal debt.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>400</code>
+        <name>LOAN</name>
+        <description>Transfers in cash or in kind for which the recipient incurs legal debt.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>450</code>
+        <name>EXPORT CREDIT</name>
+        <description>Official or private loans which are primarily export-facilitating in purpose. They are usually tied to a specific export from the extending country and not represented by a negotiable instrument.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>450</code>
+        <name>EXPORT CREDIT</name>
+        <description>Official or private loans which are primarily export-facilitating in purpose. They are usually tied to a specific export from the extending country and not represented by a negotiable instrument.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>450</code>
+        <name>EXPORT CREDIT</name>
+        <description>Official or private loans which are primarily export-facilitating in purpose. They are usually tied to a specific export from the extending country and not represented by a negotiable instrument.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>500</code>
+        <name>EQUITY</name>
+        <description>Investment in a country on the DAC List of ODA Recipients that is not made to acquire a lasting interest in an enterprise.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>500</code>
+        <name>EQUITY</name>
+        <description>Investment in a country on the DAC List of ODA Recipients that is not made to acquire a lasting interest in an enterprise.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>500</code>
+        <name>EQUITY</name>
+        <description>Investment in a country on the DAC List of ODA Recipients that is not made to acquire a lasting interest in an enterprise.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>600</code>
+        <name>DEBT RELIEF</name>
+        <description>Debt cancellations, debt conversions, debt rescheduling within or outside the framework of the Paris Club.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>600</code>
+        <name>DEBT RELIEF</name>
+        <description>Debt cancellations, debt conversions, debt rescheduling within or outside the framework of the Paris Club.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>600</code>
+        <name>DEBT RELIEF</name>
+        <description>Debt cancellations, debt conversions, debt rescheduling within or outside the framework of the Paris Club.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>600</code>
+        <name>DEBT RELIEF</name>
+        <description>Debt cancellations, debt conversions, debt rescheduling within or outside the framework of the Paris Club.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>600</code>
+        <name>DEBT RELIEF</name>
+        <description>Debt cancellations, debt conversions, debt rescheduling within or outside the framework of the Paris Club.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>600</code>
+        <name>DEBT RELIEF</name>
+        <description>Debt cancellations, debt conversions, debt rescheduling within or outside the framework of the Paris Club.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>600</code>
+        <name>DEBT RELIEF</name>
+        <description>Debt cancellations, debt conversions, debt rescheduling within or outside the framework of the Paris Club.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>600</code>
+        <name>DEBT RELIEF</name>
+        <description>Debt cancellations, debt conversions, debt rescheduling within or outside the framework of the Paris Club.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>600</code>
+        <name>DEBT RELIEF</name>
+        <description>Debt cancellations, debt conversions, debt rescheduling within or outside the framework of the Paris Club.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>600</code>
+        <name>DEBT RELIEF</name>
+        <description>Debt cancellations, debt conversions, debt rescheduling within or outside the framework of the Paris Club.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>600</code>
+        <name>DEBT RELIEF</name>
+        <description>Debt cancellations, debt conversions, debt rescheduling within or outside the framework of the Paris Club.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>600</code>
+        <name>DEBT RELIEF</name>
+        <description>Debt cancellations, debt conversions, debt rescheduling within or outside the framework of the Paris Club.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>600</code>
+        <name>DEBT RELIEF</name>
+        <description>Debt cancellations, debt conversions, debt rescheduling within or outside the framework of the Paris Club.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>600</code>
+        <name>DEBT RELIEF</name>
+        <description>Debt cancellations, debt conversions, debt rescheduling within or outside the framework of the Paris Club.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>600</code>
+        <name>DEBT RELIEF</name>
+        <description>Debt cancellations, debt conversions, debt rescheduling within or outside the framework of the Paris Club.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>600</code>
+        <name>DEBT RELIEF</name>
+        <description>Debt cancellations, debt conversions, debt rescheduling within or outside the framework of the Paris Club.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>600</code>
+        <name>DEBT RELIEF</name>
+        <description>Debt cancellations, debt conversions, debt rescheduling within or outside the framework of the Paris Club.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>600</code>
+        <name>DEBT RELIEF</name>
+        <description>Debt cancellations, debt conversions, debt rescheduling within or outside the framework of the Paris Club.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>600</code>
+        <name>DEBT RELIEF</name>
+        <description>Debt cancellations, debt conversions, debt rescheduling within or outside the framework of the Paris Club.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>600</code>
+        <name>DEBT RELIEF</name>
+        <description>Debt cancellations, debt conversions, debt rescheduling within or outside the framework of the Paris Club.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>700</code>
+        <name>INVESTMENT</name>
+        <description>Investment made by a private entity resident in a reporting country to acquire or add to a lasting interest(1) in an enterprise in a country on the DAC List of ODA Recipients.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>700</code>
+        <name>INVESTMENT</name>
+        <description>Investment made by a private entity resident in a reporting country to acquire or add to a lasting interest(1) in an enterprise in a country on the DAC List of ODA Recipients.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>800</code>
+        <name>BONDS</name>
+        <description>Acquisition of bonds issued by developing countries.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>800</code>
+        <name>BONDS</name>
+        <description>Acquisition of bonds issued by developing countries.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>900</code>
+        <name>OTHER SECURITIES/CLAIMS</name>
+        <description/>
+    </codelist-item>
+    <codelist-item>
+        <code>900</code>
+        <name>OTHER SECURITIES/CLAIMS</name>
+        <description/>
+    </codelist-item>
+    <codelist-item>
+        <code>900</code>
+        <name>OTHER SECURITIES/CLAIMS</name>
+        <description/>
+    </codelist-item>
+</codelist>

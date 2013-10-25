@@ -1,0 +1,10 @@
+<codelist name="DocumentCategory-category" xml:lang="en">
+    <codelist-item>
+        <code>A</code>
+        <name>Activity Level</name>
+    </codelist-item>
+    <codelist-item>
+        <code>B</code>
+        <name>Agency Level</name>
+    </codelist-item>
+</codelist>

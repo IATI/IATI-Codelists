@@ -1,0 +1,79 @@
+<codelist name="AidType-category" xml:lang="en">
+    <codelist-item>
+        <code>A</code>
+        <name>Budget support</name>
+        <description>For contributions under this category, the donor relinquishes the exclusive control of its funds by sharing the responsibility with the recipient.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>A</code>
+        <name>Budget support</name>
+        <description>For contributions under this category, the donor relinquishes the exclusive control of its funds by sharing the responsibility with the recipient.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>B</code>
+        <name>Core contributions and pooled programmes and funds</name>
+        <description>For contributions under this category, the donor relinquishes the exclusive control of its funds by sharing the responsibility with other stakeholders (other donors, NGOs, multilateral institutions, Public Private Partnerships). The category covers both core contributions (B01 and B02), and pooled contributions with a specific earmarking (B03 and B04).</description>
+    </codelist-item>
+    <codelist-item>
+        <code>B</code>
+        <name>Core contributions and pooled programmes and funds</name>
+        <description>For contributions under this category, the donor relinquishes the exclusive control of its funds by sharing the responsibility with other stakeholders (other donors, NGOs, multilateral institutions, Public Private Partnerships). The category covers both core contributions (B01 and B02), and pooled contributions with a specific earmarking (B03 and B04).</description>
+    </codelist-item>
+    <codelist-item>
+        <code>B</code>
+        <name>Core contributions and pooled programmes and funds</name>
+        <description>For contributions under this category, the donor relinquishes the exclusive control of its funds by sharing the responsibility with other stakeholders (other donors, NGOs, multilateral institutions, Public Private Partnerships). The category covers both core contributions (B01 and B02), and pooled contributions with a specific earmarking (B03 and B04).</description>
+    </codelist-item>
+    <codelist-item>
+        <code>B</code>
+        <name>Core contributions and pooled programmes and funds</name>
+        <description>For contributions under this category, the donor relinquishes the exclusive control of its funds by sharing the responsibility with other stakeholders (other donors, NGOs, multilateral institutions, Public Private Partnerships). The category covers both core contributions (B01 and B02), and pooled contributions with a specific earmarking (B03 and B04).</description>
+    </codelist-item>
+    <codelist-item>
+        <code>C</code>
+        <name>Project-type interventions</name>
+        <description>N.B. Within this category, members able to do so are requested to report the aggregate amount used for financing donor experts/consultants on Table DAC1. Where the activity consists solely of experts' costs, report under category D.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>D</code>
+        <name>Experts and other technical assistance</name>
+        <description>This category covers the provision, outside projects as described in category C, of know- how in the form of personnel, training and research.</description>
+        <description>Provision, outside projects as described in category C01, of technical assistance in recipient countries (excluding technical assistance performed by donor experts reported under D01, and scholarships/training in donor country reported under E01). This includes training and research; language training; south-south studies; research studies; collaborative research between donor and recipient universities and organisations); local scholarships; development-oriented social and cultural programmes. This category also covers ad hoc contributions such as conferences, seminars and workshops, exchange visits, publications, etc.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>D</code>
+        <name>Experts and other technical assistance</name>
+        <description>This category covers the provision, outside projects as described in category C, of know- how in the form of personnel, training and research.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>E</code>
+        <name>Scholarships and student costs in donor countries</name>
+        <description/>
+    </codelist-item>
+    <codelist-item>
+        <code>E</code>
+        <name>Scholarships and student costs in donor countries</name>
+        <description/>
+    </codelist-item>
+    <codelist-item>
+        <code>F</code>
+        <name>Debt relief</name>
+        <description/>
+        <description>Administrative costs of development assistance programmes not already included under other ODA items as an integral part of the costs of delivering or implementing the aid provided. This category covers situation analyses and auditing activities. As regards the salaries component of administrative costs, it relates to in-house agency staff and contractors only; costs associated with donor experts/consultants are to be reported under category C or D01.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>G</code>
+        <name>Administrative costs not included elsewhere</name>
+        <description/>
+    </codelist-item>
+    <codelist-item>
+        <code>H</code>
+        <name>Other in-donor expenditures</name>
+        <description>Groups a number of contributions that do not give rise to a cross-border flow.</description>
+    </codelist-item>
+    <codelist-item>
+        <code>H</code>
+        <name>Other in-donor expenditures</name>
+        <description>Groups a number of contributions that do not give rise to a cross-border flow.</description>
+    </codelist-item>
+</codelist>
