@@ -4,12 +4,20 @@
 <xs:import namespace="http://www.w3.org/XML/1998/namespace"
            schemaLocation="xml.xsd"/>
 
+<xs:complexType name="text">
+  <xs:simpleContent>
+    <xs:extension base="xs:string">
+      <xs:attribute ref="xml:lang" use="optional" />
+    </xs:extension>
+  </xs:simpleContent>
+</xs:complexType>
+
 <xs:element name="codelist-item">
   <xs:complexType>
     <xs:choice minOccurs="0" maxOccurs="unbounded">
       <xs:element name="code" type="xs:string"/>
-      <xs:element name="name" type="xs:string"/>
-      <xs:element name="description" type="xs:string" minOccurs="0"/>
+      <xs:element name="name" type="text"/>
+      <xs:element name="description" type="text" minOccurs="0"/>
       <xs:element name="category" type="xs:string" minOccurs="0"/>
       <xs:element name="category-name" type="xs:string" minOccurs="0"/>
       <xs:element name="category-description" type="xs:string" minOccurs="0"/>
@@ -27,7 +35,7 @@
     <xs:attribute name="ref" use="optional"/>
     <xs:attribute name="name" use="optional"/>
     <xs:attribute name="description" use="optional"/>
-    <xs:attribute ref="xml:lang" />
+    <xs:attribute ref="xml:lang" use="optional" />
   </xs:complexType>
 </xs:element>
 
