@@ -1,4 +1,4 @@
-<codelist name="OrganisationType" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
+<codelist name="OrganisationType"   xml:lang="en">
     <codelist-item>
         <code>10</code>
         <name>Government</name>

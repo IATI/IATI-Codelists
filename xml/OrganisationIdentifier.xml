@@ -1,4 +1,4 @@
-<codelist name="OrganisationIdentifier" date-last-modified="2012-10-01T12:00:00Z" version="1.01" xml:lang="en">
+<codelist name="OrganisationIdentifier"   xml:lang="en">
     <codelist-item>
         <code>AT-1</code>
         <abbreviation>BMF</abbreviation>

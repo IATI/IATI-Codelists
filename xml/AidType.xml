@@ -1,4 +1,4 @@
-<codelist name="AidType" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
+<codelist name="AidType"   xml:lang="en">
     <codelist-item>
         <code>A01</code>
         <name>General budget support</name>

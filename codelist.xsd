@@ -27,8 +27,6 @@
     </xs:choice>
     <xs:attribute name="ref" use="optional"/>
     <xs:attribute name="name" use="optional"/>
-    <xs:attribute name="date-last-modified" use="optional"/>
-    <xs:attribute name="version" use="optional"/>
     <xs:attribute name="description" use="optional"/>
     <xs:attribute ref="xml:lang" />
   </xs:complexType>

@@ -1,4 +1,4 @@
-<codelist description="IATI Functional and Administrative Common Code : One of several possible Budget Identifier Vocabularies" name="BudgetIdentifier" date-last-modified="2013-05-13T10:38:41.239Z" version="1.0" xml:lang="en">
+<codelist description="IATI Functional and Administrative Common Code : One of several possible Budget Identifier Vocabularies" name="BudgetIdentifier"   xml:lang="en">
     <codelist-item>
         <code>1.1.1</code>
         <name>Executive - executive</name>

@@ -1,4 +1,4 @@
-<codelist description="Categories of information included in published documents" name="DisbursementChannel" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
+<codelist description="Categories of information included in published documents" name="DisbursementChannel"   xml:lang="en">
     <codelist-item>
         <code>1</code>
         <name>Money is disbursed through central Ministry of Finance or Treasury</name>

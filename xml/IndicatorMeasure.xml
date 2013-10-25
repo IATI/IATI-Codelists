@@ -1,4 +1,4 @@
-<codelist description="To specify the language of titles, descriptions and documents" name="IndicatorMeasure" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
+<codelist description="To specify the language of titles, descriptions and documents" name="IndicatorMeasure"   xml:lang="en">
     <codelist-item>
         <code>1</code>
         <name>Unit</name>

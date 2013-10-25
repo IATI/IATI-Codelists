@@ -1,4 +1,4 @@
-<codelist description="DAC/CRS classification used to determine the character of resource flows (bilateral or multilateral)." name="BudgetType" date-last-modified="2012-03-02T16:37:03.457Z" version="1.0" xml:lang="en">
+<codelist description="DAC/CRS classification used to determine the character of resource flows (bilateral or multilateral)." name="BudgetType"   xml:lang="en">
     <codelist-item>
         <code>1</code>
         <name>Original</name>

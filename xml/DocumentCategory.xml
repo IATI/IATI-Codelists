@@ -1,4 +1,4 @@
-<codelist name="DocumentCategory" date-last-modified="2013-03-25T15:59:56Z" version="1.02" xml:lang="en">
+<codelist name="DocumentCategory"   xml:lang="en">
     <codelist-item>
         <code>A01</code>
         <name>Pre- and post-project impact appraisal</name>

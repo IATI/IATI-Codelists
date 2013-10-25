@@ -1,4 +1,4 @@
-<codelist description="ISO 4217 Currency used for all transactions and budgets" name="Currency" date-last-modified="2013-03-20T16:37:03.457Z" version="1.01" xml:lang="en">
+<codelist description="ISO 4217 Currency used for all transactions and budgets" name="Currency"   xml:lang="en">
     <codelist-item>
         <code>AED</code>
         <name>UAE Dirham</name>
