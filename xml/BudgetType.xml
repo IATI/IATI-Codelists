@@ -2,11 +2,9 @@
     <codelist-item>
         <code>1</code>
         <name>Original</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>2</code>
         <name>Revised</name>
-        <language>en</language>
     </codelist-item>
 </codelist>

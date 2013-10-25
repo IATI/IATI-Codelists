@@ -2,26 +2,21 @@
     <codelist-item>
         <code>1</code>
         <name>Pipeline/identification</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>2</code>
         <name>Implementation</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>3</code>
         <name>Completion</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>4</code>
         <name>Post-completion</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>5</code>
         <name>Cancelled</name>
-        <language>en</language>
     </codelist-item>
 </codelist>

@@ -2,16 +2,13 @@
     <codelist-item>
         <code>2</code>
         <name>Performance</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>1</code>
         <name>Policy</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>3</code>
         <name>Fiduciary</name>
-        <language>en</language>
     </codelist-item>
 </codelist>

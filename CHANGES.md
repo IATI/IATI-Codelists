@@ -16,3 +16,10 @@ An [xsd schema](https://github.com/Bjwebb/IATI-Codelists/blob/74cb1a5371b6027264
 
 The codelist list was stripped down to simply reference the codelists, and the descriptions moved to the individual codelist files.
 
+## Transition to GitHub for versioning
+
+Since GitHub is now used for version tracking the @version and @date-last-modified attributes are no longer needed, so have been removed.
+
+## Language changes
+
+The language element has been removed

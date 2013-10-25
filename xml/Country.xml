@@ -2,1246 +2,997 @@
     <codelist-item>
         <code>AF</code>
         <name>AFGHANISTAN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>AX</code>
         <name>ÅLAND ISLANDS</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>AL</code>
         <name>ALBANIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>DZ</code>
         <name>ALGERIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>AS</code>
         <name>AMERICAN SAMOA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>AD</code>
         <name>ANDORRA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>AO</code>
         <name>ANGOLA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>AI</code>
         <name>ANGUILLA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>AQ</code>
         <name>ANTARCTICA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>AG</code>
         <name>ANTIGUA AND BARBUDA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>AR</code>
         <name>ARGENTINA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>AM</code>
         <name>ARMENIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>AW</code>
         <name>ARUBA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>AU</code>
         <name>AUSTRALIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>AT</code>
         <name>AUSTRIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>AZ</code>
         <name>AZERBAIJAN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>BS</code>
         <name>BAHAMAS</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>BH</code>
         <name>BAHRAIN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>BD</code>
         <name>BANGLADESH</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>BB</code>
         <name>BARBADOS</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>BY</code>
         <name>BELARUS</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>BE</code>
         <name>BELGIUM</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>BZ</code>
         <name>BELIZE</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>BJ</code>
         <name>BENIN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>BM</code>
         <name>BERMUDA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>BT</code>
         <name>BHUTAN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>BO</code>
         <name>BOLIVIA, PLURINATIONAL STATE OF</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>BQ</code>
         <name>BONAIRE, SAINT EUSTATIUS AND SABA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>BA</code>
         <name>BOSNIA AND HERZEGOVINA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>BW</code>
         <name>BOTSWANA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>BV</code>
         <name>BOUVET ISLAND</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>BR</code>
         <name>BRAZIL</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>IO</code>
         <name>BRITISH INDIAN OCEAN TERRITORY</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>BN</code>
         <name>BRUNEI DARUSSALAM</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>BG</code>
         <name>BULGARIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>BF</code>
         <name>BURKINA FASO</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>BI</code>
         <name>BURUNDI</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>KH</code>
         <name>CAMBODIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>CM</code>
         <name>CAMEROON</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>CA</code>
         <name>CANADA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>CV</code>
         <name>CAPE VERDE</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>KY</code>
         <name>CAYMAN ISLANDS</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>CF</code>
         <name>CENTRAL AFRICAN REPUBLIC</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>TD</code>
         <name>CHAD</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>CL</code>
         <name>CHILE</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>CN</code>
         <name>CHINA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>CX</code>
         <name>CHRISTMAS ISLAND</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>CC</code>
         <name>COCOS (KEELING) ISLANDS</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>CO</code>
         <name>COLOMBIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>KM</code>
         <name>COMOROS</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>CG</code>
         <name>CONGO</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>CD</code>
         <name>CONGO, THE DEMOCRATIC REPUBLIC OF THE</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>CK</code>
         <name>COOK ISLANDS</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>CR</code>
         <name>COSTA RICA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>CI</code>
         <name>CÔTE D'IVOIRE</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>HR</code>
         <name>CROATIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>CU</code>
         <name>CUBA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>CW</code>
         <name>CURAÇAO</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>CY</code>
         <name>CYPRUS</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>CZ</code>
         <name>CZECH REPUBLIC</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>DK</code>
         <name>DENMARK</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>DJ</code>
         <name>DJIBOUTI</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>DM</code>
         <name>DOMINICA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>DO</code>
         <name>DOMINICAN REPUBLIC</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>EC</code>
         <name>ECUADOR</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>EG</code>
         <name>EGYPT</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>SV</code>
         <name>EL SALVADOR</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>GQ</code>
         <name>EQUATORIAL GUINEA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>ER</code>
         <name>ERITREA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>EE</code>
         <name>ESTONIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>ET</code>
         <name>ETHIOPIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>FK</code>
         <name>FALKLAND ISLANDS (MALVINAS)</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>FO</code>
         <name>FAROE ISLANDS</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>FJ</code>
         <name>FIJI</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>FI</code>
         <name>FINLAND</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>FR</code>
         <name>FRANCE</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>GF</code>
         <name>FRENCH GUIANA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>PF</code>
         <name>FRENCH POLYNESIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>TF</code>
         <name>FRENCH SOUTHERN TERRITORIES</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>GA</code>
         <name>GABON</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>GM</code>
         <name>GAMBIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>GE</code>
         <name>GEORGIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>DE</code>
         <name>GERMANY</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>GH</code>
         <name>GHANA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>GI</code>
         <name>GIBRALTAR</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>GR</code>
         <name>GREECE</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>GL</code>
         <name>GREENLAND</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>GD</code>
         <name>GRENADA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>GP</code>
         <name>GUADELOUPE</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>GU</code>
         <name>GUAM</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>GT</code>
         <name>GUATEMALA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>GG</code>
         <name>GUERNSEY</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>GN</code>
         <name>GUINEA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>GW</code>
         <name>GUINEA-BISSAU</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>GY</code>
         <name>GUYANA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>HT</code>
         <name>HAITI</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>HM</code>
         <name>HEARD ISLAND AND MCDONALD ISLANDS</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>VA</code>
         <name>HOLY SEE (VATICAN CITY STATE)</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>HN</code>
         <name>HONDURAS</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>HK</code>
         <name>HONG KONG</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>HU</code>
         <name>HUNGARY</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>IS</code>
         <name>ICELAND</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>IN</code>
         <name>INDIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>ID</code>
         <name>INDONESIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>IR</code>
         <name>IRAN, ISLAMIC REPUBLIC OF</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>IQ</code>
         <name>IRAQ</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>IE</code>
         <name>IRELAND</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>IM</code>
         <name>ISLE OF MAN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>IL</code>
         <name>ISRAEL</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>IT</code>
         <name>ITALY</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>JM</code>
         <name>JAMAICA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>JP</code>
         <name>JAPAN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>JE</code>
         <name>JERSEY</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>JO</code>
         <name>JORDAN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>KZ</code>
         <name>KAZAKHSTAN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>KE</code>
         <name>KENYA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>KI</code>
         <name>KIRIBATI</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>KP</code>
         <name>KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>KR</code>
         <name>KOREA, REPUBLIC OF</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>KW</code>
         <name>KUWAIT</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>KG</code>
         <name>KYRGYZSTAN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>LA</code>
         <name>LAO PEOPLE'S DEMOCRATIC REPUBLIC</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>LV</code>
         <name>LATVIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>LB</code>
         <name>LEBANON</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>LS</code>
         <name>LESOTHO</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>LR</code>
         <name>LIBERIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>LY</code>
         <name>LIBYAN ARAB JAMAHIRIYA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>LI</code>
         <name>LIECHTENSTEIN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>LT</code>
         <name>LITHUANIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>LU</code>
         <name>LUXEMBOURG</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>MO</code>
         <name>MACAO</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>MK</code>
         <name>MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>MG</code>
         <name>MADAGASCAR</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>MW</code>
         <name>MALAWI</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>MY</code>
         <name>MALAYSIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>MV</code>
         <name>MALDIVES</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>ML</code>
         <name>MALI</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>MT</code>
         <name>MALTA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>MH</code>
         <name>MARSHALL ISLANDS</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>MQ</code>
         <name>MARTINIQUE</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>MR</code>
         <name>MAURITANIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>MU</code>
         <name>MAURITIUS</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>YT</code>
         <name>MAYOTTE</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>MX</code>
         <name>MEXICO</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>FM</code>
         <name>MICRONESIA, FEDERATED STATES OF</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>MD</code>
         <name>MOLDOVA, REPUBLIC OF</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>MC</code>
         <name>MONACO</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>MN</code>
         <name>MONGOLIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>ME</code>
         <name>MONTENEGRO</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>MS</code>
         <name>MONTSERRAT</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>MA</code>
         <name>MOROCCO</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>MZ</code>
         <name>MOZAMBIQUE</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>MM</code>
         <name>MYANMAR</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>NA</code>
         <name>NAMIBIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>NR</code>
         <name>NAURU</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>NP</code>
         <name>NEPAL</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>NL</code>
         <name>NETHERLANDS</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>NC</code>
         <name>NEW CALEDONIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>NZ</code>
         <name>NEW ZEALAND</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>NI</code>
         <name>NICARAGUA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>NE</code>
         <name>NIGER</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>NG</code>
         <name>NIGERIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>NU</code>
         <name>NIUE</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>NF</code>
         <name>NORFOLK ISLAND</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>MP</code>
         <name>NORTHERN MARIANA ISLANDS</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>NO</code>
         <name>NORWAY</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>OM</code>
         <name>OMAN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>PK</code>
         <name>PAKISTAN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>PW</code>
         <name>PALAU</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>PS</code>
         <name>PALESTINIAN TERRITORY, OCCUPIED</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>PA</code>
         <name>PANAMA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>PG</code>
         <name>PAPUA NEW GUINEA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>PY</code>
         <name>PARAGUAY</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>PE</code>
         <name>PERU</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>PH</code>
         <name>PHILIPPINES</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>PN</code>
         <name>PITCAIRN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>PL</code>
         <name>POLAND</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>PT</code>
         <name>PORTUGAL</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>PR</code>
         <name>PUERTO RICO</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>QA</code>
         <name>QATAR</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>RE</code>
         <name>REUNION</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>RO</code>
         <name>ROMANIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>RU</code>
         <name>RUSSIAN FEDERATION</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>RW</code>
         <name>RWANDA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>BL</code>
         <name>SAINT BARTHÉLEMY</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>SH</code>
         <name>SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>KN</code>
         <name>SAINT KITTS AND NEVIS</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>LC</code>
         <name>SAINT LUCIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>MF</code>
         <name>SAINT MARTIN (FRENCH PART)</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>PM</code>
         <name>SAINT PIERRE AND MIQUELON</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>VC</code>
         <name>SAINT VINCENT AND THE GRENADINES</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>WS</code>
         <name>SAMOA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>SM</code>
         <name>SAN MARINO</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>ST</code>
         <name>SAO TOME AND PRINCIPE</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>SA</code>
         <name>SAUDI ARABIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>SN</code>
         <name>SENEGAL</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>RS</code>
         <name>SERBIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>SC</code>
         <name>SEYCHELLES</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>SL</code>
         <name>SIERRA LEONE</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>SG</code>
         <name>SINGAPORE</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>SX</code>
         <name>SINT MAARTEN (DUTCH PART)</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>SK</code>
         <name>SLOVAKIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>SI</code>
         <name>SLOVENIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>SB</code>
         <name>SOLOMON ISLANDS</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>SO</code>
         <name>SOMALIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>ZA</code>
         <name>SOUTH AFRICA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>GS</code>
         <name>SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>SS</code>
         <name>SOUTH SUDAN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>ES</code>
         <name>SPAIN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>LK</code>
         <name>SRI LANKA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>SD</code>
         <name>SUDAN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>SR</code>
         <name>SURINAME</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>SJ</code>
         <name>SVALBARD AND JAN MAYEN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>SZ</code>
         <name>SWAZILAND</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>SE</code>
         <name>SWEDEN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>CH</code>
         <name>SWITZERLAND</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>SY</code>
         <name>SYRIAN ARAB REPUBLIC</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>TW</code>
         <name>TAIWAN, PROVINCE OF CHINA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>TJ</code>
         <name>TAJIKISTAN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>TZ</code>
         <name>TANZANIA, UNITED REPUBLIC OF</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>TH</code>
         <name>THAILAND</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>TL</code>
         <name>TIMOR-LESTE</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>TG</code>
         <name>TOGO</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>TK</code>
         <name>TOKELAU</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>TO</code>
         <name>TONGA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>TT</code>
         <name>TRINIDAD AND TOBAGO</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>TN</code>
         <name>TUNISIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>TR</code>
         <name>TURKEY</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>TM</code>
         <name>TURKMENISTAN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>TC</code>
         <name>TURKS AND CAICOS ISLANDS</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>TV</code>
         <name>TUVALU</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>UG</code>
         <name>UGANDA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>UA</code>
         <name>UKRAINE</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>AE</code>
         <name>UNITED ARAB EMIRATES</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>GB</code>
         <name>UNITED KINGDOM</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>US</code>
         <name>UNITED STATES</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>UM</code>
         <name>UNITED STATES MINOR OUTLYING ISLANDS</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>UY</code>
         <name>URUGUAY</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>UZ</code>
         <name>UZBEKISTAN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>VU</code>
         <name>VANUATU</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>VE</code>
         <name>VENEZUELA, BOLIVARIAN REPUBLIC OF</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>VN</code>
         <name>VIET NAM</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>VG</code>
         <name>VIRGIN ISLANDS, BRITISH</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>VI</code>
         <name>VIRGIN ISLANDS, U.S.</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>WF</code>
         <name>WALLIS AND FUTUNA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>EH</code>
         <name>WESTERN SAHARA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>YE</code>
         <name>YEMEN</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>ZM</code>
         <name>ZAMBIA</name>
-        <language>en</language>
     </codelist-item>
     <codelist-item>
         <code>ZW</code>
         <name>ZIMBABWE</name>
-        <language>en</language>
     </codelist-item>
 </codelist>
