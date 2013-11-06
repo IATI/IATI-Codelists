@@ -16,7 +16,16 @@ for mapping in ET.parse(mapping_file).getroot().findall('mapping'):
     codelist_name = mapping.find('codelist').attrib['ref']
     codelist = ET.parse('xml/{0}.xml'.format(codelist_name))
     codes = [ x.text for x in codelist.xpath('//code') ]
-    for code in root.xpath(mapping.find('path').text):
-        if not code in codes:
-            print('{0} not in {1}'.format(code, codelist_name))
+    if mapping.find('base') is not None:
+        bases = root.xpath(mapping.find('base').text)
+    else:
+        bases = [ root ]
+    for base in bases:
+        if mapping.find('condition') is not None:
+            if not base.xpath(mapping.find('condition').text):
+                print(base.xpath(mapping.find('condition').text))
+                continue
+        for code in base.xpath(mapping.find('path').text):
+            if not code in codes:
+                print('{0} not in {1}'.format(code, codelist_name))
 

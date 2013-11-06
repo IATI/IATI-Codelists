@@ -1,0 +1,24 @@
+<mappings>
+    <mapping>
+        <path>//iati-activity/activity-status/@code</path>
+        <codelist ref="ActivityStatus" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/recipient-country/@code</path>
+        <codelist ref="Country" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/recipient-region/@code</path>
+        <codelist ref="Region" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/transaction/transaction-type/@code</path>
+        <codelist ref="TransactionType" />
+    </mapping>
+    <mapping>
+        <base>//iati-activity/sector</base>
+        <path>@code</path>
+        <codelist ref="Sector" />
+        <condition>count(@vocabulary) = 0 or @vocabulary = 'DAC'</condition>
+    </mapping>
+</mappings>
