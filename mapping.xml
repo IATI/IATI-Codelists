@@ -71,14 +71,14 @@
         <path>//iati-activity/location/location-type/@code</path>
         <codelist ref="LocationType" />
     </mapping>
-    <mapping>
+    <!--<mapping>
         <path>//iati-activity/other-identifier/@owner-ref</path>
         <codelist ref="OrganisationIdentifier" />
     </mapping>
     <mapping>
         <path>//iati-activity/participating-org/@ref</path>
         <codelist ref="OrganisationIdentifier" />
-    </mapping>
+    </mapping>-->
     <mapping>
         <path>//iati-activity/participating-org/@role</path>
         <codelist ref="OrganisationRole" />
@@ -115,10 +115,12 @@
         <path>//iati-activity/related-activity/@type</path>
         <codelist ref="RelatedActivityType" />
     </mapping>
+    <!--
     <mapping>
         <path>//iati-activity/reporting-org/@ref</path>
         <codelist ref="OrganisationIdentifier" />
     </mapping>
+    -->
     <mapping>
         <path>//iati-activity/reporting-org/@type</path>
         <codelist ref="OrganisationType" />
@@ -151,6 +153,7 @@
         <path>//iati-activity/transaction/flow-type/@code</path>
         <codelist ref="FlowType" />
     </mapping>
+    <!--
     <mapping>
         <path>//iati-activity/transaction/provider-org/@ref</path>
         <codelist ref="OrganisationIdentifier" />
@@ -159,6 +162,7 @@
         <path>//iati-activity/transaction/receiver-org/@ref</path>
         <codelist ref="OrganisationIdentifier" />
     </mapping>
+    -->
     <mapping>
         <path>//iati-activity/transaction/tied-status/@code</path>
         <codelist ref="TiedStatus" />
