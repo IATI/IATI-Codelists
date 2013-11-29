@@ -1,9 +1,12 @@
 from lxml import etree as ET
 import os, json
 import csv
+from functools import partial
 
-def codelist_item_todict(codelist_item):
-    return dict([ (child.tag, child.text) for child in codelist_item ])
+xml_lang = '{http://www.w3.org/XML/1998/namespace}lang'
+
+def codelist_item_todict(codelist_item, default_lang='', lang='en'):
+    return dict([ (child.tag, child.text) for child in codelist_item if child.attrib.get(xml_lang) == lang or (child.attrib.get(xml_lang) == None and lang == default_lang) ])
 
 def utf8_encode_dict(d):
     def enc(a):
@@ -19,7 +22,8 @@ for fname in os.listdir('xml'):
     attrib = codelist.getroot().attrib
     assert attrib['name'] == fname.replace('.xml','')
 
-    codelist_dicts = map(codelist_item_todict, codelist.getroot().findall('codelist-item'))
+    default_lang = codelist.getroot().attrib.get(xml_lang)
+    codelist_dicts = map(partial(codelist_item_todict, default_lang=default_lang), codelist.getroot().findall('codelist-item'))
 
     ## CSV
     # TODO take this directly from scheam
