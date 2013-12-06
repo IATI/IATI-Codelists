@@ -1,7 +1,7 @@
 #!/bin/bash
 
 rm -rf IATI-Codelists-External combined-xml
-git clone git@github.com:IATI/IATI-Codelists-External.git
+git clone https://github.com/IATI/IATI-Codelists-External.git
 
 mkdir combined-xml
 cp xml/* combined-xml
