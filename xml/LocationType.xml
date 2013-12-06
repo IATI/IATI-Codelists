@@ -1,42 +1,47 @@
-<codelist description="This list is composed of the three separate lists on the original IATI site." name="LocationType"   xml:lang="en">
-    <codelist-item>
-        <code>ADM1</code>
-        <name>first-order administrative division</name>
-    </codelist-item>
-    <codelist-item>
-        <code>ADM2</code>
-        <name>second-order administrative division</name>
-    </codelist-item>
-    <codelist-item>
-        <code>CNS</code>
-        <name>concession area</name>
-    </codelist-item>
-    <codelist-item>
-        <code>FRM</code>
-        <name>farm</name>
-    </codelist-item>
-    <codelist-item>
-        <code>PCL</code>
-        <name>political entity (i.e. a country)</name>
-    </codelist-item>
-    <codelist-item>
-        <code>PPL</code>
-        <name>populated place</name>
-    </codelist-item>
-    <codelist-item>
-        <code>PPLA</code>
-        <name>seat of a first-order administrative division</name>
-    </codelist-item>
-    <codelist-item>
-        <code>PPLA2</code>
-        <name>seat of a second-order administrative division</name>
-    </codelist-item>
-    <codelist-item>
-        <code>PPLC</code>
-        <name>capital of a political entity</name>
-    </codelist-item>
-    <codelist-item>
-        <code>RES</code>
-        <name>reserve</name>
-    </codelist-item>
+<codelist name="LocationType"   xml:lang="en">
+    <metadata>
+        <description>This list is composed of the three separate lists on the original IATI site.</description>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>ADM1</code>
+            <name>first-order administrative division</name>
+        </codelist-item>
+        <codelist-item>
+            <code>ADM2</code>
+            <name>second-order administrative division</name>
+        </codelist-item>
+        <codelist-item>
+            <code>CNS</code>
+            <name>concession area</name>
+        </codelist-item>
+        <codelist-item>
+            <code>FRM</code>
+            <name>farm</name>
+        </codelist-item>
+        <codelist-item>
+            <code>PCL</code>
+            <name>political entity (i.e. a country)</name>
+        </codelist-item>
+        <codelist-item>
+            <code>PPL</code>
+            <name>populated place</name>
+        </codelist-item>
+        <codelist-item>
+            <code>PPLA</code>
+            <name>seat of a first-order administrative division</name>
+        </codelist-item>
+        <codelist-item>
+            <code>PPLA2</code>
+            <name>seat of a second-order administrative division</name>
+        </codelist-item>
+        <codelist-item>
+            <code>PPLC</code>
+            <name>capital of a political entity</name>
+        </codelist-item>
+        <codelist-item>
+            <code>RES</code>
+            <name>reserve</name>
+        </codelist-item>
+    </codelist-items>
 </codelist>

@@ -1,14 +1,19 @@
-<codelist description="An online resource that holds coordinates and descriptions of geographic locations " name="GazetteerAgency"   xml:lang="en">
-    <codelist-item>
-        <code>GEO</code>
-        <name>Geonames.org</name>
-    </codelist-item>
-    <codelist-item>
-        <code>NGA</code>
-        <name>National Geospatial-Intelligence Agency</name>
-    </codelist-item>
-    <codelist-item>
-        <code>OSM</code>
-        <name>Open Street Map</name>
-    </codelist-item>
+<codelist name="GazetteerAgency"   xml:lang="en">
+    <metadata>
+        <description>An online resource that holds coordinates and descriptions of geographic locations </description>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>GEO</code>
+            <name>Geonames.org</name>
+        </codelist-item>
+        <codelist-item>
+            <code>NGA</code>
+            <name>National Geospatial-Intelligence Agency</name>
+        </codelist-item>
+        <codelist-item>
+            <code>OSM</code>
+            <name>Open Street Map</name>
+        </codelist-item>
+    </codelist-items>
 </codelist>

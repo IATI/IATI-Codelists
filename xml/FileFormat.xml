@@ -1,47 +1,52 @@
-<codelist description="File format of published documents" name="FileFormat"   xml:lang="en">
-    <codelist-item>
-        <code>application/msword</code>
-        <name>Microsoft Word</name>
-        <name xml:lang="fr">Microsoft Word</name>
-    </codelist-item>
-    <codelist-item>
-        <code>application/pdf</code>
-        <name>Portable Data Format</name>
-        <name xml:lang="fr">PDF</name>
-    </codelist-item>
-    <codelist-item>
-        <code>application/rtf</code>
-        <name>Rich Text Format</name>
-        <name xml:lang="fr">RTF</name>
-    </codelist-item>
-    <codelist-item>
-        <code>application/vnd.ms-excel</code>
-        <name>Microsoft Excel</name>
-        <name xml:lang="fr">Microsoft Excel</name>
-    </codelist-item>
-    <codelist-item>
-        <code>application/vnd.ms-powerpoint</code>
-        <name>Microsoft Powerpoint</name>
-        <name xml:lang="fr">Microsoft Powerpoint</name>
-    </codelist-item>
-    <codelist-item>
-        <code>text/csv</code>
-        <name>Comma Separated Values</name>
-        <name xml:lang="fr">CSV</name>
-    </codelist-item>
-    <codelist-item>
-        <code>text/html</code>
-        <name>Hypertext Markup Language</name>
-        <name xml:lang="fr">HTML</name>
-    </codelist-item>
-    <codelist-item>
-        <code>text/plain</code>
-        <name>Text only</name>
-        <name xml:lang="fr">Texte</name>
-    </codelist-item>
-    <codelist-item>
-        <code>text/xml</code>
-        <name>Extensible Markup Language</name>
-        <name xml:lang="fr">XML</name>
-    </codelist-item>
+<codelist name="FileFormat"   xml:lang="en">
+    <metadata>
+        <description>File format of published documents</description>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>application/msword</code>
+            <name>Microsoft Word</name>
+            <name xml:lang="fr">Microsoft Word</name>
+        </codelist-item>
+        <codelist-item>
+            <code>application/pdf</code>
+            <name>Portable Data Format</name>
+            <name xml:lang="fr">PDF</name>
+        </codelist-item>
+        <codelist-item>
+            <code>application/rtf</code>
+            <name>Rich Text Format</name>
+            <name xml:lang="fr">RTF</name>
+        </codelist-item>
+        <codelist-item>
+            <code>application/vnd.ms-excel</code>
+            <name>Microsoft Excel</name>
+            <name xml:lang="fr">Microsoft Excel</name>
+        </codelist-item>
+        <codelist-item>
+            <code>application/vnd.ms-powerpoint</code>
+            <name>Microsoft Powerpoint</name>
+            <name xml:lang="fr">Microsoft Powerpoint</name>
+        </codelist-item>
+        <codelist-item>
+            <code>text/csv</code>
+            <name>Comma Separated Values</name>
+            <name xml:lang="fr">CSV</name>
+        </codelist-item>
+        <codelist-item>
+            <code>text/html</code>
+            <name>Hypertext Markup Language</name>
+            <name xml:lang="fr">HTML</name>
+        </codelist-item>
+        <codelist-item>
+            <code>text/plain</code>
+            <name>Text only</name>
+            <name xml:lang="fr">Texte</name>
+        </codelist-item>
+        <codelist-item>
+            <code>text/xml</code>
+            <name>Extensible Markup Language</name>
+            <name xml:lang="fr">XML</name>
+        </codelist-item>
+    </codelist-items>
 </codelist>

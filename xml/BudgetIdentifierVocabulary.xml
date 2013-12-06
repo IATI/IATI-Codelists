@@ -1,22 +1,27 @@
-<codelist description="ISO 3166 alpha 2 Country codes" name="BudgetIdentifierVocabulary"   xml:lang="en">
-    <codelist-item>
-        <code>1</code>
-        <name>IATI</name>
-    </codelist-item>
-    <codelist-item>
-        <code>2</code>
-        <name>Country Chart of Accounts</name>
-    </codelist-item>
-    <codelist-item>
-        <code>3</code>
-        <name>Other Country System</name>
-    </codelist-item>
-    <codelist-item>
-        <code>4</code>
-        <name>Reporting Organisation</name>
-    </codelist-item>
-    <codelist-item>
-        <code>5</code>
-        <name>Other</name>
-    </codelist-item>
+<codelist name="BudgetIdentifierVocabulary"   xml:lang="en">
+    <metadata>
+        <description>ISO 3166 alpha 2 Country codes</description>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>1</code>
+            <name>IATI</name>
+        </codelist-item>
+        <codelist-item>
+            <code>2</code>
+            <name>Country Chart of Accounts</name>
+        </codelist-item>
+        <codelist-item>
+            <code>3</code>
+            <name>Other Country System</name>
+        </codelist-item>
+        <codelist-item>
+            <code>4</code>
+            <name>Reporting Organisation</name>
+        </codelist-item>
+        <codelist-item>
+            <code>5</code>
+            <name>Other</name>
+        </codelist-item>
+    </codelist-items>
 </codelist>

@@ -1,20 +1,25 @@
-<codelist description="Activity decription types. (General, objectives, etc)" name="DescriptionType"   xml:lang="en">
-    <codelist-item>
-        <code>1</code>
-        <name>General</name>
-        <name xml:lang="fr">Général</name>
-        <description>Long description of the activity with no particular structure</description>
-    </codelist-item>
-    <codelist-item>
-        <code>2</code>
-        <name>Objectives</name>
-        <name xml:lang="fr">Objectifs</name>
-        <description>Objectives for the activity, for example from a logical framework</description>
-    </codelist-item>
-    <codelist-item>
-        <code>3</code>
-        <name>Target Groups</name>
-        <name xml:lang="fr">Groupes cibles</name>
-        <description>Statement of groups targeted to benefit from the activity</description>
-    </codelist-item>
+<codelist name="DescriptionType"   xml:lang="en">
+    <metadata>
+        <description>Activity decription types. (General, objectives, etc)</description>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>1</code>
+            <name>General</name>
+            <name xml:lang="fr">Général</name>
+            <description>Long description of the activity with no particular structure</description>
+        </codelist-item>
+        <codelist-item>
+            <code>2</code>
+            <name>Objectives</name>
+            <name xml:lang="fr">Objectifs</name>
+            <description>Objectives for the activity, for example from a logical framework</description>
+        </codelist-item>
+        <codelist-item>
+            <code>3</code>
+            <name>Target Groups</name>
+            <name xml:lang="fr">Groupes cibles</name>
+            <description>Statement of groups targeted to benefit from the activity</description>
+        </codelist-item>
+    </codelist-items>
 </codelist>

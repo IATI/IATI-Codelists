@@ -1,10 +1,13 @@
 <codelist name="RegionVocabulary"   xml:lang="en">
-    <codelist-item>
-        <code>1</code>
-        <name>DAC</name>
-    </codelist-item>
-    <codelist-item>
-        <code>2</code>
-        <name>UN</name>
-    </codelist-item>
+    <metadata/>
+    <codelist-items>
+        <codelist-item>
+            <code>1</code>
+            <name>DAC</name>
+        </codelist-item>
+        <codelist-item>
+            <code>2</code>
+            <name>UN</name>
+        </codelist-item>
+    </codelist-items>
 </codelist>

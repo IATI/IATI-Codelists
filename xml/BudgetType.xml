@@ -1,12 +1,17 @@
-<codelist description="DAC/CRS classification used to determine the character of resource flows (bilateral or multilateral)." name="BudgetType"   xml:lang="en">
-    <codelist-item>
-        <code>1</code>
-        <name>Original</name>
-        <name xml:lang="fr">Original</name>
-    </codelist-item>
-    <codelist-item>
-        <code>2</code>
-        <name>Revised</name>
-        <name xml:lang="fr">Révisé</name>
-    </codelist-item>
+<codelist name="BudgetType"   xml:lang="en">
+    <metadata>
+        <description>DAC/CRS classification used to determine the character of resource flows (bilateral or multilateral).</description>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>1</code>
+            <name>Original</name>
+            <name xml:lang="fr">Original</name>
+        </codelist-item>
+        <codelist-item>
+            <code>2</code>
+            <name>Revised</name>
+            <name xml:lang="fr">Révisé</name>
+        </codelist-item>
+    </codelist-items>
 </codelist>

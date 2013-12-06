@@ -17,21 +17,35 @@
     <xs:choice minOccurs="0" maxOccurs="unbounded">
       <xs:element name="code" type="xs:string"/>
       <xs:element name="name" type="text"/>
-      <xs:element name="description" type="text" minOccurs="0"/>
-      <xs:element name="category" type="xs:string" minOccurs="0"/>
-      <xs:element name="sector" type="xs:string" minOccurs="0"/>
+      <xs:element name="description" type="text" />
+      <xs:element name="category" type="xs:string" />
+    </xs:choice>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="codelist-items"> 
+  <xs:complexType>
+    <xs:choice minOccurs="0" maxOccurs="unbounded">
+      <xs:element ref="codelist-item"/>
     </xs:choice>
   </xs:complexType>
 </xs:element>
 
 <xs:element name="codelist"> 
   <xs:complexType>
-    <xs:choice minOccurs="0" maxOccurs="unbounded">
-      <xs:element ref="codelist-item"/>
-    </xs:choice>
+    <xs:sequence>
+      <xs:element name="metadata">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="name" type="text"/>
+            <xs:element name="description" type="text" />
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+      <xs:element ref="codelist-items"/>
+    </xs:sequence>
     <xs:attribute name="ref" use="optional"/>
     <xs:attribute name="name" use="optional"/>
-    <xs:attribute name="description" use="optional"/>
     <xs:attribute name="category-codelist" use="optional"/>
     <xs:attribute ref="xml:lang" use="optional" />
   </xs:complexType>

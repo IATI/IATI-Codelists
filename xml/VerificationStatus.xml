@@ -1,10 +1,13 @@
 <codelist name="VerificationStatus"   xml:lang="en">
-    <codelist-item>
-        <code>0</code>
-        <name>Not verified</name>
-    </codelist-item>
-    <codelist-item>
-        <code>1</code>
-        <name>Verified</name>
-    </codelist-item>
+    <metadata/>
+    <codelist-items>
+        <codelist-item>
+            <code>0</code>
+            <name>Not verified</name>
+        </codelist-item>
+        <codelist-item>
+            <code>1</code>
+            <name>Verified</name>
+        </codelist-item>
+    </codelist-items>
 </codelist>

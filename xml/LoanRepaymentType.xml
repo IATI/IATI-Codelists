@@ -1,18 +1,23 @@
-<codelist description="used in additional CRS elements" name="LoanRepaymentType"   xml:lang="en">
-    <codelist-item>
-        <code>1</code>
-        <name>Equal Principal Payments (EPP)</name>
-    </codelist-item>
-    <codelist-item>
-        <code>2</code>
-        <name>Annuity</name>
-    </codelist-item>
-    <codelist-item>
-        <code>3</code>
-        <name>Lump sum</name>
-    </codelist-item>
-    <codelist-item>
-        <code>5</code>
-        <name>Other</name>
-    </codelist-item>
+<codelist name="LoanRepaymentType"   xml:lang="en">
+    <metadata>
+        <description>used in additional CRS elements</description>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>1</code>
+            <name>Equal Principal Payments (EPP)</name>
+        </codelist-item>
+        <codelist-item>
+            <code>2</code>
+            <name>Annuity</name>
+        </codelist-item>
+        <codelist-item>
+            <code>3</code>
+            <name>Lump sum</name>
+        </codelist-item>
+        <codelist-item>
+            <code>5</code>
+            <name>Other</name>
+        </codelist-item>
+    </codelist-items>
 </codelist>

@@ -1,18 +1,21 @@
 <codelist name="ContactType"   xml:lang="en">
-    <codelist-item>
-        <code>1</code>
-        <name>General Enquiries</name>
-    </codelist-item>
-    <codelist-item>
-        <code>2</code>
-        <name>Project Management</name>
-    </codelist-item>
-    <codelist-item>
-        <code>3</code>
-        <name>Financial Management</name>
-    </codelist-item>
-    <codelist-item>
-        <code>4</code>
-        <name>Communications</name>
-    </codelist-item>
+    <metadata/>
+    <codelist-items>
+        <codelist-item>
+            <code>1</code>
+            <name>General Enquiries</name>
+        </codelist-item>
+        <codelist-item>
+            <code>2</code>
+            <name>Project Management</name>
+        </codelist-item>
+        <codelist-item>
+            <code>3</code>
+            <name>Financial Management</name>
+        </codelist-item>
+        <codelist-item>
+            <code>4</code>
+            <name>Communications</name>
+        </codelist-item>
+    </codelist-items>
 </codelist>

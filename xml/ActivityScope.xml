@@ -1,34 +1,39 @@
-<codelist description="Geographic scope of activity" name="ActivityScope"   xml:lang="en">
-    <codelist-item>
-        <code>1</code>
-        <name>Global</name>
-    </codelist-item>
-    <codelist-item>
-        <code>2</code>
-        <name>Regional</name>
-    </codelist-item>
-    <codelist-item>
-        <code>3</code>
-        <name>Multi-national</name>
-    </codelist-item>
-    <codelist-item>
-        <code>4</code>
-        <name>National</name>
-    </codelist-item>
-    <codelist-item>
-        <code>5</code>
-        <name>Sub-national: Multi-first-level administrative areas</name>
-    </codelist-item>
-    <codelist-item>
-        <code>6</code>
-        <name>Sub-national: Single first-level administrative area</name>
-    </codelist-item>
-    <codelist-item>
-        <code>7</code>
-        <name>Sub-national: Single second-level administrative area</name>
-    </codelist-item>
-    <codelist-item>
-        <code>8</code>
-        <name>Single location</name>
-    </codelist-item>
+<codelist name="ActivityScope"   xml:lang="en">
+    <metadata>
+        <description>Geographic scope of activity</description>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>1</code>
+            <name>Global</name>
+        </codelist-item>
+        <codelist-item>
+            <code>2</code>
+            <name>Regional</name>
+        </codelist-item>
+        <codelist-item>
+            <code>3</code>
+            <name>Multi-national</name>
+        </codelist-item>
+        <codelist-item>
+            <code>4</code>
+            <name>National</name>
+        </codelist-item>
+        <codelist-item>
+            <code>5</code>
+            <name>Sub-national: Multi-first-level administrative areas</name>
+        </codelist-item>
+        <codelist-item>
+            <code>6</code>
+            <name>Sub-national: Single first-level administrative area</name>
+        </codelist-item>
+        <codelist-item>
+            <code>7</code>
+            <name>Sub-national: Single second-level administrative area</name>
+        </codelist-item>
+        <codelist-item>
+            <code>8</code>
+            <name>Single location</name>
+        </codelist-item>
+    </codelist-items>
 </codelist>

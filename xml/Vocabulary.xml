@@ -1,42 +1,45 @@
 <codelist name="Vocabulary"   xml:lang="en">
-    <codelist-item>
-        <code>ADT</code>
-        <name>AidData</name>
-        <name xml:lang="fr">AidData</name>
-    </codelist-item>
-    <codelist-item>
-        <code>COFOG</code>
-        <name>Classification of the Functions of Government (UN)</name>
-        <name xml:lang="fr">COFOG (UN)</name>
-    </codelist-item>
-    <codelist-item>
-        <code>DAC</code>
-        <name>OECD Development Assistance Committee</name>
-        <name xml:lang="fr">OCDE Comité d'aide au développement</name>
-    </codelist-item>
-    <codelist-item>
-        <code>DAC-3</code>
-        <name>OECD Development Assistance Committee 3 digit codes</name>
-        <name xml:lang="fr">OCDE Comité d'aide au développement 3 digit codes</name>
-    </codelist-item>
-    <codelist-item>
-        <code>ISO</code>
-        <name>International Organization for Standardization</name>
-        <name xml:lang="fr">Organisation internationale de normalisation</name>
-    </codelist-item>
-    <codelist-item>
-        <code>NTEE</code>
-        <name>National Taxonomy for Exempt Entities (USA)</name>
-        <name xml:lang="fr">National Taxonomy for Exempt Entities (USA)</name>
-    </codelist-item>
-    <codelist-item>
-        <code>RO</code>
-        <name>Reporting Organisation (i.e. maintained by the organisation referred to in the &lt;reporting-org&gt; element.</name>
-        <name xml:lang="fr">Organisation déclarante (i.e. maintained by the organisation referred to in the &lt;reporting-org&gt; element.</name>
-    </codelist-item>
-    <codelist-item>
-        <code>WB</code>
-        <name>World Bank</name>
-        <name xml:lang="fr">Banque mondiale</name>
-    </codelist-item>
+    <metadata/>
+    <codelist-items>
+        <codelist-item>
+            <code>ADT</code>
+            <name>AidData</name>
+            <name xml:lang="fr">AidData</name>
+        </codelist-item>
+        <codelist-item>
+            <code>COFOG</code>
+            <name>Classification of the Functions of Government (UN)</name>
+            <name xml:lang="fr">COFOG (UN)</name>
+        </codelist-item>
+        <codelist-item>
+            <code>DAC</code>
+            <name>OECD Development Assistance Committee</name>
+            <name xml:lang="fr">OCDE Comité d'aide au développement</name>
+        </codelist-item>
+        <codelist-item>
+            <code>DAC-3</code>
+            <name>OECD Development Assistance Committee 3 digit codes</name>
+            <name xml:lang="fr">OCDE Comité d'aide au développement 3 digit codes</name>
+        </codelist-item>
+        <codelist-item>
+            <code>ISO</code>
+            <name>International Organization for Standardization</name>
+            <name xml:lang="fr">Organisation internationale de normalisation</name>
+        </codelist-item>
+        <codelist-item>
+            <code>NTEE</code>
+            <name>National Taxonomy for Exempt Entities (USA)</name>
+            <name xml:lang="fr">National Taxonomy for Exempt Entities (USA)</name>
+        </codelist-item>
+        <codelist-item>
+            <code>RO</code>
+            <name>Reporting Organisation (i.e. maintained by the organisation referred to in the &lt;reporting-org&gt; element.</name>
+            <name xml:lang="fr">Organisation déclarante (i.e. maintained by the organisation referred to in the &lt;reporting-org&gt; element.</name>
+        </codelist-item>
+        <codelist-item>
+            <code>WB</code>
+            <name>World Bank</name>
+            <name xml:lang="fr">Banque mondiale</name>
+        </codelist-item>
+    </codelist-items>
 </codelist>

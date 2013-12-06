@@ -1,52 +1,55 @@
 <codelist name="TransactionType"   xml:lang="en">
-    <codelist-item>
-        <code>C</code>
-        <name>Commitment</name>
-        <description>A firm written obligation by the donor to provide resources of a specified amount under specified financial terms and conditions and for specified purposes for the benefit of the recipient</description>
-    </codelist-item>
-    <codelist-item>
-        <code>D</code>
-        <name>Disbursement</name>
-        <description>The amount placed at the disposal of a recipient country or agency (in the case of internal development-related expenditures, the outlay of funds)</description>
-    </codelist-item>
-    <codelist-item>
-        <code>E</code>
-        <name>Expenditure</name>
-        <description>The outlay by the implementing agency on goods and services for the activity</description>
-    </codelist-item>
-    <codelist-item>
-        <code>IF</code>
-        <name>Incoming Funds</name>
-        <description>Funds received from an external funding source (eg a donor).</description>
-    </codelist-item>
-    <codelist-item>
-        <code>IR</code>
-        <name>Interest Repayment</name>
-        <description>The actual amount of interest repaid, including fees.</description>
-    </codelist-item>
-    <codelist-item>
-        <code>LR</code>
-        <name>Loan Repayment</name>
-        <description>The actual amount of principal (amortisation) repaid, including any arrears.</description>
-    </codelist-item>
-    <codelist-item>
-        <code>R</code>
-        <name>Reimbursement</name>
-        <description>A disbursement that covers funds already spent by the recipient, as agreed in the terms of the loan or grant.</description>
-    </codelist-item>
-    <codelist-item>
-        <code>QP</code>
-        <name>Purchase of Equity</name>
-        <description>The use of an activity's funds to purchase equity in a business.</description>
-    </codelist-item>
-    <codelist-item>
-        <code>QS</code>
-        <name>Sale of Equity</name>
-        <description>The flow of funds into an activity from the sale of equity.</description>
-    </codelist-item>
-    <codelist-item>
-        <code>CG</code>
-        <name>Credit Guarantee</name>
-        <description>A commitment made by a funding organisation to underwrite a loan or line of credit entered into by a third party.</description>
-    </codelist-item>
+    <metadata/>
+    <codelist-items>
+        <codelist-item>
+            <code>C</code>
+            <name>Commitment</name>
+            <description>A firm written obligation by the donor to provide resources of a specified amount under specified financial terms and conditions and for specified purposes for the benefit of the recipient</description>
+        </codelist-item>
+        <codelist-item>
+            <code>D</code>
+            <name>Disbursement</name>
+            <description>The amount placed at the disposal of a recipient country or agency (in the case of internal development-related expenditures, the outlay of funds)</description>
+        </codelist-item>
+        <codelist-item>
+            <code>E</code>
+            <name>Expenditure</name>
+            <description>The outlay by the implementing agency on goods and services for the activity</description>
+        </codelist-item>
+        <codelist-item>
+            <code>IF</code>
+            <name>Incoming Funds</name>
+            <description>Funds received from an external funding source (eg a donor).</description>
+        </codelist-item>
+        <codelist-item>
+            <code>IR</code>
+            <name>Interest Repayment</name>
+            <description>The actual amount of interest repaid, including fees.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>LR</code>
+            <name>Loan Repayment</name>
+            <description>The actual amount of principal (amortisation) repaid, including any arrears.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>R</code>
+            <name>Reimbursement</name>
+            <description>A disbursement that covers funds already spent by the recipient, as agreed in the terms of the loan or grant.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>QP</code>
+            <name>Purchase of Equity</name>
+            <description>The use of an activity's funds to purchase equity in a business.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>QS</code>
+            <name>Sale of Equity</name>
+            <description>The flow of funds into an activity from the sale of equity.</description>
+        </codelist-item>
+        <codelist-item>
+            <code>CG</code>
+            <name>Credit Guarantee</name>
+            <description>A commitment made by a funding organisation to underwrite a loan or line of credit entered into by a third party.</description>
+        </codelist-item>
+    </codelist-items>
 </codelist>

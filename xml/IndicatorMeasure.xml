@@ -1,10 +1,15 @@
-<codelist description="To specify the language of titles, descriptions and documents" name="IndicatorMeasure"   xml:lang="en">
-    <codelist-item>
-        <code>1</code>
-        <name>Unit</name>
-    </codelist-item>
-    <codelist-item>
-        <code>2</code>
-        <name>Percentage</name>
-    </codelist-item>
+<codelist name="IndicatorMeasure"   xml:lang="en">
+    <metadata>
+        <description>To specify the language of titles, descriptions and documents</description>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>1</code>
+            <name>Unit</name>
+        </codelist-item>
+        <codelist-item>
+            <code>2</code>
+            <name>Percentage</name>
+        </codelist-item>
+    </codelist-items>
 </codelist>

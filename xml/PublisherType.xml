@@ -1,17 +1,20 @@
 <codelist name="PublisherType"   xml:lang="en">
-    <codelist-item>
-        <code>1</code>
-        <name>Aid Provider</name>
-        <name xml:lang="fr">Donateur</name>
-    </codelist-item>
-    <codelist-item>
-        <code>2</code>
-        <name>Aid Recipient</name>
-        <name xml:lang="fr">Récipiendaire</name>
-    </codelist-item>
-    <codelist-item>
-        <code>3</code>
-        <name>Aggregator</name>
-        <name xml:lang="fr">Agrégateur</name>
-    </codelist-item>
+    <metadata/>
+    <codelist-items>
+        <codelist-item>
+            <code>1</code>
+            <name>Aid Provider</name>
+            <name xml:lang="fr">Donateur</name>
+        </codelist-item>
+        <codelist-item>
+            <code>2</code>
+            <name>Aid Recipient</name>
+            <name xml:lang="fr">Récipiendaire</name>
+        </codelist-item>
+        <codelist-item>
+            <code>3</code>
+            <name>Aggregator</name>
+            <name xml:lang="fr">Agrégateur</name>
+        </codelist-item>
+    </codelist-items>
 </codelist>

@@ -1,14 +1,19 @@
-<codelist description="Type of Contact" name="ConditionType"   xml:lang="en">
-    <codelist-item>
-        <code>2</code>
-        <name>Performance</name>
-    </codelist-item>
-    <codelist-item>
-        <code>1</code>
-        <name>Policy</name>
-    </codelist-item>
-    <codelist-item>
-        <code>3</code>
-        <name>Fiduciary</name>
-    </codelist-item>
+<codelist name="ConditionType"   xml:lang="en">
+    <metadata>
+        <description>Type of Contact</description>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>2</code>
+            <name>Performance</name>
+        </codelist-item>
+        <codelist-item>
+            <code>1</code>
+            <name>Policy</name>
+        </codelist-item>
+        <codelist-item>
+            <code>3</code>
+            <name>Fiduciary</name>
+        </codelist-item>
+    </codelist-items>
 </codelist>

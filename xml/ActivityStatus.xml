@@ -1,27 +1,32 @@
-<codelist description="Lifecycle status of the activity from pipeline to completion" name="ActivityStatus"   xml:lang="en">
-    <codelist-item>
-        <code>1</code>
-        <name>Pipeline/identification</name>
-        <name xml:lang="fr">Planification</name>
-    </codelist-item>
-    <codelist-item>
-        <code>2</code>
-        <name>Implementation</name>
-        <name xml:lang="fr">Actif</name>
-    </codelist-item>
-    <codelist-item>
-        <code>3</code>
-        <name>Completion</name>
-        <name xml:lang="fr">Finalisation</name>
-    </codelist-item>
-    <codelist-item>
-        <code>4</code>
-        <name>Post-completion</name>
-        <name xml:lang="fr">Fermé</name>
-    </codelist-item>
-    <codelist-item>
-        <code>5</code>
-        <name>Cancelled</name>
-        <name xml:lang="fr">Annulé</name>
-    </codelist-item>
+<codelist name="ActivityStatus"   xml:lang="en">
+    <metadata>
+        <description>Lifecycle status of the activity from pipeline to completion</description>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>1</code>
+            <name>Pipeline/identification</name>
+            <name xml:lang="fr">Planification</name>
+        </codelist-item>
+        <codelist-item>
+            <code>2</code>
+            <name>Implementation</name>
+            <name xml:lang="fr">Actif</name>
+        </codelist-item>
+        <codelist-item>
+            <code>3</code>
+            <name>Completion</name>
+            <name xml:lang="fr">Finalisation</name>
+        </codelist-item>
+        <codelist-item>
+            <code>4</code>
+            <name>Post-completion</name>
+            <name xml:lang="fr">Fermé</name>
+        </codelist-item>
+        <codelist-item>
+            <code>5</code>
+            <name>Cancelled</name>
+            <name xml:lang="fr">Annulé</name>
+        </codelist-item>
+    </codelist-items>
 </codelist>
