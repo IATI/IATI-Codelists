@@ -3,10 +3,12 @@ import os, json
 import csv
 from functools import partial
 
+languages = ['en','fr']
+
 xml_lang = '{http://www.w3.org/XML/1998/namespace}lang'
 
 def codelist_item_todict(codelist_item, default_lang='', lang='en'):
-    return dict([ (child.tag, child.text) for child in codelist_item if child.attrib.get(xml_lang) == lang or (child.attrib.get(xml_lang) == None and lang == default_lang) ])
+    return dict([ (child.tag, child.text) for child in codelist_item if child.tag not in ['name', 'description'] or child.attrib.get(xml_lang) == lang or (child.attrib.get(xml_lang) == None and lang == default_lang) ])
 
 def utf8_encode_dict(d):
     def enc(a):
@@ -17,39 +19,45 @@ def utf8_encode_dict(d):
 codelists = ET.Element('codelists')
 codelists_list = []
 
-for fname in os.listdir('xml'):
-    codelist = ET.parse(os.path.join('xml',fname))
-    attrib = codelist.getroot().attrib
-    assert attrib['name'] == fname.replace('.xml','')
+for language in languages:
+    try:
+        os.makedirs(os.path.join('out','json',language))
+        os.makedirs(os.path.join('out','csv',language))
+    except OSError: pass
 
-    default_lang = codelist.getroot().attrib.get(xml_lang)
-    codelist_dicts = map(partial(codelist_item_todict, default_lang=default_lang), codelist.getroot().findall('codelist-item'))
+    for fname in os.listdir('xml'):
+        codelist = ET.parse(os.path.join('xml',fname))
+        attrib = codelist.getroot().attrib
+        assert attrib['name'] == fname.replace('.xml','')
 
-    ## CSV
-    # TODO take this directly from scheam
-    fieldnames = [
-        'code',
-        'name',
-        'description',
-        'category',
-        'sector',
-    ]
-    dw = csv.DictWriter(open('out/csv/{0}.csv'.format(attrib['name']), 'w'), fieldnames)
-    dw.writeheader()
-    for row in codelist_dicts:
-        dw.writerow(utf8_encode_dict(row))
+        default_lang = codelist.getroot().attrib.get(xml_lang)
+        codelist_dicts = map(partial(codelist_item_todict, default_lang=default_lang, lang=language), codelist.getroot().find('codelist-items').findall('codelist-item'))
 
-    ## JSON
-    json.dump(
-        {
-            'header': attrib['name'],
-            'data': codelist_dicts
-        },
-        open('out/json/{0}.json'.format(attrib['name']), 'w')
-    )
-    codelists_list.append(attrib['name'])
+        ## CSV
+        # TODO take this directly from scheam
+        fieldnames = [
+            'code',
+            'name',
+            'description',
+            'category',
+            'sector' # FIXME
+        ]
+        dw = csv.DictWriter(open('out/csv/{0}/{1}.csv'.format(language, attrib['name']), 'w'), fieldnames)
+        dw.writeheader()
+        for row in codelist_dicts:
+            dw.writerow(utf8_encode_dict(row))
 
-    ET.SubElement(codelists, 'codelist').attrib['ref'] = attrib['name']
+        ## JSON
+        json.dump(
+            {
+                'header': attrib['name'],
+                'data': codelist_dicts
+            },
+            open('out/json/{0}/{1}.json'.format(language, attrib['name']), 'w')
+        )
+        codelists_list.append(attrib['name'])
+
+        ET.SubElement(codelists, 'codelist').attrib['ref'] = attrib['name']
 
 tree = ET.ElementTree(codelists)
 tree.write("out/codelists.xml", pretty_print=True)
