@@ -14,7 +14,7 @@ root = ET.parse(sys.argv[1]).getroot()
 
 for mapping in ET.parse(mapping_file).getroot().findall('mapping'):
     codelist_name = mapping.find('codelist').attrib['ref']
-    codelist = ET.parse('xml/{0}.xml'.format(codelist_name))
+    codelist = ET.parse('combined-xml/{0}.xml'.format(codelist_name))
     codes = [ x.text for x in codelist.xpath('//code') ]
     if mapping.find('base') is not None:
         bases = root.xpath(mapping.find('base').text)

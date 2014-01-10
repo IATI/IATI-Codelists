@@ -12,6 +12,10 @@
         <codelist ref="ActivityStatus" />
     </mapping>
     <mapping>
+        <path>//iati-activity/activity-scope/@code</path>
+        <codelist ref="ActivityScope" />
+    </mapping>
+    <mapping>
         <path>//iati-activity/budget/@type</path>
         <codelist ref="BudgetType" />
     </mapping>
@@ -26,6 +30,30 @@
     <mapping>
         <path>//iati-activity/conditions/condition/@type</path>
         <codelist ref="ConditionType" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/contact-info/@type</path>
+        <codelist ref="ContactType" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/country-budget-items/@vocabulary</path>
+        <codelist ref="BudgetIdentifierVocabulary" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/country-budget-items/budget-items/@code</path>
+        <codelist ref="BudgetIdentifier" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/crs-add/aidtype-flag/@code</path>
+        <codelist ref="AidTypeFlag" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/crs-add/load-terms/repayment-plan/@code</path>
+        <codelist ref="LoanRepaymentPeriod" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/crs-add/load-terms/repayment-type/@code</path>
+        <codelist ref="LoanRepaymentType" />
     </mapping>
     <mapping>
         <path>//iati-activity/default-aid-type/@code</path>
@@ -112,6 +140,10 @@
         <codelist ref="Region" />
     </mapping>
     <mapping>
+        <path>//iati-activity/recipient-region/@vocabulary</path>
+        <codelist ref="RegionVocabulary" />
+    </mapping>
+    <mapping>
         <path>//iati-activity/related-activity/@type</path>
         <codelist ref="RelatedActivityType" />
     </mapping>
@@ -132,6 +164,10 @@
     <mapping>
         <path>//iati-activity/result/indicator/@measure</path>
         <codelist ref="IndicatorMeasure" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/sector/@code</path>
+        <codelist ref="Sector" />
     </mapping>
     <mapping>
         <path>//iati-activity/sector/@vocabulary</path>
