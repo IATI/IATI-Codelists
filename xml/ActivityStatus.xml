@@ -1,4 +1,4 @@
-<codelist name="ActivityStatus"   xml:lang="en">
+<codelist name="ActivityStatus"   xml:lang="en" complete="1">
     <metadata>
         <description>Lifecycle status of the activity from pipeline to completion</description>
     </metadata>

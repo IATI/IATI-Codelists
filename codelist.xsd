@@ -48,6 +48,7 @@
     <xs:attribute name="name" use="optional"/>
     <xs:attribute name="category-codelist" use="optional"/>
     <xs:attribute ref="xml:lang" use="optional" />
+    <xs:attribute name="complete" use="optional" type="xs:boolean" />
   </xs:complexType>
 </xs:element>
 

@@ -1,4 +1,4 @@
-<codelist name="ActivityScope"   xml:lang="en">
+<codelist name="ActivityScope"   xml:lang="en" complete="1">
     <metadata>
         <description>Geographic scope of activity</description>
     </metadata>

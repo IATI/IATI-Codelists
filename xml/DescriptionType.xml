@@ -1,4 +1,4 @@
-<codelist name="DescriptionType"   xml:lang="en">
+<codelist name="DescriptionType"   xml:lang="en" complete="1">
     <metadata>
         <description>Activity decription types. (General, objectives, etc)</description>
     </metadata>

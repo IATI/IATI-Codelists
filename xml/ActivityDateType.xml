@@ -1,4 +1,4 @@
-<codelist name="ActivityDateType"   xml:lang="en">
+<codelist name="ActivityDateType"   xml:lang="en" complete="1">
     <metadata>
         <description>Types of date for activities</description>
     </metadata>

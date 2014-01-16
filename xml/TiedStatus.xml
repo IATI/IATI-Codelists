@@ -1,4 +1,4 @@
-<codelist name="TiedStatus"   xml:lang="en">
+<codelist name="TiedStatus"   xml:lang="en" complete="1">
     <metadata>
         <description>Added 3 new options to the codelist: QP - Purchase of Equity, QS - Sale of Equity ,CG - Credit Guarantee </description>
     </metadata>

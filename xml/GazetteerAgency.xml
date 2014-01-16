@@ -1,4 +1,4 @@
-<codelist name="GazetteerAgency"   xml:lang="en">
+<codelist name="GazetteerAgency"   xml:lang="en" complete="1">
     <metadata>
         <description>An online resource that holds coordinates and descriptions of geographic locations </description>
     </metadata>

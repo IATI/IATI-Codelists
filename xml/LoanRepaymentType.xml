@@ -1,4 +1,4 @@
-<codelist name="LoanRepaymentType"   xml:lang="en">
+<codelist name="LoanRepaymentType"   xml:lang="en" complete="1">
     <metadata>
         <description>used in additional CRS elements</description>
     </metadata>

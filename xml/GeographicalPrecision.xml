@@ -1,4 +1,4 @@
-<codelist name="GeographicalPrecision"   xml:lang="en">
+<codelist name="GeographicalPrecision"   xml:lang="en" complete="1">
     <metadata>
         <description>A system for clarifying the accuracy and usage of geographical coordinates </description>
     </metadata>

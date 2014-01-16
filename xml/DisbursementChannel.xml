@@ -1,4 +1,4 @@
-<codelist name="DisbursementChannel"   xml:lang="en">
+<codelist name="DisbursementChannel"   xml:lang="en" complete="1">
     <metadata>
         <description>Categories of information included in published documents</description>
     </metadata>
