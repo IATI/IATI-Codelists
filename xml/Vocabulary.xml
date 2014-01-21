@@ -27,6 +27,11 @@
             <name xml:lang="fr">Organisation internationale de normalisation</name>
         </codelist-item>
         <codelist-item>
+            <code>NACE</code>
+            <name>Statistical classification of economic activities in the European Community</name>
+            <name xml:lang="fr">Nomenclature statistique des activités économiques dans la Communauté européenne</name>
+        </codelist-item>
+        <codelist-item>
             <code>NTEE</code>
             <name>National Taxonomy for Exempt Entities (USA)</name>
             <name xml:lang="fr">National Taxonomy for Exempt Entities (USA)</name>
