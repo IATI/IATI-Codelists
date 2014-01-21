@@ -16,5 +16,10 @@
             <name>Impact</name>
             <name xml:lang="fr">Impact</name>
         </codelist-item>
+        <codelist-item>
+            <code>9</code>
+            <name>Other</name>
+            <name xml:lang="fr">Autre</name>
+        </codelist-item>
     </codelist-items>
 </codelist>
