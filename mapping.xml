@@ -88,6 +88,10 @@
         <codelist ref="Country" />
     </mapping>
     <mapping>
+        <path>//iati-activity/location/administrative/@vocabulary</path>
+        <codelist ref="GeographicVocabulary" />
+    </mapping>
+    <mapping>
         <path>//iati-activity/location/coordinates/@precision</path>
         <codelist ref="GeographicalPrecision" />
     </mapping>
@@ -96,8 +100,24 @@
         <codelist ref="GazetteerAgency" />
     </mapping>
     <mapping>
+        <path>//iati-activity/location/location-class/@code</path>
+        <codelist ref="GeographicLocationClass" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/location/location-id/@vocabulary</path>
+        <codelist ref="GeographicVocabulary" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/location/location-reach/@code</path>
+        <codelist ref="GeographicLocationReach" />
+    </mapping>
+    <mapping>
         <path>//iati-activity/location/location-type/@code</path>
         <codelist ref="LocationType" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/location/supporting-information/@code</path>
+        <codelist ref="GeographicSupportingInformation" />
     </mapping>
     <!--<mapping>
         <path>//iati-activity/other-identifier/@owner-ref</path>

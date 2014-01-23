@@ -1,0 +1,31 @@
+<codelist name="GeographicLocationVocabulary" xml:lang="en" complete="1">
+    <metadata>
+        <description></description>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>A1</code>
+            <name>Global Admininistrative Unit Layers</name>
+        </codelist-item>
+        <codelist-item>
+            <code>A2</code>
+            <name>UN Second Administrative Level Boundary Project</name>
+        </codelist-item>
+        <codelist-item>
+            <code>A3</code>
+            <name>Global Administrative Areas</name>
+        </codelist-item>
+        <codelist-item>
+            <code>A4</code>
+            <name>ISO Country (3166-1 alpha-2)</name>
+        </codelist-item>
+        <codelist-item>
+            <code>G1</code>
+            <name>Geonames</name>
+        </codelist-item>
+        <codelist-item>
+            <code>G2</code>
+            <name>Open Street Map</name>
+        </codelist-item>
+    </codelist-items>
+</codelist>

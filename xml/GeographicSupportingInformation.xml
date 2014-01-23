@@ -1,0 +1,15 @@
+<codelist name="GeographicSupportingInformation" xml:lang="en" complete="1">
+    <metadata>
+        <description></description>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>1</code>
+            <name>Exact</name>
+        </codelist-item>
+        <codelist-item>
+            <code>2</code>
+            <name>Approximate</name>
+        </codelist-item>
+    </codelist-items>
+</codelist>
