@@ -15,5 +15,5 @@ cp IATI-Codelists-External/xml/* combined-xml
 
 rm -rf out
 mkdir out
-cp -r xml out
+cp -r combined-xml out/xml
 python gen.py
