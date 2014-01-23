@@ -39,8 +39,7 @@ for language in languages:
             'code',
             'name',
             'description',
-            'category',
-            'sector' # FIXME
+            'category'
         ]
         dw = csv.DictWriter(open('out/csv/{0}/{1}.csv'.format(language, attrib['name']), 'w'), fieldnames)
         dw.writeheader()

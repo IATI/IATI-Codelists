@@ -36,11 +36,11 @@
         <codelist ref="ContactType" />
     </mapping>
     <mapping>
-        <path>//iati-activity/country-budget-items/@vocabulary</path>
+        <path>//iati-activity/country-budget-item/@vocabulary</path>
         <codelist ref="BudgetIdentifierVocabulary" />
     </mapping>
     <mapping>
-        <path>//iati-activity/country-budget-items/budget-items/@code</path>
+        <path>//iati-activity/country-budget-items/budget-item/@code</path>
         <codelist ref="BudgetIdentifier" />
     </mapping>
     <mapping>
