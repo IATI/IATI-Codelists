@@ -96,12 +96,12 @@
         <codelist-item>
             <code>1.5.1</code>
             <name>General Personnel Services - general personnel services</name>
-            <category>General Personnel Services</category>
+            <category>1.5</category>
         </codelist-item>
         <codelist-item>
             <code>1.6.1</code>
             <name>Statistics - statistics</name>
-            <category>Statistics</category>
+            <category>1.6</category>
         </codelist-item>
         <codelist-item>
             <code>1.7.1</code>
