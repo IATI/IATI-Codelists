@@ -16,4 +16,8 @@ cp IATI-Codelists-NonEmbedded/xml/* combined-xml
 rm -rf out
 mkdir out
 cp -r combined-xml out/xml
+
+python mappings_to_json.py
+cp mapping.{xml,json} out/
+
 python gen.py
