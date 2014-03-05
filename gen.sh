@@ -21,3 +21,5 @@ python mappings_to_json.py
 cp mapping.{xml,json} out/
 
 python gen.py
+python old.py
+
