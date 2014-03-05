@@ -1,14 +1,21 @@
 from lxml import etree as ET
-import os, json
-import csv
+import os, re
+import csv, json
 from functools import partial
 
 languages = ['en','fr']
 
 xml_lang = '{http://www.w3.org/XML/1998/namespace}lang'
 
+def normalize_whitespace(x):
+    if x is None:
+        return x
+    x = x.strip()
+    x = re.sub(r'\s+', ' ', x)
+    return x
+
 def codelist_item_todict(codelist_item, default_lang='', lang='en'):
-    return dict([ (child.tag, child.text) for child in codelist_item if child.tag not in ['name', 'description'] or child.attrib.get(xml_lang) == lang or (child.attrib.get(xml_lang) == None and lang == default_lang) ])
+    return dict([ (child.tag, normalize_whitespace(child.text)) for child in codelist_item if child.tag not in ['name', 'description'] or child.attrib.get(xml_lang) == lang or (child.attrib.get(xml_lang) == None and lang == default_lang) ])
 
 def utf8_encode_dict(d):
     def enc(a):
