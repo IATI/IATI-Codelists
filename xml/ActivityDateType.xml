@@ -5,22 +5,26 @@
     <codelist-items>
         <codelist-item>
             <code>end-actual</code>
-            <name>The actual end date, such as date of last disbursement</name>
+            <name>Actual End</name>
+            <description>The actual end date, such as date of last disbursement</description>
             <name xml:lang="fr">fin-réelle</name>
         </codelist-item>
         <codelist-item>
             <code>end-planned</code>
-            <name>The planned end date as recorded in project documentation</name>
+            <name>Planned End</name>
+            <description>The planned end date as recorded in project documentation</description>
             <name xml:lang="fr">fin-prévue</name>
         </codelist-item>
         <codelist-item>
             <code>start-actual</code>
-            <name>The actual start date, such as date of first disbursement</name>
+            <name>Actual Start</name>
+            <description>The actual start date, such as date of first disbursement</description>
             <name xml:lang="fr">début-réel</name>
         </codelist-item>
         <codelist-item>
             <code>start-planned</code>
-            <name>The planned start date as recorded in project documentation. Can be date of signature of activity agreement or approval by relevant body</name>
+            <name>Planned Start</name>
+            <description>The planned start date as recorded in project documentation. Can be date of signature of activity agreement or approval by relevant body</description>
             <name xml:lang="fr">début-prévu</name>
         </codelist-item>
     </codelist-items>
