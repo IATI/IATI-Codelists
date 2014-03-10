@@ -53,10 +53,17 @@ for language in languages:
         for row in codelist_dicts:
             dw.writerow(utf8_encode_dict(row))
 
+        description_elements = codelist.getroot().xpath('/codelist/metadata/description[not(@xml:lang) or @xml:lang="{0}"]'.format(language))
+
         ## JSON
         json.dump(
             {
-                'header': attrib['name'],
+                'metadata': {
+                    'name': attrib['name'],
+                    'complete': attrib.get('complete'),
+                    'category-codelist': attrib.get('category-codelist'),
+                    'description': description_elements[0].text if description_elements else ''
+                },
                 'data': codelist_dicts
             },
             open('out/json/{0}/{1}.json'.format(language, attrib['name']), 'w')
