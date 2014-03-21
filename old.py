@@ -78,13 +78,17 @@ for fname in os.listdir('combined-xml'):
             old_codelist_item.append(E('category', category.text))
             old_codelist_json_item['category'] = category.text
 
-            category_item = ET.parse(os.path.join('combined-xml',attrib['category-codelist']+'.xml')).xpath('//codelist-item[code="{0}"]'.format(category.text))[0]
+            try:
+                category_item = ET.parse(os.path.join('combined-xml',attrib['category-codelist']+'.xml')).xpath('//codelist-item[code="{0}"]'.format(category.text))[0]
+                category_name = category_item.xpath('name[not(xml:lang) or xml:lang="en"]')[0].text
+            except IndexError:
+                category_item = None
+                category_name = ''
 
-            category_name = category_item.xpath('name[not(xml:lang) or xml:lang="en"]')[0].text
             old_codelist_item.append(E('category-name', category_name))
             old_codelist_json_item['category-name'] = category_name
 
-            if category_item.xpath('description[not(xml:lang) or xml:lang="en"]'):
+            if category_item is not None and category_item.xpath('description[not(xml:lang) or xml:lang="en"]'):
                 category_description = category_item.xpath('description[not(xml:lang) or xml:lang="en"]')[0].text
                 if category_description:
                     old_codelist_item.append(E('category-description', category_description))

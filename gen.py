@@ -15,12 +15,15 @@ def normalize_whitespace(x):
     return x
 
 def codelist_item_todict(codelist_item, default_lang='', lang='en'):
-    return dict([ (child.tag, normalize_whitespace(child.text)) for child in codelist_item if child.tag not in ['name', 'description'] or child.attrib.get(xml_lang) == lang or (child.attrib.get(xml_lang) == None and lang == default_lang) ])
+    out = dict([ (child.tag, normalize_whitespace(child.text)) for child in codelist_item if child.tag not in ['name', 'description'] or child.attrib.get(xml_lang) == lang or (child.attrib.get(xml_lang) == None and lang == default_lang) ])
+    if 'public-database' in codelist_item.attrib:
+        out['public-database'] =  True if codelist_item.attrib['public-database'] in ['1','true'] else False
+    return out
 
 def utf8_encode_dict(d):
     def enc(a):
-        if a is None: return None
-        else: return a.encode('utf8')
+        if type(a) == str: return a.encode('utf8')
+        else: return None
     return dict( (enc(k), enc(v)) for k, v in d.items() )
 
 codelists = ET.Element('codelists')
@@ -40,14 +43,18 @@ for language in languages:
         default_lang = codelist.getroot().attrib.get(xml_lang)
         codelist_dicts = map(partial(codelist_item_todict, default_lang=default_lang, lang=language), codelist.getroot().find('codelist-items').findall('codelist-item'))
 
-        ## CSV
-        # TODO take this directly from scheam
         fieldnames = [
             'code',
             'name',
             'description',
-            'category'
+            'category',
+            'url',
+            'public-database'
         ]
+
+        if fname == 'OrganisationRegistrationAgency.xml':
+            fieldnames.append('public-database')
+
         dw = csv.DictWriter(open('out/csv/{0}/{1}.csv'.format(language, attrib['name']), 'w'), fieldnames)
         dw.writeheader()
         for row in codelist_dicts:
