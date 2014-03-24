@@ -1,5 +1,6 @@
 <codelist name="ActivityScope"   xml:lang="en" complete="1">
     <metadata>
+        <name>Activity Scope</name>
         <description>Geographic scope of activity</description>
     </metadata>
     <codelist-items>

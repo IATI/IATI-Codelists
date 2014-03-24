@@ -1,5 +1,6 @@
 <codelist name="AidTypeFlag"   xml:lang="en" complete="1">
     <metadata>
+        <name>Aid Type Flag</name>
         <description>DAC/CRS classification used to distinguish aid modalities. </description>
     </metadata>
     <codelist-items>

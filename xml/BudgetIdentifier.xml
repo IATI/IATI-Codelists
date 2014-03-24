@@ -1,5 +1,6 @@
 <codelist name="BudgetIdentifier" xml:lang="en" category-codelist="BudgetIdentifierSector" complete="1">
     <metadata>
+        <name>Budget Identifier</name>
         <description>IATI Functional and Administrative Common Code : One of several possible Budget Identifier Vocabularies</description>
     </metadata>
     <codelist-items>

@@ -1,5 +1,6 @@
 <codelist name="FileFormat"   xml:lang="en" complete="0">
     <metadata>
+        <name>File Format</name>
         <description>File format of published documents</description>
     </metadata>
     <codelist-items>

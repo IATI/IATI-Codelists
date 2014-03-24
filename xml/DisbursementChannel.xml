@@ -1,5 +1,6 @@
 <codelist name="DisbursementChannel"   xml:lang="en" complete="1">
     <metadata>
+        <name>Disbursement Channel</name>
         <description>Categories of information included in published documents</description>
     </metadata>
     <codelist-items>

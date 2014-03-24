@@ -1,5 +1,6 @@
 <codelist name="ConditionType"   xml:lang="en" complete="1">
     <metadata>
+        <name>Condition Type</name>
         <description>Condition type – e.g. policy, performance.</description>
     </metadata>
     <codelist-items>

@@ -1,5 +1,6 @@
 <codelist name="LoanRepaymentPeriod"   xml:lang="en">
     <metadata>
+        <name>Loan Repayment Period</name>
         <description>CRS Loan Repayment No of Payments </description>
     </metadata>
     <codelist-items>

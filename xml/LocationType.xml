@@ -1,5 +1,6 @@
 <codelist name="LocationType"   xml:lang="en" complete="0">
     <metadata>
+        <name>Location Type</name>
         <description>This list is composed of the three separate lists on the original IATI site.</description>
     </metadata>
     <codelist-items>

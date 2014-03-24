@@ -1,5 +1,7 @@
 <codelist name="DocumentCategory" xml:lang="en" category-codelist="DocumentCategory-category" complete="1">
-    <metadata/>
+    <metadata>
+        <name>Document Category</name>
+    </metadata>
     <codelist-items>
         <codelist-item>
             <code>A01</code>

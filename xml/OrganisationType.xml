@@ -1,5 +1,7 @@
 <codelist name="OrganisationType"   xml:lang="en" complete="1">
-    <metadata/>
+    <metadata>
+        <name>Organisation Type</name>
+    </metadata>
     <codelist-items>
         <codelist-item>
             <code>10</code>

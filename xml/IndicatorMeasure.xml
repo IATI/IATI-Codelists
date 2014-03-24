@@ -1,5 +1,6 @@
 <codelist name="IndicatorMeasure"   xml:lang="en" complete="1">
     <metadata>
+        <name>Indicator Measure</name>
         <description>To specify the language of titles, descriptions and documents</description>
     </metadata>
     <codelist-items>

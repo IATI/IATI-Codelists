@@ -1,5 +1,7 @@
 <codelist name="PublisherType"   xml:lang="en" complete="1">
-    <metadata/>
+    <metadata>
+        <name>Publisher Type</name>
+    </metadata>
     <codelist-items>
         <codelist-item>
             <code>1</code>

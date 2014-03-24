@@ -1,5 +1,6 @@
 <codelist name="LoanRepaymentType"   xml:lang="en" complete="1">
     <metadata>
+        <name>Loan Repayment Type</name>
         <description>used in additional CRS elements</description>
     </metadata>
     <codelist-items>

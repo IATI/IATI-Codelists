@@ -1,5 +1,6 @@
 <codelist name="GeographicalPrecision"   xml:lang="en" complete="1">
     <metadata>
+        <name>Geographical Precision</name>
         <description>A system for clarifying the accuracy and usage of geographical coordinates </description>
     </metadata>
     <codelist-items>
