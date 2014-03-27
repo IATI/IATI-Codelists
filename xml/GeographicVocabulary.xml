@@ -7,26 +7,32 @@
         <codelist-item>
             <code>A1</code>
             <name>Global Admininistrative Unit Layers</name>
+            <url>http://www.fao.org/geonetwork/srv/en/metadata.show?id=12691</url>
         </codelist-item>
         <codelist-item>
             <code>A2</code>
             <name>UN Second Administrative Level Boundary Project</name>
+            <url>http://www.unsalb.org/</url>
         </codelist-item>
         <codelist-item>
             <code>A3</code>
             <name>Global Administrative Areas</name>
+            <url>http://www.gadm.org/</url>
         </codelist-item>
         <codelist-item>
             <code>A4</code>
             <name>ISO Country (3166-1 alpha-2)</name>
+            <url>http://www.iso.org/iso/home/standards/country_codes/country_names_and_code_elements_xml.htm</url>
         </codelist-item>
         <codelist-item>
             <code>G1</code>
             <name>Geonames</name>
+            <url>http://www.geonames.org/</url>
         </codelist-item>
         <codelist-item>
             <code>G2</code>
             <name>Open Street Map</name>
+            <url>http://www.openstreetmap.org/</url>
         </codelist-item>
     </codelist-items>
 </codelist>
