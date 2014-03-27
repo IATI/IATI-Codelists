@@ -62,6 +62,7 @@ for language in languages:
 
         name_elements = codelist.getroot().xpath('/codelist/metadata/name[not(@xml:lang) or @xml:lang="{0}"]'.format(language))
         description_elements = codelist.getroot().xpath('/codelist/metadata/description[not(@xml:lang) or @xml:lang="{0}"]'.format(language))
+        url_elements = codelist.getroot().xpath('/codelist/metadata/url')
 
         ## JSON
         json.dump(
@@ -73,7 +74,8 @@ for language in languages:
                 },
                 'metadata': {
                     'name': name_elements[0].text if name_elements else '',
-                    'description': description_elements[0].text if description_elements else ''
+                    'description': description_elements[0].text if description_elements else '',
+                    'url': url_elements[0].text if url_elements else ''
                 },
                 'data': codelist_dicts
             },

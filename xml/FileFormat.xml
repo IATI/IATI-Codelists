@@ -2,6 +2,7 @@
     <metadata>
         <name>File Format</name>
         <description>File format of published documents</description>
+        <url>http://www.iana.org/assignments/media-types</url>
     </metadata>
     <codelist-items>
         <codelist-item>
