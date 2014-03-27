@@ -1,6 +1,7 @@
 <codelist name="BudgetIdentifierSector" xml:lang="en" category-codelist="BudgetIdentifierSector-category" complete="1">
     <metadata>
-        <description></description>
+        <name>Budget Identifier Sector</name>
+        <description>This codelists exists to group the Budget Identifier codelist into sectors. It is not used as a codelist in its own right.</description>
     </metadata>
     <codelist-items>
         <codelist-item>

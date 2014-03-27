@@ -1,5 +1,8 @@
 <codelist name="DocumentCategory-category" xml:lang="en" complete="1">
-    <metadata/>
+    <metadata>
+        <name>Document Category (category)</name>
+        <description>This codelists exists to group the Document Category codelist into categories. It is not used as a codelist in its own right.</description>
+    </metadata>
     <codelist-items>
         <codelist-item>
             <code>A</code>
