@@ -96,6 +96,10 @@
         <codelist ref="GeographicalPrecision" />
     </mapping>
     <mapping>
+        <path>//iati-activity/location/feature-designation/@code</path>
+        <codelist ref="GeographicFeatureDesignation" />
+    </mapping>
+    <mapping>
         <path>//iati-activity/location/gazetteer-entry/@gazetteer-ref</path>
         <codelist ref="GazetteerAgency" />
     </mapping>
