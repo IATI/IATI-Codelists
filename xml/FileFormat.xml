@@ -1,7 +1,16 @@
 <codelist name="FileFormat"   xml:lang="en" complete="0">
     <metadata>
         <name>File Format</name>
-        <description>File format of published documents</description>
+        <description>
+            File format of published documents.
+            
+            Note: This is only a partial list, provided for convenience
+            purposes. It is not a complete list of all possible or accpetable
+            file formats.
+            
+            File types not on this list may be used, but should use a media
+            type registred with IANA.
+        </description>
         <url>http://www.iana.org/assignments/media-types</url>
     </metadata>
     <codelist-items>
