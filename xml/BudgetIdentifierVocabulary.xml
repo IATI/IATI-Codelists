@@ -1,7 +1,6 @@
 <codelist name="BudgetIdentifierVocabulary"   xml:lang="en" complete="1">
     <metadata>
         <name>Budget Identifier Vocabulary</name>
-        <description>ISO 3166 alpha 2 Country codes</description>
     </metadata>
     <codelist-items>
         <codelist-item>
