@@ -60,8 +60,8 @@ for language in languages:
         for row in codelist_dicts:
             dw.writerow(utf8_encode_dict(row))
 
-        name_elements = codelist.getroot().xpath('/codelist/metadata/name[not(@xml:lang) or @xml:lang="{0}"]'.format(language))
-        description_elements = codelist.getroot().xpath('/codelist/metadata/description[not(@xml:lang) or @xml:lang="{0}"]'.format(language))
+        name_elements = codelist.getroot().xpath('/codelist/metadata/name[{}@xml:lang="{}"]'.format('not(@xml:lang) or ' if language==default_lang else '',language))
+        description_elements = codelist.getroot().xpath('/codelist/metadata/description[{}@xml:lang="{}"]'.format('not(@xml:lang) or ' if language==default_lang else '',language))
         url_elements = codelist.getroot().xpath('/codelist/metadata/url')
 
         ## JSON
