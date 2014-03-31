@@ -38,12 +38,31 @@ To do the conversion yourself, you will need BASH, Python and python-lxml. Then 
 Codelist Mapping
 ================
 
-``mapping.xml`` relates codelists to an XML path in the standard. This should make it easier for users to work out which codelists go with which element and vice versa.
+`mapping.xml <http://dev.iatistandard.org/_static/codelists/mapping.xml>`__ relates codelists to an XML path in the standard. This should make it easier for users to work out which codelists go with which element and vice versa.
+
+It's structured as a list of `mapping` elements, which each have a `path` element that describes the relevant attribute, and a `codelist@ref` attribute which is the same ref as used in the codelist filenames. An optional `condition` element is an xpath expression which limits the scope of the given codelist - e.g. it only applies if a certain vocabulary is being used. A sample of the XML is as follows:
+
+.. code-block:: xml
+
+    <mappings>
+        <mapping>
+            <path>//iati-activity/@default-currency</path>
+            <codelist ref="Currency" />
+        </mapping>
+        <mapping>
+            <path>//iati-activity/country-budget-items/budget-item/@code</path>
+            <codelist ref="BudgetIdentifier" />
+            <condition>@vocabulary = '1'</condition>
+        </mapping>
+        ...
+    </mappings>
+
+A `JSON version <http://dev.iatistandard.org/_static/codelists/mapping.json>`__ is also availible.
 
 Testing Complians Against Codelists
 ===================================
 
-``testcodelists.py`` is designed to be used to test an IATI Activity XML file to see if it is using correct codelists values.
+``testcodelists.py`` is can be run against an IATI Activity XML to check that it is using the correct codelists values. Only codelists that are complete will be tested (see next section).
 
 Extra Metadata
 ==============
