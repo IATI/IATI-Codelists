@@ -42,6 +42,7 @@
     <mapping>
         <path>//iati-activity/country-budget-items/budget-item/@code</path>
         <codelist ref="BudgetIdentifier" />
+        <condition>@vocabulary = '1'</condition>
     </mapping>
     <mapping>
         <path>//iati-activity/country-budget-items/budget-item/description/@type</path>
@@ -162,6 +163,7 @@
     <mapping>
         <path>//iati-activity/recipient-region/@code</path>
         <codelist ref="Region" />
+        <condition>@vocabulary = '1'</condition>
     </mapping>
     <mapping>
         <path>//iati-activity/recipient-region/@vocabulary</path>
@@ -194,6 +196,7 @@
     <mapping>
         <path>//iati-activity/sector/@code</path>
         <codelist ref="Sector" />
+        <condition>@vocabulary = 'DAC' or not(@vocabulary)</condition>
     </mapping>
     <mapping>
         <path>//iati-activity/sector/@vocabulary</path>

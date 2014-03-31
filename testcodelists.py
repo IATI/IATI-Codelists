@@ -1,3 +1,4 @@
+from __future__ import print_function
 import sys
 from lxml import etree as ET
 
@@ -18,16 +19,10 @@ for mapping in ET.parse(mapping_file).getroot().findall('mapping'):
     if codelist.getroot().attrib.get('complete') not in ['1', 'true']:
         continue
     codes = [ x.text for x in codelist.xpath('//code') ]
-    if mapping.find('base') is not None:
-        bases = root.xpath(mapping.find('base').text)
-    else:
-        bases = [ root ]
-    for base in bases:
+    for code in root.xpath(mapping.find('path').text):
         if mapping.find('condition') is not None:
-            if not base.xpath(mapping.find('condition').text):
-                print(base.xpath(mapping.find('condition').text))
+            if not code.getparent().xpath(mapping.find('condition').text):
                 continue
-        for code in base.xpath(mapping.find('path').text):
-            if not code in codes:
-                print('{0} not in {1}'.format(code, codelist_name))
+        if not code in codes:
+            print('{0} not in {1}'.format(code, codelist_name))
 
