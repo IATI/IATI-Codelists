@@ -48,8 +48,7 @@ for language in languages:
             'name',
             'description',
             'category',
-            'url',
-            'public-database'
+            'url'
         ]
 
         if fname == 'OrganisationRegistrationAgency.xml':
