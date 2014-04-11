@@ -55,7 +55,10 @@ for fname in os.listdir('combined-xml'):
     old_codelist_json_list = []
     for codelist_item in codelist.getroot().find('codelist-items').findall('codelist-item'):
         code = codelist_item.xpath('code[not(xml:lang) or xml:lang="en"]')[0].text
-        name = codelist_item.xpath('name[not(xml:lang) or xml:lang="en"]')[0].text
+        try:
+            name = codelist_item.xpath('name[not(xml:lang) or xml:lang="en"]')[0].text
+        except IndexError:
+            name = ''
         old_codelist_item = E(attrib['name'],
             E.code(code),
             E.name(name),
