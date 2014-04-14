@@ -129,8 +129,8 @@
         <codelist ref="LocationType" />
     </mapping>
     <mapping>
-        <path>//iati-activity/location/supporting-information/@code</path>
-        <codelist ref="GeographicSupportingInformation" />
+        <path>//iati-activity/location/exactness/@code</path>
+        <codelist ref="GeographicExactness" />
     </mapping>
     <mapping>
         <path>//iati-activity/participating-org/@role</path>
