@@ -84,7 +84,7 @@ for fname in os.listdir('combined-xml'):
             try:
                 category_item = ET.parse(os.path.join('combined-xml',attrib['category-codelist']+'.xml')).xpath('//codelist-item[code="{0}"]'.format(category.text))[0]
                 category_name = category_item.xpath('name[not(xml:lang) or xml:lang="en"]')[0].text
-            except IndexError:
+            except (IndexError, KeyError):
                 category_item = None
                 category_name = ''
 
