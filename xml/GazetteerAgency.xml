@@ -5,15 +5,15 @@
     </metadata>
     <codelist-items>
         <codelist-item>
-            <code>GEO</code>
+            <code>1</code>
             <name>Geonames.org</name>
         </codelist-item>
         <codelist-item>
-            <code>NGA</code>
+            <code>2</code>
             <name>National Geospatial-Intelligence Agency</name>
         </codelist-item>
         <codelist-item>
-            <code>OSM</code>
+            <code>3</code>
             <name>Open Street Map</name>
         </codelist-item>
     </codelist-items>
