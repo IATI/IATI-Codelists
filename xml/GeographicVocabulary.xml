@@ -31,7 +31,7 @@
         </codelist-item>
         <codelist-item>
             <code>G2</code>
-            <name>Open Street Map</name>
+            <name>Open Street Map Node</name>
             <url>http://www.openstreetmap.org/</url>
         </codelist-item>
     </codelist-items>
