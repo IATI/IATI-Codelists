@@ -9,8 +9,10 @@ import json, csv
 
 language = 'en'
 
+OUTPUTDIR = os.path.join('out','clv1')
+
 try:
-    os.makedirs(os.path.join('out','v1','codelist'))
+    os.makedirs(os.path.join(OUTPUTDIR,'codelist'))
 except OSError: pass
 
 def utf8_encode_dict(d):
@@ -101,18 +103,18 @@ for fname in os.listdir('combined-xml'):
         old_codelist_json_list.append(old_codelist_json_item)
 
 
-    with open(os.path.join('out','v1','codelist',attrib['name']+'.csv'), 'w') as fp:
+    with open(os.path.join(OUTPUTDIR,'codelist',attrib['name']+'.csv'), 'w') as fp:
         dictwriter = csv.DictWriter(fp, ['code','name','description','language','category','category-name','category-description'])
         dictwriter.writeheader()
         for line in old_codelist_json_list:
             dictwriter.writerow(utf8_encode_dict(line))
 
-    ET.ElementTree(old_codelist).write(os.path.join('out','v1','codelist',fname), pretty_print=True)
-    with open(os.path.join('out','v1','codelist',attrib['name']+'.json'), 'w') as fp:
+    ET.ElementTree(old_codelist).write(os.path.join(OUTPUTDIR,'codelist',fname), pretty_print=True)
+    with open(os.path.join(OUTPUTDIR,'codelist',attrib['name']+'.json'), 'w') as fp:
         old_codelist_json[attrib['name']] = old_codelist_json_list
         json.dump(old_codelist_json, fp)
 
-ET.ElementTree(old_codelist_index).write(os.path.join('out', 'v1', 'codelist.xml'), pretty_print=True)
-with open(os.path.join('out','v1','codelist.json'), 'w') as fp:
+ET.ElementTree(old_codelist_index).write(os.path.join(OUTPUTDIR, 'codelist.xml'), pretty_print=True)
+with open(os.path.join(OUTPUTDIR,'codelist.json'), 'w') as fp:
     json.dump({'codelist':old_codelist_index_json_list}, fp)
 

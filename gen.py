@@ -7,6 +7,8 @@ languages = ['en','fr']
 
 xml_lang = '{http://www.w3.org/XML/1998/namespace}lang'
 
+OUTPUTDIR = os.path.join('out','clv2')
+
 def normalize_whitespace(x):
     if x is None:
         return x
@@ -31,8 +33,8 @@ codelists_list = []
 
 for language in languages:
     try:
-        os.makedirs(os.path.join('out','json',language))
-        os.makedirs(os.path.join('out','csv',language))
+        os.makedirs(os.path.join(OUTPUTDIR,'json',language))
+        os.makedirs(os.path.join(OUTPUTDIR,'csv',language))
     except OSError: pass
 
     for fname in os.listdir('combined-xml'):
@@ -54,7 +56,7 @@ for language in languages:
         if fname == 'OrganisationRegistrationAgency.xml':
             fieldnames.append('public-database')
 
-        dw = csv.DictWriter(open('out/csv/{0}/{1}.csv'.format(language, attrib['name']), 'w'), fieldnames)
+        dw = csv.DictWriter(open(os.path.join(OUTPUTDIR, 'csv', language, attrib['name']+'.csv'), 'w'), fieldnames)
         dw.writeheader()
         for row in codelist_dicts:
             dw.writerow(utf8_encode_dict(row))
@@ -78,14 +80,14 @@ for language in languages:
                 },
                 'data': codelist_dicts
             },
-            open('out/json/{0}/{1}.json'.format(language, attrib['name']), 'w')
+            open(os.path.join(OUTPUTDIR, 'json', language, attrib['name']+'.json'), 'w')
         )
         codelists_list.append(attrib['name'])
 
         ET.SubElement(codelists, 'codelist').attrib['ref'] = attrib['name']
 
 tree = ET.ElementTree(codelists)
-tree.write("out/codelists.xml", pretty_print=True)
+tree.write(os.path.join(OUTPUTDIR, 'codelists.xml'), pretty_print=True)
 
-json.dump(codelists_list, open('out/codelists.json', 'w'))
+json.dump(codelists_list, open(os.path.join(OUTPUTDIR, 'codelists.json'), 'w'))
 
