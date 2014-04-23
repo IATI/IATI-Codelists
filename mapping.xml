@@ -106,7 +106,7 @@
     </mapping>
     <mapping>
         <path>//iati-activity/location/feature-designation/@code</path>
-        <codelist ref="GeographicFeatureDesignation" />
+        <codelist ref="LocationType" />
     </mapping>
     <mapping>
         <path>//iati-activity/location/gazetteer-entry/@gazetteer-ref</path>
