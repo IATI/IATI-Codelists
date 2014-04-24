@@ -5,12 +5,12 @@
     </metadata>
     <codelist-items>
         <codelist-item>
-            <code>2</code>
-            <name>Performance</name>
-        </codelist-item>
-        <codelist-item>
             <code>1</code>
             <name>Policy</name>
+        </codelist-item>
+        <codelist-item>
+            <code>2</code>
+            <name>Performance</name>
         </codelist-item>
         <codelist-item>
             <code>3</code>
