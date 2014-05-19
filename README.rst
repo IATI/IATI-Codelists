@@ -59,7 +59,7 @@ It's structured as a list of `mapping` elements, which each have a `path` elemen
 
 A `JSON version <http://dev.iatistandard.org/_static/codelists/mapping.json>`__ is also availible.
 
-Testing compliance Against Codelists
+Testing Compliance Against Codelists
 ===================================
 
 ``testcodelists.py`` is can be run against an IATI Activity XML to check that it is using the correct codelists values. Only codelists that are complete will be tested (see next section).
