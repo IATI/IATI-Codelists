@@ -20,7 +20,7 @@ Those codelists that are not embedded can be found in a seperate repository at `
 Codelist XML Format
 ===============
 
-Th codelist are in an XML format described by the  ``codelist.xsd`` schema. 
+The codelist are in an XML format described by the  ``codelist.xsd`` schema. 
 This format has been chosen for the single source of truth as it has a number of advantages over the previous format used by IATI.
  
 * the codelists no longer include the element name as a tag name,
@@ -59,7 +59,7 @@ It's structured as a list of `mapping` elements, which each have a `path` elemen
 
 A `JSON version <http://dev.iatistandard.org/_static/codelists/mapping.json>`__ is also availible.
 
-Testing Complians Against Codelists
+Testing Compliance Against Codelists
 ===================================
 
 ``testcodelists.py`` is can be run against an IATI Activity XML to check that it is using the correct codelists values. Only codelists that are complete will be tested (see next section).
