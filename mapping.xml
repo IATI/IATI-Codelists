@@ -154,7 +154,7 @@
     </mapping>
     <mapping>
         <path>//iati-activity/policy-marker/@vocabulary</path>
-        <codelist ref="Vocabulary" />
+        <codelist ref="SectorVocabulary" />
     </mapping>
     <mapping>
         <path>//iati-activity/recipient-country/@code</path>
@@ -200,7 +200,7 @@
     </mapping>
     <mapping>
         <path>//iati-activity/sector/@vocabulary</path>
-        <codelist ref="Vocabulary" />
+        <codelist ref="SectorVocabulary" />
     </mapping>
     <mapping>
         <path>//iati-activity/transaction/aid-type/@code</path>
