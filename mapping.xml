@@ -1,5 +1,13 @@
 <mappings>
     <mapping>
+        <path>//iati-activities/@version</path>
+        <codelist ref="Version" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/@version</path>
+        <codelist ref="Version" />
+    </mapping>
+    <mapping>
         <path>//iati-activity/@default-currency</path>
         <codelist ref="Currency" />
     </mapping>
@@ -233,6 +241,14 @@
     <mapping>
         <path>//@xml:lang</path>
         <codelist ref="Language" />
+    </mapping>
+    <mapping>
+        <path>//iati-organisations/@version</path>
+        <codelist ref="Version" />
+    </mapping>
+    <mapping>
+        <path>//iati-organisation/@version</path>
+        <codelist ref="Version" />
     </mapping>
     <mapping>
         <path>//iati-organisation/@default-currency</path>
