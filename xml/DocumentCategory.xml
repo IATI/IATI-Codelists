@@ -70,6 +70,12 @@
             <category>A</category>
         </codelist-item>
         <codelist-item>
+            <code>A12</code>
+            <name>Activity web page</name>
+            <description/>
+            <category>A</category>
+        </codelist-item>
+        <codelist-item>
             <code>B01</code>
             <name>Annual report</name>
             <description/>
@@ -126,6 +132,24 @@
         <codelist-item>
             <code>B10</code>
             <name>Country Evaluation Report</name>
+            <description/>
+            <category>B</category>
+        </codelist-item>
+        <codelist-item>
+            <code>B11</code>
+            <name>Organisation web page</name>
+            <description/>
+            <category>B</category>
+        </codelist-item>
+        <codelist-item>
+            <code>B12</code>
+            <name>Country/Region web page</name>
+            <description/>
+            <category>B</category>
+        </codelist-item>
+        <codelist-item>
+            <code>B13</code>
+            <name>Sector web page</name>
             <description/>
             <category>B</category>
         </codelist-item>
