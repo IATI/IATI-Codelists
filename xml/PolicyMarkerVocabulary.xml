@@ -1,0 +1,15 @@
+<codelist name="PolicyMarkerVocabulary"   xml:lang="en" complete="1">
+    <metadata>
+        <name>Policy Marker Vocabulary</name>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>1</code>
+            <name>AidData</name>
+        </codelist-item>
+        <codelist-item>
+            <code>99</code>
+            <name>Reporting Organisation (i.e. maintained by the organisation referred to in the &lt;reporting-org&gt; element.</name>
+        </codelist-item>
+    </codelist-items>
+</codelist>

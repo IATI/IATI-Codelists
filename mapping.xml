@@ -162,7 +162,7 @@
     </mapping>
     <mapping>
         <path>//iati-activity/policy-marker/@vocabulary</path>
-        <codelist ref="SectorVocabulary" />
+        <codelist ref="PolicyMarkerVocabulary" />
     </mapping>
     <mapping>
         <path>//iati-activity/recipient-country/@code</path>
