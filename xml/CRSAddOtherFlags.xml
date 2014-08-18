@@ -1,6 +1,6 @@
-<codelist name="AidTypeFlag"   xml:lang="en" complete="1">
+<codelist name="CRSAddOtherFlags"   xml:lang="en" complete="1">
     <metadata>
-        <name>Aid Type Flag</name>
+        <name>CRS Additional Other Flags</name>
         <description>OECD DAC classification used to distinguish aid modalities. </description>
     </metadata>
     <codelist-items>

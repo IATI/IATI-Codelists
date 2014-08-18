@@ -57,8 +57,8 @@
         <codelist ref="DescriptionType" />
     </mapping>
     <mapping>
-        <path>//iati-activity/crs-add/aidtype-flag/@code</path>
-        <codelist ref="AidTypeFlag" />
+        <path>//iati-activity/crs-add/other-flags/@code</path>
+        <codelist ref="CRSAddOtherFlags" />
     </mapping>
     <mapping>
         <path>//iati-activity/crs-add/loan-terms/repayment-plan/@code</path>
