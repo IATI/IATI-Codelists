@@ -4,10 +4,6 @@
         <codelist ref="Version" />
     </mapping>
     <mapping>
-        <path>//iati-activity/@version</path>
-        <codelist ref="Version" />
-    </mapping>
-    <mapping>
         <path>//iati-activity/@default-currency</path>
         <codelist ref="Currency" />
     </mapping>
@@ -101,24 +97,12 @@
         <codelist ref="Language" />
     </mapping>
     <mapping>
-        <path>//iati-activity/location/administrative/@country</path>
-        <codelist ref="Country" />
-    </mapping>
-    <mapping>
         <path>//iati-activity/location/administrative/@vocabulary</path>
         <codelist ref="GeographicVocabulary" />
     </mapping>
     <mapping>
-        <path>//iati-activity/location/coordinates/@precision</path>
-        <codelist ref="GeographicalPrecision" />
-    </mapping>
-    <mapping>
         <path>//iati-activity/location/feature-designation/@code</path>
         <codelist ref="LocationType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/location/gazetteer-entry/@gazetteer-ref</path>
-        <codelist ref="GazetteerAgency" />
     </mapping>
     <mapping>
         <path>//iati-activity/location/location-class/@code</path>
@@ -133,10 +117,6 @@
         <codelist ref="GeographicLocationReach" />
     </mapping>
     <mapping>
-        <path>//iati-activity/location/location-type/@code</path>
-        <codelist ref="LocationType" />
-    </mapping>
-    <mapping>
         <path>//iati-activity/location/exactness/@code</path>
         <codelist ref="GeographicExactness" />
     </mapping>
@@ -147,6 +127,10 @@
     <mapping>
         <path>//iati-activity/participating-org/@type</path>
         <codelist ref="OrganisationType" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/planned-disbursement/@type</path>
+        <codelist ref="BudgetType" />
     </mapping>
     <mapping>
         <path>//iati-activity/planned-disbursement/value/@currency</path>
@@ -227,6 +211,28 @@
         <codelist ref="FlowType" />
     </mapping>
     <mapping>
+        <path>//iati-activity/transaction/recipient-country/@code</path>
+        <codelist ref="Country" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/transaction/recipient-region/@code</path>
+        <codelist ref="Region" />
+        <condition>@vocabulary = '1'</condition>
+    </mapping>
+    <mapping>
+        <path>//iati-activity/transaction/recipient-region/@vocabulary</path>
+        <codelist ref="RegionVocabulary" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/transaction/sector/@code</path>
+        <codelist ref="Sector" />
+        <condition>@vocabulary = 'DAC' or not(@vocabulary)</condition>
+    </mapping>
+    <mapping>
+        <path>//iati-activity/transaction/sector/@vocabulary</path>
+        <codelist ref="SectorVocabulary" />
+    </mapping>
+    <mapping>
         <path>//iati-activity/transaction/tied-status/@code</path>
         <codelist ref="TiedStatus" />
     </mapping>
@@ -244,10 +250,6 @@
     </mapping>
     <mapping>
         <path>//iati-organisations/@version</path>
-        <codelist ref="Version" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/@version</path>
         <codelist ref="Version" />
     </mapping>
     <mapping>
@@ -273,6 +275,10 @@
     <mapping>
         <path>//iati-organisation/document-link/language/@code</path>
         <codelist ref="Language" />
+    </mapping>
+    <mapping>
+        <path>//iati-organisation/document-link/recipient-country/@code</path>
+        <codelist ref="Country" />
     </mapping>
     <mapping>
         <path>//iati-organisation/total-budget/value/@currency</path>
