@@ -24,7 +24,7 @@ def codelist_item_todict(codelist_item, default_lang='', lang='en'):
 
 def utf8_encode_dict(d):
     def enc(a):
-        if type(a) == str: return a.encode('utf8')
+        if type(a) == str or type(a) == unicode: return a.encode('utf8')
         else: return None
     return dict( (enc(k), enc(v)) for k, v in d.items() )
 
