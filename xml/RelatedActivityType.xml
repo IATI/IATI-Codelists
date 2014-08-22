@@ -1,32 +1,54 @@
 <codelist name="RelatedActivityType" xml:lang="en" complete="1">
     <metadata>
-        <name>Related Activity Type</name>
+        <name>
+            <narrative>Related Activity Type</narrative>
+        </name>
     </metadata>
     <codelist-items>
         <codelist-item>
             <code>1</code>
-            <name>Parent</name>
-            <description>An activity that contains sub-activities (sub-components) which are reported separately to IATI</description>
+            <name>
+                <narrative>Parent</narrative>
+            </name>
+            <description>
+                <narrative>An activity that contains sub-activities (sub-components) which are reported separately to IATI</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>2</code>
-            <name>Child</name>
-            <description>A sub-activity (or sub-component) that sits within a larger activity (parent) which is also reported to IATI</description>
+            <name>
+                <narrative>Child</narrative>
+            </name>
+            <description>
+                <narrative>A sub-activity (or sub-component) that sits within a larger activity (parent) which is also reported to IATI</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>3</code>
-            <name>Sibling</name>
-            <description>A sub-activity (or sub-component) that is related to another sub-activity with the same parent </description>
+            <name>
+                <narrative>Sibling</narrative>
+            </name>
+            <description>
+                <narrative>A sub-activity (or sub-component) that is related to another sub-activity with the same parent </narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>4</code>
-            <name>Co-funded</name>
-            <description>An activity that receives funding from more than one organisation</description>
+            <name>
+                <narrative>Co-funded</narrative>
+            </name>
+            <description>
+                <narrative>An activity that receives funding from more than one organisation</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>5</code>
-            <name>Third Party</name>
-            <description>A report by another organisation on the same activity you are reporting (excluding activities reported as part of a financial transaction - e.g. provider-activity-id or a co-funded activity, using code 4)</description>
+            <name>
+                <narrative>Third Party</narrative>
+            </name>
+            <description>
+                <narrative>A report by another organisation on the same activity you are reporting (excluding activities reported as part of a financial transaction - e.g. provider-activity-id or a co-funded activity, using code 4)</narrative>
+            </description>
         </codelist-item>
     </codelist-items>
 </codelist>

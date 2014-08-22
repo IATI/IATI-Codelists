@@ -1,772 +1,1082 @@
 <codelist name="BudgetIdentifier" xml:lang="en" category-codelist="BudgetIdentifierSector" complete="1">
     <metadata>
-        <name>Budget Identifier</name>
-        <description>IATI Functional and Administrative Common Code : One of several possible Budget Identifier Vocabularies</description>
+        <name>
+            <narrative>Budget Identifier</narrative>
+        </name>
+        <description>
+            <narrative>IATI Functional and Administrative Common Code : One of several possible Budget Identifier Vocabularies</narrative>
+        </description>
     </metadata>
     <codelist-items>
         <codelist-item>
             <code>1.1.1</code>
-            <name>Executive - executive</name>
+            <name>
+                <narrative>Executive - executive</narrative>
+            </name>
             <category>1.1</category>
         </codelist-item>
         <codelist-item>
             <code>1.2.1</code>
-            <name>Legislative - legislative</name>
+            <name>
+                <narrative>Legislative - legislative</narrative>
+            </name>
             <category>1.2</category>
         </codelist-item>
         <codelist-item>
             <code>1.3.1</code>
-            <name>Accountability - macroeconomic policy</name>
+            <name>
+                <narrative>Accountability - macroeconomic policy</narrative>
+            </name>
             <category>1.3</category>
         </codelist-item>
         <codelist-item>
             <code>1.3.2</code>
-            <name>Accountability - budgeting</name>
+            <name>
+                <narrative>Accountability - budgeting</narrative>
+            </name>
             <category>1.3</category>
         </codelist-item>
         <codelist-item>
             <code>1.3.3</code>
-            <name>Accountability - planning</name>
+            <name>
+                <narrative>Accountability - planning</narrative>
+            </name>
             <category>1.3</category>
         </codelist-item>
         <codelist-item>
             <code>1.3.4</code>
-            <name>Accountability - Treasury/Accounts</name>
+            <name>
+                <narrative>Accountability - Treasury/Accounts</narrative>
+            </name>
             <category>1.3</category>
         </codelist-item>
         <codelist-item>
             <code>1.3.5</code>
-            <name>Accountability - debt and aid management</name>
+            <name>
+                <narrative>Accountability - debt and aid management</narrative>
+            </name>
             <category>1.3</category>
         </codelist-item>
         <codelist-item>
             <code>1.3.6</code>
-            <name>Accountability - tax policy</name>
+            <name>
+                <narrative>Accountability - tax policy</narrative>
+            </name>
             <category>1.3</category>
         </codelist-item>
         <codelist-item>
             <code>1.3.7</code>
-            <name>Accountability - tax collection</name>
+            <name>
+                <narrative>Accountability - tax collection</narrative>
+            </name>
             <category>1.3</category>
         </codelist-item>
         <codelist-item>
             <code>1.3.8</code>
-            <name>Accountability - local government finance</name>
+            <name>
+                <narrative>Accountability - local government finance</narrative>
+            </name>
             <category>1.3</category>
         </codelist-item>
         <codelist-item>
             <code>1.3.9</code>
-            <name>Accountability - other central transfers to institutions </name>
+            <name>
+                <narrative>Accountability - other central transfers to institutions </narrative>
+            </name>
             <category>1.3</category>
         </codelist-item>
         <codelist-item>
             <code>1.3.10</code>
-            <name>Accountability - national audit</name>
+            <name>
+                <narrative>Accountability - national audit</narrative>
+            </name>
             <category>1.3</category>
         </codelist-item>
         <codelist-item>
             <code>1.3.11</code>
-            <name>Accountability - national monitoring and evaluation</name>
+            <name>
+                <narrative>Accountability - national monitoring and evaluation</narrative>
+            </name>
             <category>1.3</category>
         </codelist-item>
         <codelist-item>
             <code>1.3.12</code>
-            <name>Accountability - monetary institutions</name>
+            <name>
+                <narrative>Accountability - monetary institutions</narrative>
+            </name>
             <category>1.3</category>
         </codelist-item>
         <codelist-item>
             <code>1.3.13</code>
-            <name>Accountability - financial sector policy and regulation</name>
+            <name>
+                <narrative>Accountability - financial sector policy and regulation</narrative>
+            </name>
             <category>1.3</category>
         </codelist-item>
         <codelist-item>
             <code>1.4.1</code>
-            <name>External Affairs - foreign affairs </name>
+            <name>
+                <narrative>External Affairs - foreign affairs </narrative>
+            </name>
             <category>1.4</category>
         </codelist-item>
         <codelist-item>
             <code>1.4.2</code>
-            <name>External Affairs - diplomatic missions</name>
+            <name>
+                <narrative>External Affairs - diplomatic missions</narrative>
+            </name>
             <category>1.4</category>
         </codelist-item>
         <codelist-item>
             <code>1.4.3</code>
-            <name>External Affairs - official development assistance</name>
+            <name>
+                <narrative>External Affairs - official development assistance</narrative>
+            </name>
             <category>1.4</category>
         </codelist-item>
         <codelist-item>
             <code>1.5.1</code>
-            <name>General Personnel Services - general personnel services</name>
+            <name>
+                <narrative>General Personnel Services - general personnel services</narrative>
+            </name>
             <category>1.5</category>
         </codelist-item>
         <codelist-item>
             <code>1.6.1</code>
-            <name>Statistics - statistics</name>
+            <name>
+                <narrative>Statistics - statistics</narrative>
+            </name>
             <category>1.6</category>
         </codelist-item>
         <codelist-item>
             <code>1.7.1</code>
-            <name>Other General Services - support to civil society </name>
+            <name>
+                <narrative>Other General Services - support to civil society </narrative>
+            </name>
             <category>1.7</category>
         </codelist-item>
         <codelist-item>
             <code>1.7.2</code>
-            <name>Other General Services - central procurement</name>
+            <name>
+                <narrative>Other General Services - central procurement</narrative>
+            </name>
             <category>1.7</category>
         </codelist-item>
         <codelist-item>
             <code>1.7.3</code>
-            <name>Other General Services - Local Government Administration</name>
+            <name>
+                <narrative>Other General Services - Local Government Administration</narrative>
+            </name>
             <category>1.7</category>
         </codelist-item>
         <codelist-item>
             <code>1.7.4</code>
-            <name>Other General Services - other general services</name>
+            <name>
+                <narrative>Other General Services - other general services</narrative>
+            </name>
             <category>1.7</category>
         </codelist-item>
         <codelist-item>
             <code>1.8.1</code>
-            <name>Elections - elections</name>
+            <name>
+                <narrative>Elections - elections</narrative>
+            </name>
             <category>1.8</category>
         </codelist-item>
         <codelist-item>
             <code>2.1.1</code>
-            <name>Justice, Law and Order - policy, planning and administration</name>
+            <name>
+                <narrative>Justice, Law and Order - policy, planning and administration</narrative>
+            </name>
             <category>2.1</category>
         </codelist-item>
         <codelist-item>
             <code>2.1.2</code>
-            <name>Justice, Law and Order - police</name>
+            <name>
+                <narrative>Justice, Law and Order - police</narrative>
+            </name>
             <category>2.1</category>
         </codelist-item>
         <codelist-item>
             <code>2.1.2</code>
-            <name>Justice, Law and Order - fire</name>
+            <name>
+                <narrative>Justice, Law and Order - fire</narrative>
+            </name>
             <category>2.1</category>
         </codelist-item>
         <codelist-item>
             <code>2.1.3</code>
-            <name>Justice, Law and Order - judicial affairs</name>
+            <name>
+                <narrative>Justice, Law and Order - judicial affairs</narrative>
+            </name>
             <category>2.1</category>
         </codelist-item>
         <codelist-item>
             <code>2.1.4</code>
-            <name>Justice, Law and Order - Ombudsman</name>
+            <name>
+                <narrative>Justice, Law and Order - Ombudsman</narrative>
+            </name>
             <category>2.1</category>
         </codelist-item>
         <codelist-item>
             <code>2.1.5</code>
-            <name>Justice, Law and Order - human rights affairs</name>
+            <name>
+                <narrative>Justice, Law and Order - human rights affairs</narrative>
+            </name>
             <category>2.1</category>
         </codelist-item>
         <codelist-item>
             <code>2.1.6</code>
-            <name>Justice, Law and Order - immigration</name>
+            <name>
+                <narrative>Justice, Law and Order - immigration</narrative>
+            </name>
             <category>2.1</category>
         </codelist-item>
         <codelist-item>
             <code>2.1.7</code>
-            <name>Justice, Law and Order - anti corruption</name>
+            <name>
+                <narrative>Justice, Law and Order - anti corruption</narrative>
+            </name>
             <category>2.1</category>
         </codelist-item>
         <codelist-item>
             <code>2.1.8</code>
-            <name>Justice, Law and Order - prisons</name>
+            <name>
+                <narrative>Justice, Law and Order - prisons</narrative>
+            </name>
             <category>2.1</category>
         </codelist-item>
         <codelist-item>
             <code>2.1.9</code>
-            <name>Justice, Law and Order - peace building</name>
+            <name>
+                <narrative>Justice, Law and Order - peace building</narrative>
+            </name>
             <category>2.1</category>
         </codelist-item>
         <codelist-item>
             <code>2.1.10</code>
-            <name>Justice, Law and Order - demobilisation</name>
+            <name>
+                <narrative>Justice, Law and Order - demobilisation</narrative>
+            </name>
             <category>2.1</category>
         </codelist-item>
         <codelist-item>
             <code>2.2.1</code>
-            <name>Defence - policy, planning and administration</name>
+            <name>
+                <narrative>Defence - policy, planning and administration</narrative>
+            </name>
             <category>2.2</category>
         </codelist-item>
         <codelist-item>
             <code>2.2.2</code>
-            <name>Defence - military</name>
+            <name>
+                <narrative>Defence - military</narrative>
+            </name>
             <category>2.2</category>
         </codelist-item>
         <codelist-item>
             <code>2.2.3</code>
-            <name>Defence - civil defence</name>
+            <name>
+                <narrative>Defence - civil defence</narrative>
+            </name>
             <category>2.2</category>
         </codelist-item>
         <codelist-item>
             <code>2.2.4</code>
-            <name>Defence - foreign military aid</name>
+            <name>
+                <narrative>Defence - foreign military aid</narrative>
+            </name>
             <category>2.2</category>
         </codelist-item>
         <codelist-item>
             <code>3.1.1</code>
-            <name>General Economic, Commercial and Labour Affairs - policy, planning and administration</name>
+            <name>
+                <narrative>General Economic, Commercial and Labour Affairs - policy, planning and administration</narrative>
+            </name>
             <category>3.1</category>
         </codelist-item>
         <codelist-item>
             <code>3.1.2</code>
-            <name>General Economic, Commercial and Labour Affairs - general economic affairs</name>
+            <name>
+                <narrative>General Economic, Commercial and Labour Affairs - general economic affairs</narrative>
+            </name>
             <category>3.1</category>
         </codelist-item>
         <codelist-item>
             <code>3.1.3</code>
-            <name>General Economic, Commercial and Labour Affairs - investment promotion</name>
+            <name>
+                <narrative>General Economic, Commercial and Labour Affairs - investment promotion</narrative>
+            </name>
             <category>3.1</category>
         </codelist-item>
         <codelist-item>
             <code>3.1.4</code>
-            <name>General Economic, Commercial and Labour Affairs - privatisation</name>
+            <name>
+                <narrative>General Economic, Commercial and Labour Affairs - privatisation</narrative>
+            </name>
             <category>3.1</category>
         </codelist-item>
         <codelist-item>
             <code>3.1.5</code>
-            <name>General Economic, Commercial and Labour Affairs - trade</name>
+            <name>
+                <narrative>General Economic, Commercial and Labour Affairs - trade</narrative>
+            </name>
             <category>3.1</category>
         </codelist-item>
         <codelist-item>
             <code>3.1.6</code>
-            <name>General Economic, Commercial and Labour Affairs - labour</name>
+            <name>
+                <narrative>General Economic, Commercial and Labour Affairs - labour</narrative>
+            </name>
             <category>3.1</category>
         </codelist-item>
         <codelist-item>
             <code>3.1.7</code>
-            <name>General Economic, Commercial and Labour Affairs - national standards development</name>
+            <name>
+                <narrative>General Economic, Commercial and Labour Affairs - national standards development</narrative>
+            </name>
             <category>3.1</category>
         </codelist-item>
         <codelist-item>
             <code>3.2.1</code>
-            <name>Public Works - policy, planning and administration</name>
+            <name>
+                <narrative>Public Works - policy, planning and administration</narrative>
+            </name>
             <category>3.2</category>
         </codelist-item>
         <codelist-item>
             <code>3.2.2</code>
-            <name>Public Works - construction regulation</name>
+            <name>
+                <narrative>Public Works - construction regulation</narrative>
+            </name>
             <category>3.2</category>
         </codelist-item>
         <codelist-item>
             <code>3.2.3</code>
-            <name>Public Works - mechanical services</name>
+            <name>
+                <narrative>Public Works - mechanical services</narrative>
+            </name>
             <category>3.2</category>
         </codelist-item>
         <codelist-item>
             <code>3.3.1</code>
-            <name>Agriculture - policy, planning and administration</name>
+            <name>
+                <narrative>Agriculture - policy, planning and administration</narrative>
+            </name>
             <category>3.3</category>
         </codelist-item>
         <codelist-item>
             <code>3.3.2</code>
-            <name>Agriculture - irrigation</name>
+            <name>
+                <narrative>Agriculture - irrigation</narrative>
+            </name>
             <category>3.3</category>
         </codelist-item>
         <codelist-item>
             <code>3.3.3</code>
-            <name>Agriculture - inputs</name>
+            <name>
+                <narrative>Agriculture - inputs</narrative>
+            </name>
             <category>3.3</category>
         </codelist-item>
         <codelist-item>
             <code>3.3.4</code>
-            <name>Agriculture - food crop</name>
+            <name>
+                <narrative>Agriculture - food crop</narrative>
+            </name>
             <category>3.3</category>
         </codelist-item>
         <codelist-item>
             <code>3.3.5</code>
-            <name>Agriculture - industrial crop</name>
+            <name>
+                <narrative>Agriculture - industrial crop</narrative>
+            </name>
             <category>3.3</category>
         </codelist-item>
         <codelist-item>
             <code>3.3.6</code>
-            <name>Agriculture - livestock</name>
+            <name>
+                <narrative>Agriculture - livestock</narrative>
+            </name>
             <category>3.3</category>
         </codelist-item>
         <codelist-item>
             <code>3.3.7</code>
-            <name>Agriculture - agricultural training and extension</name>
+            <name>
+                <narrative>Agriculture - agricultural training and extension</narrative>
+            </name>
             <category>3.3</category>
         </codelist-item>
         <codelist-item>
             <code>3.3.8</code>
-            <name>Agriculture - research</name>
+            <name>
+                <narrative>Agriculture - research</narrative>
+            </name>
             <category>3.3</category>
         </codelist-item>
         <codelist-item>
             <code>3.3.9</code>
-            <name>Agriculture - other services</name>
+            <name>
+                <narrative>Agriculture - other services</narrative>
+            </name>
             <category>3.3</category>
         </codelist-item>
         <codelist-item>
             <code>3.4.1</code>
-            <name>Forestry - policy, planning and administration</name>
+            <name>
+                <narrative>Forestry - policy, planning and administration</narrative>
+            </name>
             <category>3.4</category>
         </codelist-item>
         <codelist-item>
             <code>3.4.2</code>
-            <name>Forestry - development and services</name>
+            <name>
+                <narrative>Forestry - development and services</narrative>
+            </name>
             <category>3.4</category>
         </codelist-item>
         <codelist-item>
             <code>3.4.3</code>
-            <name>Forestry - education/training</name>
+            <name>
+                <narrative>Forestry - education/training</narrative>
+            </name>
             <category>3.4</category>
         </codelist-item>
         <codelist-item>
             <code>3.4.4</code>
-            <name>Forestry - research</name>
+            <name>
+                <narrative>Forestry - research</narrative>
+            </name>
             <category>3.4</category>
         </codelist-item>
         <codelist-item>
             <code>3.5.1</code>
-            <name>Fishing and Hunting - policy, planning and administration</name>
+            <name>
+                <narrative>Fishing and Hunting - policy, planning and administration</narrative>
+            </name>
             <category>3.5</category>
         </codelist-item>
         <codelist-item>
             <code>3.5.2</code>
-            <name>Fishing and Hunting - development and services</name>
+            <name>
+                <narrative>Fishing and Hunting - development and services</narrative>
+            </name>
             <category>3.5</category>
         </codelist-item>
         <codelist-item>
             <code>3.5.3</code>
-            <name>Fishing and Hunting - education and training</name>
+            <name>
+                <narrative>Fishing and Hunting - education and training</narrative>
+            </name>
             <category>3.5</category>
         </codelist-item>
         <codelist-item>
             <code>3.5.4</code>
-            <name>Fishing and Hunting - research</name>
+            <name>
+                <narrative>Fishing and Hunting - research</narrative>
+            </name>
             <category>3.5</category>
         </codelist-item>
         <codelist-item>
             <code>3.6.1</code>
-            <name>Energy - policy, planning and administration</name>
+            <name>
+                <narrative>Energy - policy, planning and administration</narrative>
+            </name>
             <category>3.6</category>
         </codelist-item>
         <codelist-item>
             <code>3.6.2</code>
-            <name>Energy - education and training</name>
+            <name>
+                <narrative>Energy - education and training</narrative>
+            </name>
             <category>3.6</category>
         </codelist-item>
         <codelist-item>
             <code>3.6.3</code>
-            <name>Energy - energy regulation</name>
+            <name>
+                <narrative>Energy - energy regulation</narrative>
+            </name>
             <category>3.6</category>
         </codelist-item>
         <codelist-item>
             <code>3.6.4</code>
-            <name>Energy - electricity transmission</name>
+            <name>
+                <narrative>Energy - electricity transmission</narrative>
+            </name>
             <category>3.6</category>
         </codelist-item>
         <codelist-item>
             <code>3.6.5</code>
-            <name>Energy - nuclear</name>
+            <name>
+                <narrative>Energy - nuclear</narrative>
+            </name>
             <category>3.6</category>
         </codelist-item>
         <codelist-item>
             <code>3.6.6</code>
-            <name>Energy - power generation</name>
+            <name>
+                <narrative>Energy - power generation</narrative>
+            </name>
             <category>3.6</category>
         </codelist-item>
         <codelist-item>
             <code>3.6.7</code>
-            <name>Energy - gas </name>
+            <name>
+                <narrative>Energy - gas </narrative>
+            </name>
             <category>3.6</category>
         </codelist-item>
         <codelist-item>
             <code>3.7.1</code>
-            <name>Mining and Mineral Development - policy, planning and administration</name>
+            <name>
+                <narrative>Mining and Mineral Development - policy, planning and administration</narrative>
+            </name>
             <category>3.7</category>
         </codelist-item>
         <codelist-item>
             <code>3.7.2</code>
-            <name>Mining and Mineral Development - prospection and exploration</name>
+            <name>
+                <narrative>Mining and Mineral Development - prospection and exploration</narrative>
+            </name>
             <category>3.7</category>
         </codelist-item>
         <codelist-item>
             <code>3.7.3</code>
-            <name>Mining and Mineral Development - coal and other solid mineral fuels</name>
+            <name>
+                <narrative>Mining and Mineral Development - coal and other solid mineral fuels</narrative>
+            </name>
             <category>3.7</category>
         </codelist-item>
         <codelist-item>
             <code>3.7.4</code>
-            <name>Mining and Mineral Development - petroleum and gas</name>
+            <name>
+                <narrative>Mining and Mineral Development - petroleum and gas</narrative>
+            </name>
             <category>3.7</category>
         </codelist-item>
         <codelist-item>
             <code>3.7.6</code>
-            <name>Mining and Mineral Development - other fuel</name>
+            <name>
+                <narrative>Mining and Mineral Development - other fuel</narrative>
+            </name>
             <category>3.7</category>
         </codelist-item>
         <codelist-item>
             <code>3.7.7</code>
-            <name>Mining and Mineral Development - non fuel minerals</name>
+            <name>
+                <narrative>Mining and Mineral Development - non fuel minerals</narrative>
+            </name>
             <category>3.7</category>
         </codelist-item>
         <codelist-item>
             <code>3.8.1</code>
-            <name>Transport - policy, planning and administration</name>
+            <name>
+                <narrative>Transport - policy, planning and administration</narrative>
+            </name>
             <category>3.8</category>
         </codelist-item>
         <codelist-item>
             <code>3.8.2</code>
-            <name>Transport - transport regulation</name>
+            <name>
+                <narrative>Transport - transport regulation</narrative>
+            </name>
             <category>3.8</category>
         </codelist-item>
         <codelist-item>
             <code>3.8.3</code>
-            <name>Transport - feeder road construction</name>
+            <name>
+                <narrative>Transport - feeder road construction</narrative>
+            </name>
             <category>3.8</category>
         </codelist-item>
         <codelist-item>
             <code>3.8.4</code>
-            <name>Transport - feeder road maintenance</name>
+            <name>
+                <narrative>Transport - feeder road maintenance</narrative>
+            </name>
             <category>3.8</category>
         </codelist-item>
         <codelist-item>
             <code>3.8.5</code>
-            <name>Transport - national road construction</name>
+            <name>
+                <narrative>Transport - national road construction</narrative>
+            </name>
             <category>3.8</category>
         </codelist-item>
         <codelist-item>
             <code>3.8.6</code>
-            <name>Transport - national road maintenance</name>
+            <name>
+                <narrative>Transport - national road maintenance</narrative>
+            </name>
             <category>3.8</category>
         </codelist-item>
         <codelist-item>
             <code>3.8.7</code>
-            <name>Transport - rail</name>
+            <name>
+                <narrative>Transport - rail</narrative>
+            </name>
             <category>3.8</category>
         </codelist-item>
         <codelist-item>
             <code>3.8.8</code>
-            <name>Transport - water</name>
+            <name>
+                <narrative>Transport - water</narrative>
+            </name>
             <category>3.8</category>
         </codelist-item>
         <codelist-item>
             <code>3.8.9</code>
-            <name>Transport - air</name>
+            <name>
+                <narrative>Transport - air</narrative>
+            </name>
             <category>3.8</category>
         </codelist-item>
         <codelist-item>
             <code>3.8.10</code>
-            <name>Transport - pipeline</name>
+            <name>
+                <narrative>Transport - pipeline</narrative>
+            </name>
             <category>3.8</category>
         </codelist-item>
         <codelist-item>
             <code>3.8.11</code>
-            <name>Transport - storage and distribution</name>
+            <name>
+                <narrative>Transport - storage and distribution</narrative>
+            </name>
             <category>3.8</category>
         </codelist-item>
         <codelist-item>
             <code>3.8.12</code>
-            <name>Transport - public transport services</name>
+            <name>
+                <narrative>Transport - public transport services</narrative>
+            </name>
             <category>3.8</category>
         </codelist-item>
         <codelist-item>
             <code>3.8.13</code>
-            <name>Transport - meteorological services</name>
+            <name>
+                <narrative>Transport - meteorological services</narrative>
+            </name>
             <category>3.8</category>
         </codelist-item>
         <codelist-item>
             <code>3.8.14</code>
-            <name>Transport - education and training</name>
+            <name>
+                <narrative>Transport - education and training</narrative>
+            </name>
             <category>3.8</category>
         </codelist-item>
         <codelist-item>
             <code>3.9.1</code>
-            <name>Industry - policy, planning and administration</name>
+            <name>
+                <narrative>Industry - policy, planning and administration</narrative>
+            </name>
             <category>3.9</category>
         </codelist-item>
         <codelist-item>
             <code>3.9.2</code>
-            <name>Industry - development and services</name>
+            <name>
+                <narrative>Industry - development and services</narrative>
+            </name>
             <category>3.9</category>
         </codelist-item>
         <codelist-item>
             <code>3.9.3</code>
-            <name>Industry - industrial research</name>
+            <name>
+                <narrative>Industry - industrial research</narrative>
+            </name>
             <category>3.9</category>
         </codelist-item>
         <codelist-item>
             <code>3.9.4</code>
-            <name>Industry - (investment in industry)</name>
+            <name>
+                <narrative>Industry - (investment in industry)</narrative>
+            </name>
             <category>3.9</category>
         </codelist-item>
         <codelist-item>
             <code>3.10.1</code>
-            <name>Communications - policy, planning and administration</name>
+            <name>
+                <narrative>Communications - policy, planning and administration</narrative>
+            </name>
             <category>3.10</category>
         </codelist-item>
         <codelist-item>
             <code>3.10.2</code>
-            <name>Communications - ICT Infrastructure</name>
+            <name>
+                <narrative>Communications - ICT Infrastructure</narrative>
+            </name>
             <category>3.10</category>
         </codelist-item>
         <codelist-item>
             <code>3.10.3</code>
-            <name>Communications - telecoms and postal services</name>
+            <name>
+                <narrative>Communications - telecoms and postal services</narrative>
+            </name>
             <category>3.10</category>
         </codelist-item>
         <codelist-item>
             <code>3.10.4</code>
-            <name>Communications - information services</name>
+            <name>
+                <narrative>Communications - information services</narrative>
+            </name>
             <category>3.10</category>
         </codelist-item>
         <codelist-item>
             <code>3.11.1</code>
-            <name>Tourism - policy, planning and administration</name>
+            <name>
+                <narrative>Tourism - policy, planning and administration</narrative>
+            </name>
             <category>3.11</category>
         </codelist-item>
         <codelist-item>
             <code>3.11.2</code>
-            <name>Tourism - services</name>
+            <name>
+                <narrative>Tourism - services</narrative>
+            </name>
             <category>3.11</category>
         </codelist-item>
         <codelist-item>
             <code>3.12.1</code>
-            <name>Microfinance and financial services - Microfinance and financial services</name>
+            <name>
+                <narrative>Microfinance and financial services - Microfinance and financial services</narrative>
+            </name>
             <category>3.12</category>
         </codelist-item>
         <codelist-item>
             <code>4.1.1</code>
-            <name>Water supply and Sanitation - policy, planning and administration</name>
+            <name>
+                <narrative>Water supply and Sanitation - policy, planning and administration</narrative>
+            </name>
             <category>4.1</category>
         </codelist-item>
         <codelist-item>
             <code>4.1.2</code>
-            <name>Water supply and Sanitation - education/training</name>
+            <name>
+                <narrative>Water supply and Sanitation - education/training</narrative>
+            </name>
             <category>4.1</category>
         </codelist-item>
         <codelist-item>
             <code>4.1.3</code>
-            <name>Water supply and Sanitation - rural water supply and sanitation</name>
+            <name>
+                <narrative>Water supply and Sanitation - rural water supply and sanitation</narrative>
+            </name>
             <category>4.1</category>
         </codelist-item>
         <codelist-item>
             <code>4.1.4</code>
-            <name>Water supply and Sanitation - urban water supply and sanitation</name>
+            <name>
+                <narrative>Water supply and Sanitation - urban water supply and sanitation</narrative>
+            </name>
             <category>4.1</category>
         </codelist-item>
         <codelist-item>
             <code>4.1.5</code>
-            <name>Water supply and Sanitation - rural water supply</name>
+            <name>
+                <narrative>Water supply and Sanitation - rural water supply</narrative>
+            </name>
             <category>4.1</category>
         </codelist-item>
         <codelist-item>
             <code>4.1.6</code>
-            <name>Water supply and Sanitation - urban water supply</name>
+            <name>
+                <narrative>Water supply and Sanitation - urban water supply</narrative>
+            </name>
             <category>4.1</category>
         </codelist-item>
         <codelist-item>
             <code>4.1.7</code>
-            <name>Water supply and Sanitation - rural sanitation</name>
+            <name>
+                <narrative>Water supply and Sanitation - rural sanitation</narrative>
+            </name>
             <category>4.1</category>
         </codelist-item>
         <codelist-item>
             <code>4.1.8</code>
-            <name>Water supply and Sanitation - urban sanitation</name>
+            <name>
+                <narrative>Water supply and Sanitation - urban sanitation</narrative>
+            </name>
             <category>4.1</category>
         </codelist-item>
         <codelist-item>
             <code>4.1.9</code>
-            <name>Water supply and Sanitation - sewage and waste management</name>
+            <name>
+                <narrative>Water supply and Sanitation - sewage and waste management</narrative>
+            </name>
             <category>4.1</category>
         </codelist-item>
         <codelist-item>
             <code>4.2.1</code>
-            <name>Environment - policy, planning and administration</name>
+            <name>
+                <narrative>Environment - policy, planning and administration</narrative>
+            </name>
             <category>4.2</category>
         </codelist-item>
         <codelist-item>
             <code>4.2.2</code>
-            <name>Environment - research/ education and training</name>
+            <name>
+                <narrative>Environment - research/ education and training</narrative>
+            </name>
             <category>4.2</category>
         </codelist-item>
         <codelist-item>
             <code>4.2.3</code>
-            <name>Environment - natural resource management</name>
+            <name>
+                <narrative>Environment - natural resource management</narrative>
+            </name>
             <category>4.2</category>
         </codelist-item>
         <codelist-item>
             <code>4.2.4</code>
-            <name>Environment - water resources management</name>
+            <name>
+                <narrative>Environment - water resources management</narrative>
+            </name>
             <category>4.2</category>
         </codelist-item>
         <codelist-item>
             <code>4.2.5</code>
-            <name>Environment - wildlife protection, parks and site preservation</name>
+            <name>
+                <narrative>Environment - wildlife protection, parks and site preservation</narrative>
+            </name>
             <category>4.2</category>
         </codelist-item>
         <codelist-item>
             <code>5.1.1</code>
-            <name>Health - policy, planning and administration</name>
+            <name>
+                <narrative>Health - policy, planning and administration</narrative>
+            </name>
             <category>5.1</category>
         </codelist-item>
         <codelist-item>
             <code>5.2.1</code>
-            <name>Recreation, Culture and Religion - recreation and sport</name>
+            <name>
+                <narrative>Recreation, Culture and Religion - recreation and sport</narrative>
+            </name>
             <category>5.2</category>
         </codelist-item>
         <codelist-item>
             <code>5.2.2</code>
-            <name>Recreation, Culture and Religion - culture</name>
+            <name>
+                <narrative>Recreation, Culture and Religion - culture</narrative>
+            </name>
             <category>5.2</category>
         </codelist-item>
         <codelist-item>
             <code>5.2.3</code>
-            <name>Recreation, Culture and Religion - broadcasting and publishing</name>
+            <name>
+                <narrative>Recreation, Culture and Religion - broadcasting and publishing</narrative>
+            </name>
             <category>5.2</category>
         </codelist-item>
         <codelist-item>
             <code>5.2.4</code>
-            <name>Recreation, Culture and Religion - religion</name>
+            <name>
+                <narrative>Recreation, Culture and Religion - religion</narrative>
+            </name>
             <category>5.2</category>
         </codelist-item>
         <codelist-item>
             <code>5.3.1</code>
-            <name>Education - administration, policy and planning</name>
+            <name>
+                <narrative>Education - administration, policy and planning</narrative>
+            </name>
             <category>5.3</category>
         </codelist-item>
         <codelist-item>
             <code>5.3.2</code>
-            <name>Education - research</name>
+            <name>
+                <narrative>Education - research</narrative>
+            </name>
             <category>5.3</category>
         </codelist-item>
         <codelist-item>
             <code>5.3.3</code>
-            <name>Education - pre-primary</name>
+            <name>
+                <narrative>Education - pre-primary</narrative>
+            </name>
             <category>5.3</category>
         </codelist-item>
         <codelist-item>
             <code>5.3.4</code>
-            <name>Education - primary</name>
+            <name>
+                <narrative>Education - primary</narrative>
+            </name>
             <category>5.3</category>
         </codelist-item>
         <codelist-item>
             <code>5.3.5</code>
-            <name>Education - lower secondary</name>
+            <name>
+                <narrative>Education - lower secondary</narrative>
+            </name>
             <category>5.3</category>
         </codelist-item>
         <codelist-item>
             <code>5.3.6</code>
-            <name>Education - upper secondary</name>
+            <name>
+                <narrative>Education - upper secondary</narrative>
+            </name>
             <category>5.3</category>
         </codelist-item>
         <codelist-item>
             <code>5.3.7</code>
-            <name>Education - post secondary non tertiary </name>
+            <name>
+                <narrative>Education - post secondary non tertiary </narrative>
+            </name>
             <category>5.3</category>
         </codelist-item>
         <codelist-item>
             <code>5.3.8</code>
-            <name>Education - tertiary</name>
+            <name>
+                <narrative>Education - tertiary</narrative>
+            </name>
             <category>5.3</category>
         </codelist-item>
         <codelist-item>
             <code>5.3.9</code>
-            <name>Education - vocational training</name>
+            <name>
+                <narrative>Education - vocational training</narrative>
+            </name>
             <category>5.3</category>
         </codelist-item>
         <codelist-item>
             <code>5.3.10</code>
-            <name>Education - advanced technical and managerial training</name>
+            <name>
+                <narrative>Education - advanced technical and managerial training</narrative>
+            </name>
             <category>5.3</category>
         </codelist-item>
         <codelist-item>
             <code>5.3.11</code>
-            <name>Education - basic adult education</name>
+            <name>
+                <narrative>Education - basic adult education</narrative>
+            </name>
             <category>5.3</category>
         </codelist-item>
         <codelist-item>
             <code>5.3.12</code>
-            <name>Education - teacher training</name>
+            <name>
+                <narrative>Education - teacher training</narrative>
+            </name>
             <category>5.3</category>
         </codelist-item>
         <codelist-item>
             <code>5.3.13</code>
-            <name>Education - subsidiary services</name>
+            <name>
+                <narrative>Education - subsidiary services</narrative>
+            </name>
             <category>5.3</category>
         </codelist-item>
         <codelist-item>
             <code>5.4.1</code>
-            <name>Social Protection, Land Housing and Community Amenities - policy, planning and administration</name>
+            <name>
+                <narrative>Social Protection, Land Housing and Community Amenities - policy, planning and administration</narrative>
+            </name>
             <category>5.4</category>
         </codelist-item>
         <codelist-item>
             <code>5.4.2</code>
-            <name>Social Protection, Land Housing and Community Amenities - social security (excl pensions)</name>
+            <name>
+                <narrative>Social Protection, Land Housing and Community Amenities - social security (excl pensions)</narrative>
+            </name>
             <category>5.4</category>
         </codelist-item>
         <codelist-item>
             <code>5.4.3</code>
-            <name>Social Protection, Land Housing and Community Amenities - general pensions</name>
+            <name>
+                <narrative>Social Protection, Land Housing and Community Amenities - general pensions</narrative>
+            </name>
             <category>5.4</category>
         </codelist-item>
         <codelist-item>
             <code>5.4.4</code>
-            <name>Social Protection, Land Housing and Community Amenities - civil service and military pensions</name>
+            <name>
+                <narrative>Social Protection, Land Housing and Community Amenities - civil service and military pensions</narrative>
+            </name>
             <category>5.4</category>
         </codelist-item>
         <codelist-item>
             <code>5.4.5</code>
-            <name>Social Protection, Land Housing and Community Amenities - social services (incl youth development and women+ children)</name>
+            <name>
+                <narrative>Social Protection, Land Housing and Community Amenities - social services (incl youth development and women+ children)</narrative>
+            </name>
             <category>5.4</category>
         </codelist-item>
         <codelist-item>
             <code>5.4.6</code>
-            <name>Social Protection, Land Housing and Community Amenities - land policy and management</name>
+            <name>
+                <narrative>Social Protection, Land Housing and Community Amenities - land policy and management</narrative>
+            </name>
             <category>5.4</category>
         </codelist-item>
         <codelist-item>
             <code>5.4.7</code>
-            <name>Social Protection, Land Housing and Community Amenities - rural devt</name>
+            <name>
+                <narrative>Social Protection, Land Housing and Community Amenities - rural devt</narrative>
+            </name>
             <category>5.4</category>
         </codelist-item>
         <codelist-item>
             <code>5.4.8</code>
-            <name>Social Protection, Land Housing and Community Amenities - urban devt</name>
+            <name>
+                <narrative>Social Protection, Land Housing and Community Amenities - urban devt</narrative>
+            </name>
             <category>5.4</category>
         </codelist-item>
         <codelist-item>
             <code>5.4.9</code>
-            <name>Social Protection, Land Housing and Community Amenities - housing and community amenities</name>
+            <name>
+                <narrative>Social Protection, Land Housing and Community Amenities - housing and community amenities</narrative>
+            </name>
             <category>5.4</category>
         </codelist-item>
         <codelist-item>
             <code>5.4.10</code>
-            <name>Social Protection, Land Housing and Community Amenities - emergency relief</name>
+            <name>
+                <narrative>Social Protection, Land Housing and Community Amenities - emergency relief</narrative>
+            </name>
             <category>5.4</category>
         </codelist-item>
         <codelist-item>
             <code>5.4.11</code>
-            <name>Social Protection, Land Housing and Community Amenities - disaster prevention and preparedness</name>
+            <name>
+                <narrative>Social Protection, Land Housing and Community Amenities - disaster prevention and preparedness</narrative>
+            </name>
             <category>5.4</category>
         </codelist-item>
         <codelist-item>
             <code>5.4.12</code>
-            <name>Social Protection, Land Housing and Community Amenities - support to refugees and internally displaced persons</name>
+            <name>
+                <narrative>Social Protection, Land Housing and Community Amenities - support to refugees and internally displaced persons</narrative>
+            </name>
             <category>5.4</category>
         </codelist-item>
         <codelist-item>
             <code>6.1.1</code>
-            <name>Development Partner affairs - policy planning and administration</name>
+            <name>
+                <narrative>Development Partner affairs - policy planning and administration</narrative>
+            </name>
             <category>6.1</category>
         </codelist-item>
         <codelist-item>
             <code>6.1.2</code>
-            <name>Development Partner affairs - Technical staff services</name>
+            <name>
+                <narrative>Development Partner affairs - Technical staff services</narrative>
+            </name>
             <category>6.1</category>
         </codelist-item>
         <codelist-item>
             <code>7.1.1</code>
-            <name>External to government sector - External to general government sector</name>
+            <name>
+                <narrative>External to government sector - External to general government sector</narrative>
+            </name>
             <category>7.1</category>
         </codelist-item>
         <codelist-item>
             <code>7.2.1</code>
-            <name>General Budget Support - General Budget Support</name>
+            <name>
+                <narrative>General Budget Support - General Budget Support</narrative>
+            </name>
             <category>7.2</category>
         </codelist-item>
     </codelist-items>

@@ -1,32 +1,52 @@
 <codelist name="OrganisationRole" xml:lang="en" complete="1">
     <metadata>
-        <name>Organisation Role</name>
-        <description>IATI codes for the role of an organisation within an activity. An organisation can play more than one role within an activity.</description>
+        <name>
+            <narrative>Organisation Role</narrative>
+        </name>
+        <description>
+            <narrative>IATI codes for the role of an organisation within an activity. An organisation can play more than one role within an activity.</narrative>
+        </description>
     </metadata>
     <codelist-items>
         <codelist-item>
             <code>1</code>
-            <name>Funding</name>
-            <name xml:lang="fr">Financement</name>
-            <description>The government or organisation which provides funds to the activity. </description>
+            <name>
+                <narrative>Funding</narrative>
+                <narrative xml:lang="fr">Financement</narrative>
+            </name>
+            <description>
+                <narrative>The government or organisation which provides funds to the activity. </narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>2</code>
-            <name>Accountable</name>
-            <name xml:lang="fr">Responsabilité</name>
-            <description>An organisation responsible for oversight of the activity and its outcomes</description>
+            <name>
+                <narrative>Accountable</narrative>
+                <narrative xml:lang="fr">Responsabilité</narrative>
+            </name>
+            <description>
+                <narrative>An organisation responsible for oversight of the activity and its outcomes</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>3</code>
-            <name>Extending</name>
-            <name xml:lang="fr">Octroi</name>
-            <description>An organisation that manages the budget and direction of an activity on behalf of the funding organisation</description>
+            <name>
+                <narrative>Extending</narrative>
+                <narrative xml:lang="fr">Octroi</narrative>
+            </name>
+            <description>
+                <narrative>An organisation that manages the budget and direction of an activity on behalf of the funding organisation</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>4</code>
-            <name>Implementing</name>
-            <name xml:lang="fr">Mise en œuvre</name>
-            <description>The organisation that physically carries out the activity or intervention. </description>
+            <name>
+                <narrative>Implementing</narrative>
+                <narrative xml:lang="fr">Mise en œuvre</narrative>
+            </name>
+            <description>
+                <narrative>The organisation that physically carries out the activity or intervention. </narrative>
+            </description>
         </codelist-item>
     </codelist-items>
 </codelist>
