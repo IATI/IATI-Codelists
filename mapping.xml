@@ -188,7 +188,7 @@
     <mapping>
         <path>//iati-activity/sector/@code</path>
         <codelist ref="Sector" />
-        <condition>@vocabulary = 'DAC' or not(@vocabulary)</condition>
+        <condition>@vocabulary = '3' or not(@vocabulary)</condition>
     </mapping>
     <mapping>
         <path>//iati-activity/sector/@vocabulary</path>
@@ -226,7 +226,7 @@
     <mapping>
         <path>//iati-activity/transaction/sector/@code</path>
         <codelist ref="Sector" />
-        <condition>@vocabulary = 'DAC' or not(@vocabulary)</condition>
+        <condition>@vocabulary = '3' or not(@vocabulary)</condition>
     </mapping>
     <mapping>
         <path>//iati-activity/transaction/sector/@vocabulary</path>
