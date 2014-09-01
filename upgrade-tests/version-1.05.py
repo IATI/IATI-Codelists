@@ -90,8 +90,4 @@ print (filepath)
 check_value_exists(filepath,'//codelist-items/codelist-item/name/text()','Reproductive, Maternal, Newborn and Child Health (RMNCH)') 
 check_value_exists(filepath,'//codelist-items/codelist-item/code/text()','9')
 
-#Test Policy Significance codelist changes
-filepath = "../xml/Policy Significance.xml"
-print (filepath)
-check_value_exists(filepath,'//codelist-items/codelist-item/name/text()','Explicit primary objective') 
-check_value_exists(filepath,'//codelist-items/codelist-item/code/text()','4')
+
