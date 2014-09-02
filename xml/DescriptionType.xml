@@ -22,5 +22,11 @@
             <name xml:lang="fr">Groupes cibles</name>
             <description>Statement of groups targeted to benefit from the activity</description>
         </codelist-item>
+        <codelist-item>
+            <code>4</code>
+            <name>Other</name>
+            <name xml:lang="fr">Autre</name>
+            <description>For miscellaneous use. A further classification or breakdown may be included in the narrative</description>
+        </codelist-item>
     </codelist-items>
 </codelist>
