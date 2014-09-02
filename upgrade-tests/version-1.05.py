@@ -1,4 +1,6 @@
+# coding=UTF-8
 from __future__ import print_function
+from __future__ import unicode_literals
 import sys
 from lxml import etree as ET
 
@@ -90,4 +92,9 @@ print (filepath)
 check_value_exists(filepath,'//codelist-items/codelist-item/name/text()','Reproductive, Maternal, Newborn and Child Health (RMNCH)') 
 check_value_exists(filepath,'//codelist-items/codelist-item/code/text()','9')
 
-
+#Test Vocabulary codelist changes
+filepath = "../xml/Vocabulary.xml"
+print (filepath)
+check_value_exists(filepath,'//codelist-items/codelist-item/name/text()','Reporting Organisation (2) - where reporting organisations have more than one vocabulary that they wish to reference') 
+check_value_exists(filepath,'//codelist-items/codelist-item/code/text()','RO2')
+check_value_exists(filepath,'//codelist-items/codelist-item/name/text()',"Organisation déclarante (2) - dans le cas où les organisations déclarantes ont plus d'un vocabulaire qu'ils souhaitent faire référence") #Check for the translation value
