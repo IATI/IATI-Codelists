@@ -29,5 +29,10 @@
             <name>Cancelled</name>
             <name xml:lang="fr">Annulé</name>
         </codelist-item>
+        <codelist-item>
+            <code>6</code>
+            <name>Suspended</name>
+            <name xml:lang="fr">Suspendu</name>
+        </codelist-item>
     </codelist-items>
 </codelist>
