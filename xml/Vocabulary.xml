@@ -49,6 +49,11 @@
             <name xml:lang="fr">Organisation déclarante (i.e. maintained by the organisation referred to in the &lt;reporting-org&gt; element.</name>
         </codelist-item>
         <codelist-item>
+            <code>RO2</code>
+            <name>Reporting Organisation (2) - where reporting organisations have more than one vocabulary that they wish to reference</name>
+            <name xml:lang="fr">Organisation déclarante (2) - dans le cas où les organisations déclarantes ont plus d'un vocabulaire qu'ils souhaitent faire référence</name>
+        </codelist-item>
+        <codelist-item>
             <code>WB</code>
             <name>World Bank</name>
             <name xml:lang="fr">Banque mondiale</name>
