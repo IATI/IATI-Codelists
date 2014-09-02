@@ -45,7 +45,7 @@ def check_value_does_not_exist (filepath, xpathString, value):
 filepath = "../xml/DescriptionType.xml"
 print (filepath)
 check_value_exists(filepath,'//codelist-items/codelist-item/name/text()','Other')
-check_value_exists(filepath,'//codelist-items/codelist-item/name/text()','French Name') #Check for the translation value
+check_value_exists(filepath,'//codelist-items/codelist-item/name/text()','Autre') #Check for the translation value
 check_value_exists(filepath,'//codelist-items/codelist-item/code/text()','4')
 check_value_exists(filepath,'//codelist-items/codelist-item/description/text()','For miscellaneous use. A further classification or breakdown may be included in the narrative')
 
@@ -53,7 +53,7 @@ check_value_exists(filepath,'//codelist-items/codelist-item/description/text()',
 filepath = "../xml/ActivityStatus.xml"
 print (filepath)
 check_value_exists(filepath,'//codelist-items/codelist-item/name/text()','Suspended')
-check_value_exists(filepath,'//codelist-items/codelist-item/name/text()','French Name') #Check for the translation value
+check_value_exists(filepath,'//codelist-items/codelist-item/name/text()','Suspendu') #Check for the translation value
 check_value_exists(filepath,'//codelist-items/codelist-item/code/text()','6')
 
 #Test Transaction Type codelist changes
