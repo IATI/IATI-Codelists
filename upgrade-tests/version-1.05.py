@@ -63,12 +63,12 @@ check_value_exists(filepath,'//codelist-items/codelist-item/description/text()',
 
 check_value_does_not_exist(filepath,'//codelist-items/codelist-item/description/text()','Funds received from an external funding source (eg a donor).')
 
-#Test Related Activity Type codelist changes
-filepath = "../xml/RelatedActivityType.xml"
-print (filepath)
-check_value_exists(filepath,'//codelist-items/codelist-item/name/text()','Third Party') 
-check_value_exists(filepath,'//codelist-items/codelist-item/code/text()','5')
-check_value_exists(filepath,'//codelist-items/codelist-item/description/text()','A report by another organisation on the same activity (excluding activities reported as part of financial transactions - eg. provider-activity-id - or a multi-funded activity using code = 4)')
+##Test Related Activity Type codelist changes
+#filepath = "../xml/RelatedActivityType.xml"
+#print (filepath)
+#check_value_exists(filepath,'//codelist-items/codelist-item/name/text()','Third Party') 
+#check_value_exists(filepath,'//codelist-items/codelist-item/code/text()','5')
+#check_value_exists(filepath,'//codelist-items/codelist-item/description/text()','A report by another organisation on the same activity (excluding activities reported as part of financial transactions - eg. provider-activity-id - or a multi-funded activity using code = 4)')
 
 #Test DocumentCategory codelist changes
 filepath = "../xml/DocumentCategory.xml"
