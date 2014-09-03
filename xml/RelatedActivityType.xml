@@ -20,8 +20,13 @@
         </codelist-item>
         <codelist-item>
             <code>4</code>
-            <name>Multifunded</name>
-            <description>A multifunded, or co-funded activity. The identifier should be globally unique and shared by all reporters of this activity.</description>
+            <name>Co-funded</name>
+            <description>An activity that receives funding from more than one organisation</description>
+        </codelist-item>
+        <codelist-item>
+            <code>5</code>
+            <name>Third Party</name>
+            <description>A report by another organisation on the same activity (excluding activities reported as part of financial transactions - eg. provider-activity-id - or a co-funded activity using code = 4)</description>
         </codelist-item>
     </codelist-items>
 </codelist>
