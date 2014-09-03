@@ -9,7 +9,8 @@
         </codelist-item>
         <codelist-item>
             <code>99</code>
-            <name>Reporting Organisation (i.e. maintained by the organisation referred to in the &lt;reporting-org&gt; element.</name>
+            <name>Reporting Organisation</name>
+            <description>Maintained by the organisation referred to in the &lt;reporting-org&gt; element.</description>
         </codelist-item>
     </codelist-items>
 </codelist>
