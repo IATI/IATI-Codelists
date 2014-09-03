@@ -1,7 +1,7 @@
 <codelist name="OrganisationRole"   xml:lang="en" complete="1">
     <metadata>
         <name>Organisation Role</name>
-        <description>The categories of OECD DAC Sector codes</description>
+        <description>IATI codes for the role of an organisation within an activity. An organisation can play more than one role within an activity.</description>
     </metadata>
     <codelist-items>
         <codelist-item>
