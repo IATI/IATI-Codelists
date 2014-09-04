@@ -6,27 +6,27 @@
     <codelist-items>
         <codelist-item>
             <code>1</code>
-            <name>Actual start</name>
-            <description>The actual start date, such as date of first disbursement</description>
-            <name xml:lang="fr">Début réel</name>
-        </codelist-item>
-        <codelist-item>
-            <code>2</code>
-            <name>Actual end</name>
-            <description>The actual end date, such as date of last disbursement</description>
-            <name xml:lang="fr">Fin réelle</name>
-        </codelist-item>
-        <codelist-item>
-            <code>3</code>
             <name>Planned start</name>
             <description>The planned start date as recorded in project documentation. Can be date of signature of activity agreement or approval by relevant body</description>
             <name xml:lang="fr">Début prévu</name>
         </codelist-item>
         <codelist-item>
-            <code>4</code>
+            <code>2</code>
             <name>Planned end</name>
             <description>The planned end date as recorded in project documentation</description>
             <name xml:lang="fr">Fin prévue</name>
+        </codelist-item>
+        <codelist-item>
+            <code>3</code>
+            <name>Actual start</name>
+            <description>The actual start date, such as date of first disbursement</description>
+            <name xml:lang="fr">Début réel</name>
+        </codelist-item>
+        <codelist-item>
+            <code>4</code>
+            <name>Actual end</name>
+            <description>The actual end date, such as date of last disbursement</description>
+            <name xml:lang="fr">Fin réelle</name>
         </codelist-item>
     </codelist-items>
 </codelist>
