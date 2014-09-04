@@ -21,7 +21,7 @@
         <codelist-item>
             <code>4</code>
             <name>Incoming Funds</name>
-            <description>Funds received from an external funding source (eg a donor).</description>
+            <description>Funds received (whether from an external source or through internal accounting) for specific use on this activity.</description>
         </codelist-item>
         <codelist-item>
             <code>5</code>
