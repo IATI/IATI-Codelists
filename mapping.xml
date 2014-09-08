@@ -147,6 +147,7 @@
     <mapping>
         <path>//iati-activity/policy-marker/@code</path>
         <codelist ref="PolicyMarker" />
+        <condition>@vocabulary = '1' or not(@vocabulary)</condition>
     </mapping>
     <mapping>
         <path>//iati-activity/policy-marker/@significance</path>
