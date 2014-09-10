@@ -1,4 +1,4 @@
-<codelist name="ResultType"   xml:lang="en" complete="1">
+<codelist name="ResultType" xml:lang="en" complete="1">
     <metadata>
         <name>Result Type</name>
     </metadata>
@@ -7,21 +7,25 @@
             <code>1</code>
             <name>Output</name>
             <name xml:lang="fr">Donateur</name>
+            <description>Results of the activity that came about as a direct effect of your work and specific, what is done, and what communities are reached. For example, X number of individuals </description>
         </codelist-item>
         <codelist-item>
             <code>2</code>
             <name>Outcome</name>
             <name xml:lang="fr">Effet</name>
+            <description>Results of the activity that produce an effect on the overall communities or issues you serve. For example lower rate of infection after a vaccination procgramme</description>
         </codelist-item>
         <codelist-item>
             <code>3</code>
             <name>Impact</name>
             <name xml:lang="fr">Impact</name>
+            <description>The long term effects of the outcomes, that lead to larger, over arching results, such as improved life-expectancy.</description>
         </codelist-item>
         <codelist-item>
             <code>9</code>
             <name>Other</name>
             <name xml:lang="fr">Autre</name>
+            <description>Another type of result, not specified above.</description>
         </codelist-item>
     </codelist-items>
 </codelist>

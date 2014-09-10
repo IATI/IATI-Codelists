@@ -1,24 +1,28 @@
 <codelist name="GeographicLocationClass" xml:lang="en" complete="1">
     <metadata>
         <name>Geographic Location Class</name>
-        <description></description>
+        <description/>
     </metadata>
     <codelist-items>
         <codelist-item>
             <code>1</code>
             <name>Administrative Region</name>
+            <description>The designated geographic location is an administrative region (state, county, province, district, municipality etc.)</description>
         </codelist-item>
         <codelist-item>
             <code>2</code>
             <name>Populated Place</name>
+            <description>The designated geographic location is a populated place (town, village, farm etc.)</description>
         </codelist-item>
         <codelist-item>
             <code>3</code>
             <name>Structure</name>
+            <description>The designated geopgraphic location is a structure (such as a school or a clinic)</description>
         </codelist-item>
         <codelist-item>
             <code>4</code>
             <name>Other Topographical Feature</name>
+            <description>The designated geographic location is a topographical feature, such as a mountain, a river, a forest</description>
         </codelist-item>
     </codelist-items>
 </codelist>

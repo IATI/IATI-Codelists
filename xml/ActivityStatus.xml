@@ -1,4 +1,4 @@
-<codelist name="ActivityStatus"   xml:lang="en" complete="1">
+<codelist name="ActivityStatus" xml:lang="en" complete="1">
     <metadata>
         <name>Activity Status</name>
         <description>Lifecycle status of the activity from pipeline to completion</description>
@@ -8,31 +8,37 @@
             <code>1</code>
             <name>Pipeline/identification</name>
             <name xml:lang="fr">Planification</name>
+            <description>The activity is being scoped or planned </description>
         </codelist-item>
         <codelist-item>
             <code>2</code>
             <name>Implementation</name>
             <name xml:lang="fr">Actif</name>
+            <description>The activity is currently being implemented</description>
         </codelist-item>
         <codelist-item>
             <code>3</code>
             <name>Completion</name>
             <name xml:lang="fr">Finalisation</name>
+            <description>Physical activity is complete or the final disbursement has been made.</description>
         </codelist-item>
         <codelist-item>
             <code>4</code>
             <name>Post-completion</name>
             <name xml:lang="fr">Fermé</name>
+            <description>Physical activity is complete or the final disbursement has been made, but the activity remains open pending financial sign off or M&amp;E</description>
         </codelist-item>
         <codelist-item>
             <code>5</code>
             <name>Cancelled</name>
             <name xml:lang="fr">Annulé</name>
+            <description>The activity has been cancelled</description>
         </codelist-item>
         <codelist-item>
             <code>6</code>
             <name>Suspended</name>
             <name xml:lang="fr">Suspendu</name>
+            <description>The activity has been temporarily suspended</description>
         </codelist-item>
     </codelist-items>
 </codelist>

@@ -1,4 +1,4 @@
-<codelist name="SectorVocabulary"   xml:lang="en" complete="1">
+<codelist name="SectorVocabulary" xml:lang="en" complete="1">
     <metadata>
         <name>Sector Vocabulary</name>
     </metadata>
@@ -8,47 +8,53 @@
             <name>OECD DAC CRS Purpose Codes (5 digit)</name>
             <name xml:lang="fr">OCDE Comité d'aide au développement</name>
             <url>http://www.oecd.org/dac/stats/dacandcrscodelists.htm</url>
+            <description>The sector reported corresponds to an OECD DAC CRS 5-digit purpose code</description>
         </codelist-item>
         <codelist-item>
             <code>2</code>
             <name>OECD DAC CRS Purpose Codes (3 digit)</name>
             <name xml:lang="fr">OCDE Comité d'aide au développement 3 digit codes</name>
             <url>http://www.oecd.org/dac/stats/dacandcrscodelists.htm</url>
+            <description>The sector reported corresponds to an OECD DAC CRS 3-digit purpose code</description>
         </codelist-item>
         <codelist-item>
             <code>3</code>
             <name>Classification of the Functions of Government (UN)</name>
             <name xml:lang="fr">COFOG (UN)</name>
             <url>http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4</url>
+            <description>The sector reported corresponds to the UN Classification of the Functions of Government (CoFoG)</description>
         </codelist-item>
         <codelist-item>
             <code>4</code>
             <name>Statistical classification of economic activities in the European Community</name>
             <name xml:lang="fr">Nomenclature statistique des activités économiques dans la Communauté européenne</name>
             <url>http://ec.europa.eu/eurostat/ramon/nomenclatures/index.cfm?TargetUrl=LST_NOM_DTL&amp;StrNom=NACE_REV2&amp;StrLanguageCode=EN</url>
+            <description>The sector reported corresponds to the statistical classifications of economic activities in the European Community</description>
         </codelist-item>
         <codelist-item>
             <code>5</code>
             <name>National Taxonomy for Exempt Entities (USA)</name>
             <name xml:lang="fr">National Taxonomy for Exempt Entities (USA)</name>
             <url>http://nccs.urban.org/classification/NTEE.cfm</url>
+            <description>The sector reported corresponds to the National Taxonomy for Exempt Entities (NTEE) - USA</description>
         </codelist-item>
-         <codelist-item>
-             <code>6</code>
-             <name>AidData</name>
-             <name xml:lang="fr">AidData</name>
-         </codelist-item>
+        <codelist-item>
+            <code>6</code>
+            <name>AidData</name>
+            <name xml:lang="fr">AidData</name>
+            <description>The sector reported corresponds to AidData classifications</description>
+        </codelist-item>
         <codelist-item>
             <code>99</code>
             <name>Reporting Organisation</name>
             <name xml:lang="fr">Organisation déclarante</name>
-            <description>Maintained by the organisation referred to in the &lt;reporting-org&gt; element.</description>
+            <description>The sector reported corresponds to a sector vocabulary maintained by the reporting organisation for this activity</description>
         </codelist-item>
         <codelist-item>
             <code>98</code>
             <name>Reporting Organisation 2</name>
             <name xml:lang="fr">Organisation déclarante 2</name>
-            <description>where reporting organisations have more than one vocabulary that they wish to reference</description>
+            <description>The sector reported corresponds to a sector vocabulary maintained by the reporting organisation for this activity (if they are referencing more han one)</description>
             <description xml:lang="fr">dans le cas où les organisations déclarantes ont plus d'un vocabulaire qu'ils souhaitent faire référence</description>
         </codelist-item>
     </codelist-items>

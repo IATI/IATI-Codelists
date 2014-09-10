@@ -1,4 +1,4 @@
-<codelist name="DisbursementChannel"   xml:lang="en" complete="1">
+<codelist name="DisbursementChannel" xml:lang="en" complete="1">
     <metadata>
         <name>Disbursement Channel</name>
         <description>Categories of information included in published documents</description>
@@ -7,18 +7,22 @@
         <codelist-item>
             <code>1</code>
             <name>Money is disbursed through central Ministry of Finance or Treasury</name>
+            <description>Money is disbursed through central Ministry of Finance or Treasury</description>
         </codelist-item>
         <codelist-item>
             <code>2</code>
             <name>Money is disbursed directly to the implementing institution and managed through a separate bank account</name>
+            <description>Money is disbursed directly to the implementing institution and managed through a separate bank account</description>
         </codelist-item>
         <codelist-item>
             <code>3</code>
             <name>Aid in kind: Donors utilise third party agencies, e.g. NGOs or management companies</name>
+            <description>Aid in kind: Donors utilise third party agencies, e.g. NGOs or management companies</description>
         </codelist-item>
         <codelist-item>
             <code>4</code>
             <name>Aid in kind: Donors manage funds themselves</name>
+            <description>Aid in kind: Donors manage funds themselves</description>
         </codelist-item>
     </codelist-items>
 </codelist>

@@ -1,4 +1,4 @@
-<codelist name="ConditionType"   xml:lang="en" complete="1">
+<codelist name="ConditionType" xml:lang="en" complete="1">
     <metadata>
         <name>Condition Type</name>
         <description>Condition type – e.g. policy, performance.</description>
@@ -7,14 +7,17 @@
         <codelist-item>
             <code>1</code>
             <name>Policy</name>
+            <description>The condition attached requires a particular policy to be implemented by the recipient</description>
         </codelist-item>
         <codelist-item>
             <code>2</code>
             <name>Performance</name>
+            <description>The condition attached requires certain outputs or outcomes to be achieved by the recipient</description>
         </codelist-item>
         <codelist-item>
             <code>3</code>
             <name>Fiduciary</name>
+            <description>The condition attached requires use of certain public financial management or public accountability measures by the recipient</description>
         </codelist-item>
     </codelist-items>
 </codelist>

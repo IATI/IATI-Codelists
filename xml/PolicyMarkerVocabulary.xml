@@ -1,4 +1,4 @@
-<codelist name="PolicyMarkerVocabulary"   xml:lang="en" complete="1">
+<codelist name="PolicyMarkerVocabulary" xml:lang="en" complete="1">
     <metadata>
         <name>Policy Marker Vocabulary</name>
     </metadata>
@@ -6,11 +6,12 @@
         <codelist-item>
             <code>1</code>
             <name>OECD DAC CRS</name>
+            <description>The policy marker is an OECD DAC CRS policy marker, Reported in columns 20-23, 28-31 and 54 of CRS++ reporting format.</description>
         </codelist-item>
         <codelist-item>
             <code>99</code>
             <name>Reporting Organisation</name>
-            <description>Maintained by the organisation referred to in the &lt;reporting-org&gt; element.</description>
+            <description>The policy marker is one that is defined and tracked by the reporting organisation</description>
         </codelist-item>
     </codelist-items>
 </codelist>

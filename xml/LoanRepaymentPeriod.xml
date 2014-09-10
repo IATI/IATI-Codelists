@@ -1,4 +1,4 @@
-<codelist name="LoanRepaymentPeriod"   xml:lang="en">
+<codelist name="LoanRepaymentPeriod" xml:lang="en">
     <metadata>
         <name>Loan Repayment Period</name>
         <description>CRS Loan Repayment No of Payments </description>
@@ -7,18 +7,22 @@
         <codelist-item>
             <code>1</code>
             <name>Annual</name>
+            <description>The loan has 1 repayment per year</description>
         </codelist-item>
         <codelist-item>
             <code>2</code>
             <name>Semi-annual</name>
+            <description>The loan has 2 repayments per year</description>
         </codelist-item>
         <codelist-item>
             <code>4</code>
             <name>Quarterly</name>
+            <description>The loan has 4 repayments per year </description>
         </codelist-item>
         <codelist-item>
             <code>12</code>
             <name>Monthly</name>
+            <description>The loan has 12, monthly repayments per year</description>
         </codelist-item>
     </codelist-items>
 </codelist>

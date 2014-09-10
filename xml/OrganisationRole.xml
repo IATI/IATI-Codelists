@@ -1,4 +1,4 @@
-<codelist name="OrganisationRole"   xml:lang="en" complete="1">
+<codelist name="OrganisationRole" xml:lang="en" complete="1">
     <metadata>
         <name>Organisation Role</name>
         <description>IATI codes for the role of an organisation within an activity. An organisation can play more than one role within an activity.</description>
@@ -8,25 +8,25 @@
             <code>1</code>
             <name>Accountable</name>
             <name xml:lang="fr">Responsabilité</name>
-            <description>The government agency, civil society or private sector institution which is accountable for the implementation of the activity.</description>
+            <description>An organisation responsible for oversight of the activity and its outcomes</description>
         </codelist-item>
         <codelist-item>
             <code>2</code>
             <name>Extending</name>
             <name xml:lang="fr">Octroi</name>
-            <description>The government entity (central, state or local government agency or department), or agency within an institution, financing the activity from its own budget</description>
+            <description>An organisation that manages the budget and direction of an activity on behalf of the funding organisation</description>
         </codelist-item>
         <codelist-item>
             <code>3</code>
             <name>Funding</name>
             <name xml:lang="fr">Financement</name>
-            <description>The country or institution which provides the funds.</description>
+            <description>The government or organisation which provides funds to the activity. </description>
         </codelist-item>
         <codelist-item>
             <code>4</code>
             <name>Implementing</name>
             <name xml:lang="fr">Mise en œuvre</name>
-            <description>The intermediary between the extending agency and the ultimate beneficiary. Also known as executing agency or channel of delivery. They can be public sector, non-governmental agencies (NGOs), Public-Private partnerships, or multilateral institutions</description>
+            <description>The organisation that physically carries out the activity or intervention. </description>
         </codelist-item>
     </codelist-items>
 </codelist>

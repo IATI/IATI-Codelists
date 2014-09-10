@@ -1,4 +1,4 @@
-<codelist name="TransactionType"   xml:lang="en" complete="1">
+<codelist name="TransactionType" xml:lang="en" complete="1">
     <metadata>
         <name>Transaction Type</name>
     </metadata>
@@ -6,52 +6,52 @@
         <codelist-item>
             <code>1</code>
             <name>Commitment</name>
-            <description>A firm written obligation by the donor to provide resources of a specified amount under specified financial terms and conditions and for specified purposes for the benefit of the recipient</description>
+            <description>A firm, written obligation from a donor or provider to provide a specified amount of funds, under particular terms and conditions, for specific purposes, for the benefit of the recipient. </description>
         </codelist-item>
         <codelist-item>
             <code>2</code>
             <name>Disbursement</name>
-            <description>The amount placed at the disposal of a recipient country or agency (in the case of internal development-related expenditures, the outlay of funds)</description>
+            <description>Outgoing funds that are placed at the disposal of a recipient government or organisation, or funds transferred between two separately reported activities.Under IATI traceability standards the recipient of a disbursement should also be required to report their activities to IATI.</description>
         </codelist-item>
         <codelist-item>
             <code>3</code>
             <name>Expenditure</name>
-            <description>The outlay by the implementing agency on goods and services for the activity</description>
+            <description>Outgoing funds that are spent on goods and services for the activity. The recipients of expenditures fall outside of IATI traceability standards.</description>
         </codelist-item>
         <codelist-item>
             <code>4</code>
             <name>Incoming Funds</name>
-            <description>Funds received (whether from an external source or through internal accounting) for specific use on this activity.</description>
+            <description>Funds recieved for use on the activity, which can be from an external or internal source. </description>
         </codelist-item>
         <codelist-item>
             <code>5</code>
             <name>Interest Repayment</name>
-            <description>The actual amount of interest repaid, including fees.</description>
+            <description>The actual amount of interest paid on a loan or line of credit, including fees.</description>
         </codelist-item>
         <codelist-item>
             <code>6</code>
             <name>Loan Repayment</name>
-            <description>The actual amount of principal (amortisation) repaid, including any arrears.</description>
+            <description>The actual amount of principal (amortisation) repaid, including any arrears. </description>
         </codelist-item>
         <codelist-item>
             <code>7</code>
             <name>Reimbursement</name>
-            <description>A disbursement that covers funds already spent by the recipient, as agreed in the terms of the loan or grant.</description>
+            <description>A type of disbursement that covers funds that have already been spent by the recipient, as agreed in the terms of the grant or loan</description>
         </codelist-item>
         <codelist-item>
             <code>8</code>
             <name>Purchase of Equity</name>
-            <description>The use of an activity's funds to purchase equity in a business.</description>
+            <description>Outgoing funds that are used to purchase equity in a business</description>
         </codelist-item>
         <codelist-item>
             <code>9</code>
             <name>Sale of Equity</name>
-            <description>The flow of funds into an activity from the sale of equity.</description>
+            <description>Incoming funds from the sale of equity. </description>
         </codelist-item>
         <codelist-item>
             <code>10</code>
             <name>Credit Guarantee</name>
-            <description>A commitment made by a funding organisation to underwrite a loan or line of credit entered into by a third party.</description>
+            <description>A commitment made by a funding organisation to underwrite a loan or line of credit entered into by a third party. </description>
         </codelist-item>
     </codelist-items>
 </codelist>

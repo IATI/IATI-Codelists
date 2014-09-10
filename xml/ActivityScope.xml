@@ -1,4 +1,4 @@
-<codelist name="ActivityScope"   xml:lang="en" complete="1">
+<codelist name="ActivityScope" xml:lang="en" complete="1">
     <metadata>
         <name>Activity Scope</name>
         <description>Geographic scope of activity</description>
@@ -7,34 +7,42 @@
         <codelist-item>
             <code>1</code>
             <name>Global</name>
+            <description>The activity scope is global</description>
         </codelist-item>
         <codelist-item>
             <code>2</code>
             <name>Regional</name>
+            <description>The activity scope is a supranational region</description>
         </codelist-item>
         <codelist-item>
             <code>3</code>
             <name>Multi-national</name>
+            <description>The activity scope covers multiple countries, that don't constitute a region</description>
         </codelist-item>
         <codelist-item>
             <code>4</code>
             <name>National</name>
+            <description>The activity scope covers one country</description>
         </codelist-item>
         <codelist-item>
             <code>5</code>
             <name>Sub-national: Multi-first-level administrative areas</name>
+            <description>The activity scope covers more than one first-level subnational administrative areas (e.g. counties, provinces, states)</description>
         </codelist-item>
         <codelist-item>
             <code>6</code>
             <name>Sub-national: Single first-level administrative area</name>
+            <description>The activity scope covers one first-level subnational administrative area (e.g. country, province, state)</description>
         </codelist-item>
         <codelist-item>
             <code>7</code>
             <name>Sub-national: Single second-level administrative area</name>
+            <description>The activity scope covers one second-level subnational administrative area (e.g. municipality or district)</description>
         </codelist-item>
         <codelist-item>
             <code>8</code>
             <name>Single location</name>
+            <description>The activity scope covers one single location (e.g. town, village, farm)</description>
         </codelist-item>
     </codelist-items>
 </codelist>

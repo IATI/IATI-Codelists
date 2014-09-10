@@ -1,4 +1,4 @@
-<codelist name="RelatedActivityType"   xml:lang="en" complete="1">
+<codelist name="RelatedActivityType" xml:lang="en" complete="1">
     <metadata>
         <name>Related Activity Type</name>
     </metadata>
@@ -6,17 +6,17 @@
         <codelist-item>
             <code>1</code>
             <name>Parent</name>
-            <description>An activity that contains sub-activities (sub-components)</description>
+            <description>An activity that contains sub-activities (sub-components) which are reported separately to IATI</description>
         </codelist-item>
         <codelist-item>
             <code>2</code>
             <name>Child</name>
-            <description>A sub-activity (sub-component) of a larger activity (the parent)</description>
+            <description>A sub-activity (or sub-component) that sits within a larger activity (parent) which is also reported to IATI</description>
         </codelist-item>
         <codelist-item>
             <code>3</code>
             <name>Sibling</name>
-            <description>A sub-activity (sub-component) related to another sub-activity of the same parent</description>
+            <description>A sub-activity (or sub-component) that is related to another sub-activity with the same parent </description>
         </codelist-item>
         <codelist-item>
             <code>4</code>
@@ -26,7 +26,7 @@
         <codelist-item>
             <code>5</code>
             <name>Third Party</name>
-            <description>A report by another organisation on the same activity (excluding activities reported as part of financial transactions - eg. provider-activity-id - or a co-funded activity using code = 4)</description>
+            <description>A report by another organisation on the same activity you are reporting (excluding activities reported as part of a financial transaction - e.g. provider-activity-id or a co-funded activity, using code 4)</description>
         </codelist-item>
     </codelist-items>
 </codelist>

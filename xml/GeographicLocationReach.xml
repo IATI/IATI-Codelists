@@ -1,16 +1,18 @@
 <codelist name="GeographicLocationReach" xml:lang="en" complete="1">
     <metadata>
         <name>Geographic Location Reach</name>
-        <description></description>
+        <description/>
     </metadata>
     <codelist-items>
         <codelist-item>
             <code>1</code>
             <name>Activity</name>
+            <description>The location specifies where the activity is carried out</description>
         </codelist-item>
         <codelist-item>
             <code>2</code>
             <name>Intended Beneficiaries</name>
+            <description>The location specifies where the intended beneficiaries of the activity live</description>
         </codelist-item>
     </codelist-items>
 </codelist>
