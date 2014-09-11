@@ -54,7 +54,7 @@
             <code>98</code>
             <name>Reporting Organisation 2</name>
             <name xml:lang="fr">Organisation déclarante 2</name>
-            <description>The sector reported corresponds to a sector vocabulary maintained by the reporting organisation for this activity (if they are referencing more han one)</description>
+            <description>The sector reported corresponds to a sector vocabulary maintained by the reporting organisation for this activity (if they are referencing more than one)</description>
             <description xml:lang="fr">dans le cas où les organisations déclarantes ont plus d'un vocabulaire qu'ils souhaitent faire référence</description>
         </codelist-item>
     </codelist-items>
