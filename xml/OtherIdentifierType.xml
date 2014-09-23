@@ -5,11 +5,11 @@
     <codelist-items>
         <codelist-item>
             <code>A1</code>
-            <name>CRS Activity identifier</name>
+            <name>Reporting Organisation's internal activity identifier</name>
         </codelist-item>
         <codelist-item>
             <code>A2</code>
-            <name>Reporting Organisation's internal activity identifier</name>
+            <name>CRS Activity identifier</name>
         </codelist-item>
         <codelist-item>
             <code>A9</code>
