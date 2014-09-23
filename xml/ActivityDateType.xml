@@ -14,25 +14,25 @@
         <codelist-item>
             <code>1</code>
             <name>Planned start</name>
-            <description>The actual date the activity starts, for example the date of the first disbursement or when physical activity starts.</description>
+            <description>The date on which the activity is planned to start, for example the date of the first planned disbursement or when physical activity starts.</description>
             <name xml:lang="fr">Début prévu</name>
         </codelist-item>
         <codelist-item>
             <code>2</code>
-            <name>Planned end</name>
-            <description>The actual date the activity ends, for example the date of the last disbursement or when physical activity is complete.</description>
-            <name xml:lang="fr">Fin prévue</name>
+            <name>Actual start</name>
+            <description>The actual date the activity starts, for example the date of the first disbursement or when physical activity starts.</description>
+            <name xml:lang="fr">Début réel</name>
         </codelist-item>
         <codelist-item>
             <code>3</code>
-            <name>Actual start</name>
-            <description>The date on which the activity is planned to start, for example the date of the first planned disbursement or when physical activity starts.</description>
-            <name xml:lang="fr">Début réel</name>
+            <name>Planned End</name>
+            <description>The date on which the activity is planned to end, for example the date of the last planned disbursement or when physical activity is complete.</description>
+            <name xml:lang="fr">Fin prévue</name>
         </codelist-item>
         <codelist-item>
             <code>4</code>
             <name>Actual end</name>
-            <description>The date on which the activity is planned to end, for example the date of the last planned disbursement or when physical activity is complete.</description>
+            <description>The actual date the activity ends, for example the date of the last disbursement or when physical activity is complete.</description>
             <name xml:lang="fr">Fin réelle</name>
         </codelist-item>
     </codelist-items>
