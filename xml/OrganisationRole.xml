@@ -6,21 +6,21 @@
     <codelist-items>
         <codelist-item>
             <code>1</code>
+            <name>Funding</name>
+            <name xml:lang="fr">Financement</name>
+            <description>The government or organisation which provides funds to the activity. </description>
+        </codelist-item>
+        <codelist-item>
+            <code>2</code>
             <name>Accountable</name>
             <name xml:lang="fr">Responsabilité</name>
             <description>An organisation responsible for oversight of the activity and its outcomes</description>
         </codelist-item>
         <codelist-item>
-            <code>2</code>
+            <code>3</code>
             <name>Extending</name>
             <name xml:lang="fr">Octroi</name>
             <description>An organisation that manages the budget and direction of an activity on behalf of the funding organisation</description>
-        </codelist-item>
-        <codelist-item>
-            <code>3</code>
-            <name>Funding</name>
-            <name xml:lang="fr">Financement</name>
-            <description>The government or organisation which provides funds to the activity. </description>
         </codelist-item>
         <codelist-item>
             <code>4</code>
