@@ -1,13 +1,12 @@
 <codelist name="TiedStatus" xml:lang="en" complete="1">
     <metadata>
         <name>Tied Status</name>
-        <description>Added 3 new options to the codelist: QP - Purchase of Equity, QS - Sale of Equity ,CG - Credit Guarantee </description>
     </metadata>
     <codelist-items>
         <codelist-item>
             <code>3</code>
             <name>Partially tied</name>
-            <description>Official Development Assistance for which the associated goods and services must be procured in the donor country or among a restricted group of other countries, which must however include substantially all aid recipient countries.</description>
+            <description>Official Development Assistance for which the associated goods and services must be procured from a restricted number of countries, which must however include substantially all aid recipient countries and can include the donor country.</description>
         </codelist-item>
         <codelist-item>
             <code>4</code>
