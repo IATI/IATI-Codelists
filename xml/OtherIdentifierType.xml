@@ -1,0 +1,27 @@
+<codelist name="OtherIdentifierType" xml:lang="en" complete="1">
+    <metadata>
+        <name>Other Identifier Type</name>
+    </metadata>
+    <codelist-items>
+        <codelist-item>
+            <code>A1</code>
+            <name>CRS Activity identifier</name>
+        </codelist-item>
+        <codelist-item>
+            <code>A2</code>
+            <name>Reporting Organisation's internal activity identifier</name>
+        </codelist-item>
+        <codelist-item>
+            <code>A9</code>
+            <name>Other Activity Identifier</name>
+        </codelist-item>
+        <codelist-item>
+            <code>B1</code>
+            <name>Previous Reporting Organisation Identifier</name>
+        </codelist-item>
+        <codelist-item>
+            <code>B9</code>
+            <name>Other Organisation Identifier</name>
+        </codelist-item>
+    </codelist-items>
+</codelist>

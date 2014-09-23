@@ -121,6 +121,10 @@
         <codelist ref="GeographicExactness" />
     </mapping>
     <mapping>
+        <path>//iati-activity/other-identifier/@type</path>
+        <codelist ref="OrganisationIdentifierType" />
+    </mapping>
+    <mapping>
         <path>//iati-activity/participating-org/@role</path>
         <codelist ref="OrganisationRole" />
     </mapping>
