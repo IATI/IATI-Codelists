@@ -5,23 +5,23 @@
     <codelist-items>
         <codelist-item>
             <code>1</code>
+            <name>Incoming Funds</name>
+            <description>Funds recieved for use on the activity, which can be from an external or internal source. </description>
+        </codelist-item>
+        <codelist-item>
+            <code>2</code>
             <name>Commitment</name>
             <description>A firm, written obligation from a donor or provider to provide a specified amount of funds, under particular terms and conditions, for specific purposes, for the benefit of the recipient. </description>
         </codelist-item>
         <codelist-item>
-            <code>2</code>
+            <code>3</code>
             <name>Disbursement</name>
             <description>Outgoing funds that are placed at the disposal of a recipient government or organisation, or funds transferred between two separately reported activities.Under IATI traceability standards the recipient of a disbursement should also be required to report their activities to IATI.</description>
         </codelist-item>
         <codelist-item>
-            <code>3</code>
+            <code>4</code>
             <name>Expenditure</name>
             <description>Outgoing funds that are spent on goods and services for the activity. The recipients of expenditures fall outside of IATI traceability standards.</description>
-        </codelist-item>
-        <codelist-item>
-            <code>4</code>
-            <name>Incoming Funds</name>
-            <description>Funds recieved for use on the activity, which can be from an external or internal source. </description>
         </codelist-item>
         <codelist-item>
             <code>5</code>
