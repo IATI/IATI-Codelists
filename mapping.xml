@@ -122,7 +122,7 @@
     </mapping>
     <mapping>
         <path>//iati-activity/other-identifier/@type</path>
-        <codelist ref="OrganisationIdentifierType" />
+        <codelist ref="OtherIdentifierType" />
     </mapping>
     <mapping>
         <path>//iati-activity/participating-org/@role</path>
