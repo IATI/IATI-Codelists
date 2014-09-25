@@ -26,6 +26,11 @@ tree = ET.parse(sys.argv[1], parser)
 metadata = tree.find('metadata')
 update_to_narrative(metadata, 'name')
 update_to_narrative(metadata, 'description')
+# Ensure that url is the last element
+url = metadata.find('url')
+if url is not None:
+    metadata.remove(url)
+    metadata.append(url)
 
 for codelist_item in tree.find('codelist-items').findall('codelist-item'):
     update_to_narrative(codelist_item, 'name')
