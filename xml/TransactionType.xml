@@ -1,57 +1,99 @@
 <codelist name="TransactionType" xml:lang="en" complete="1">
     <metadata>
-        <name>Transaction Type</name>
+        <name>
+            <narrative>Transaction Type</narrative>
+        </name>
     </metadata>
     <codelist-items>
         <codelist-item>
             <code>1</code>
-            <name>Incoming Funds</name>
-            <description>Funds recieved for use on the activity, which can be from an external or internal source. </description>
+            <name>
+                <narrative>Incoming Funds</narrative>
+            </name>
+            <description>
+                <narrative>Funds recieved for use on the activity, which can be from an external or internal source. </narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>2</code>
-            <name>Commitment</name>
-            <description>A firm, written obligation from a donor or provider to provide a specified amount of funds, under particular terms and conditions, for specific purposes, for the benefit of the recipient. </description>
+            <name>
+                <narrative>Commitment</narrative>
+            </name>
+            <description>
+                <narrative>A firm, written obligation from a donor or provider to provide a specified amount of funds, under particular terms and conditions, for specific purposes, for the benefit of the recipient. </narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>3</code>
-            <name>Disbursement</name>
-            <description>Outgoing funds that are placed at the disposal of a recipient government or organisation, or funds transferred between two separately reported activities.Under IATI traceability standards the recipient of a disbursement should also be required to report their activities to IATI.</description>
+            <name>
+                <narrative>Disbursement</narrative>
+            </name>
+            <description>
+                <narrative>Outgoing funds that are placed at the disposal of a recipient government or organisation, or funds transferred between two separately reported activities.Under IATI traceability standards the recipient of a disbursement should also be required to report their activities to IATI.</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>4</code>
-            <name>Expenditure</name>
-            <description>Outgoing funds that are spent on goods and services for the activity. The recipients of expenditures fall outside of IATI traceability standards.</description>
+            <name>
+                <narrative>Expenditure</narrative>
+            </name>
+            <description>
+                <narrative>Outgoing funds that are spent on goods and services for the activity. The recipients of expenditures fall outside of IATI traceability standards.</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>5</code>
-            <name>Interest Repayment</name>
-            <description>The actual amount of interest paid on a loan or line of credit, including fees.</description>
+            <name>
+                <narrative>Interest Repayment</narrative>
+            </name>
+            <description>
+                <narrative>The actual amount of interest paid on a loan or line of credit, including fees.</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>6</code>
-            <name>Loan Repayment</name>
-            <description>The actual amount of principal (amortisation) repaid, including any arrears. </description>
+            <name>
+                <narrative>Loan Repayment</narrative>
+            </name>
+            <description>
+                <narrative>The actual amount of principal (amortisation) repaid, including any arrears. </narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>7</code>
-            <name>Reimbursement</name>
-            <description>A type of disbursement that covers funds that have already been spent by the recipient, as agreed in the terms of the grant or loan</description>
+            <name>
+                <narrative>Reimbursement</narrative>
+            </name>
+            <description>
+                <narrative>A type of disbursement that covers funds that have already been spent by the recipient, as agreed in the terms of the grant or loan</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>8</code>
-            <name>Purchase of Equity</name>
-            <description>Outgoing funds that are used to purchase equity in a business</description>
+            <name>
+                <narrative>Purchase of Equity</narrative>
+            </name>
+            <description>
+                <narrative>Outgoing funds that are used to purchase equity in a business</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>9</code>
-            <name>Sale of Equity</name>
-            <description>Incoming funds from the sale of equity. </description>
+            <name>
+                <narrative>Sale of Equity</narrative>
+            </name>
+            <description>
+                <narrative>Incoming funds from the sale of equity. </narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>10</code>
-            <name>Credit Guarantee</name>
-            <description>A commitment made by a funding organisation to underwrite a loan or line of credit entered into by a third party. </description>
+            <name>
+                <narrative>Credit Guarantee</narrative>
+            </name>
+            <description>
+                <narrative>A commitment made by a funding organisation to underwrite a loan or line of credit entered into by a third party. </narrative>
+            </description>
         </codelist-item>
     </codelist-items>
 </codelist>

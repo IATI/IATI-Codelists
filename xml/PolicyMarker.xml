@@ -1,43 +1,63 @@
 <codelist name="PolicyMarker" xml:lang="en" complete="1">
     <metadata>
-        <name>Policy Marker</name>
+        <name>
+            <narrative>Policy Marker</narrative>
+        </name>
     </metadata>
     <codelist-items>
         <codelist-item>
             <code>1</code>
-            <name>Gender Equality</name>
+            <name>
+                <narrative>Gender Equality</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>2</code>
-            <name>Aid to Environment</name>
+            <name>
+                <narrative>Aid to Environment</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>3</code>
-            <name>Participatory Development/Good Governance</name>
+            <name>
+                <narrative>Participatory Development/Good Governance</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>4</code>
-            <name>Trade Development</name>
+            <name>
+                <narrative>Trade Development</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>5</code>
-            <name>Aid Targeting the Objectives of the Convention on Biological Diversity</name>
+            <name>
+                <narrative>Aid Targeting the Objectives of the Convention on Biological Diversity</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>6</code>
-            <name>Aid Targeting the Objectives of the Framework Convention on Climate Change - Mitigation</name>
+            <name>
+                <narrative>Aid Targeting the Objectives of the Framework Convention on Climate Change - Mitigation</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>7</code>
-            <name>Aid Targeting the Objectives of the Framework Convention on Climate Change - Adaptation</name>
+            <name>
+                <narrative>Aid Targeting the Objectives of the Framework Convention on Climate Change - Adaptation</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>8</code>
-            <name>Aid Targeting the Objectives of the Convention to Combat Desertification</name>
+            <name>
+                <narrative>Aid Targeting the Objectives of the Convention to Combat Desertification</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>9</code>
-            <name>Reproductive, Maternal, Newborn and Child Health (RMNCH)</name>
+            <name>
+                <narrative>Reproductive, Maternal, Newborn and Child Health (RMNCH)</narrative>
+            </name>
         </codelist-item>
     </codelist-items>
 </codelist>

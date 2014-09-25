@@ -1,32 +1,48 @@
 <codelist name="OtherIdentifierType" xml:lang="en" complete="1">
     <metadata>
-        <name>Other Identifier Type</name>
+        <name>
+            <narrative>Other Identifier Type</narrative>
+        </name>
     </metadata>
     <codelist-items>
         <codelist-item>
             <code>A1</code>
-            <name>Reporting Organisation's internal activity identifier</name>
+            <name>
+                <narrative>Reporting Organisation's internal activity identifier</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>A2</code>
-            <name>CRS Activity identifier</name>
+            <name>
+                <narrative>CRS Activity identifier</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>A3</code>
-            <name>Previous Activity Identifier</name>
-            <description>The standard insists that once an activity has been reported to IATI its identifier MUST NOT be changed, even if the reporting organisation changes its organisation identifier. There may be exceptional circumstances in which this rule cannot be followed, in which case the previous identifier should be reported using this code.</description>
+            <name>
+                <narrative>Previous Activity Identifier</narrative>
+            </name>
+            <description>
+                <narrative>The standard insists that once an activity has been reported to IATI its identifier MUST NOT be changed, even if the reporting organisation changes its organisation identifier. There may be exceptional circumstances in which this rule cannot be followed, in which case the previous identifier should be reported using this code.</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>A9</code>
-            <name>Other Activity Identifier</name>
+            <name>
+                <narrative>Other Activity Identifier</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>B1</code>
-            <name>Previous Reporting Organisation Identifier</name>
+            <name>
+                <narrative>Previous Reporting Organisation Identifier</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>B9</code>
-            <name>Other Organisation Identifier</name>
+            <name>
+                <narrative>Other Organisation Identifier</narrative>
+            </name>
         </codelist-item>
     </codelist-items>
 </codelist>

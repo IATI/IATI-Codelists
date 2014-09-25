@@ -1,17 +1,27 @@
 <codelist name="VerificationStatus" xml:lang="en" complete="1">
     <metadata>
-        <name>Verification Status</name>
+        <name>
+            <narrative>Verification Status</narrative>
+        </name>
     </metadata>
     <codelist-items>
         <codelist-item>
             <code>0</code>
-            <name>Not verified</name>
-            <description>The data published for the activity has not been verified</description>
+            <name>
+                <narrative>Not verified</narrative>
+            </name>
+            <description>
+                <narrative>The data published for the activity has not been verified</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>1</code>
-            <name>Verified</name>
-            <description>The data published for the activity has been verified. </description>
+            <name>
+                <narrative>Verified</narrative>
+            </name>
+            <description>
+                <narrative>The data published for the activity has been verified. </narrative>
+            </description>
         </codelist-item>
     </codelist-items>
 </codelist>
