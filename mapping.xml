@@ -57,6 +57,10 @@
         <codelist ref="CRSAddOtherFlags" />
     </mapping>
     <mapping>
+        <path>//iati-activity/crs-add/loan-status/@currency</path>
+        <codelist ref="Currency" />
+    </mapping>
+    <mapping>
         <path>//iati-activity/crs-add/loan-terms/repayment-plan/@code</path>
         <codelist ref="LoanRepaymentPeriod" />
     </mapping>
@@ -95,6 +99,10 @@
     <mapping>
         <path>//iati-activity/document-link/language/@code</path>
         <codelist ref="Language" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/fss/forecast/@currency</path>
+        <codelist ref="Currency" />
     </mapping>
     <mapping>
         <path>//iati-activity/location/administrative/@vocabulary</path>
