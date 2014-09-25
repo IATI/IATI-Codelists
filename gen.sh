@@ -13,7 +13,9 @@ cd .. || exit 1
 
 mkdir combined-xml
 cp xml/* combined-xml
-cp IATI-Codelists-NonEmbedded/xml/* combined-xml
+for f in IATI-Codelists-NonEmbedded/xml/*; do
+    python v3tov2.py $f > combined-xml/`basename $f`;
+done
 
 rm -rf out
 mkdir out
