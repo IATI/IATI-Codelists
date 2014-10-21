@@ -9,7 +9,7 @@
             <code>1</code>
             <name>
                 <narrative>OECD DAC CRS Purpose Codes (5 digit)</narrative>
-                <narrative xml:lang="fr">OCDE Comité d'aide au développement</narrative>
+                <narrative xml:lang="fr">Codes-objet à cinq chiffres du Système de notification des pays créanciers du Comité d'aide au développement de l'OCDE</narrative>
             </name>
             <description>
                 <narrative>The sector reported corresponds to an OECD DAC CRS 5-digit purpose code</narrative>
@@ -20,7 +20,7 @@
             <code>2</code>
             <name>
                 <narrative>OECD DAC CRS Purpose Codes (3 digit)</narrative>
-                <narrative xml:lang="fr">OCDE Comité d'aide au développement 3 digit codes</narrative>
+                <narrative xml:lang="fr">Codes-objet à trois chiffres du Système de notification des pays créanciers du Comité d’aide au développement de l'OCDE</narrative>
             </name>
             <description>
                 <narrative>The sector reported corresponds to an OECD DAC CRS 3-digit purpose code</narrative>
@@ -31,7 +31,7 @@
             <code>3</code>
             <name>
                 <narrative>Classification of the Functions of Government (UN)</narrative>
-                <narrative xml:lang="fr">COFOG (UN)</narrative>
+                <narrative xml:lang="fr">Classification des fonctions des administrations publiques (ONU)</narrative>
             </name>
             <description>
                 <narrative>The sector reported corresponds to the UN Classification of the Functions of Government (CoFoG)</narrative>
@@ -53,7 +53,7 @@
             <code>5</code>
             <name>
                 <narrative>National Taxonomy for Exempt Entities (USA)</narrative>
-                <narrative xml:lang="fr">National Taxonomy for Exempt Entities (USA)</narrative>
+                <narrative xml:lang="fr">Taxonomie nationale des entités exonérées (É.-U.)</narrative>
             </name>
             <description>
                 <narrative>The sector reported corresponds to the National Taxonomy for Exempt Entities (NTEE) - USA</narrative>
@@ -88,7 +88,7 @@
             </name>
             <description>
                 <narrative>The sector reported corresponds to a sector vocabulary maintained by the reporting organisation for this activity (if they are referencing more than one)</narrative>
-                <narrative xml:lang="fr">dans le cas où les organisations déclarantes ont plus d'un vocabulaire qu'ils souhaitent faire référence</narrative>
+                <narrative xml:lang="fr">Si plus d’un secteur est mentionné, le secteur indiqué correspond au vocabulaire utilisé par l’organisation déclarante en référence à cette activité</narrative>
             </description>
         </codelist-item>
     </codelist-items>
