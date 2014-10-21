@@ -8,7 +8,7 @@ else
     cd IATI-Codelists-NonEmbedded || exit 1
     git clone https://github.com/IATI/IATI-Codelists-NonEmbedded.git
 fi
-git checkout dev
+git checkout master
 cd .. || exit 1
 
 mkdir combined-xml
