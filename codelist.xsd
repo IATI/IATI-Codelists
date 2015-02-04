@@ -51,6 +51,7 @@
       <xs:element name="url" type="xs:anyURI" minOccurs="0" maxOccurs="1" />
     </xs:sequence>
     <xs:attribute name="public-database" use="optional"/>
+    <xs:attribute name="withdrawn" use="optional"/>
   </xs:complexType>
 </xs:element>
 
