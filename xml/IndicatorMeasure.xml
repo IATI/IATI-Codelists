@@ -4,7 +4,7 @@
             <narrative>Indicator Measure</narrative>
         </name>
         <description>
-            <narrative>To specify the language of titles, descriptions and documents</narrative>
+            <narrative>To specify whether an indicator is measured in units or percentages.</narrative>
         </description>
     </metadata>
     <codelist-items>
