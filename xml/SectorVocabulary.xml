@@ -71,6 +71,45 @@
             </description>
         </codelist-item>
         <codelist-item>
+            <code>7</code>
+            <name>
+                <narrative>SDG Goal</narrative>
+            </name>
+            <description>
+                <narrative>A value from the top-level list of UN sustainable development goals (SDGs) (e.g. ‘1’)</narrative>
+            </description>
+            <url>https://sustainabledevelopment.un.org/?menu=1300</url>
+        </codelist-item>
+        <codelist-item>
+            <code>8</code>
+            <name>
+                <narrative>SDG Target</narrative>
+            </name>
+            <description>
+                <narrative>A value from the second-level list of UN sustainable development goals (SDGs) (e.g. ‘1.1’)</narrative>
+            </description>
+            <url>https://sustainabledevelopment.un.org/?menu=1300</url>
+        </codelist-item>
+        <codelist-item>
+            <code>9</code>
+            <name>
+                <narrative>SDG Indicator</narrative>
+            </name>
+            <description>
+                <narrative>A value from the second-level list of UN sustainable development (SDG) indicators</narrative>
+            </description>
+        </codelist-item>
+        <codelist-item>
+            <code>10</code>
+            <name>
+                <narrative>Humanitarian Global Clusters (Inter-Agency Standing Committee)</narrative>
+            </name>
+            <description>
+                <narrative>The sector reported corresponds to an Inter-Agency Standard Committee Humanitarian Global Cluster code</narrative>
+            </description>
+            <url>https://data.hdx.rwlabs.org/dataset/standard-cluster-names-and-codes/resource/24b50d16-897b-46f9-848b-7fce08ac599b</url>
+        </codelist-item>
+        <codelist-item>
             <code>99</code>
             <name>
                 <narrative>Reporting Organisation</narrative>
