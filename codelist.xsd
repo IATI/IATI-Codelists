@@ -51,6 +51,9 @@
       <xs:element name="url" type="xs:anyURI" minOccurs="0" maxOccurs="1" />
     </xs:sequence>
     <xs:attribute name="public-database" use="optional"/>
+    <xs:attribute name="status" type="xs:string" use="optional"/>
+    <xs:attribute name="activation-date" type="xs:date" use="optional"/>
+    <xs:attribute name="withdrawal-date" type="xs:date" use="optional"/>
   </xs:complexType>
 </xs:element>
 
