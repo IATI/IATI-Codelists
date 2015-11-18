@@ -23,5 +23,14 @@
                 <narrative>Supra-national regions maintained by UN Statistics Division</narrative>
             </description>
         </codelist-item>
+        <codelist-item>
+            <code>99</code>
+            <name>
+                <narrative>Reporting Organisation</narrative>
+            </name>
+            <description>
+                <narrative>The region reported corresponds to a region vocabulary maintained by the reporting organisation for this activity.</narrative>
+            </description>
+        </codelist-item>
     </codelist-items>
 </codelist>
