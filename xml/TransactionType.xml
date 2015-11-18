@@ -95,5 +95,14 @@
                 <narrative>A commitment made by a funding organisation to underwrite a loan or line of credit entered into by a third party. </narrative>
             </description>
         </codelist-item>
+        <codelist-item>
+            <code>11</code>
+            <name>
+                <narrative>Incoming Commitment</narrative>
+            </name>
+            <description>
+                <narrative>A firm, written obligation from a donor or provider to provide a specified amount of funds, under particular terms and conditions, reported by a recipient for this activity.</narrative>
+            </description>
+        </codelist-item>
     </codelist-items>
 </codelist>
