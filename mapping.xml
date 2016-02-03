@@ -298,20 +298,12 @@
         <codelist ref="Language" />
     </mapping>
     <mapping>
-        <path>//iati-organisations/@version</path>
-        <codelist ref="Version" />
-    </mapping>
-    <mapping>
         <path>//iati-organisation/@default-currency</path>
         <codelist ref="Currency" />
     </mapping>
     <mapping>
-        <path>//iati-organisation/reporting-org/@type</path>
-        <codelist ref="OrganisationType" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/recipient-country-budget/recipient-country/@code</path>
-        <codelist ref="Country" />
+        <path>//iati-organisations/@version</path>
+        <codelist ref="Version" />
     </mapping>
     <mapping>
         <path>//iati-organisation/document-link/@format</path>
@@ -330,20 +322,24 @@
         <codelist ref="Country" />
     </mapping>
     <mapping>
-        <path>//iati-organisation/total-budget/@status</path>
-        <codelist ref="BudgetStatus" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/total-budget/value/@currency</path>
-        <codelist ref="Currency" />
-    </mapping>
-    <mapping>
         <path>//iati-organisation/recipient-country-budget/@status</path>
         <codelist ref="BudgetStatus" />
     </mapping>
     <mapping>
+        <path>//iati-organisation/recipient-country-budget/recipient-country/@code</path>
+        <codelist ref="Country" />
+    </mapping>
+    <mapping>
+        <path>//iati-organisation/recipient-country-budget/value/@currency</path>
+        <codelist ref="Currency" />
+    </mapping>
+    <mapping>
         <path>//iati-organisation/recipient-org-budget/@status</path>
         <codelist ref="BudgetStatus" />
+    </mapping>
+    <mapping>
+        <path>//iati-organisation/recipient-org-budget/value/@currency</path>
+        <codelist ref="Currency" />
     </mapping>
     <mapping>
         <path>//iati-organisation/recipient-region-budget/@status</path>
@@ -359,19 +355,23 @@
         <codelist ref="RegionVocabulary" />
     </mapping>
     <mapping>
-        <path>//iati-organisation/recipient-region-budget/value/@currency</path>
-        <codelist ref="Currency" />
-    </mapping>
-    <mapping>
         <path>//iati-organisation/recipient-region-budget/budget-line/value/@currency</path>
         <codelist ref="Currency" />
     </mapping>
     <mapping>
-        <path>//iati-organisation/recipient-org-budget/value/@currency</path>
+        <path>//iati-organisation/recipient-region-budget/value/@currency</path>
         <codelist ref="Currency" />
     </mapping>
     <mapping>
-        <path>//iati-organisation/recipient-country-budget/value/@currency</path>
+        <path>//iati-organisation/reporting-org/@type</path>
+        <codelist ref="OrganisationType" />
+    </mapping>
+    <mapping>
+        <path>//iati-organisation/total-budget/@status</path>
+        <codelist ref="BudgetStatus" />
+    </mapping>
+    <mapping>
+        <path>//iati-organisation/total-budget/value/@currency</path>
         <codelist ref="Currency" />
     </mapping>
 </mappings>
