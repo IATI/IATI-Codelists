@@ -20,6 +20,10 @@
         <codelist ref="ActivityScope" />
     </mapping>
     <mapping>
+        <path>//iati-activity/budget/@status</path>
+        <codelist ref="BudgetStatus" />
+    </mapping>
+    <mapping>
         <path>//iati-activity/budget/@type</path>
         <codelist ref="BudgetType" />
     </mapping>
@@ -51,6 +55,10 @@
     <mapping>
         <path>//iati-activity/country-budget-items/budget-item/description/@type</path>
         <codelist ref="DescriptionType" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/crs-add/crs-add/channel-code/text()</path>
+        <codelist ref="CRSChannelCode" />
     </mapping>
     <mapping>
         <path>//iati-activity/crs-add/other-flags/@code</path>
@@ -105,6 +113,14 @@
         <codelist ref="Currency" />
     </mapping>
     <mapping>
+        <path>//iati-activity/humanitarian-scope/@type</path>
+        <codelist ref="HumanitarianScopeType" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/humanitarian-scope/@vocabulary</path>
+        <codelist ref="HumanitarianScopeVocabulary" />
+    </mapping>
+    <mapping>
         <path>//iati-activity/location/administrative/@vocabulary</path>
         <codelist ref="GeographicVocabulary" />
     </mapping>
@@ -143,6 +159,14 @@
     <mapping>
         <path>//iati-activity/planned-disbursement/@type</path>
         <codelist ref="BudgetType" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/planned-disbursement/provider-org/@type</path>
+        <codelist ref="OrganisationType" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/planned-disbursement/receiver-org/@type</path>
+        <codelist ref="OrganisationType" />
     </mapping>
     <mapping>
         <path>//iati-activity/planned-disbursement/value/@currency</path>
@@ -199,6 +223,10 @@
         <codelist ref="DescriptionType" />
     </mapping>
     <mapping>
+        <path>//iati-activity/result/indicator/reference/@vocabulary</path>
+        <codelist ref="IndicatorVocabulary" />
+    </mapping>
+    <mapping>
         <path>//iati-activity/sector/@code</path>
         <codelist ref="Sector" />
         <condition>@vocabulary = '1' or not(@vocabulary)</condition>
@@ -235,6 +263,14 @@
     <mapping>
         <path>//iati-activity/transaction/recipient-region/@vocabulary</path>
         <codelist ref="RegionVocabulary" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/transaction/provider-org/@type</path>
+        <codelist ref="OrganisationType" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/transaction/receiver-org/@type</path>
+        <codelist ref="OrganisationType" />
     </mapping>
     <mapping>
         <path>//iati-activity/transaction/sector/@code</path>
@@ -294,7 +330,40 @@
         <codelist ref="Country" />
     </mapping>
     <mapping>
+        <path>//iati-organisation/total-budget/@status</path>
+        <codelist ref="BudgetStatus" />
+    </mapping>
+    <mapping>
         <path>//iati-organisation/total-budget/value/@currency</path>
+        <codelist ref="Currency" />
+    </mapping>
+    <mapping>
+        <path>//iati-organisation/recipient-country-budget/@status</path>
+        <codelist ref="BudgetStatus" />
+    </mapping>
+    <mapping>
+        <path>//iati-organisation/recipient-org-budget/@status</path>
+        <codelist ref="BudgetStatus" />
+    </mapping>
+    <mapping>
+        <path>//iati-organisation/recipient-region-budget/@status</path>
+        <codelist ref="BudgetStatus" />
+    </mapping>
+    <mapping>
+        <path>//iati-organisation/recipient-region-budget/@code</path>
+        <codelist ref="Region" />
+        <condition>@vocabulary = '1' or not(@vocabulary)</condition>
+    </mapping>
+    <mapping>
+        <path>//iati-organisation/recipient-region-budget/recipient-region/@vocabulary</path>
+        <codelist ref="RegionVocabulary" />
+    </mapping>
+    <mapping>
+        <path>//iati-organisation/recipient-region-budget/value/@currency</path>
+        <codelist ref="Currency" />
+    </mapping>
+    <mapping>
+        <path>//iati-organisation/recipient-region-budget/budget-line/value/@currency</path>
         <codelist ref="Currency" />
     </mapping>
     <mapping>
