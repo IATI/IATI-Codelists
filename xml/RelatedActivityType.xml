@@ -10,7 +10,7 @@
             <code>1</code>
             <name>
                 <narrative>Parent</narrative>
-                <narrative xml:lang="fr">Mère</narrative>
+                <narrative xml:lang="fr">Parent</narrative>
             </name>
             <description>
                 <narrative>An activity that contains sub-activities (sub-components) which are reported separately to IATI</narrative>
@@ -21,7 +21,7 @@
             <code>2</code>
             <name>
                 <narrative>Child</narrative>
-                <narrative xml:lang="fr">Fille</narrative>
+                <narrative xml:lang="fr">Descendant</narrative>
             </name>
             <description>
                 <narrative>A sub-activity (or sub-component) that sits within a larger activity (parent) which is also reported to IATI</narrative>
@@ -32,7 +32,7 @@
             <code>3</code>
             <name>
                 <narrative>Sibling</narrative>
-                <narrative xml:lang="fr">Jumelle</narrative>
+                <narrative xml:lang="fr">Fratrie</narrative>
             </name>
             <description>
                 <narrative>A sub-activity (or sub-component) that is related to another sub-activity with the same parent </narrative>
