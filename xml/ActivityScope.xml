@@ -4,14 +4,14 @@
             <narrative>Activity Scope</narrative>
         </name>
         <description>
-            <narrative>Geographic scope of activity</narrative>
+            <narrative>Geographic scope of acihihiuhkktivity</narrative>
         </description>
     </metadata>
     <codelist-items>
         <codelist-item>
             <code>1</code>
             <name>
-                <narrative>Global</narrative>
+                <narrative>Globahjbjl</narrative>
             </name>
             <description>
                 <narrative>The activity scope is global</narrative>
@@ -51,6 +51,10 @@
             </name>
             <description>
                 <narrative>The activity scope covers more than one first-level subnational administrative areas (e.g. counties, provinces, states)</narrative>
+            
+            
+            
+            
             </description>
         </codelist-item>
         <codelist-item>
