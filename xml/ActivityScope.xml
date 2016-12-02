@@ -7,34 +7,42 @@
         <codelist-item>
             <code>1</code>
             <name>Global</name>
+            <name xml:lang="fr">Mondial</name>
         </codelist-item>
         <codelist-item>
             <code>2</code>
             <name>Regional</name>
+            <name xml:lang="fr">Régional</name>
         </codelist-item>
         <codelist-item>
             <code>3</code>
             <name>Multi-national</name>
+            <name xml:lang="fr">Multinational</name>
         </codelist-item>
         <codelist-item>
             <code>4</code>
             <name>National</name>
+            <name xml:lang="fr">National</name>
         </codelist-item>
         <codelist-item>
             <code>5</code>
             <name>Sub-national: Multi-first-level administrative areas</name>
+            <name xml:lang="fr">Infranational : multiples régions administratives de premier niveau</name>
         </codelist-item>
         <codelist-item>
             <code>6</code>
             <name>Sub-national: Single first-level administrative area</name>
+            <name xml:lang="fr">Infranational : Région administrative unique de premier niveau</name>
         </codelist-item>
         <codelist-item>
             <code>7</code>
             <name>Sub-national: Single second-level administrative area</name>
+            <name xml:lang="fr">Infranational : Région administrative unique de deuxième niveau</name>
         </codelist-item>
         <codelist-item>
             <code>8</code>
             <name>Single location</name>
+            <name xml:lang="fr">Un seul emplacement</name>
         </codelist-item>
     </codelist-items>
 </codelist>
