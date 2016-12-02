@@ -12,7 +12,7 @@
                 <narrative xml:lang="fr">Donateur</narrative>
             </name>
             <description>
-                <narrative>Results of the activity that came about as a direct effect of your work and specific, what is done, and what communities are reached. For example, X number of individuals </narrative>
+                <narrative>Results of the activity that came about as a direct effect of your work and specific, what is done, and what communities are reached. For example, X number of individuals.</narrative>
             </description>
         </codelist-item>
         <codelist-item>
@@ -22,7 +22,7 @@
                 <narrative xml:lang="fr">Effet</narrative>
             </name>
             <description>
-                <narrative>Results of the activity that produce an effect on the overall communities or issues you serve. For example lower rate of infection after a vaccination procgramme</narrative>
+                <narrative>Results of the activity that produce an effect on the overall communities or issues you serve. For example lower rate of infection after a vaccination programme.</narrative>
             </description>
         </codelist-item>
         <codelist-item>
