@@ -88,7 +88,7 @@
             <description>
                 <narrative>A value from the second-level list of UN sustainable development goals (SDGs) (e.g. ‘1.1’)</narrative>
             </description>
-            <url>https://sustainabledevelopment.un.org/?menu=1300</url>
+            <url>http://unstats.un.org/sdgs/indicators/indicators-list/</url>
         </codelist-item>
         <codelist-item>
             <code>9</code>
@@ -98,6 +98,7 @@
             <description>
                 <narrative>A value from the second-level list of UN sustainable development (SDG) indicators</narrative>
             </description>
+            <url>http://unstats.un.org/sdgs/indicators/indicators-list/</url>
         </codelist-item>
         <codelist-item>
             <code>10</code>
