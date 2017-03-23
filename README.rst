@@ -3,8 +3,6 @@ IATI Codelists
 
 This repository contains the codelists for the IATI Standard, and is part of the Single Source of Truth (SSOT). For more information about the SSOT, please see http://iatistandard.org/202/developer/ssot/ 
 
-This repository is currently under development, and does not necessarily represent any current or future version of the IATI standard.
-
 The Codelists
 =============
 
