@@ -129,5 +129,35 @@
             <description/>
             <category>B</category>
         </codelist-item>
+        <codelist-item>
+            <code>B11</code>
+            <name>Sector strategy</name>
+            <description/>
+            <category>B</category>
+        </codelist-item>
+        <codelist-item>
+            <code>B12</code>
+            <name>Thematic strategy</name>
+            <description/>
+            <category>B</category>
+        </codelist-item>
+        <codelist-item>
+            <code>B13</code>
+            <name>Country-level Memorandum of Understanding</name>
+            <description/>
+            <category>B</category>
+        </codelist-item>
+        <codelist-item>
+            <code>B14</code>
+            <name>Evaluations policy</name>
+            <description/>
+            <category>B</category>
+        </codelist-item>
+        <codelist-item>
+            <code>B15</code>
+            <name>General Terms and Conditions</name>
+            <description/>
+            <category>B</category>
+        </codelist-item>
     </codelist-items>
 </codelist>
