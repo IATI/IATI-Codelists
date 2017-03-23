@@ -1,7 +1,19 @@
 IATI Codelists
 ^^^^^^^^^^^^^^
 
+.. image:: https://travis-ci.org/IATI/IATI-Codelists.svg?branch=version-2.01
+    :target: https://travis-ci.org/IATI/IATI-Codelists
+.. image:: https://requires.io/github/IATI/IATI-Codelists/requirements.svg?branch=version-2.01
+    :target: https://requires.io/github/IATI/IATI-Codelists/requirements/?branch=version-2.01
+    :alt: Requirements Status
+.. image:: https://img.shields.io/badge/license-MIT-blue.svg
+    :target: https://github.com/IATI/IATI-Codelists/blob/version-2.01/LICENSE
+
+Introduction
+------------
+
 This repository contains the codelists for the IATI Standard, and is part of the Single Source of Truth (SSOT). For more information about the SSOT, please see http://iatistandard.org/202/developer/ssot/ 
+
 
 The Codelists
 =============
