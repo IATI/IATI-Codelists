@@ -47,7 +47,7 @@ To do the conversion yourself, you will need BASH, Python and python-lxml. Then 
 Codelist Mapping
 ================
 
-`mapping.xml <http://dev.iatistandard.org/_static/codelists/mapping.xml>`__ relates codelists to an XML path in the standard. This should make it easier for users to work out which codelists go with which element and vice versa.
+`mapping.xml <https://github.com/IATI/IATI-Codelists/blob/version-2.02/mapping.xml>`__ relates codelists to an XML path in the standard. This should make it easier for users to work out which codelists go with which element and vice versa.
 
 It's structured as a list of `mapping` elements, which each have a `path` element that describes the relevant attribute, and a `codelist@ref` attribute which is the same ref as used in the codelist filenames. An optional `condition` element is an xpath expression which limits the scope of the given codelist - e.g. it only applies if a certain vocabulary is being used. A sample of the XML is as follows:
 
@@ -66,7 +66,7 @@ It's structured as a list of `mapping` elements, which each have a `path` elemen
         ...
     </mappings>
 
-A `JSON version <http://dev.iatistandard.org/_static/codelists/mapping.json>`__ is also availible.
+A `JSON version <http://iatistandard.org/202/codelists/downloads/clv1/mapping.json>`__ is also available.
 
 Testing Compliance Against Codelists
 ===================================
