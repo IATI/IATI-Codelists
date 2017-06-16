@@ -57,7 +57,7 @@
         <codelist ref="DescriptionType" />
     </mapping>
     <mapping>
-        <path>//iati-activity/crs-add/crs-add/channel-code/text()</path>
+        <path>//iati-activity/crs-add/channel-code/text()</path>
         <codelist ref="CRSChannelCode" />
     </mapping>
     <mapping>
