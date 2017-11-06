@@ -193,14 +193,7 @@
         <codelist-item>
             <code>2.1.2</code>
             <name>
-                <narrative>Justice, Law and Order - police</narrative>
-            </name>
-            <category>2.1</category>
-        </codelist-item>
-        <codelist-item>
-            <code>2.1.2</code>
-            <name>
-                <narrative>Justice, Law and Order - fire</narrative>
+                <narrative>Justice, Law and Order - fire or police</narrative>
             </name>
             <category>2.1</category>
         </codelist-item>
