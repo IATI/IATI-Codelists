@@ -136,12 +136,7 @@
         </codelist-item>
         <codelist-item>
             <code>2.1.2</code>
-            <name>Justice, Law and Order - police</name>
-            <category>2.1</category>
-        </codelist-item>
-        <codelist-item>
-            <code>2.1.2</code>
-            <name>Justice, Law and Order - fire</name>
+            <name>Justice, Law and Order - fire or police</name>
             <category>2.1</category>
         </codelist-item>
         <codelist-item>
