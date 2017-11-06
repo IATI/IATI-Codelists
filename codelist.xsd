@@ -4,48 +4,80 @@
 <xs:import namespace="http://www.w3.org/XML/1998/namespace"
            schemaLocation="xml.xsd"/>
 
-<xs:complexType name="text">
-  <xs:simpleContent>
-    <xs:extension base="xs:string">
-      <xs:attribute ref="xml:lang" use="optional" />
-    </xs:extension>
-  </xs:simpleContent>
+<xs:element name="narrative">
+  <xs:annotation>
+    <xs:documentation xml:lang="en">
+      The free text name or description of the item being described. This can
+      be repeated in multiple languages.
+    </xs:documentation>
+  </xs:annotation>
+  <xs:complexType>
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute ref="xml:lang" use="optional">
+          <xs:annotation>
+            <xs:documentation xml:lang="en">
+              ISO 639-1 code specifying the language of text in this element. If a default language is specified in the iati-activity element it does not have to be repeated here.
+            </xs:documentation>
+          </xs:annotation>
+        </xs:attribute>
+        <xs:anyAttribute processContents="lax" namespace="##other"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:element>
+
+<xs:complexType name="textType">
+  <xs:annotation>
+    <xs:documentation xml:lang="en">
+      Data type for an element that may contain human-readable text
+      in different languages.
+    </xs:documentation>
+  </xs:annotation>
+  <xs:sequence>
+    <xs:element ref="narrative" minOccurs="0" maxOccurs="unbounded" />
+    <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
+  </xs:sequence>
+  <xs:anyAttribute processContents="lax" namespace="##other"/>
 </xs:complexType>
 
 <xs:element name="codelist-item">
   <xs:complexType>
-    <xs:choice minOccurs="0" maxOccurs="unbounded">
-      <xs:element name="code" type="xs:string"/>
-      <xs:element name="name" type="text"/>
-      <xs:element name="description" type="text" />
-      <xs:element name="category" type="xs:string" />
-      <xs:element name="url" type="xs:anyURI" />
-    </xs:choice>
+    <xs:sequence>
+      <xs:element name="code" type="xs:string" minOccurs="1" maxOccurs="1" />
+      <xs:element name="name" type="textType" minOccurs="0" maxOccurs="1" />
+      <xs:element name="description" type="textType" minOccurs="0" maxOccurs="1" />
+      <xs:element name="category" type="xs:string" minOccurs="0" maxOccurs="1" />
+      <xs:element name="url" type="xs:anyURI" minOccurs="0" maxOccurs="1" />
+    </xs:sequence>
     <xs:attribute name="public-database" use="optional"/>
+    <xs:attribute name="status" type="xs:string" use="optional"/>
+    <xs:attribute name="activation-date" type="xs:date" use="optional"/>
+    <xs:attribute name="withdrawal-date" type="xs:date" use="optional"/>
   </xs:complexType>
 </xs:element>
 
 <xs:element name="codelist-items"> 
   <xs:complexType>
-    <xs:choice minOccurs="0" maxOccurs="unbounded">
-      <xs:element ref="codelist-item"/>
-    </xs:choice>
+    <xs:sequence>
+      <xs:element ref="codelist-item" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
   </xs:complexType>
 </xs:element>
 
 <xs:element name="codelist"> 
   <xs:complexType>
     <xs:sequence>
-      <xs:element name="metadata">
+      <xs:element name="metadata" minOccurs="1" maxOccurs="1">
         <xs:complexType>
-          <xs:choice minOccurs="0" maxOccurs="unbounded">
-            <xs:element name="name" type="text"/>
-            <xs:element name="description" type="text" />
-            <xs:element name="url" type="xs:anyURI" />
-          </xs:choice>
+          <xs:sequence>
+            <xs:element name="name" type="textType" minOccurs="0" maxOccurs="1" />
+            <xs:element name="description" type="textType" minOccurs="0" maxOccurs="1" />
+            <xs:element name="url" type="xs:anyURI" minOccurs="0" maxOccurs="1" />
+          </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element ref="codelist-items"/>
+      <xs:element ref="codelist-items" minOccurs="1" maxOccurs="1" />
     </xs:sequence>
     <xs:attribute name="ref" use="optional"/>
     <xs:attribute name="name" use="optional"/>
@@ -57,9 +89,9 @@
 
 <xs:element name="codelists">
   <xs:complexType>
-    <xs:choice minOccurs="0" maxOccurs="unbounded">
-      <xs:element ref="codelist"/>
-    </xs:choice>
+    <xs:sequence>
+      <xs:element ref="codelist" minOccurs="0" maxOccurs="unbounded" />
+    </xs:sequence>
   </xs:complexType>
 </xs:element>
 

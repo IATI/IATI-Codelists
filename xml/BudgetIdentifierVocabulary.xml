@@ -1,27 +1,54 @@
-<codelist name="BudgetIdentifierVocabulary"   xml:lang="en" complete="1">
+<codelist name="BudgetIdentifierVocabulary" xml:lang="en" complete="1">
     <metadata>
-        <name>Budget Identifier Vocabulary</name>
+        <name>
+            <narrative>Budget Identifier Vocabulary</narrative>
+        </name>
     </metadata>
     <codelist-items>
         <codelist-item>
             <code>1</code>
-            <name>IATI</name>
+            <name>
+                <narrative>IATI</narrative>
+            </name>
+            <description>
+                <narrative>The budget identifier reported uses IATI budget identifier categories</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>2</code>
-            <name>Country Chart of Accounts</name>
+            <name>
+                <narrative>Country Chart of Accounts</narrative>
+            </name>
+            <description>
+                <narrative>The budget identifier reported corresponds to the recipient country chart of accounts</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>3</code>
-            <name>Other Country System</name>
+            <name>
+                <narrative>Other Country System</narrative>
+            </name>
+            <description>
+                <narrative>The budget identifier reported corresponds to a recipient country system other than the chart of accounts</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>4</code>
-            <name>Reporting Organisation</name>
+            <name>
+                <narrative>Reporting Organisation</narrative>
+            </name>
+            <description>
+                <narrative>The budget identifier reported corresponds to categories that are specific to the reporting organisation</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>5</code>
-            <name>Other</name>
+            <name>
+                <narrative>Other</narrative>
+            </name>
+            <description>
+                <narrative>The budget identifier reported uses a different vocabulary, not specified in the codelist </narrative>
+            </description>
         </codelist-item>
     </codelist-items>
 </codelist>

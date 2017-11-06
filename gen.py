@@ -37,8 +37,8 @@ for language in languages:
         os.makedirs(os.path.join(OUTPUTDIR,'csv',language))
     except OSError: pass
 
-    for fname in os.listdir('combined-xml'):
-        codelist = ET.parse(os.path.join('combined-xml',fname))
+    for fname in os.listdir(os.path.join('out','clv2','xml')):
+        codelist = ET.parse(os.path.join('out','clv2','xml',fname))
         attrib = codelist.getroot().attrib
         assert attrib['name'] == fname.replace('.xml','')
 

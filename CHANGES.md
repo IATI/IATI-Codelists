@@ -1,4 +1,4 @@
-# Changes compared to previous codelists
+# Changes when importing the codelists into GitHub (CLv1 -> CLv2)
 
 ## Initial import and cleanup
 

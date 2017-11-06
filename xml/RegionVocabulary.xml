@@ -1,15 +1,36 @@
-<codelist name="RegionVocabulary"   xml:lang="en" complete="1">
+<codelist name="RegionVocabulary" xml:lang="en" complete="1">
     <metadata>
-        <name>Region Vocabulary</name>
+        <name>
+            <narrative>Region Vocabulary</narrative>
+        </name>
     </metadata>
     <codelist-items>
         <codelist-item>
             <code>1</code>
-            <name>DAC</name>
+            <name>
+                <narrative>OECD DAC</narrative>
+            </name>
+            <description>
+                <narrative>Supra-national regions according to OECD DAC CRS recipient codes</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
             <code>2</code>
-            <name>UN</name>
+            <name>
+                <narrative>UN</narrative>
+            </name>
+            <description>
+                <narrative>Supra-national regions maintained by UN Statistics Division</narrative>
+            </description>
+        </codelist-item>
+        <codelist-item>
+            <code>99</code>
+            <name>
+                <narrative>Reporting Organisation</narrative>
+            </name>
+            <description>
+                <narrative>The region reported corresponds to a region vocabulary maintained by the reporting organisation for this activity.</narrative>
+            </description>
         </codelist-item>
     </codelist-items>
 </codelist>
