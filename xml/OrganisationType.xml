@@ -1,57 +1,79 @@
-<codelist name="OrganisationType"   xml:lang="en" complete="1">
+<codelist name="OrganisationType" xml:lang="en" complete="1">
     <metadata>
-        <name>Organisation Type</name>
+        <name>
+            <narrative>Organisation Type</narrative>
+        </name>
     </metadata>
     <codelist-items>
         <codelist-item>
             <code>10</code>
-            <name>Government</name>
-            <name xml:lang="fr">Gouvernement</name>
+            <name>
+                <narrative>Government</narrative>
+                <narrative xml:lang="fr">Gouvernement</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>15</code>
-            <name>Other Public Sector</name>
-            <name xml:lang="fr">Autre secteur public</name>
+            <name>
+                <narrative>Other Public Sector</narrative>
+                <narrative xml:lang="fr">Autre secteur public</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>21</code>
-            <name>International NGO</name>
-            <name xml:lang="fr">ONG internationale</name>
+            <name>
+                <narrative>International NGO</narrative>
+                <narrative xml:lang="fr">ONG internationale</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>22</code>
-            <name>National NGO</name>
-            <name xml:lang="fr">ONG nationale</name>
+            <name>
+                <narrative>National NGO</narrative>
+                <narrative xml:lang="fr">ONG nationale</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>23</code>
-            <name>Regional NGO</name>
-            <name xml:lang="fr">ONG regionale</name>
+            <name>
+                <narrative>Regional NGO</narrative>
+                <narrative xml:lang="fr">ONG regionale</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>30</code>
-            <name>Public Private Partnership</name>
-            <name xml:lang="fr">Partenariat public-privé</name>
+            <name>
+                <narrative>Public Private Partnership</narrative>
+                <narrative xml:lang="fr">Partenariat public-privé</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>40</code>
-            <name>Multilateral</name>
-            <name xml:lang="fr">Multilatéral</name>
+            <name>
+                <narrative>Multilateral</narrative>
+                <narrative xml:lang="fr">Multilatéral</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>60</code>
-            <name>Foundation</name>
-            <name xml:lang="fr">Fondation</name>
+            <name>
+                <narrative>Foundation</narrative>
+                <narrative xml:lang="fr">Fondation</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>70</code>
-            <name>Private Sector</name>
-            <name xml:lang="fr">Secteur privé</name>
+            <name>
+                <narrative>Private Sector</narrative>
+                <narrative xml:lang="fr">Secteur privé</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>80</code>
-            <name>Academic, Training and Research</name>
-            <name xml:lang="fr">Universitaire, formation et recherche</name>
+            <name>
+                <narrative>Academic, Training and Research</narrative>
+                <narrative xml:lang="fr">Universitaire, formation et recherche</narrative>
+            </name>
         </codelist-item>
     </codelist-items>
 </codelist>

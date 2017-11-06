@@ -1,57 +1,99 @@
-<codelist name="TransactionType"   xml:lang="en" complete="1">
+<codelist name="TransactionType" xml:lang="en" complete="1">
     <metadata>
-        <name>Transaction Type</name>
+        <name>
+            <narrative>Transaction Type</narrative>
+        </name>
     </metadata>
     <codelist-items>
         <codelist-item>
-            <code>C</code>
-            <name>Commitment</name>
-            <description>A firm written obligation by the donor to provide resources of a specified amount under specified financial terms and conditions and for specified purposes for the benefit of the recipient</description>
+            <code>1</code>
+            <name>
+                <narrative>Incoming Funds</narrative>
+            </name>
+            <description>
+                <narrative>Funds recieved for use on the activity, which can be from an external or internal source. </narrative>
+            </description>
         </codelist-item>
         <codelist-item>
-            <code>D</code>
-            <name>Disbursement</name>
-            <description>The amount placed at the disposal of a recipient country or agency (in the case of internal development-related expenditures, the outlay of funds)</description>
+            <code>2</code>
+            <name>
+                <narrative>Commitment</narrative>
+            </name>
+            <description>
+                <narrative>A firm, written obligation from a donor or provider to provide a specified amount of funds, under particular terms and conditions, for specific purposes, for the benefit of the recipient. </narrative>
+            </description>
         </codelist-item>
         <codelist-item>
-            <code>E</code>
-            <name>Expenditure</name>
-            <description>The outlay by the implementing agency on goods and services for the activity</description>
+            <code>3</code>
+            <name>
+                <narrative>Disbursement</narrative>
+            </name>
+            <description>
+                <narrative>Outgoing funds that are placed at the disposal of a recipient government or organisation, or funds transferred between two separately reported activities.Under IATI traceability standards the recipient of a disbursement should also be required to report their activities to IATI.</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
-            <code>IF</code>
-            <name>Incoming Funds</name>
-            <description>Funds received from an external funding source (eg a donor).</description>
+            <code>4</code>
+            <name>
+                <narrative>Expenditure</narrative>
+            </name>
+            <description>
+                <narrative>Outgoing funds that are spent on goods and services for the activity. The recipients of expenditures fall outside of IATI traceability standards.</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
-            <code>IR</code>
-            <name>Interest Repayment</name>
-            <description>The actual amount of interest repaid, including fees.</description>
+            <code>5</code>
+            <name>
+                <narrative>Interest Repayment</narrative>
+            </name>
+            <description>
+                <narrative>The actual amount of interest paid on a loan or line of credit, including fees.</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
-            <code>LR</code>
-            <name>Loan Repayment</name>
-            <description>The actual amount of principal (amortisation) repaid, including any arrears.</description>
+            <code>6</code>
+            <name>
+                <narrative>Loan Repayment</narrative>
+            </name>
+            <description>
+                <narrative>The actual amount of principal (amortisation) repaid, including any arrears. </narrative>
+            </description>
         </codelist-item>
         <codelist-item>
-            <code>R</code>
-            <name>Reimbursement</name>
-            <description>A disbursement that covers funds already spent by the recipient, as agreed in the terms of the loan or grant.</description>
+            <code>7</code>
+            <name>
+                <narrative>Reimbursement</narrative>
+            </name>
+            <description>
+                <narrative>A type of disbursement that covers funds that have already been spent by the recipient, as agreed in the terms of the grant or loan</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
-            <code>QP</code>
-            <name>Purchase of Equity</name>
-            <description>The use of an activity's funds to purchase equity in a business.</description>
+            <code>8</code>
+            <name>
+                <narrative>Purchase of Equity</narrative>
+            </name>
+            <description>
+                <narrative>Outgoing funds that are used to purchase equity in a business</narrative>
+            </description>
         </codelist-item>
         <codelist-item>
-            <code>QS</code>
-            <name>Sale of Equity</name>
-            <description>The flow of funds into an activity from the sale of equity.</description>
+            <code>9</code>
+            <name>
+                <narrative>Sale of Equity</narrative>
+            </name>
+            <description>
+                <narrative>Incoming funds from the sale of equity. </narrative>
+            </description>
         </codelist-item>
         <codelist-item>
-            <code>CG</code>
-            <name>Credit Guarantee</name>
-            <description>A commitment made by a funding organisation to underwrite a loan or line of credit entered into by a third party.</description>
+            <code>10</code>
+            <name>
+                <narrative>Credit Guarantee</narrative>
+            </name>
+            <description>
+                <narrative>A commitment made by a funding organisation to underwrite a loan or line of credit entered into by a third party. </narrative>
+            </description>
         </codelist-item>
     </codelist-items>
 </codelist>

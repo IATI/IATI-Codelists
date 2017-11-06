@@ -1,36 +1,54 @@
 <codelist name="BudgetIdentifierSector-category" xml:lang="en" complete="1">
     <metadata>
-        <name>Budget Identfier Sector (category)</name>
-        <description>This codelists exists to group the Budget Identifier codelist into categories. It is not used as a codelist in its own right.</description>
+        <name>
+            <narrative>Budget Identfier Sector (category)</narrative>
+        </name>
+        <description>
+            <narrative>This codelists exists to group the Budget Identifier codelist into categories. It is not used as a codelist in its own right.</narrative>
+        </description>
     </metadata>
     <codelist-items>
         <codelist-item>
             <code>1</code>
-            <name>General Public Service</name>
+            <name>
+                <narrative>General Public Service</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>2</code>
-            <name>Justice, Law, Order and Security</name>
+            <name>
+                <narrative>Justice, Law, Order and Security</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>3</code>
-            <name>Economic Affairs</name>
+            <name>
+                <narrative>Economic Affairs</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>4</code>
-            <name>Water, Natural Resource Management and Environment</name>
+            <name>
+                <narrative>Water, Natural Resource Management and Environment</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>5</code>
-            <name>Social Affairs</name>
+            <name>
+                <narrative>Social Affairs</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>6</code>
-            <name>Development Partner Affairs</name>
+            <name>
+                <narrative>Development Partner Affairs</narrative>
+            </name>
         </codelist-item>
         <codelist-item>
             <code>7</code>
-            <name>General Budget Support and Aid support external to General Government Sector</name>
+            <name>
+                <narrative>General Budget Support and Aid support external to General Government Sector</narrative>
+            </name>
         </codelist-item>
     </codelist-items>
 </codelist>
