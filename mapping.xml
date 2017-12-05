@@ -240,6 +240,10 @@
         <codelist ref="AidType" />
     </mapping>
     <mapping>
+        <path>//iati-activity/transaction/aid-type/@vocabulary</path>
+        <codelist ref="AidTypeVocabulary" />
+    </mapping>
+    <mapping>
         <path>//iati-activity/transaction/disbursement-channel/@code</path>
         <codelist ref="DisbursementChannel" />
     </mapping>
