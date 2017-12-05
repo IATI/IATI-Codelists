@@ -4,6 +4,10 @@
         <codelist ref="Version" />
     </mapping>
     <mapping>
+        <path>//iati-activity/@budget-not-provided</path>
+        <codelist ref="BudgetNotProvided" />
+    </mapping>
+    <mapping>
         <path>//iati-activity/@default-currency</path>
         <codelist ref="Currency" />
     </mapping>
