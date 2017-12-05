@@ -259,6 +259,18 @@
         <codelist ref="Language" />
     </mapping>
     <mapping>
+        <path>//iati-activity/result/indicator/period/target/document-link/@format</path>
+        <codelist ref="FileFormat" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/result/indicator/period/target/document-link/category/@code</path>
+        <codelist ref="DocumentCategory" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/result/indicator/period/target/document-link/language/@code</path>
+        <codelist ref="Language" />
+    </mapping>
+    <mapping>
         <path>//iati-activity/result/indicator/reference/@vocabulary</path>
         <codelist ref="IndicatorVocabulary" />
     </mapping>
