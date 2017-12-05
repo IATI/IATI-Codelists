@@ -81,6 +81,10 @@
         <codelist ref="AidType" />
     </mapping>
     <mapping>
+        <path>//iati-activity/default-aid-type/@vocabulary</path>
+        <codelist ref="AidTypeVocabulary" />
+    </mapping>
+    <mapping>
         <path>//iati-activity/default-finance-type/@code</path>
         <codelist ref="FinanceType" />
     </mapping>
