@@ -227,6 +227,10 @@
         <codelist ref="IndicatorVocabulary" />
     </mapping>
     <mapping>
+        <path>//iati-activity/result/reference/@vocabulary</path>
+        <codelist ref="ResultVocabulary" />
+    </mapping>
+    <mapping>
         <path>//iati-activity/sector/@code</path>
         <codelist ref="Sector" />
         <condition>@vocabulary = '1' or not(@vocabulary)</condition>
