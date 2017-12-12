@@ -29,7 +29,7 @@
                 <narrative>Disbursement</narrative>
             </name>
             <description>
-                <narrative>Outgoing funds that are placed at the disposal of a recipient government or organisation, or funds transferred between two separately reported activities.Under IATI traceability standards the recipient of a disbursement should also be required to report their activities to IATI.</narrative>
+                <narrative>Outgoing funds that are placed at the disposal of a recipient government or organisation, or funds transferred between two separately reported activities.</narrative>
             </description>
         </codelist-item>
         <codelist-item>
@@ -38,7 +38,7 @@
                 <narrative>Expenditure</narrative>
             </name>
             <description>
-                <narrative>Outgoing funds that are spent on goods and services for the activity. The recipients of expenditures fall outside of IATI traceability standards.</narrative>
+                <narrative>Outgoing funds that are spent on goods and services for the activity.</narrative>
             </description>
         </codelist-item>
         <codelist-item>
