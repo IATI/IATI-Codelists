@@ -17,7 +17,7 @@
         <codelist-item>
             <code>2</code>
             <name>
-                <narrative>Commitment</narrative>
+                <narrative>Outgoing Commitment</narrative>
             </name>
             <description>
                 <narrative>A firm, written obligation from a donor or provider to provide a specified amount of funds, under particular terms and conditions, for specific purposes, for the benefit of the recipient. </narrative>
@@ -44,7 +44,7 @@
         <codelist-item>
             <code>5</code>
             <name>
-                <narrative>Interest Repayment</narrative>
+                <narrative>Interest Payment</narrative>
             </name>
             <description>
                 <narrative>The actual amount of interest paid on a loan or line of credit, including fees.</narrative>
