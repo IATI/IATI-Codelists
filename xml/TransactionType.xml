@@ -104,5 +104,23 @@
                 <narrative>A firm, written obligation from a donor or provider to provide a specified amount of funds, under particular terms and conditions, reported by a recipient for this activity.</narrative>
             </description>
         </codelist-item>
+        <codelist-item>
+            <code>12</code>
+            <name>
+                <narrative>Outgoing Pledge</narrative>
+            </name>
+            <description>
+                <narrative>Indicative, non-binding advice of an intended outgoing commitment.</narrative>
+            </description>
+        </codelist-item>
+        <codelist-item>
+            <code>13</code>
+            <name>
+                <narrative>Incoming Pledge</narrative>
+            </name>
+            <description>
+                <narrative>Indicative, non-binding advice of an intended incoming commitment.</narrative>
+            </description>
+        </codelist-item>
     </codelist-items>
 </codelist>
