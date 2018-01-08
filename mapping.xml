@@ -149,6 +149,10 @@
         <codelist ref="OtherIdentifierType" />
     </mapping>
     <mapping>
+        <path>//iati-activity/participating-org/@crs-channel-code</path>
+        <codelist ref="CRSChannelCode" />
+    </mapping>
+    <mapping>
         <path>//iati-activity/participating-org/@role</path>
         <codelist ref="OrganisationRole" />
     </mapping>
