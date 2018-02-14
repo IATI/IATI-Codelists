@@ -252,6 +252,10 @@
         <codelist ref="SectorVocabulary" />
     </mapping>
     <mapping>
+        <path>//iati-activity/tag/@vocabulary</path>
+        <codelist ref="TagVocabulary" />
+    </mapping>
+    <mapping>
         <path>//iati-activity/transaction/aid-type/@code</path>
         <codelist ref="AidType" />
     </mapping>
