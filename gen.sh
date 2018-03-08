@@ -32,4 +32,4 @@ python mappings_to_json.py
 cp mapping.{xml,json} out/clv1/
 cp mapping.{xml,json} out/clv2/
 cp mapping.{xml,json} out/clv3/
-
+rm mapping.json
