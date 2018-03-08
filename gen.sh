@@ -26,4 +26,5 @@ python old.py
 python mappings_to_json.py
 cp mapping.{xml,json} out/clv1/
 cp mapping.{xml,json} out/clv2/
+rm mapping.json
 
