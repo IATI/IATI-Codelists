@@ -3,3 +3,5 @@ out
 combined-xml
 *.swp
 *.pyc
+*~
+mapping.json
