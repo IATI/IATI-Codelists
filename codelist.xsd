@@ -23,6 +23,7 @@
       <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
     </xs:choice>
     <xs:attribute name="public-database" use="optional"/>
+    <xs:anyAttribute processContents="lax" namespace="##other"/>
   </xs:complexType>
 </xs:element>
 
@@ -32,6 +33,7 @@
       <xs:element ref="codelist-item"/>
       <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
     </xs:choice>
+    <xs:anyAttribute processContents="lax" namespace="##other"/>
   </xs:complexType>
 </xs:element>
 
@@ -46,6 +48,7 @@
             <xs:element name="url" type="xs:anyURI" />
             <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
           </xs:choice>
+          <xs:anyAttribute processContents="lax" namespace="##other"/>
         </xs:complexType>
       </xs:element>
       <xs:element ref="codelist-items"/>
@@ -55,6 +58,7 @@
     <xs:attribute name="category-codelist" use="optional"/>
     <xs:attribute ref="xml:lang" use="optional" />
     <xs:attribute name="complete" use="optional" type="xs:boolean" />
+    <xs:anyAttribute processContents="lax" namespace="##other"/>
   </xs:complexType>
 </xs:element>
 
@@ -64,6 +68,7 @@
       <xs:element ref="codelist"/>
       <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
     </xs:choice>
+    <xs:anyAttribute processContents="lax" namespace="##other"/>
   </xs:complexType>
 </xs:element>
 
