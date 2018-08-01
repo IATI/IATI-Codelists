@@ -49,20 +49,24 @@
       <xs:element name="description" type="textType" minOccurs="0" maxOccurs="1" />
       <xs:element name="category" type="xs:string" minOccurs="0" maxOccurs="1" />
       <xs:element name="url" type="xs:anyURI" minOccurs="0" maxOccurs="1" />
+      <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
     <xs:attribute name="public-database" use="optional"/>
+    <xs:anyAttribute processContents="lax" namespace="##other"/>
   </xs:complexType>
 </xs:element>
 
-<xs:element name="codelist-items"> 
+<xs:element name="codelist-items">
   <xs:complexType>
     <xs:sequence>
       <xs:element ref="codelist-item" minOccurs="0" maxOccurs="unbounded" />
+      <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
+    <xs:anyAttribute processContents="lax" namespace="##other"/>
   </xs:complexType>
 </xs:element>
 
-<xs:element name="codelist"> 
+<xs:element name="codelist">
   <xs:complexType>
     <xs:sequence>
       <xs:element name="metadata" minOccurs="1" maxOccurs="1">
@@ -71,7 +75,9 @@
             <xs:element name="name" type="textType" minOccurs="0" maxOccurs="1" />
             <xs:element name="description" type="textType" minOccurs="0" maxOccurs="1" />
             <xs:element name="url" type="xs:anyURI" minOccurs="0" maxOccurs="1" />
+            <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
           </xs:sequence>
+          <xs:anyAttribute processContents="lax" namespace="##other"/>
         </xs:complexType>
       </xs:element>
       <xs:element ref="codelist-items" minOccurs="1" maxOccurs="1" />
@@ -81,6 +87,7 @@
     <xs:attribute name="category-codelist" use="optional"/>
     <xs:attribute ref="xml:lang" use="optional" />
     <xs:attribute name="complete" use="optional" type="xs:boolean" />
+    <xs:anyAttribute processContents="lax" namespace="##other"/>
   </xs:complexType>
 </xs:element>
 
@@ -88,7 +95,9 @@
   <xs:complexType>
     <xs:sequence>
       <xs:element ref="codelist" minOccurs="0" maxOccurs="unbounded" />
+      <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
+    <xs:anyAttribute processContents="lax" namespace="##other"/>
   </xs:complexType>
 </xs:element>
 
