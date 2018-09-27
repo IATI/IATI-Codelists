@@ -344,7 +344,7 @@
     <mapping>
         <path>//iati-activity/transaction/recipient-region/@code</path>
         <codelist ref="Region" />
-        <condition>@vocabulary = '1'</condition>
+        <condition>@vocabulary = '1' or not(@vocabulary)</condition>
     </mapping>
     <mapping>
         <path>//iati-activity/transaction/recipient-region/@vocabulary</path>
