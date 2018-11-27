@@ -208,6 +208,11 @@
         <condition>@vocabulary = 'DAC' or not(@vocabulary)</condition>
     </mapping>
     <mapping>
+        <path>//iati-activity/sector/@code</path>
+        <codelist ref="SectorCategory" />
+        <condition>@vocabulary = 'DAC-3'</condition>
+    </mapping>
+    <mapping>
         <path>//iati-activity/sector/@vocabulary</path>
         <codelist ref="Vocabulary" />
     </mapping>
