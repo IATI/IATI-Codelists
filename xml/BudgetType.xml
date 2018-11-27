@@ -3,9 +3,6 @@
         <name>
             <narrative>Budget Type</narrative>
         </name>
-        <description>
-            <narrative>OECD DAC classification used to determine the character of resource flows (bilateral or multilateral).</narrative>
-        </description>
     </metadata>
     <codelist-items>
         <codelist-item>
