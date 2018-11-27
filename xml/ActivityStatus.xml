@@ -31,7 +31,7 @@
         <codelist-item>
             <code>3</code>
             <name>
-                <narrative>Completion</narrative>
+                <narrative>Finalisation</narrative>
                 <narrative xml:lang="fr">Finalisation</narrative>
             </name>
             <description>
@@ -41,7 +41,7 @@
         <codelist-item>
             <code>4</code>
             <name>
-                <narrative>Post-completion</narrative>
+                <narrative>Closed</narrative>
                 <narrative xml:lang="fr">Fermé</narrative>
             </name>
             <description>
