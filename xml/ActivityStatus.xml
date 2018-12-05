@@ -31,21 +31,21 @@
         <codelist-item>
             <code>3</code>
             <name>
-                <narrative>Completion</narrative>
+                <narrative>Finalisation</narrative>
                 <narrative xml:lang="fr">Finalisation</narrative>
             </name>
             <description>
-                <narrative>Physical activity is complete or the final disbursement has been made.</narrative>
+                <narrative>Physical activity is complete or the final disbursement has been made, but the activity remains open pending financial sign off or M&amp;E</narrative>
             </description>
         </codelist-item>
         <codelist-item>
             <code>4</code>
             <name>
-                <narrative>Post-completion</narrative>
+                <narrative>Closed</narrative>
                 <narrative xml:lang="fr">Fermé</narrative>
             </name>
             <description>
-                <narrative>Physical activity is complete or the final disbursement has been made, but the activity remains open pending financial sign off or M&amp;E</narrative>
+                <narrative>Physical activity is complete or the final disbursement has been made.</narrative>
             </description>
         </codelist-item>
         <codelist-item>
