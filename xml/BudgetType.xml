@@ -1,4 +1,4 @@
-<codelist name="BudgetType" xml:lang="en" complete="1">
+<codelist name="BudgetType" xml:lang="en" complete="1" embedded="1">
     <metadata>
         <name>
             <narrative>Budget Type</narrative>
