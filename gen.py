@@ -73,6 +73,7 @@ for language in languages:
                 'attributes': {
                     'name': attrib['name'],
                     'complete': attrib.get('complete'),
+                    'embedded': attrib.get('embedded'),
                     'category-codelist': attrib.get('category-codelist'),
                 },
                 'metadata': {
