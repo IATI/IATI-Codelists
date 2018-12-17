@@ -29,10 +29,11 @@ def utf8_encode_dict(d):
         else: return None
     return dict( (enc(k), enc(v)) for k, v in d.items() )
 
-codelists = ET.Element('codelists')
-codelists_list = []
 
 for language in languages:
+    codelists = ET.Element('codelists')
+    codelists_list = []
+
     try:
         os.makedirs(os.path.join(OUTPUTDIR,'json',language))
         os.makedirs(os.path.join(OUTPUTDIR,'csv',language))
