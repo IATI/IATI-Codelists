@@ -90,6 +90,7 @@
     <xs:attribute name="category-codelist" use="optional"/>
     <xs:attribute ref="xml:lang" use="optional" />
     <xs:attribute name="complete" use="optional" type="xs:boolean" />
+    <xs:attribute name="embedded" use="optional" type="xs:boolean" />
     <xs:anyAttribute processContents="lax" namespace="##other"/>
   </xs:complexType>
 </xs:element>
