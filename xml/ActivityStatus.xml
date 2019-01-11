@@ -16,12 +16,12 @@
         </codelist-item>
         <codelist-item>
             <code>3</code>
-            <name>Completion</name>
+            <name>Finalisation</name>
             <name xml:lang="fr">Finalisation</name>
         </codelist-item>
         <codelist-item>
             <code>4</code>
-            <name>Post-completion</name>
+            <name>Closed</name>
             <name xml:lang="fr">Fermé</name>
         </codelist-item>
         <codelist-item>
