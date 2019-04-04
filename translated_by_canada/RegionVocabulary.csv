@@ -1,0 +1,4 @@
+code,name,name (FR),description,description (FR),category,url
+1,OECD DAC,OCDE CAD,Supra-national regions according to OECD DAC CRS recipient codes,Régions supranationales selon les codes de bénéficiaire OCDE CAD SNPC,,
+2,UN,ONU,Supra-national regions maintained by UN Statistics Division,Régions supranationales maintenues par la Division de la statistique de l'ONU,,
+99,Reporting Organisation,Organisation déclarante,The region reported corresponds to a region vocabulary maintained by the reporting organisation for this activity.,La région déclarée correspond à un vocabulaire régional maintenu par l'organisation déclarante aux fins de l'activité.,,
