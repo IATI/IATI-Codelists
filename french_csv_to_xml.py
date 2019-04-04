@@ -3,7 +3,7 @@ import os, io
 import csv
 
 
-OUTPUTDIR = os.path.join('out', 'clv2')
+OUTPUTDIR = os.path.join('french_codelists', 'fr_')
 path_to_csv = 'translated_by_canada/'
 path_to_xml = 'out/clv3/xml/'
 
@@ -21,6 +21,15 @@ def get_codelist_item(code, xml):
             return codelist_item
 
 
+def not_translated(element):
+    for narrative in element.findAll('narrative'):
+        try:
+            if narrative['xml:lang'] == "fr":
+                return False
+        except (KeyError):
+            pass
+    return True
+
 for a, b, codelists in os.walk(path_to_csv):
     for codelist_csv in codelists:
         with open('{}{}.xml'.format(path_to_xml, (codelist_csv[:-4]))) as filename:
@@ -29,9 +38,20 @@ for a, b, codelists in os.walk(path_to_csv):
             with io.open(filepath, 'r', encoding="ISO-8859-1") as filename:
                 reader = csv.DictReader(filename)
                 if "description (FR)" in reader.fieldnames:
-                    pass
+                    for row in reader:
+                        codelist_item = get_codelist_item(row['code'], codelist_xml)
+                        if row['description (FR)'] != '':
+                            if not_translated(codelist_item.find('name')):
+                                write_narrative(codelist_xml, codelist_item.find('name'), row['name (FR)'])
+                            if not_translated(codelist_item.find('description')):
+                                write_narrative(codelist_xml, codelist_item.find('description'), row['description (FR)'])
+                        else:
+                            if not_translated(codelist_item.find('name')):
+                                write_narrative(codelist_xml, codelist_item.find('name'), row['name (FR)'])
                 else:
                     for row in reader:
                         codelist_item = get_codelist_item(row['code'], codelist_xml)
-                        write_narrative(codelist_xml, codelist_item.find('name'), row['name (FR)'].decode('iso-8859-1').encode('utf8'))
-                        print(codelist_xml)
+                        if not_translated(codelist_item.find('name')):
+                            write_narrative(codelist_xml, codelist_item.find('name'), row['name (FR)'])
+        with open("{}{}.xml".format(OUTPUTDIR, codelist_csv[:-4]), "w") as write_file:
+            write_file.write(str(codelist_xml))

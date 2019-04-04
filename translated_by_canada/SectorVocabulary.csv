@@ -1,4 +1,4 @@
-code,name,Name (FR),description,description (FR),category,url
+code,name,name (FR),description,description (FR),category,url
 1,OECD DAC CRS Purpose Codes (5 digit),Codes-secteurs OCDE CAD SNPC (5 chiffres),The sector reported corresponds to an OECD DAC CRS 5-digit purpose code,Le secteur déclaré correspond à un code de secteur OCDE CAD SNPC à cinq chiffres,,http://www.oecd.org/dac/stats/dacandcrscodelists.htm
 2,OECD DAC CRS Purpose Codes (3 digit),Codes-secteurs OCDE CAD SNPC (3 chiffres),The sector reported corresponds to an OECD DAC CRS 3-digit purpose code,Le secteur déclaré correspond à un code de secteur OCDE CAD SNPC à trois chiffres,,http://www.oecd.org/dac/stats/dacandcrscodelists.htm
 3,Classification of the Functions of Government (UN),Classification des fonctions gouvernementales (ONU),The sector reported corresponds to the UN Classification of the Functions of Government (CoFoG),Le secteur déclaré correspond à la Classification des fonctions gouvernementales (COFOG) de l'ONU,,http://unstats.un.org/unsd/cr/registry/regcst.asp?Cl=4
