@@ -35,7 +35,7 @@ for a, b, codelists in os.walk(path_to_csv):
         with open('{}{}.xml'.format(path_to_xml, (codelist_csv[:-4]))) as filename:
             codelist_xml = BeautifulSoup(filename, "lxml-xml")
             filepath = os.path.join(path_to_csv, codelist_csv)
-            with io.open(filepath, 'r', encoding="ISO-8859-1") as filename:
+            with io.open(filepath, 'r', encoding="utf-8") as filename:
                 reader = csv.DictReader(filename)
                 if "description (FR)" in reader.fieldnames:
                     for row in reader:
