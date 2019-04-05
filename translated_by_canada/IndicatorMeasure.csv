@@ -1,6 +1,0 @@
-code,name,name (FR),description,description (FR),category,url
-1,Unit,Unité,The indicator is measured in units.,L'indicateur est mesuré à l'aide d'unités.,,
-2,Percentage,Pourcentage,The indicator is measured in percentages,L'indicateur est mesuré en pourcentage.,,
-3,Nominal,Nominal,The indicator is measured as a quantitative nominal scale.,L'indicateur est mesuré selon une échelle nominale quantitative.,,
-4,Ordinal,Ordinal,The indicator is measured as a quantitative ordinal scale.,L'indicateur est mesurée selon une échelle ordinale quantitative.,,
-5,Qualitative,Qualitatif,The indicator is qualitative.,L'indicateur est qualitatif.,,
