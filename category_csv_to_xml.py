@@ -18,8 +18,10 @@ VERSION = ""
 def write_category(xml, metadata, category):
     """Write a new tag into the xml."""
     new_category = xml.new_tag("category")
-    new_category.string = category
     metadata.append(new_category)
+    new_narrative = xml.new_tag("narrative")
+    new_narrative.string = category
+    new_category.append(new_narrative)
 
 
 with io.open(os.path.join(CSV_FILE)) as csv_file:
