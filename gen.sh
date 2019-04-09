@@ -17,13 +17,21 @@ done
 
 rm -rf out
 mkdir out
-mkdir out/clv2
+mkdir -p out/clv2 out/clv3/xml
 cp -r combined-xml out/clv2/xml
+
+for f in combined-xml/*; do
+    python v2tov3.py $f > out/clv3/xml/`basename $f`;
+done
+
 
 python gen.py
 python old.py
 
+cp -r out/clv2/{codelists.json,codelists.xml,csv,json} out/clv3/
+
 python mappings_to_json.py
 cp mapping.{xml,json} out/clv1/
 cp mapping.{xml,json} out/clv2/
+cp mapping.{xml,json} out/clv3/
 
