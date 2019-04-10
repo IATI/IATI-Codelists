@@ -26,7 +26,7 @@ done
 
 
 python gen.py
-python old.py
+python v2tov1.py
 
 cp -r out/clv2/{codelists.json,codelists.xml,csv,json} out/clv3/
 
