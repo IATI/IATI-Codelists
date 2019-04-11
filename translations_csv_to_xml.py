@@ -45,7 +45,7 @@ def get_codelist_item(code, xml):
     """Match the codelist-item within the xml to the code from the row in the csv."""
     codelists = xml.findAll('codelist-item')
     for codelist_item in codelists:
-        if(code in codelist_item.find('code').get_text()):
+        if(code == codelist_item.find('code').get_text()):
             return codelist_item
 
 
@@ -115,7 +115,7 @@ for a, b, codelists in os.walk(PATH_TO_CSV):
                         )
             # Output the xml as new files matching the OUTPUTDIR
             with open(os.path.join(output, '{}.xml'.format(codelist_name)), "w") as write_file:
-                xml_to_write = codelist_xml.prettify(indent_width=4)
+                xml_to_write = str(codelist_xml)
                 write_file.write(xml_to_write)
                 codelist_count += 1
         except (OSError, IOError) as e:
