@@ -1,0 +1,7 @@
+code,name,name (FR),description,description (FR),category,url
+1,Pipeline/identification,Planification,The activity is being scoped or planned,On planifie l'activité ou on en établit la portée,,
+2,Implementation,Actif,The activity is currently being implemented,L'activité est en cours de mise en œuvre,,
+3,Completion,Finalisation,Physical activity is complete or the final disbursement has been made.,L'activité concrète est terminée ou le dernier débours a été effectué.,,
+4,Post-completion,Fermé,"Physical activity is complete or the final disbursement has been made, but the activity remains open pending financial sign off or M&E","L'activité concrète est terminée ou le débours final a été effectué, mais l'activité reste ouverte en attendant une signature de l'autorité financière ou une évaluation (C et E)",,
+5,Cancelled,Annulé,The activity has been cancelled,L'activité a été annulée,,
+6,Suspended,Suspendu,The activity has been temporarily suspended,L'activité a été suspendue temporairement,,
