@@ -5,7 +5,7 @@ import io
 import csv
 
 # Output directories
-OUTPUTDIR = ['Embedded', 'NonEmbedded']
+OUTPUTDIR = ['', '']
 # Path to the folder containing the csv files with translations
 PATH_TO_CSV = ''
 # Paths to the folders containing the embedded and nonembedded xml to be modified,
