@@ -1,57 +1,105 @@
+"""Script to turn codelist translations from the csv files into xml."""
 from bs4 import BeautifulSoup
-import os, io
+import os
+import io
 import csv
+import re
+
+# Output directory
+OUTPUTDIR = ''
+# Path to the folder containing the csv files with translations
+PATH_TO_CSV = ''
+# Path to the folder containing the xml to be modified,
+# ideally it should be the output folder for clv3 after running gen.sh
+PATH_TO_XML = ''
+# ISO 639 language code in lowercase
+LANG = ''
+
+orig_prettify = BeautifulSoup.prettify
+regex = re.compile(r'^(\s*)', re.MULTILINE)
 
 
-OUTPUTDIR = os.path.join('french_codelists', 'fr_')
-path_to_csv = 'translated_by_canada/'
-path_to_xml = 'out/clv3/xml/'
+def prettify(self, encoding=None, formatter='minimal', indent_width=4):
+    return regex.sub(r'\1' * indent_width, orig_prettify(self, encoding, formatter))
 
 
-def write_narrative(xml, element, fr_string):
-    fr_narrative = xml.new_tag("narrative")
-    fr_narrative.string = fr_string
-    element.append(fr_narrative)
-    fr_narrative['xml:lang'] = "fr"
+BeautifulSoup.prettify = prettify
+
+
+def write_narrative(xml, element, lang_string):
+    """Write a new tag into the xml and adds the xml:lang attribute with the translated."""
+    new_narrative = xml.new_tag("narrative")
+    new_narrative.string = lang_string
+    element.append(new_narrative)
+    new_narrative['xml:lang'] = LANG
 
 
 def get_codelist_item(code, xml):
+    """Match the codelist-item within the xml to the code from the row in the csv."""
     for codelist_item in xml.findAll('codelist-item'):
         if(code == codelist_item.find('code').get_text()):
             return codelist_item
 
 
 def not_translated(element):
+    """Ensure that the element doesn't already have a translation."""
     for narrative in element.findAll('narrative'):
         try:
-            if narrative['xml:lang'] == "fr":
+            if narrative['xml:lang'] == LANG:
                 return False
         except (KeyError):
             pass
     return True
 
-for a, b, codelists in os.walk(path_to_csv):
+
+def write_row(code, xml, name, description=''):
+    """Write the contents of the csv row into the xml."""
+    codelist_item = get_codelist_item(code, xml)
+    if description != '':
+        if not_translated(codelist_item.find('name')):
+            write_narrative(xml, codelist_item.find('name'), name)
+        if not_translated(codelist_item.find('description')):
+            write_narrative(xml, codelist_item.find('description'), description)
+        return 2
+    else:
+        if not_translated(codelist_item.find('name')):
+            write_narrative(xml, codelist_item.find('name'), name)
+        return 1
+
+
+for a, b, codelists in os.walk(PATH_TO_CSV):
+    # Go through the csv filenames
+    if not codelists:
+        print("No CSV files were found")
+    codelist_count = 0
+    field_count = 0
     for codelist_csv in codelists:
-        with open('{}{}.xml'.format(path_to_xml, (codelist_csv[:-4]))) as filename:
-            codelist_xml = BeautifulSoup(filename, "lxml-xml")
-            filepath = os.path.join(path_to_csv, codelist_csv)
-            with io.open(filepath, 'r', encoding="utf-8") as filename:
-                reader = csv.DictReader(filename)
-                if "description (FR)" in reader.fieldnames:
+        # Open xml and csv files by matching it to the csv filename
+        codelist_name = os.path.splitext(codelist_csv)[0]
+        try:
+            with io.open(os.path.join(PATH_TO_CSV, codelist_csv),'r', encoding="utf-8") as csv_file:
+                codelist_xml = BeautifulSoup(open(os.path.join(PATH_TO_XML, '{}.xml'.format(codelist_name)), 'r'), 'lxml-xml')
+                reader = csv.DictReader(csv_file)
+                if "description ({})".format(LANG.upper()) in reader.fieldnames:
                     for row in reader:
-                        codelist_item = get_codelist_item(row['code'], codelist_xml)
-                        if row['description (FR)'] != '':
-                            if not_translated(codelist_item.find('name')):
-                                write_narrative(codelist_xml, codelist_item.find('name'), row['name (FR)'])
-                            if not_translated(codelist_item.find('description')):
-                                write_narrative(codelist_xml, codelist_item.find('description'), row['description (FR)'])
-                        else:
-                            if not_translated(codelist_item.find('name')):
-                                write_narrative(codelist_xml, codelist_item.find('name'), row['name (FR)'])
+                        field_count += write_row(
+                            row['code'],
+                            codelist_xml,
+                            row['name ({})'.format(LANG.upper())],
+                            row['description ({})'.format(LANG.upper())]
+                        )
                 else:
                     for row in reader:
-                        codelist_item = get_codelist_item(row['code'], codelist_xml)
-                        if not_translated(codelist_item.find('name')):
-                            write_narrative(codelist_xml, codelist_item.find('name'), row['name (FR)'])
-        with open("{}{}.xml".format(OUTPUTDIR, codelist_csv[:-4]), "w") as write_file:
-            write_file.write(str(codelist_xml))
+                        field_count += write_row(
+                            row['code'],
+                            codelist_xml,
+                            row['name ({})'.format(LANG.upper())]
+                        )
+            # Output the xml as new files matching the OUTPUTDIR
+            with open(os.path.join(OUTPUTDIR, '{}.xml'.format(codelist_name)), "w") as write_file:
+                xml_to_write = codelist_xml.prettify(indent_width=4)
+                write_file.write(xml_to_write)
+                codelist_count += 1
+        except (OSError, IOError) as e:
+            print("{} codelist XML file not found".format(codelist_name))
+    print("Translated {} fields in {}/{} codelists".format(field_count, codelist_count, len(codelists)))
