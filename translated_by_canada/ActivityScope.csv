@@ -1,9 +1,0 @@
-code,name,name (FR),description,description (FR),category,url
-1,Global,Mondial,The activity scope is global,L'activité est de portée mondiale,,
-2,Regional,Régional,The activity scope is a supranational region,La portée de l'activité concerne une région supranationale,,
-3,Multi-national,Multinational,"The activity scope covers multiple countries, that don't constitute a region",La portée de l'activité concerne de multiples pays qui ne constituent pas une région,,
-4,National,National,The activity scope covers one country,La portée de l'activité correspond à un pays,,
-5,Sub-national: Multi-first-level administrative areas,Infranational: multiples régions administratives de premier niveau,"The activity scope covers more than one first-level subnational administrative areas (e.g. counties, provinces, states)","La portée de l'activité concerne plus d'une région administrative infranationale de premier niveau (p. ex. comtés, provinces, états)",,
-6,Sub-national: Single first-level administrative area,Infranational: région administrative de premier niveau unique,"The activity scope covers one first-level subnational administrative area (e.g. country, province, state)","La portée de l'activité concerne une seule région administrative infranationale de premier niveau (p. ex. comté, province, état)",,
-7,Sub-national: Single second-level administrative area,Infranational: région administrative de second niveau unique,The activity scope covers one second-level subnational administrative area (e.g. municipality or district),La portée de l'activité concerne une seule région administrative infranationale de deuxième niveau  (p. ex. municipalité ou district),,
-8,Single location,Un seul emplacement,"The activity scope covers one single location (e.g. town, village, farm)","La portée de l'activité concerne un seul endroit (p. ex. ville, village, ferme)",,
