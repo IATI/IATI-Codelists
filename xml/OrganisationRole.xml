@@ -19,6 +19,7 @@
             </name>
             <description>
                 <narrative>The government or organisation which provides funds to the activity. </narrative>
+                <narrative xml:lang="fr">Le gouvernement ou l'organisation qui finance l'activité.</narrative>
             </description>
         </codelist-item>
         <codelist-item>
@@ -29,6 +30,7 @@
             </name>
             <description>
                 <narrative>An organisation responsible for oversight of the activity and its outcomes</narrative>
+                <narrative xml:lang="fr">Une organisation responsable de la supervision de l'activité et de ses résultats</narrative>
             </description>
         </codelist-item>
         <codelist-item>
@@ -39,6 +41,7 @@
             </name>
             <description>
                 <narrative>An organisation that manages the budget and direction of an activity on behalf of the funding organisation</narrative>
+                <narrative xml:lang="fr">Une organisation qui gère le budget et l'orientation d'une activité au nom de l'organisation offrant le financement</narrative>
             </description>
         </codelist-item>
         <codelist-item>
@@ -49,6 +52,7 @@
             </name>
             <description>
                 <narrative>The organisation that physically carries out the activity or intervention. </narrative>
+                <narrative xml:lang="fr">L'organisation qui exécute physiquement l'activité ou l'intervention.</narrative>
             </description>
         </codelist-item>
     </codelist-items>
