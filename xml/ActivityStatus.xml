@@ -38,7 +38,7 @@
             </name>
             <description>
                 <narrative>Physical activity is complete or the final disbursement has been made, but the activity remains open pending financial sign off or M&amp;E</narrative>
-                <narrative xml:lang="fr">L'activité concrète est terminée ou le dernier débours a été effectué.</narrative>
+                <narrative xml:lang="fr">L'activité concrète est terminée ou le débours final a été effectué, mais l'activité reste ouverte en attendant une signature de l'autorité financière ou une évaluation (C et E).</narrative>
             </description>
         </codelist-item>
         <codelist-item>
@@ -49,7 +49,7 @@
             </name>
             <description>
                 <narrative>Physical activity is complete or the final disbursement has been made.</narrative>
-                <narrative xml:lang="fr">L'activité concrète est terminée ou le débours final a été effectué, mais l'activité reste ouverte en attendant une signature de l'autorité financière ou une évaluation (C et E)</narrative>
+                <narrative xml:lang="fr">L'activité concrète est terminée ou le dernier débours a été effectué.</narrative>
             </description>
         </codelist-item>
         <codelist-item>
