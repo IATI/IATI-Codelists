@@ -82,3 +82,8 @@ Translation script
 ==================
 
 ``translations_csv_to_xml.py`` can be run to output XML codelists with translated elements, the expected format of the CSV files is that they must have ``code`` and ``name (<language iso code>)`` columns, and they can have ``description (<language iso code>)`` as well. The python script must be modified to include ``OUTPUTDIR``, ``PATH_TO_CSV``, ``PATH_TO_XML`` and ``LANG``. 
+
+Add metadata categories
+=======================
+
+``category_csv_to_xml.py`` can be run to output XML codelists with ``metadata/category`` elements, the expected format of the CSV files is that they must have ``Codelist``, ``Type_version <version number>`` and ``New Type`` columns. The python script must be modified to include the output directories, ``VERSION``, ``PATH_TO_XML`` and ``CSV_FILE``. 
