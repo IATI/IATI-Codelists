@@ -2,5 +2,6 @@ pyenv
 out
 combined-xml
 *.swp
+*.csv
 *.pyc
 *~

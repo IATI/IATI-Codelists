@@ -46,6 +46,7 @@ def write_narrative(xml, element, lang_string):
     element.append(new_narrative)
 
 
+
 def get_codelist_item(code, xml):
     """Match the codelist-item within the xml to the code from the row in the csv."""
     for codelist_item in xml.findall('codelist-item'):
@@ -70,6 +71,7 @@ def write_row(code, xml, name, description=''):
     """Write the contents of the csv row into the xml."""
     codelist_item = get_codelist_item(code, xml)
     if description != '':
+
         if is_translated(codelist_item.find('name'), name):
             write_narrative(xml, codelist_item.find('name'), name)
         if is_translated(codelist_item.find('description'), description):
