@@ -5,10 +5,10 @@ import io
 import csv
 
 # Output directory
-OUTPUTDIR_CORE = "Core/"
-OUTPUTDIR_NON_CORE = "Non-Core/"
+OUTPUTDIR_CORE = ""
+OUTPUTDIR_NON_CORE = ""
 # Path to the csv with mapping
-CSV_FILE = "codelists_redefined_names.csv"
+CSV_FILE = ""
 # Paths to the folder containing the xml to be modified,
 PATH_TO_XML = "combined-xml/"
 # Version of the standard

@@ -6,6 +6,9 @@
         <description>
             <narrative>IATI codes for the role of an organisation within an activity. An organisation can play more than one role within an activity.</narrative>
         </description>
+        <category>
+            <narrative>Core</narrative>
+        </category>
     </metadata>
     <codelist-items>
         <codelist-item>

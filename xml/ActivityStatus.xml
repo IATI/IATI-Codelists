@@ -6,6 +6,9 @@
         <description>
             <narrative>Lifecycle status of the activity from pipeline to completion</narrative>
         </description>
+        <category>
+            <narrative>Core</narrative>
+        </category>
     </metadata>
     <codelist-items>
         <codelist-item>

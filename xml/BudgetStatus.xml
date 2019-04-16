@@ -6,6 +6,9 @@
         <description>
             <narrative>Code to denote if the described budget is binding.</narrative>
         </description>
+        <category>
+            <narrative>Core</narrative>
+        </category>
     </metadata>
     <codelist-items>
         <codelist-item>

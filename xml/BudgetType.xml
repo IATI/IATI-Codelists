@@ -3,6 +3,9 @@
         <name>
             <narrative>Budget Type</narrative>
         </name>
+        <category>
+            <narrative>Core</narrative>
+        </category>
     </metadata>
     <codelist-items>
         <codelist-item>
