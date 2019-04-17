@@ -77,8 +77,8 @@
           <xs:sequence>
             <xs:element name="name" type="textType" minOccurs="0" maxOccurs="1" />
             <xs:element name="description" type="textType" minOccurs="0" maxOccurs="1" />
-            <xs:element name="category" type="textType" minOccurs="0" maxOccurs="1"/>
             <xs:element name="url" type="xs:anyURI" minOccurs="0" maxOccurs="1" />
+            <xs:element name="category" type="textType" minOccurs="0" maxOccurs="1"/>
             <xs:any namespace="##other" processContents="lax" minOccurs="0" maxOccurs="unbounded"/>
           </xs:sequence>
           <xs:anyAttribute processContents="lax" namespace="##other"/>
