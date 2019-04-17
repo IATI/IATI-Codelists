@@ -6,6 +6,9 @@
         <description>
             <narrative>An online resource that holds coordinates and descriptions of geographic locations </narrative>
         </description>
+        <category>
+            <narrative>Core</narrative>
+        </category>
     </metadata>
     <codelist-items>
         <codelist-item>

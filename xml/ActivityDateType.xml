@@ -13,6 +13,9 @@
             users with a meaningful indication of the lifespan of an activity.
         </narrative>
         </description>
+        <category>
+            <narrative>Core</narrative>
+        </category>
     </metadata>
     <codelist-items>
         <codelist-item>

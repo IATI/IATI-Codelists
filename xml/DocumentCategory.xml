@@ -4,6 +4,9 @@
             <narrative>Document Category</narrative>
             <narrative xml:lang="fr">Catégorie du document</narrative>
         </name>
+        <category>
+            <narrative>Core</narrative>
+        </category>
     </metadata>
     <codelist-items>
         <codelist-item>
