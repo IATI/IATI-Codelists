@@ -15,6 +15,7 @@ tree = ET.parse(sys.argv[1], parser)
 metadata = tree.find('metadata')
 update_from_narrative(metadata, 'name')
 update_from_narrative(metadata, 'description')
+update_from_narrative(metadata, 'category')
 
 for codelist_item in tree.find('codelist-items').findall('codelist-item'):
     update_from_narrative(codelist_item, 'name')
