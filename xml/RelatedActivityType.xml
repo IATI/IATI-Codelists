@@ -4,6 +4,9 @@
             <narrative>Related Activity Type</narrative>
             <narrative xml:lang="fr">Type d’activité connexe</narrative>
         </name>
+        <category>
+            <narrative>Core</narrative>
+        </category>
     </metadata>
     <codelist-items>
         <codelist-item>

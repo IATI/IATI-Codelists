@@ -19,12 +19,12 @@ The Codelists
 
 The source codelists can be found in the `xml/` directory. 
 
-Embedded vs NonEmbedded Codelists
+Core vs NonCore Codelists
 =================================
 
-This repository contains only codelists that are embedded in the IATI Standard. Embedded means that IATI is directly responsible for them, and any changes to them need to go through the same change control process as other changes to the standard.
+This repository contains only codelists that are core to the IATI Standard. Core means that IATI is directly responsible for them, and any changes to them need to go through the same change control process as other changes to the standard.
 
-Those codelists that are not embedded can be found in a seperate repository at `<https://github.com/IATI/IATI-Codelists-NonEmbedded/>`_. These lists are typically maintained by other organisations that IATI has no control over but which IATI data relies on such as country codes, language codes and so on. The aspiration for these codelists is to have them pulled from their external sources regularly and automatically.
+Those codelists that are not core can be found in a seperate repository at `<https://github.com/IATI/IATI-Codelists-NonEmbedded/>`_. These lists are typically maintained by other organisations that IATI has no control over but which IATI data relies on such as country codes, language codes and so on. The aspiration for these codelists is to have them pulled from their external sources regularly and automatically.
 
 Codelist XML Format
 ===============
@@ -71,7 +71,7 @@ A `JSON version <http://iatistandard.org/202/codelists/downloads/clv1/mapping.js
 Testing Compliance Against Codelists
 ===================================
 
-``testcodelists.py`` is can be run against an IATI Activity XML to check that it is using the correct codelists values. Only codelists that are complete will be tested (see next section).
+``testcodelists.py`` can be run against an IATI Activity XML to check that it is using the correct codelists values. Only codelists that are complete will be tested (see next section).
 
 Extra Metadata
 ==============
