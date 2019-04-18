@@ -22,8 +22,8 @@
         <codelist-item>
             <code>2</code>
             <name>
-                <narrative>Outgoing Commitment</narrative>
-                <narrative xml:lang="fr">Engagement sortant</narrative>
+                <narrative>Commitment</narrative>
+                <narrative xml:lang="fr">Engagement</narrative>
             </name>
             <description>
                 <narrative>A firm, written obligation from a donor or provider to provide a specified amount of funds, under particular terms and conditions, for specific purposes, for the benefit of the recipient. </narrative>
@@ -37,7 +37,7 @@
                 <narrative xml:lang="fr">Décaissement</narrative>
             </name>
             <description>
-                <narrative>Outgoing funds that are placed at the disposal of a recipient government or organisation, or funds transferred between two separately reported activities.</narrative>
+                <narrative>Outgoing funds that are placed at the disposal of a recipient government or organisation, or funds transferred between two separately reported activities.Under IATI traceability standards the recipient of a disbursement should also be required to report their activities to IATI.</narrative>
                 <narrative xml:lang="fr">Fonds sortants mis à la disposition d'un gouvernement ou d'une organisation bénéficiaire ou fonds transférés entre deux activités faisant l'objet de déclarations distinctes.</narrative>
             </description>
         </codelist-item>
@@ -48,14 +48,14 @@
                 <narrative xml:lang="fr">Dépenses</narrative>
             </name>
             <description>
-                <narrative>Outgoing funds that are spent on goods and services for the activity.</narrative>
+                <narrative>Outgoing funds that are spent on goods and services for the activity. The recipients of expenditures fall outside of IATI traceability standards.</narrative>
                 <narrative xml:lang="fr">Fonds sortants dépensés pour acquérir des biens et services pour l'activité.</narrative>
             </description>
         </codelist-item>
         <codelist-item>
             <code>5</code>
             <name>
-                <narrative>Interest Payment</narrative>
+                <narrative>Interest Repayment</narrative>
                 <narrative xml:lang="fr">Paiements d’intérêts</narrative>
             </name>
             <description>
@@ -127,28 +127,6 @@
             <description>
                 <narrative>A firm, written obligation from a donor or provider to provide a specified amount of funds, under particular terms and conditions, reported by a recipient for this activity.</narrative>
                 <narrative xml:lang="fr">Une obligation ferme et écrite d'un donateur ou d'un fournisseur d'offrir un financement d'un montant établi, conformément à des modalités précises et déclarée par le bénéficiaire en lien avec l'activité.</narrative>
-            </description>
-        </codelist-item>
-        <codelist-item>
-            <code>12</code>
-            <name>
-                <narrative>Outgoing Pledge</narrative>
-                <narrative xml:lang="fr">Promesse sortante</narrative>
-            </name>
-            <description>
-                <narrative>Indicative, non-binding advice of an intended outgoing commitment.</narrative>
-                <narrative xml:lang="fr">Avis indicatif et sans obligation indiquant une intention de prendre un engagement sortant.</narrative>
-            </description>
-        </codelist-item>
-        <codelist-item>
-            <code>13</code>
-            <name>
-                <narrative>Incoming Pledge</narrative>
-                <narrative xml:lang="fr">Promesse entrante</narrative>
-            </name>
-            <description>
-                <narrative>Indicative, non-binding advice of an intended incoming commitment.</narrative>
-                <narrative xml:lang="fr">Avis indicatif et sans obligation indiquant une intention de prendre un engagement entrant.</narrative>
             </description>
         </codelist-item>
     </codelist-items>
