@@ -271,21 +271,21 @@
         <path>//@xml:lang</path>
         <codelist ref="Language" />
     </mapping>
-    <mapping>   
-        <path>//iati-organisations/@version</path>  
-        <codelist ref="Version" />  
+    <mapping>
+        <path>//iati-organisations/@version</path>
+        <codelist ref="Version" />
     </mapping>
     <mapping>
         <path>//iati-organisation/@default-currency</path>
         <codelist ref="Currency" />
     </mapping>
-    <mapping>   
-        <path>//iati-organisation/reporting-org/@type</path>    
-        <codelist ref="OrganisationType" /> 
-    </mapping>  
-    <mapping>   
-        <path>//iati-organisation/recipient-country-budget/recipient-country/@code</path>   
-        <codelist ref="Country" />  
+    <mapping>
+        <path>//iati-organisation/reporting-org/@type</path>
+        <codelist ref="OrganisationType" />
+    </mapping>
+    <mapping>
+        <path>//iati-organisation/recipient-country-budget/recipient-country/@code</path>
+        <codelist ref="Country" />
     </mapping>
     <mapping>
         <path>//iati-organisation/document-link/@format</path>
