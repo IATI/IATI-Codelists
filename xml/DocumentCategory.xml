@@ -1,4 +1,4 @@
-<codelist name="DocumentCategory" xml:lang="en" category-codelist="DocumentCategory-category" complete="1">
+<codelist name="DocumentCategory" xml:lang="en" category-codelist="DocumentCategory-category" complete="1" embedded="1">
     <metadata>
         <name>
             <narrative>Document Category</narrative>
