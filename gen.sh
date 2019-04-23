@@ -3,8 +3,8 @@
 rm -rf combined-xml
 if [ -d IATI-Codelists-NonEmbedded ]; then
     cd IATI-Codelists-NonEmbedded || exit 1
-    git pull
     git checkout master
+    git pull
 else
     git clone https://github.com/IATI/IATI-Codelists-NonEmbedded.git
     cd IATI-Codelists-NonEmbedded || exit 1

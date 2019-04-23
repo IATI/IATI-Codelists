@@ -1,4 +1,4 @@
-<codelist name="TransactionType" xml:lang="en" complete="1">
+<codelist name="TransactionType" xml:lang="en" complete="1" embedded="1">
     <metadata>
         <name>
             <narrative>Transaction Type</narrative>
@@ -116,17 +116,6 @@
             <description>
                 <narrative>A commitment made by a funding organisation to underwrite a loan or line of credit entered into by a third party. </narrative>
                 <narrative xml:lang="fr">Engagement pris par une organisation de financement pour garantir un prêt ou une marge de crédit contractés par une tierce partie.</narrative>
-            </description>
-        </codelist-item>
-        <codelist-item>
-            <code>11</code>
-            <name>
-                <narrative>Incoming Commitment</narrative>
-                <narrative xml:lang="fr">Engagement entrant</narrative>
-            </name>
-            <description>
-                <narrative>A firm, written obligation from a donor or provider to provide a specified amount of funds, under particular terms and conditions, reported by a recipient for this activity.</narrative>
-                <narrative xml:lang="fr">Une obligation ferme et écrite d'un donateur ou d'un fournisseur d'offrir un financement d'un montant établi, conformément à des modalités précises et déclarée par le bénéficiaire en lien avec l'activité.</narrative>
             </description>
         </codelist-item>
     </codelist-items>
