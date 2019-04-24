@@ -12,7 +12,7 @@ IATI Codelists
 Introduction
 ------------
 
-This repository contains the codelists for the IATI Standard, and is part of the Single Source of Truth (SSOT). For more information about the SSOT, please see http://iatistandard.org/202/developer/ssot/ 
+This repository contains the codelists for the IATI Standard, and is part of the Single Source of Truth (SSOT). For more information about the SSOT, please see http://iatistandard.org/201/developer/ssot/ 
 
 The Codelists
 =============
@@ -66,7 +66,7 @@ It's structured as a list of `mapping` elements, which each have a `path` elemen
         ...
     </mappings>
 
-A `JSON version <http://iatistandard.org/202/codelists/downloads/clv1/mapping.json>`__ is also available.
+A `JSON version <http://iatistandard.org/201/codelists/downloads/clv1/mapping.json>`__ is also available.
 
 Testing Compliance Against Codelists
 ===================================
