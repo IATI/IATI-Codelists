@@ -12,19 +12,19 @@ IATI Codelists
 Introduction
 ------------
 
-This repository contains the codelists for the IATI Standard, and is part of the Single Source of Truth (SSOT). For more information about the SSOT, please see http://iatistandard.org/202/developer/ssot/ 
+This repository contains the codelists for the IATI Standard, and is part of the Single Source of Truth (SSOT). For more information about the SSOT, please see http://iatistandard.org/201/developer/ssot/ 
 
 The Codelists
 =============
 
 The source codelists can be found in the `xml/` directory. 
 
-Embedded vs NonEmbedded Codelists
+Core vs Non-Core Codelists
 =================================
 
-This repository contains only codelists that are embedded in the IATI Standard. Embedded means that IATI is directly responsible for them, and any changes to them need to go through the same change control process as other changes to the standard.
+This repository contains only codelists that are core to the IATI Standard. Core means that IATI is directly responsible for them, and any changes to them need to go through the same change control process as other changes to the standard.
 
-Those codelists that are not embedded can be found in a seperate repository at `<https://github.com/IATI/IATI-Codelists-NonEmbedded/>`_. These lists are typically maintained by other organisations that IATI has no control over but which IATI data relies on such as country codes, language codes and so on. The aspiration for these codelists is to have them pulled from their external sources regularly and automatically.
+Those codelists that are not core can be found in a seperate repository at `<https://github.com/IATI/IATI-Codelists-NonEmbedded/>`_. These lists are typically maintained by other organisations that IATI has no control over but which IATI data relies on such as country codes, language codes and so on. The aspiration for these codelists is to have them pulled from their external sources regularly and automatically.
 
 Codelist XML Format
 ===============
@@ -47,7 +47,7 @@ To do the conversion yourself, you will need BASH, Python and python-lxml. Then 
 Codelist Mapping
 ================
 
-`mapping.xml <http://dev.iatistandard.org/_static/codelists/mapping.xml>`__ relates codelists to an XML path in the standard. This should make it easier for users to work out which codelists go with which element and vice versa.
+`mapping.xml <https://github.com/IATI/IATI-Codelists/blob/version-2.02/mapping.xml>`__ relates codelists to an XML path in the standard. This should make it easier for users to work out which codelists go with which element and vice versa.
 
 It's structured as a list of `mapping` elements, which each have a `path` element that describes the relevant attribute, and a `codelist@ref` attribute which is the same ref as used in the codelist filenames. An optional `condition` element is an xpath expression which limits the scope of the given codelist - e.g. it only applies if a certain vocabulary is being used. A sample of the XML is as follows:
 
@@ -66,12 +66,12 @@ It's structured as a list of `mapping` elements, which each have a `path` elemen
         ...
     </mappings>
 
-A `JSON version <http://dev.iatistandard.org/_static/codelists/mapping.json>`__ is also availible.
+A `JSON version <http://iatistandard.org/201/codelists/downloads/clv1/mapping.json>`__ is also available.
 
 Testing Compliance Against Codelists
 ===================================
 
-``testcodelists.py`` is can be run against an IATI Activity XML to check that it is using the correct codelists values. Only codelists that are complete will be tested (see next section).
+``testcodelists.py`` can be run against an IATI Activity XML to check that it is using the correct codelists values. Only codelists that are complete will be tested (see next section).
 
 Extra Metadata
 ==============
