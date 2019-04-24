@@ -6,6 +6,9 @@
         <description>
             <narrative>OECD DAC classification used to determine the character of resource flows (bilateral or multilateral).</narrative>
         </description>
+        <category>
+            <narrative>Core</narrative>
+        </category>
     </metadata>
     <codelist-items>
         <codelist-item>
@@ -13,9 +16,11 @@
             <name>
                 <narrative>Original</narrative>
                 <narrative xml:lang="en">Original</narrative>
+                <narrative xml:lang="fr">Original</narrative>
             </name>
             <description>
                 <narrative>The original budget allocated to the activity</narrative>
+                <narrative xml:lang="fr">Le budget initialement affecté à l'activité.</narrative>
             </description>
         </codelist-item>
         <codelist-item>
@@ -26,6 +31,7 @@
             </name>
             <description>
                 <narrative>The updated budget for an activity</narrative>
+                <narrative xml:lang="fr">Le budget mis à jour pour une activité.</narrative>
             </description>
         </codelist-item>
     </codelist-items>
