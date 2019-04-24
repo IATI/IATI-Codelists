@@ -19,7 +19,7 @@ The Codelists
 
 The source codelists can be found in the `xml/` directory. 
 
-Core vs NonCore Codelists
+Core vs Non-Core Codelists
 =================================
 
 This repository contains only codelists that are core to the IATI Standard. Core means that IATI is directly responsible for them, and any changes to them need to go through the same change control process as other changes to the standard.
