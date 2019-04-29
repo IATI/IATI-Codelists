@@ -40,6 +40,7 @@ def write_category(xml, metadata, category):
     new_category.append(new_narrative)
     metadata.append(new_category)
 
+
 with io.open(os.path.join(CSV_FILE)) as csv_file:
     reader = csv.DictReader(csv_file)
     for row in reader:
@@ -49,15 +50,15 @@ with io.open(os.path.join(CSV_FILE)) as csv_file:
                 write_category(codelist_xml, codelist_xml.find('metadata'), "Core")
                 indent(codelist_xml.getroot(), 0, 4)
                 codelist_xml.write(os.path.join(OUTPUTDIR_CORE, '{}.xml'.format(row['Codelist'])), encoding='utf-8')
-            except (OSError, IOError) as e:
+            except (OSError, IOError):
                 print("XML File {} does not exist".format(row['Codelist']))
         elif row['Type_version {}'.format(VERSION)] == "" or row['Type_version {}'.format(VERSION)] == "N/A":
-            print("Codelist {} does not exist in version {}".format(row['Codelist'],VERSION))
+            print("Codelist {} does not exist in version {}".format(row['Codelist'], VERSION))
         else:
             try:
                 codelist_xml = etree.parse('{}/{}.xml'.format(PATH_TO_XML, row['Codelist']))
                 write_category(codelist_xml, codelist_xml.find('metadata'), row['New Type'])
                 indent(codelist_xml.getroot(), 0, 4)
                 codelist_xml.write(os.path.join(OUTPUTDIR_NON_CORE, '{}.xml'.format(row['Codelist'])), encoding='utf-8')
-            except (OSError, IOError) as e:
+            except (OSError, IOError):
                 print("XML File {} does not exist".format(row['Codelist']))

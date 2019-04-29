@@ -20,7 +20,7 @@ def indent(elem, level=0, shift=2):
     i = "\n" + level * " " * shift
     if len(elem):
         if not elem.text or not elem.text.strip():
-            elem.text = i + " "* shift
+            elem.text = i + " " * shift
         if not elem.tail or not elem.tail.strip():
             elem.tail = i
         for elem in elem:
@@ -44,7 +44,6 @@ def write_narrative(xml, element, lang_string):
     new_narrative.text = lang_string
     new_narrative.attrib['{http://www.w3.org/XML/1998/namespace}lang'] = LANG
     element.append(new_narrative)
-
 
 
 def get_codelist_item(code, xml):
@@ -81,6 +80,7 @@ def write_row(code, xml, name, description=''):
         if is_translated(codelist_item.find('name'), name):
             write_narrative(xml, codelist_item.find('name'), name)
         return 1
+
 
 embedded_list = get_xml_list(PATH_TO_XML[0])
 nonembedded_list = get_xml_list(PATH_TO_XML[1])
@@ -125,6 +125,6 @@ for a, b, codelists in os.walk(PATH_TO_CSV):
             indent(codelist_xml.getroot(), 0, 4)
             codelist_xml.write(os.path.join(output, '{}.xml'.format(codelist_name)), encoding='utf-8')
             codelist_count += 1
-        except (OSError, IOError) as e:
+        except (OSError, IOError):
             print("{} codelist XML file not found".format(codelist_name))
     print("Translated {} fields in {}/{} codelists".format(field_count, codelist_count, len(codelists)))
