@@ -1,11 +1,6 @@
 ---
+dist: xenial
 language: python
-python:
-    - "3.3"
-    - "3.4"
-    - "3.5"
-    - "3.6"
-    - "3.7"
 before_install:
     - sudo apt-get update -qq
     - sudo apt-get install -qq libxml2-utils
@@ -13,9 +8,15 @@ install:
     - pip install -r requirements.txt
 jobs:
     include:
-        - stage: lint
+        - python: 3.3
+        - python: 3.4
+        - python: 3.5
+        - python: 3.6
+        - python: 3.7
+        - stage: flake8 lint
           script: flake8 --exclude=pyenv,pyenv3 --ignore E501
-        - stage: lint
+        - stage: xml lint
           script: xmllint --schema codelist.xsd --noout xml/*
 stages:
-    - lint
+    - flake8 lint
+    - xml lint
