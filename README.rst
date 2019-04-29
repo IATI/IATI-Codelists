@@ -87,3 +87,12 @@ Add metadata categories
 =======================
 
 ``category_csv_to_xml.py`` can be run to output XML codelists with ``metadata/category`` elements, the expected format of the CSV files is that they must have ``Codelist``, ``Type_version <version number>`` and ``New Type`` columns. The python script must be modified to include the output directories, ``VERSION``, ``PATH_TO_XML`` and ``CSV_FILE``. 
+
+Information for developers
+==========================
+
+This tool supports Python 3.x. To use this script, we recommend the use of a virtual environment::
+
+    python3 -m venv pyenv
+    source pyenv/bin/activate
+    pip install -r requirements.txt
