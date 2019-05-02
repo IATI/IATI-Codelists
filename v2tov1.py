@@ -18,13 +18,13 @@ except OSError:
     pass
 
 
-def utf8_encode_dict(d):
-    def enc(a):
-        if a is None:
-            return None
-        else:
-            return a.encode('utf8')
-    return dict((enc(k), enc(v)) for k, v in d.items())
+# def utf8_encode_dict(d):
+#     def enc(a):
+#         if a is None:
+#             return None
+#         else:
+#             return a.encode('utf8')
+#     return dict((enc(k), enc(v)) for k, v in d.items())
 
 
 old_codelist_index = E.codelists()
@@ -114,7 +114,7 @@ for fname in os.listdir(os.path.join('out', 'clv2', 'xml')):
         dictwriter = csv.DictWriter(fp, ['code', 'name', 'description', 'language', 'category', 'category-name', 'category-description'])
         dictwriter.writeheader()
         for line in old_codelist_json_list:
-            dictwriter.writerow(utf8_encode_dict(line))
+            dictwriter.writerow(line)
 
     ET.ElementTree(old_codelist).write(os.path.join(OUTPUTDIR, 'codelist', fname), pretty_print=True)
     with open(os.path.join(OUTPUTDIR, 'codelist', attrib['name'] + '.json'), 'w') as fp:

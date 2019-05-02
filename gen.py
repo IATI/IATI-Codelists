@@ -28,13 +28,13 @@ def codelist_item_todict(codelist_item, default_lang='', lang='en'):
     return out
 
 
-def utf8_encode_dict(d):
-    def enc(a):
-        if type(a) == str:
-            return a.encode('utf8')
-        else:
-            return None
-    return dict((enc(k), enc(v)) for k, v in d.items())
+# def utf8_encode_dict(d):
+#     def enc(a):
+#         if type(a) == str:
+#             return a.encode('utf8')
+#         else:
+#             return None
+#     return dict((enc(k), enc(v)) for k, v in d.items())
 
 
 for language in languages:
@@ -53,7 +53,7 @@ for language in languages:
         assert attrib['name'] == fname.replace('.xml', '')
 
         default_lang = codelist.getroot().attrib.get(xml_lang)
-        codelist_dicts = map(partial(codelist_item_todict, default_lang=default_lang, lang=language), codelist.getroot().find('codelist-items').findall('codelist-item'))
+        codelist_dicts = list(map(partial(codelist_item_todict, default_lang=default_lang, lang=language), codelist.getroot().find('codelist-items').findall('codelist-item')))
 
         fieldnames = [
             'code',
@@ -70,7 +70,7 @@ for language in languages:
         dw = csv.DictWriter(open(os.path.join(OUTPUTDIR, 'csv', language, attrib['name'] + '.csv'), 'w'), fieldnames)
         dw.writeheader()
         for row in codelist_dicts:
-            dw.writerow(utf8_encode_dict(row))
+            dw.writerow(row)
 
         name_elements = codelist.getroot().xpath('/codelist/metadata/name[{}@xml:lang="{}"]'.format('not(@xml:lang) or ' if language == default_lang else '', language))
         description_elements = codelist.getroot().xpath('/codelist/metadata/description[{}@xml:lang="{}"]'.format('not(@xml:lang) or ' if language == default_lang else '', language))
@@ -96,6 +96,7 @@ for language in languages:
             },
             open(os.path.join(OUTPUTDIR, 'json', language, attrib['name'] + '.json'), 'w')
         )
+
         codelists_list.append(attrib['name'])
 
         ET.SubElement(codelists, 'codelist').attrib['ref'] = attrib['name']
