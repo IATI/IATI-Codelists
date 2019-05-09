@@ -1,0 +1,4 @@
+[submodule "IATI-Codelists-NonEmbedded"]
+    path = IATI-Codelists-NonEmbedded
+    url = https://github.com/IATI/IATI-Codelists-NonEmbedded.git
+    branch = python-3-upgrade
