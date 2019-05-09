@@ -10,6 +10,7 @@ Example usage:
 
 """
 
+
 def update_to_narrative(parent, element_name):
     elements = parent.findall(element_name)
     if elements:
@@ -56,6 +57,7 @@ def indent(elem, level=0, shift=2):
     else:
         if level and (not elem.tail or not elem.tail.strip()):
             elem.tail = i
+
 
 indent(tree.getroot(), 0, 4)
 

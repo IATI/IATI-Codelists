@@ -23,6 +23,7 @@ for codelist_item in tree.find('codelist-items').findall('codelist-item'):
     update_from_narrative(codelist_item, 'name')
     update_from_narrative(codelist_item, 'description')
 
+
 # Adapted from code at http://effbot.org/zone/element-lib.htm
 def indent(elem, level=0, shift=2):
     i = "\n" + level * " " * shift
@@ -38,6 +39,7 @@ def indent(elem, level=0, shift=2):
     else:
         if level and (not elem.tail or not elem.tail.strip()):
             elem.tail = i
+
 
 indent(tree.getroot(), 0, 4)
 

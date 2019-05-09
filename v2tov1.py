@@ -6,7 +6,6 @@ import json
 import csv
 from lxml import etree as ET
 from lxml.builder import E
-from gen import languages
 from collections import OrderedDict
 
 language = 'en'
@@ -25,7 +24,6 @@ for fname in os.listdir(os.path.join('out', 'clv2', 'xml')):
     codelist = ET.parse(os.path.join('out', 'clv2', 'xml', fname))
     attrib = codelist.getroot().attrib
 
-
     count = len(codelist.getroot().find('codelist-items').findall('codelist-item'))
     description = codelist.find('metadata').find('description').text if codelist.find('metadata').find('description') is not None else ''
     if description is None:
@@ -34,7 +32,7 @@ for fname in os.listdir(os.path.join('out', 'clv2', 'xml')):
         E.codelist(E.name(
             attrib['name']),
             E.description(description),
-            E.count(unicode(count))
+            E.count(count)
         )
     )
     old_codelist_index_json_list.append({
