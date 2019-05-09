@@ -1,6 +1,18 @@
+---
+dist: xenial
+language: python
+python: 3.7
 before_install:
     - sudo apt-get update -qq
     - sudo apt-get install -qq libxml2-utils
-script:
-    - xmllint --schema codelist.xsd --noout xml/*
-
+install:
+    - pip install -r requirements.txt
+jobs:
+    include:
+        - stage: flake8 lint
+          script: flake8 --exclude=pyenv,pyenv3 --ignore E501
+        - stage: xml lint
+          script: xmllint --schema codelist.xsd --noout xml/*
+stages:
+    - flake8 lint
+    - xml lint
