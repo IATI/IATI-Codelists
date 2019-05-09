@@ -1,4 +1,4 @@
-pyenv
+pyenv*
 out
 combined-xml
 *.swp
