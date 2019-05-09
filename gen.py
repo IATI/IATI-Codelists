@@ -21,10 +21,11 @@ def normalize_whitespace(x):
 
 
 def codelist_item_todict(codelist_item, default_lang='', lang='en'):
-    out = dict([(child.tag, normalize_whitespace(child.text)) for child in codelist_item if child.tag not in ['name', 'description'] or child.attrib.get(xml_lang) == lang or (child.attrib.get(xml_lang) is None and lang == default_lang) ])
+    out = dict([(child.tag, normalize_whitespace(child.text)) for child in codelist_item if child.tag not in ['name', 'description'] or child.attrib.get(xml_lang) == lang or (child.attrib.get(xml_lang) is None and lang == default_lang)])
     if 'public-database' in codelist_item.attrib:
-        out['public-database'] = True if codelist_item.attrib['public-database'] in ['1','true'] else False
+        out['public-database'] = True if codelist_item.attrib['public-database'] in ['1', 'true'] else False
     return out
+
 
 for language in languages:
     codelists = ET.Element('codelists')
@@ -37,9 +38,9 @@ for language in languages:
         pass
 
     for fname in os.listdir('combined-xml'):
-        codelist = ET.parse(os.path.join('combined-xml',fname))
+        codelist = ET.parse(os.path.join('combined-xml', fname))
         attrib = codelist.getroot().attrib
-        assert attrib['name'] == fname.replace('.xml','')
+        assert attrib['name'] == fname.replace('.xml', '')
 
         default_lang = codelist.getroot().attrib.get(xml_lang)
         codelist_dicts = list(partial(codelist_item_todict, default_lang=default_lang, lang=language), codelist.getroot().find('codelist-items').findall('codelist-item'))
