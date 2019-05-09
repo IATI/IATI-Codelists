@@ -19,8 +19,9 @@ def normalize_whitespace(x):
     x = re.sub(r'\s+', ' ', x)
     return x
 
+
 def codelist_item_todict(codelist_item, default_lang='', lang='en'):
-    out = dict([(child.tag, normalize_whitespace(child.text)) for child in codelist_item if child.tag not in ['name', 'description'] or child.attrib.get(xml_lang) == lang or (child.attrib.get(xml_lang) is None and lang == default_lang) ])
+    out = dict([(child.tag, normalize_whitespace(child.text)) for child in codelist_item if child.tag not in ['name', 'description'] or child.attrib.get(xml_lang) == lang or (child.attrib.get(xml_lang) is None and lang == default_lang)])
     if 'public-database' in codelist_item.attrib:
         out['public-database'] = True if codelist_item.attrib['public-database'] in ['1', 'true'] else False
     return out

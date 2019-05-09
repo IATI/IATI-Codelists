@@ -32,7 +32,7 @@ for fname in os.listdir(os.path.join('out', 'clv2', 'xml')):
         E.codelist(
             E.name(attrib['name']),
             E.description(description),
-            E.count(unicode(count))
+            E.count(count)
         )
     )
     old_codelist_index_json_list.append({
@@ -40,7 +40,6 @@ for fname in os.listdir(os.path.join('out', 'clv2', 'xml')):
         'description': description,
         'count': count
     })
-
 
     old_codelist_json = OrderedDict({
         'name': attrib['name'],
