@@ -40,6 +40,7 @@ def indent(elem, level=0, shift=2):
         if level and (not elem.tail or not elem.tail.strip()):
             elem.tail = i
 
+
 indent(tree.getroot(), 0, 4)
 
 tree.write(sys.stdout.buffer)

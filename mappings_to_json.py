@@ -1,5 +1,4 @@
 from lxml import etree as ET
-import os
 import json
 
 

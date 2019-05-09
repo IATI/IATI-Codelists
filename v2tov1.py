@@ -13,7 +13,7 @@ language = 'en'
 OUTPUTDIR = os.path.join('out', 'clv1')
 
 try:
-    os.makedirs(os.path.join(OUTPUTDIR,'codelist'))
+    os.makedirs(os.path.join(OUTPUTDIR, 'codelist'))
 except OSError:
     pass
 
@@ -32,7 +32,7 @@ for fname in os.listdir(os.path.join('out', 'clv2', 'xml')):
         E.codelist(
             E.name(attrib['name']),
             E.description(description),
-            E.count(unicode(count))
+            E.count(count)
         )
     )
     old_codelist_index_json_list.append({
