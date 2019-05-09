@@ -49,7 +49,7 @@ for language in languages:
             'name',
             'description',
             'category',
-            'url',
+            'url'
         ]
 
         if fname == 'OrganisationRegistrationAgency.xml':
