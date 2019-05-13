@@ -1,0 +1,21 @@
+---
+dist: xenial
+language: python
+python: 3.7
+before_install:
+    - sudo apt-get update -qq
+    - sudo apt-get install -qq libxml2-utils
+install:
+    - pip install -r requirements.txt
+jobs:
+    include:
+        - stage: flake8 lint
+          script: flake8 --exclude=pyenv* --ignore E501
+        - stage: xml lint
+          before_script:
+              - wget "https://raw.githubusercontent.com/IATI/IATI-Codelists/version-2.03/codelist.xsd"
+              - wget "https://raw.githubusercontent.com/IATI/IATI-Codelists/version-2.03/xml.xsd"
+          script: xmllint --schema codelist.xsd --noout xml/*
+stages:
+    - flake8 lint
+    - xml lint
