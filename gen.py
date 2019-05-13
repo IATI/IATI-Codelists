@@ -43,7 +43,7 @@ for language in languages:
         assert attrib['name'] == fname.replace('.xml', '')
 
         default_lang = codelist.getroot().attrib.get(xml_lang)
-        codelist_dicts = list(partial(codelist_item_todict, default_lang=default_lang, lang=language), codelist.getroot().find('codelist-items').findall('codelist-item'))
+        codelist_dicts = list(map(partial(codelist_item_todict, default_lang=default_lang, lang=language), codelist.getroot().find('codelist-items').findall('codelist-item')))
 
         fieldnames = [
             'code',
