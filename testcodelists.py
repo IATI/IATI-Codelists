@@ -18,11 +18,10 @@ for mapping in ET.parse(mapping_file).getroot().findall('mapping'):
     codelist = ET.parse('combined-xml/{0}.xml'.format(codelist_name))
     if codelist.getroot().attrib.get('complete') not in ['1', 'true']:
         continue
-    codes = [ x.text for x in codelist.xpath('//code') ]
+    codes = [x.text for x in codelist.xpath('//code')]
     for code in root.xpath(mapping.find('path').text):
         if mapping.find('condition') is not None:
             if not code.getparent().xpath(mapping.find('condition').text):
                 continue
-        if not code in codes:
+        if code not in codes:
             print('{0} not in {1}'.format(code, codelist_name))
-
