@@ -66,3 +66,12 @@ Extra Metadata
 ==============
 
 `complete` - boolean that describes whether the codelist is 'complete' ie. having a value not on the codelist is definitely invalid. An example of an incomplete codelist is country codes, where extra codes may exist for disputed countries.
+
+Information for developers
+==========================
+
+This tool supports Python 3.x. To use this script, we recommend the use of a virtual environment::
+
+    python3 -m venv pyenv
+    source pyenv/bin/activate
+    pip install -r requirements.txt

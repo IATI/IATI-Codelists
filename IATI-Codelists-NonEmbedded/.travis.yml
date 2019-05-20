@@ -10,8 +10,11 @@ install:
 jobs:
     include:
         - stage: flake8 lint
-          script: flake8 --exclude=pyenv,pyenv3 --ignore E501
+          script: flake8 --exclude=pyenv* --ignore E501
         - stage: xml lint
+          before_script:
+              - wget "https://raw.githubusercontent.com/IATI/IATI-Codelists/version-2.03/codelist.xsd"
+              - wget "https://raw.githubusercontent.com/IATI/IATI-Codelists/version-2.03/xml.xsd"
           script: xmllint --schema codelist.xsd --noout xml/*
 stages:
     - flake8 lint
