@@ -10,6 +10,7 @@ Example usage:
 
 """
 
+
 def update_to_narrative(parent, element_name):
     elements = parent.findall(element_name)
     if elements:
@@ -19,6 +20,7 @@ def update_to_narrative(parent, element_name):
             parent.remove(element)
             element.tag = 'narrative'
             new_element.append(element)
+
 
 parser = ET.XMLParser(remove_blank_text=True)
 tree = ET.parse(sys.argv[1], parser)
@@ -39,22 +41,22 @@ for codelist_item in tree.find('codelist-items').findall('codelist-item'):
     codelist_item[:] = sum((codelist_item.findall(x) for x in ['code', 'name', 'description', 'category', 'url']), [])
 
 
-
 # Adapted from code at http://effbot.org/zone/element-lib.htm
 def indent(elem, level=0, shift=2):
-    i = "\n" + level*" "*shift
+    i = "\n" + level * " " * shift
     if len(elem):
         if not elem.text or not elem.text.strip():
-            elem.text = i + " "*shift
+            elem.text = i + " " * shift
         if not elem.tail or not elem.tail.strip():
             elem.tail = i
         for elem in elem:
-            indent(elem, level+1, shift)
+            indent(elem, level + 1, shift)
         if not elem.tail or not elem.tail.strip():
             elem.tail = i
     else:
         if level and (not elem.tail or not elem.tail.strip()):
             elem.tail = i
+
 
 indent(tree.getroot(), 0, 4)
 
