@@ -4,6 +4,7 @@ import datetime
 import pytz
 import json
 import csv
+import sys
 from lxml import etree as ET
 from lxml.builder import E
 from collections import OrderedDict
@@ -16,6 +17,16 @@ try:
     os.makedirs(os.path.join(OUTPUTDIR, 'codelist'))
 except OSError:
     pass
+
+
+def utf8_encode_dict(d):
+    def enc(a):
+        if a is None:
+            return None
+        else:
+            return a.encode('utf8')
+    return dict((enc(k), enc(v)) for k, v in d.items())
+
 
 old_codelist_index = E.codelists()
 old_codelist_index_json_list = []
@@ -104,6 +115,8 @@ for fname in os.listdir(os.path.join('out', 'clv2', 'xml')):
         dictwriter = csv.DictWriter(fp, ['code', 'name', 'description', 'language', 'category', 'category-name', 'category-description'])
         dictwriter.writeheader()
         for line in old_codelist_json_list:
+            if sys.version_info.major == 2:
+                line = utf8_encode_dict(line)
             dictwriter.writerow(line)
 
     ET.ElementTree(old_codelist).write(os.path.join(OUTPUTDIR, 'codelist', fname), pretty_print=True)
