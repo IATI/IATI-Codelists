@@ -61,4 +61,4 @@ def indent(elem, level=0, shift=2):
 
 indent(tree.getroot(), 0, 4)
 
-tree.write(sys.stdout, encoding='utf-8')
+print(ET.tostring(tree).decode())
