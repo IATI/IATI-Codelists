@@ -442,6 +442,10 @@
         <codelist ref="Currency" />
     </mapping>
     <mapping>
+        <path>//iati-organisation/recipient-org-budget/budget-line/value/@currency</path>
+        <codelist ref="Currency" />
+    </mapping>
+    <mapping>
         <path>//iati-organisation/recipient-region-budget/@status</path>
         <codelist ref="BudgetStatus" />
     </mapping>
