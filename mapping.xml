@@ -134,6 +134,11 @@
         <codelist ref="GeographicVocabulary" />
     </mapping>
     <mapping>
+        <path>//iati-activity/location/administrative/@code</path>
+        <codelist ref="Country" />
+        <condition>@vocabulary = 'A4'</condition>
+    </mapping>
+    <mapping>
         <path>//iati-activity/location/feature-designation/@code</path>
         <codelist ref="LocationType" />
     </mapping>
