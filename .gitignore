@@ -5,3 +5,4 @@ combined-xml
 *.csv
 *.pyc
 *~
+mapping.json
