@@ -1,9 +1,12 @@
-<codelist name="RelatedActivityType" xml:lang="en" complete="1">
+<codelist name="RelatedActivityType" xml:lang="en" complete="1" embedded="1">
     <metadata>
         <name>
             <narrative>Related Activity Type</narrative>
             <narrative xml:lang="fr">Type d’activité connexe</narrative>
         </name>
+        <category>
+            <narrative>Core</narrative>
+        </category>
     </metadata>
     <codelist-items>
         <codelist-item>
