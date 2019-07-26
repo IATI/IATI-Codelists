@@ -46,7 +46,7 @@
     <mapping>
         <path>//iati-activity/country-budget-items/budget-item/@code</path>
         <codelist ref="BudgetIdentifier" />
-        <condition>@vocabulary = '1'</condition>
+        <condition>../@vocabulary = '1'</condition>
     </mapping>
     <mapping>
         <path>//iati-activity/country-budget-items/budget-item/description/@type</path>
@@ -103,6 +103,11 @@
     <mapping>
         <path>//iati-activity/fss/forecast/@currency</path>
         <codelist ref="Currency" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/location/administrative/@code</path>
+        <codelist ref="Country" />
+        <condition>@vocabulary = 'A4'</condition>
     </mapping>
     <mapping>
         <path>//iati-activity/location/administrative/@vocabulary</path>
@@ -284,6 +289,10 @@
         <codelist ref="OrganisationType" />
     </mapping>
     <mapping>
+        <path>//iati-organisation/recipient-country-budget/budget-line/value/@currency</path>
+        <codelist ref="Currency" />
+    </mapping>
+    <mapping>
         <path>//iati-organisation/recipient-country-budget/recipient-country/@code</path>
         <codelist ref="Country" />
     </mapping>
@@ -305,6 +314,10 @@
     </mapping>
     <mapping>
         <path>//iati-organisation/total-budget/value/@currency</path>
+        <codelist ref="Currency" />
+    </mapping>
+    <mapping>
+        <path>//iati-organisation/recipient-org-budget/budget-line/value/@currency</path>
         <codelist ref="Currency" />
     </mapping>
     <mapping>
