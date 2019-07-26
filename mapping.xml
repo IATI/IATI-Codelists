@@ -369,11 +369,6 @@
         <codelist ref="BudgetStatus" />
     </mapping>
     <mapping>
-        <path>//iati-organisation/recipient-region-budget/@code</path>
-        <codelist ref="Region" />
-        <condition>@vocabulary = '1' or not(@vocabulary)</condition>
-    </mapping>
-    <mapping>
         <path>//iati-organisation/recipient-region-budget/recipient-region/@vocabulary</path>
         <codelist ref="RegionVocabulary" />
     </mapping>
