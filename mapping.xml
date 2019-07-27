@@ -86,6 +86,11 @@
         <condition>@vocabulary = '1' or not(@vocabulary)</condition>
     </mapping>
     <mapping>
+        <path>//iati-activity/default-aid-type/@code</path>
+        <codelist ref="EarmarkingCategory" />
+        <condition>@vocabulary = '2'</condition>
+    </mapping>
+    <mapping>
         <path>//iati-activity/default-aid-type/@vocabulary</path>
         <codelist ref="AidTypeVocabulary" />
     </mapping>
@@ -340,6 +345,11 @@
         <path>//iati-activity/transaction/aid-type/@code</path>
         <codelist ref="AidType" />
         <condition>@vocabulary = '1' or not(@vocabulary)</condition>
+    </mapping>
+    <mapping>
+        <path>//iati-activity/transaction/aid-type/@code</path>
+        <codelist ref="EarmarkingCategory" />
+        <condition>@vocabulary = '2'</condition>
     </mapping>
     <mapping>
         <path>//iati-activity/transaction/aid-type/@vocabulary</path>
