@@ -323,6 +323,16 @@
         <codelist ref="SectorVocabulary" />
     </mapping>
     <mapping>
+        <path>//iati-activity/tag/@code</path>
+        <codelist ref="UNSDG-Goals" />
+        <condition>@vocabulary = '2'</condition>
+    </mapping>
+    <mapping>
+        <path>//iati-activity/tag/@code</path>
+        <codelist ref="UNSDG-Targets" />
+        <condition>@vocabulary = '3'</condition>
+    </mapping>
+    <mapping>
         <path>//iati-activity/tag/@vocabulary</path>
         <codelist ref="TagVocabulary" />
     </mapping>
