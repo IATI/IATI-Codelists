@@ -91,6 +91,11 @@
         <condition>@vocabulary = '2'</condition>
     </mapping>
     <mapping>
+        <path>//iati-activity/default-aid-type/@code</path>
+        <codelist ref="CashandVoucherModalities" />
+        <condition>@vocabulary = '4'</condition>
+    </mapping>
+    <mapping>
         <path>//iati-activity/default-aid-type/@vocabulary</path>
         <codelist ref="AidTypeVocabulary" />
     </mapping>
@@ -350,6 +355,11 @@
         <path>//iati-activity/transaction/aid-type/@code</path>
         <codelist ref="EarmarkingCategory" />
         <condition>@vocabulary = '2'</condition>
+    </mapping>
+    <mapping>
+        <path>//iati-activity/transaction/aid-type/@code</path>
+        <codelist ref="CashandVoucherModalities" />
+        <condition>@vocabulary = '4'</condition>
     </mapping>
     <mapping>
         <path>//iati-activity/transaction/aid-type/@vocabulary</path>
