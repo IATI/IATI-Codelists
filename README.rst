@@ -1,8 +1,9 @@
 IATI Codelists
 ^^^^^^^^^^^^^^
 
-.. image:: https://travis-ci.org/IATI/IATI-Codelists.svg?branch=version-2.01
-    :target: https://travis-ci.org/IATI/IATI-Codelists
+.. image:: https://github.com/IATI/IATI-Codelists/workflows/CI/badge.svg
+   :target: https://github.com/IATI/IATI-Codelists/actions
+
 .. image:: https://requires.io/github/IATI/IATI-Codelists/requirements.svg?branch=version-2.01
     :target: https://requires.io/github/IATI/IATI-Codelists/requirements/?branch=version-2.01
     :alt: Requirements Status
