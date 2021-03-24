@@ -2,14 +2,41 @@
     <mapping>
         <path>//iati-activities/@version</path>
         <codelist ref="Version" />
+        <validation-rules>
+            <validation-rule>
+                <id>9.1.1</id>
+                <priority>9.1</priority>
+                <type>danger</type>
+                <class>iati</class>
+                <message>The IATI version of the dataset is not a valid version number.</message>
+            </validation-rule>
+        </validation-rules>
     </mapping>
     <mapping>
         <path>//iati-activity/@budget-not-provided</path>
         <codelist ref="BudgetNotProvided" />
+        <validation-rules>
+            <validation-rule>
+                <id>9.2.1</id>
+                <type>danger</type>
+                <priority>9.1</priority>
+                <class>financial</class>
+                <message>The code to indicate why no budget is provided is invalid.</message>
+            </validation-rule>
+        </validation-rules>
     </mapping>
     <mapping>
         <path>//iati-activity/@default-currency</path>
         <codelist ref="Currency" />
+        <validation-rules>
+            <validation-rule>
+                <id>9.3.1</id>
+                <type>danger</type>
+                <priority>9.3</priority>
+                <class>financial</class>
+                <message>The default currency code is invalid.</message>
+            </validation-rule>
+        </validation-rules>
     </mapping>
     <mapping>
         <path>//iati-activity/activity-date/@type</path>
