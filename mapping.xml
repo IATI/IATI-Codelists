@@ -1,400 +1,1255 @@
 <mappings>
     <mapping>
-        <path>//iati-activities/@version</path>
-        <codelist ref="Version" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/@default-currency</path>
-        <codelist ref="Currency" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/activity-date/@type</path>
-        <codelist ref="ActivityDateType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/activity-status/@code</path>
-        <codelist ref="ActivityStatus" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/activity-scope/@code</path>
-        <codelist ref="ActivityScope" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/budget/@status</path>
-        <codelist ref="BudgetStatus" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/budget/@type</path>
-        <codelist ref="BudgetType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/budget/value/@currency</path>
-        <codelist ref="Currency" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/collaboration-type/@code</path>
-        <codelist ref="CollaborationType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/conditions/condition/@type</path>
-        <codelist ref="ConditionType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/contact-info/@type</path>
-        <codelist ref="ContactType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/country-budget-items/@vocabulary</path>
-        <codelist ref="BudgetIdentifierVocabulary" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/country-budget-items/budget-item/@code</path>
-        <codelist ref="BudgetIdentifier" />
-        <condition>../@vocabulary = '1'</condition>
-    </mapping>
-    <mapping>
-        <path>//iati-activity/country-budget-items/budget-item/description/@type</path>
-        <codelist ref="DescriptionType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/crs-add/channel-code/text()</path>
-        <codelist ref="CRSChannelCode" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/crs-add/other-flags/@code</path>
-        <codelist ref="CRSAddOtherFlags" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/crs-add/loan-status/@currency</path>
-        <codelist ref="Currency" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/crs-add/loan-terms/repayment-plan/@code</path>
-        <codelist ref="LoanRepaymentPeriod" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/crs-add/loan-terms/repayment-type/@code</path>
-        <codelist ref="LoanRepaymentType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/default-aid-type/@code</path>
-        <codelist ref="AidType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/default-finance-type/@code</path>
-        <codelist ref="FinanceType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/default-flow-type/@code</path>
-        <codelist ref="FlowType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/default-tied-status/@code</path>
-        <codelist ref="TiedStatus" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/description/@type</path>
-        <codelist ref="DescriptionType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/document-link/@format</path>
-        <codelist ref="FileFormat" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/document-link/category/@code</path>
-        <codelist ref="DocumentCategory" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/document-link/language/@code</path>
-        <codelist ref="Language" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/fss/forecast/@currency</path>
-        <codelist ref="Currency" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/humanitarian-scope/@type</path>
-        <codelist ref="HumanitarianScopeType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/humanitarian-scope/@vocabulary</path>
-        <codelist ref="HumanitarianScopeVocabulary" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/location/administrative/@code</path>
-        <codelist ref="Country" />
-        <condition>@vocabulary = 'A4'</condition>
-    </mapping>
-    <mapping>
-        <path>//iati-activity/location/administrative/@vocabulary</path>
-        <codelist ref="GeographicVocabulary" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/location/feature-designation/@code</path>
-        <codelist ref="LocationType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/location/location-class/@code</path>
-        <codelist ref="GeographicLocationClass" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/location/location-id/@vocabulary</path>
-        <codelist ref="GeographicVocabulary" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/location/location-reach/@code</path>
-        <codelist ref="GeographicLocationReach" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/location/exactness/@code</path>
-        <codelist ref="GeographicExactness" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/other-identifier/@type</path>
-        <codelist ref="OtherIdentifierType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/participating-org/@role</path>
-        <codelist ref="OrganisationRole" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/participating-org/@type</path>
-        <codelist ref="OrganisationType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/planned-disbursement/@type</path>
-        <codelist ref="BudgetType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/planned-disbursement/provider-org/@type</path>
-        <codelist ref="OrganisationType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/planned-disbursement/receiver-org/@type</path>
-        <codelist ref="OrganisationType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/planned-disbursement/value/@currency</path>
-        <codelist ref="Currency" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/policy-marker/@code</path>
-        <codelist ref="PolicyMarker" />
-        <condition>@vocabulary = '1' or not(@vocabulary)</condition>
-    </mapping>
-    <mapping>
-        <path>//iati-activity/policy-marker/@significance</path>
-        <codelist ref="PolicySignificance" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/policy-marker/@vocabulary</path>
-        <codelist ref="PolicyMarkerVocabulary" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/recipient-country/@code</path>
-        <codelist ref="Country" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/recipient-region/@code</path>
-        <codelist ref="Region" />
-        <condition>@vocabulary = '1' or not(@vocabulary)</condition>
-    </mapping>
-    <mapping>
-        <path>//iati-activity/recipient-region/@vocabulary</path>
-        <codelist ref="RegionVocabulary" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/related-activity/@type</path>
-        <codelist ref="RelatedActivityType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/reporting-org/@type</path>
-        <codelist ref="OrganisationType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/result/@type</path>
-        <codelist ref="ResultType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/result/description/@type</path>
-        <codelist ref="DescriptionType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/result/indicator/@measure</path>
-        <codelist ref="IndicatorMeasure" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/result/indicator/description/@type</path>
-        <codelist ref="DescriptionType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/result/indicator/reference/@vocabulary</path>
-        <codelist ref="IndicatorVocabulary" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/sector/@code</path>
-        <codelist ref="Sector" />
-        <condition>@vocabulary = '1' or not(@vocabulary)</condition>
-    </mapping>
-    <mapping>
-        <path>//iati-activity/sector/@code</path>
-        <codelist ref="SectorCategory" />
-        <condition>@vocabulary = '2'</condition>
-    </mapping>
-    <mapping>
-        <path>//iati-activity/sector/@vocabulary</path>
-        <codelist ref="SectorVocabulary" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/transaction/aid-type/@code</path>
-        <codelist ref="AidType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/transaction/disbursement-channel/@code</path>
-        <codelist ref="DisbursementChannel" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/transaction/finance-type/@code</path>
-        <codelist ref="FinanceType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/transaction/flow-type/@code</path>
-        <codelist ref="FlowType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/transaction/recipient-country/@code</path>
-        <codelist ref="Country" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/transaction/recipient-region/@code</path>
-        <codelist ref="Region" />
-        <condition>@vocabulary = '1' or not(@vocabulary)</condition>
-    </mapping>
-    <mapping>
-        <path>//iati-activity/transaction/recipient-region/@vocabulary</path>
-        <codelist ref="RegionVocabulary" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/transaction/provider-org/@type</path>
-        <codelist ref="OrganisationType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/transaction/receiver-org/@type</path>
-        <codelist ref="OrganisationType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/transaction/sector/@code</path>
-        <codelist ref="Sector" />
-        <condition>@vocabulary = '1' or not(@vocabulary)</condition>
-    </mapping>
-    <mapping>
-        <path>//iati-activity/transaction/sector/@code</path>
-        <codelist ref="SectorCategory" />
-        <condition>@vocabulary = '2'</condition>
-    </mapping>
-    <mapping>
-        <path>//iati-activity/transaction/sector/@vocabulary</path>
-        <codelist ref="SectorVocabulary" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/transaction/tied-status/@code</path>
-        <codelist ref="TiedStatus" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/transaction/transaction-type/@code</path>
-        <codelist ref="TransactionType" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/transaction/value/@currency</path>
-        <codelist ref="Currency" />
-    </mapping>
-    <mapping>
-        <path>//@xml:lang</path>
-        <codelist ref="Language" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/@default-currency</path>
-        <codelist ref="Currency" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisations/@version</path>
-        <codelist ref="Version" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/document-link/@format</path>
-        <codelist ref="FileFormat" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/document-link/category/@code</path>
-        <codelist ref="DocumentCategory" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/document-link/language/@code</path>
-        <codelist ref="Language" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/document-link/recipient-country/@code</path>
-        <codelist ref="Country" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/recipient-country-budget/@status</path>
-        <codelist ref="BudgetStatus" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/recipient-country-budget/budget-line/value/@currency</path>
-        <codelist ref="Currency" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/recipient-country-budget/recipient-country/@code</path>
-        <codelist ref="Country" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/recipient-country-budget/value/@currency</path>
-        <codelist ref="Currency" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/recipient-org-budget/@status</path>
-        <codelist ref="BudgetStatus" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/recipient-org-budget/budget-line/value/@currency</path>
-        <codelist ref="Currency" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/recipient-org-budget/value/@currency</path>
-        <codelist ref="Currency" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/recipient-region-budget/@status</path>
-        <codelist ref="BudgetStatus" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/recipient-region-budget/recipient-region/@vocabulary</path>
-        <codelist ref="RegionVocabulary" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/recipient-region-budget/budget-line/value/@currency</path>
-        <codelist ref="Currency" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/recipient-region-budget/recipient-region/@code</path>
-        <codelist ref="Region" />
-        <condition>@vocabulary = '1' or not(@vocabulary)</condition>
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/recipient-region-budget/value/@currency</path>
-        <codelist ref="Currency" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/reporting-org/@type</path>
-        <codelist ref="OrganisationType" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/total-budget/@status</path>
-        <codelist ref="BudgetStatus" />
-    </mapping>
-    <mapping>
-        <path>//iati-organisation/total-budget/value/@currency</path>
-        <codelist ref="Currency" />
-    </mapping>
-</mappings>
+      <path>//iati-activities/@version</path>
+      <codelist ref="Version"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.1</priority>
+          <severity>danger</severity>
+          <category>iati</category>
+          <id>9.1.1</id>
+          <message>The IATI version of the dataset is not a valid version number.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/@default-currency</path>
+      <codelist ref="Currency"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.3</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.3.1</id>
+          <message>The default currency code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/activity-date/@type</path>
+      <codelist ref="ActivityDateType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.4</priority>
+          <severity>danger</severity>
+          <category>information</category>
+          <id>9.4.1</id>
+          <message>The activity date type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/activity-status/@code</path>
+      <codelist ref="ActivityStatus"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.5</priority>
+          <severity>danger</severity>
+          <category>information</category>
+          <id>9.5.1</id>
+          <message>The activity status code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/activity-scope/@code</path>
+      <codelist ref="ActivityScope"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.6</priority>
+          <severity>danger</severity>
+          <category>information</category>
+          <id>9.6.1</id>
+          <message>The activity scope code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/budget/@status</path>
+      <codelist ref="BudgetStatus"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.7</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.7.1</id>
+          <message>The budget status is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/budget/@type</path>
+      <codelist ref="BudgetType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.8</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.8.1</id>
+          <message>The budget type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/budget/value/@currency</path>
+      <codelist ref="Currency"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.9</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.9.1</id>
+          <message>The currency code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/collaboration-type/@code</path>
+      <codelist ref="CollaborationType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.10</priority>
+          <severity>danger</severity>
+          <category>classifications</category>
+          <id>9.10.1</id>
+          <message>The collaboration type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/conditions/condition/@type</path>
+      <codelist ref="ConditionType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.11</priority>
+          <severity>danger</severity>
+          <category>performance</category>
+          <id>9.11.1</id>
+          <message>The condition type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/contact-info/@type</path>
+      <codelist ref="ContactType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.12</priority>
+          <severity>danger</severity>
+          <category>information</category>
+          <id>9.12.1</id>
+          <message>The contact information type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/country-budget-items/@vocabulary</path>
+      <codelist ref="BudgetIdentifierVocabulary"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.13</priority>
+          <severity>danger</severity>
+          <category>classifications</category>
+          <id>9.13.1</id>
+          <message>The country budget identifier vocabulary is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/country-budget-items/budget-item/@code</path>
+      <codelist ref="BudgetIdentifier"/>
+      <condition>../@vocabulary = '1'</condition>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.14</priority>
+          <severity>danger</severity>
+          <category>classifications</category>
+          <id>9.14.1</id>
+          <message>The country budget item identifier is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/country-budget-items/budget-item/description/@type</path>
+      <codelist ref="DescriptionType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.15</priority>
+          <severity>danger</severity>
+          <category>classifications</category>
+          <id>9.15.1</id>
+          <message>The country budget item description type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/crs-add/channel-code/text()</path>
+      <codelist ref="CRSChannelCode"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.16</priority>
+          <severity>danger</severity>
+          <category>classifications</category>
+          <id>9.16.1</id>
+          <message>The CRS channel code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/crs-add/other-flags/@code</path>
+      <codelist ref="CRSAddOtherFlags"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.17</priority>
+          <severity>danger</severity>
+          <category>classifications</category>
+          <id>9.17.1</id>
+          <message>The CRS other flag code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/crs-add/loan-status/@currency</path>
+      <codelist ref="Currency"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.18</priority>
+          <severity>danger</severity>
+          <category>classifications</category>
+          <id>9.18.1</id>
+          <message>The currency code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/crs-add/loan-terms/repayment-plan/@code</path>
+      <codelist ref="LoanRepaymentPeriod"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.19</priority>
+          <severity>danger</severity>
+          <category>classifications</category>
+          <id>9.19.1</id>
+          <message>The repayment plan code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/crs-add/loan-terms/repayment-type/@code</path>
+      <codelist ref="LoanRepaymentType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.20</priority>
+          <severity>danger</severity>
+          <category>classifications</category>
+          <id>9.20.1</id>
+          <message>The repayment type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/default-aid-type/@code</path>
+      <codelist ref="AidType"/>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/default-finance-type/@code</path>
+      <codelist ref="FinanceType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.23</priority>
+          <severity>danger</severity>
+          <category>classifications</category>
+          <id>9.23.1</id>
+          <message>The default finance type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/default-flow-type/@code</path>
+      <codelist ref="FlowType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.24</priority>
+          <severity>danger</severity>
+          <category>classifications</category>
+          <id>9.24.1</id>
+          <message>The default flow type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/default-tied-status/@code</path>
+      <codelist ref="TiedStatus"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.25</priority>
+          <severity>danger</severity>
+          <category>classifications</category>
+          <id>9.25.1</id>
+          <message>The default tied aid status code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/description/@type</path>
+      <codelist ref="DescriptionType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.26</priority>
+          <severity>danger</severity>
+          <category>information</category>
+          <id>9.26.1</id>
+          <message>The description type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/document-link/@format</path>
+      <codelist ref="FileFormat"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.27</priority>
+          <severity>danger</severity>
+          <category>documents</category>
+          <id>9.27.1</id>
+          <message>The document format is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/document-link/category/@code</path>
+      <codelist ref="DocumentCategory"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.28</priority>
+          <severity>danger</severity>
+          <category>documents</category>
+          <id>9.28.1</id>
+          <message>The document category code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/document-link/language/@code</path>
+      <codelist ref="Language"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.29</priority>
+          <severity>danger</severity>
+          <category>documents</category>
+          <id>9.29.1</id>
+          <message>The document language code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/fss/forecast/@currency</path>
+      <codelist ref="Currency"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.30</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.30.1</id>
+          <message>The currency code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/humanitarian-scope/@type</path>
+      <codelist ref="HumanitarianScopeType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.31</priority>
+          <severity>danger</severity>
+          <category>classifications</category>
+          <id>9.31.1</id>
+          <message>The humanitarian scope type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/humanitarian-scope/@vocabulary</path>
+      <codelist ref="HumanitarianScopeVocabulary"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.32</priority>
+          <severity>danger</severity>
+          <category>classifications</category>
+          <id>9.32.1</id>
+          <message>The humanitarian scope vocabulary is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/location/administrative/@vocabulary</path>
+      <codelist ref="GeographicVocabulary"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.33</priority>
+          <severity>danger</severity>
+          <category>geo</category>
+          <id>9.33.1</id>
+          <message>The location's administrative vocabulary is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/location/administrative/@code</path>
+      <codelist ref="Country"/>
+      <condition>@vocabulary = 'A4'</condition>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.117</priority>
+          <severity>danger</severity>
+          <category>geo</category>
+          <id>9.117.1</id>
+          <message>The country code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/location/feature-designation/@code</path>
+      <codelist ref="LocationType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.120</priority>
+          <severity>danger</severity>
+          <category>geo</category>
+          <id>9.120.1</id>
+          <message>The location type code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/location/location-class/@code</path>
+      <codelist ref="GeographicLocationClass"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.35</priority>
+          <severity>danger</severity>
+          <category>geo</category>
+          <id>9.35.1</id>
+          <message>The location class code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/location/location-id/@vocabulary</path>
+      <codelist ref="GeographicVocabulary"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.36</priority>
+          <severity>danger</severity>
+          <category>geo</category>
+          <id>9.36.1</id>
+          <message>The location identifier vocabulary is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/location/location-reach/@code</path>
+      <codelist ref="GeographicLocationReach"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.37</priority>
+          <severity>danger</severity>
+          <category>geo</category>
+          <id>9.37.1</id>
+          <message>The location reach code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/location/exactness/@code</path>
+      <codelist ref="GeographicExactness"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.38</priority>
+          <severity>danger</severity>
+          <category>geo</category>
+          <id>9.38.1</id>
+          <message>The location exactness code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/other-identifier/@type</path>
+      <codelist ref="OtherIdentifierType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.39</priority>
+          <severity>danger</severity>
+          <category>identifiers</category>
+          <id>9.39.1</id>
+          <message>The "other identifier" type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/participating-org/@role</path>
+      <codelist ref="OrganisationRole"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.41</priority>
+          <severity>danger</severity>
+          <category>participating</category>
+          <id>9.41.1</id>
+          <message>The organisation role is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/participating-org/@type</path>
+      <codelist ref="OrganisationType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.42</priority>
+          <severity>danger</severity>
+          <category>participating</category>
+          <id>9.42.1</id>
+          <message>The organisation type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/planned-disbursement/@type</path>
+      <codelist ref="BudgetType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.43</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.43.1</id>
+          <message>The planned disbursement budget type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/planned-disbursement/provider-org/@type</path>
+      <codelist ref="OrganisationType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.44</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.44.1</id>
+          <message>The organisation type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/planned-disbursement/receiver-org/@type</path>
+      <codelist ref="OrganisationType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.45</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.45.1</id>
+          <message>The organisation type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/planned-disbursement/value/@currency</path>
+      <codelist ref="Currency"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.46</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.46.1</id>
+          <message>The currency code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/policy-marker/@code</path>
+      <codelist ref="PolicyMarker"/>
+      <condition>@vocabulary = '1' or not(@vocabulary)</condition>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.47</priority>
+          <severity>danger</severity>
+          <category>classifications</category>
+          <id>9.47.1</id>
+          <message>The policy marker code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/policy-marker/@significance</path>
+      <codelist ref="PolicySignificance"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.48</priority>
+          <severity>danger</severity>
+          <category>classifications</category>
+          <id>9.48.1</id>
+          <message>The policy marker significance is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/policy-marker/@vocabulary</path>
+      <codelist ref="PolicyMarkerVocabulary"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.49</priority>
+          <severity>danger</severity>
+          <category>classifications</category>
+          <id>9.49.1</id>
+          <message>The policy marker vocabulary is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/recipient-country/@code</path>
+      <codelist ref="Country"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.50</priority>
+          <severity>danger</severity>
+          <category>geo</category>
+          <id>9.50.1</id>
+          <message>The recipient country code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/recipient-region/@code</path>
+      <codelist ref="Region"/>
+      <condition>@vocabulary = '1' or not(@vocabulary)</condition>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.51</priority>
+          <severity>danger</severity>
+          <category>geo</category>
+          <id>9.51.1</id>
+          <message>The recipient region code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/recipient-region/@vocabulary</path>
+      <codelist ref="RegionVocabulary"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.52</priority>
+          <severity>danger</severity>
+          <category>geo</category>
+          <id>9.52.1</id>
+          <message>The recipient region vocabulary is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/related-activity/@type</path>
+      <codelist ref="RelatedActivityType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.53</priority>
+          <severity>danger</severity>
+          <category>relations</category>
+          <id>9.53.1</id>
+          <message>The related activity type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/reporting-org/@type</path>
+      <codelist ref="OrganisationType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.54</priority>
+          <severity>danger</severity>
+          <category>identifiers</category>
+          <id>9.54.1</id>
+          <message>The organisation type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/result/@type</path>
+      <codelist ref="ResultType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.55</priority>
+          <severity>danger</severity>
+          <category>performance</category>
+          <id>9.55.1</id>
+          <message>The result type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/result/description/@type</path>
+      <codelist ref="DescriptionType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.56</priority>
+          <severity>danger</severity>
+          <category>performance</category>
+          <id>9.56.1</id>
+          <message>The result description type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/result/indicator/@measure</path>
+      <codelist ref="IndicatorMeasure"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.60</priority>
+          <severity>danger</severity>
+          <category>performance</category>
+          <id>9.60.1</id>
+          <message>The indicator measure is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/result/indicator/description/@type</path>
+      <codelist ref="DescriptionType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.64</priority>
+          <severity>danger</severity>
+          <category>performance</category>
+          <id>9.64.1</id>
+          <message>The indicator description type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/result/indicator/reference/@vocabulary</path>
+      <codelist ref="IndicatorVocabulary"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.74</priority>
+          <severity>danger</severity>
+          <category>performance</category>
+          <id>9.74.1</id>
+          <message>The indicator reference code vocabulary is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/sector/@code</path>
+      <codelist ref="Sector"/>
+      <condition>@vocabulary = '1' or not(@vocabulary)</condition>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.76</priority>
+          <severity>danger</severity>
+          <category>classifications</category>
+          <id>9.76.1</id>
+          <message>The OECD DAC sector is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/sector/@code</path>
+      <codelist ref="SectorCategory"/>
+      <condition>@vocabulary = '2'</condition>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.77</priority>
+          <severity>danger</severity>
+          <category>classifications</category>
+          <id>9.77.1</id>
+          <message>The OECD DAC category is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/sector/@vocabulary</path>
+      <codelist ref="SectorVocabulary"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.78</priority>
+          <severity>danger</severity>
+          <category>classifications</category>
+          <id>9.78.1</id>
+          <message>The sector vocabulary is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/transaction/aid-type/@code</path>
+      <codelist ref="AidType"/>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/transaction/disbursement-channel/@code</path>
+      <codelist ref="DisbursementChannel"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.82</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.82.1</id>
+          <message>The disbursement channel code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/transaction/finance-type/@code</path>
+      <codelist ref="FinanceType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.83</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.83.1</id>
+          <message>The finance type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/transaction/flow-type/@code</path>
+      <codelist ref="FlowType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.84</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.84.1</id>
+          <message>The flow type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/transaction/recipient-country/@code</path>
+      <codelist ref="Country"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.85</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.85.1</id>
+          <message>The recipient country code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/transaction/recipient-region/@code</path>
+      <codelist ref="Region"/>
+      <condition>@vocabulary = '1' or not(@vocabulary)</condition>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.86</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.86.1</id>
+          <message>The recipient region code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/transaction/recipient-region/@vocabulary</path>
+      <codelist ref="RegionVocabulary"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.87</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.87.1</id>
+          <message>The recipient region vocabulary is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/transaction/provider-org/@type</path>
+      <codelist ref="OrganisationType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.88</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.88.1</id>
+          <message>The organisation type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/transaction/receiver-org/@type</path>
+      <codelist ref="OrganisationType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.89</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.89.1</id>
+          <message>The organisation type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/transaction/sector/@code</path>
+      <codelist ref="Sector"/>
+      <condition>@vocabulary = '1' or not(@vocabulary)</condition>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.90</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.90.1</id>
+          <message>The OECD DAC sector is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/transaction/sector/@code</path>
+      <codelist ref="SectorCategory"/>
+      <condition>@vocabulary = '2'</condition>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.124</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.124.1</id>
+          <message>The DAC3 sector code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/transaction/sector/@vocabulary</path>
+      <codelist ref="SectorVocabulary"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.91</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.91.1</id>
+          <message>The sector vocabulary is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/transaction/tied-status/@code</path>
+      <codelist ref="TiedStatus"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.92</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.92.1</id>
+          <message>The tied status code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/transaction/transaction-type/@code</path>
+      <codelist ref="TransactionType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.93</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.93.1</id>
+          <message>The transaction type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/transaction/value/@currency</path>
+      <codelist ref="Currency"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.94</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.94.1</id>
+          <message>The currency code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//@xml:lang</path>
+      <codelist ref="Language"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.95</priority>
+          <severity>danger</severity>
+          <category>iati</category>
+          <id>9.95.1</id>
+          <message>The language code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-organisation/@default-currency</path>
+      <codelist ref="Currency"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.96</priority>
+          <severity>danger</severity>
+          <category>organisation</category>
+          <id>9.96.1</id>
+          <message>The currency code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-organisations/@version</path>
+      <codelist ref="Version"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.97</priority>
+          <severity>danger</severity>
+          <category>iati</category>
+          <id>9.97.1</id>
+          <message>The IATI version of the dataset is not a valid version number.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-organisation/document-link/@format</path>
+      <codelist ref="FileFormat"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.98</priority>
+          <severity>danger</severity>
+          <category>documents</category>
+          <id>9.98.1</id>
+          <message>The document format is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-organisation/document-link/category/@code</path>
+      <codelist ref="DocumentCategory"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.99</priority>
+          <severity>danger</severity>
+          <category>documents</category>
+          <id>9.99.1</id>
+          <message>The document category code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-organisation/document-link/language/@code</path>
+      <codelist ref="Language"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.100</priority>
+          <severity>danger</severity>
+          <category>documents</category>
+          <id>9.100.1</id>
+          <message>The language code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-organisation/document-link/recipient-country/@code</path>
+      <codelist ref="Country"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.101</priority>
+          <severity>danger</severity>
+          <category>documents</category>
+          <id>9.101.1</id>
+          <message>The recipient country code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-organisation/recipient-country-budget/@status</path>
+      <codelist ref="BudgetStatus"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.102</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.102.1</id>
+          <message>The budget status is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-organisation/recipient-country-budget/recipient-country/@code</path>
+      <codelist ref="Country"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.103</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.103.1</id>
+          <message>The recipient country code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-organisation/recipient-country-budget/budget-line/value/@currency</path>
+      <codelist ref="Currency"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.122</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.122.1</id>
+          <message>The currency code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-organisation/recipient-country-budget/value/@currency</path>
+      <codelist ref="Currency"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.104</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.104.1</id>
+          <message>The currency code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-organisation/recipient-org-budget/@status</path>
+      <codelist ref="BudgetStatus"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.105</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.105.1</id>
+          <message>The budget status is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-organisation/recipient-org-budget/value/@currency</path>
+      <codelist ref="Currency"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.106</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.106.1</id>
+          <message>The currency code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-organisation/recipient-org-budget/budget-line/value/@currency</path>
+      <codelist ref="Currency"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.123</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.123.1</id>
+          <message>The currency code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-organisation/recipient-region-budget/@status</path>
+      <codelist ref="BudgetStatus"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.107</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.107.1</id>
+          <message>The budget status is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-organisation/recipient-region-budget/recipient-region/@vocabulary</path>
+      <codelist ref="RegionVocabulary"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.109</priority>
+          <severity>danger</severity>
+          <category>geo</category>
+          <id>9.109.1</id>
+          <message>The recipient region vocabulary is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-organisation/recipient-region-budget/budget-line/value/@currency</path>
+      <codelist ref="Currency"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.110</priority>
+          <severity>danger</severity>
+          <category>geo</category>
+          <id>9.110.1</id>
+          <message>The currency code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-organisation/recipient-region-budget/recipient-region/@code</path>
+      <codelist ref="Region"/>
+      <condition>@vocabulary = '1' or not(@vocabulary)</condition>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.108</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.108.1</id>
+          <message>The recipient region budget code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-organisation/recipient-region-budget/value/@currency</path>
+      <codelist ref="Currency"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.111</priority>
+          <severity>danger</severity>
+          <category>geo</category>
+          <id>9.111.1</id>
+          <message>The currency code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-organisation/reporting-org/@type</path>
+      <codelist ref="OrganisationType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.112</priority>
+          <severity>danger</severity>
+          <category>information</category>
+          <id>9.112.1</id>
+          <message>The organisation type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-organisation/total-budget/@status</path>
+      <codelist ref="BudgetStatus"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.113</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.113.1</id>
+          <message>The budget status is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-organisation/total-budget/value/@currency</path>
+      <codelist ref="Currency"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.114</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.114.1</id>
+          <message>The currency code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+  </mappings>
