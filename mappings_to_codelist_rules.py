@@ -78,7 +78,7 @@ def mapping_to_codelist_rules(mappings):
             for validation_rule in validation_rules:
                 for child in validation_rule:
                     if mapping.find('condition') is not None:
-                        out[path][attribute].conditions.mapping[linkValue][child.tag] = child.text
+                        out[path][attribute]["conditions"]["mapping"][linkValue][child.tag] = child.text
                     else:
                         out[path][attribute][child.tag] = child.text
 
