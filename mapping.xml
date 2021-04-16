@@ -329,6 +329,16 @@
         <condition>@vocabulary = '2'</condition>
     </mapping>
     <mapping>
+        <path>//iati-activity/sector/@code</path>
+        <codelist ref="UNSDG-Goals" />
+        <condition>@vocabulary = '7'</condition>
+    </mapping>
+    <mapping>
+        <path>//iati-activity/sector/@code</path>
+        <codelist ref="UNSDG-Targets" />
+        <condition>@vocabulary = '8'</condition>
+    </mapping>
+    <mapping>
         <path>//iati-activity/sector/@vocabulary</path>
         <codelist ref="SectorVocabulary" />
     </mapping>
@@ -407,6 +417,16 @@
         <path>//iati-activity/transaction/sector/@code</path>
         <codelist ref="SectorCategory" />
         <condition>@vocabulary = '2'</condition>
+    </mapping>
+    <mapping>
+        <path>//iati-activity/transaction/sector/@code</path>
+        <codelist ref="UNSDG-Goals" />
+        <condition>@vocabulary = '7'</condition>
+    </mapping>
+    <mapping>
+        <path>//iati-activity/transaction/sector/@code</path>
+        <codelist ref="UNSDG-Targets" />
+        <condition>@vocabulary = '8'</condition>
     </mapping>
     <mapping>
         <path>//iati-activity/transaction/sector/@vocabulary</path>
