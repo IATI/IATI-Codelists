@@ -35,3 +35,4 @@ cp mapping.{xml,json} out/clv3/
 rm mapping.json
 
 python mappings_to_codelist_rules.py
+python mappings_to_csv_rules.py

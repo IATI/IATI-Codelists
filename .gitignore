@@ -3,6 +3,7 @@ out
 combined-xml
 *.swp
 *.csv
+!codelist_rules.csv
 *.pyc
 *~
 mapping.json
