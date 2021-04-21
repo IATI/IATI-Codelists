@@ -478,11 +478,11 @@
     <codelist ref="LocationType"/>
     <validation-rules>
       <validation-rule>
-        <priority>9.120</priority>
+        <priority>9.34</priority>
         <severity>error</severity>
         <category>geo</category>
-        <id>9.120.1</id>
-        <message>The location type code is invalid.</message>
+        <id>9.34.1</id>
+        <message>The location feature designation type code is invalid.</message>
       </validation-rule>
     </validation-rules>
   </mapping>

@@ -35,7 +35,7 @@ ID,Category,Severity,Codelist,Message,Context (Xpath)
 9.32.1,classifications,error,HumanitarianScopeVocabulary,The humanitarian scope vocabulary is invalid.,//iati-activity/humanitarian-scope/@vocabulary
 9.33.1,geo,error,GeographicVocabulary,The location's administrative vocabulary is invalid.,//iati-activity/location/administrative/@vocabulary
 9.117.1,geo,error,Country,The country code is invalid.,//iati-activity/location/administrative[@vocabulary = 'A4']/@code
-9.120.1,geo,error,LocationType,The location type code is invalid.,//iati-activity/location/feature-designation/@code
+9.34.1,geo,error,LocationType,The location feature designation type code is invalid.,//iati-activity/location/feature-designation/@code
 9.35.1,geo,error,GeographicLocationClass,The location class code is invalid.,//iati-activity/location/location-class/@code
 9.36.1,geo,error,GeographicVocabulary,The location identifier vocabulary is invalid.,//iati-activity/location/location-id/@vocabulary
 9.37.1,geo,error,GeographicLocationReach,The location reach code is invalid.,//iati-activity/location/location-reach/@code
