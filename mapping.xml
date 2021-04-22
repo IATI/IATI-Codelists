@@ -5,7 +5,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.1</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>iati</category>
           <id>9.1.1</id>
           <message>The IATI version of the dataset is not a valid version number.</message>
@@ -18,7 +18,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.3</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.3.1</id>
           <message>The default currency code is invalid.</message>
@@ -31,7 +31,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.4</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>information</category>
           <id>9.4.1</id>
           <message>The activity date type is invalid.</message>
@@ -44,7 +44,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.5</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>information</category>
           <id>9.5.1</id>
           <message>The activity status code is invalid.</message>
@@ -57,7 +57,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.6</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>information</category>
           <id>9.6.1</id>
           <message>The activity scope code is invalid.</message>
@@ -70,7 +70,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.7</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.7.1</id>
           <message>The budget status is invalid.</message>
@@ -83,7 +83,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.8</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.8.1</id>
           <message>The budget type is invalid.</message>
@@ -96,7 +96,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.9</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.9.1</id>
           <message>The currency code is invalid.</message>
@@ -109,7 +109,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.10</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>classifications</category>
           <id>9.10.1</id>
           <message>The collaboration type is invalid.</message>
@@ -122,7 +122,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.11</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>performance</category>
           <id>9.11.1</id>
           <message>The condition type is invalid.</message>
@@ -135,7 +135,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.12</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>information</category>
           <id>9.12.1</id>
           <message>The contact information type is invalid.</message>
@@ -148,7 +148,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.13</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>classifications</category>
           <id>9.13.1</id>
           <message>The country budget identifier vocabulary is invalid.</message>
@@ -162,7 +162,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.14</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>classifications</category>
           <id>9.14.1</id>
           <message>The country budget item identifier is invalid.</message>
@@ -175,7 +175,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.15</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>classifications</category>
           <id>9.15.1</id>
           <message>The country budget item description type is invalid.</message>
@@ -188,7 +188,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.16</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>classifications</category>
           <id>9.16.1</id>
           <message>The CRS channel code is invalid.</message>
@@ -201,7 +201,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.17</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>classifications</category>
           <id>9.17.1</id>
           <message>The CRS other flag code is invalid.</message>
@@ -214,7 +214,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.18</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>classifications</category>
           <id>9.18.1</id>
           <message>The currency code is invalid.</message>
@@ -227,7 +227,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.19</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>classifications</category>
           <id>9.19.1</id>
           <message>The repayment plan code is invalid.</message>
@@ -240,7 +240,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.20</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>classifications</category>
           <id>9.20.1</id>
           <message>The repayment type is invalid.</message>
@@ -257,7 +257,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.23</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>classifications</category>
           <id>9.23.1</id>
           <message>The default finance type is invalid.</message>
@@ -270,7 +270,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.24</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>classifications</category>
           <id>9.24.1</id>
           <message>The default flow type is invalid.</message>
@@ -283,7 +283,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.25</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>classifications</category>
           <id>9.25.1</id>
           <message>The default tied aid status code is invalid.</message>
@@ -296,7 +296,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.26</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>information</category>
           <id>9.26.1</id>
           <message>The description type is invalid.</message>
@@ -309,7 +309,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.27</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>documents</category>
           <id>9.27.1</id>
           <message>The document format is invalid.</message>
@@ -322,7 +322,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.28</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>documents</category>
           <id>9.28.1</id>
           <message>The document category code is invalid.</message>
@@ -335,7 +335,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.29</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>documents</category>
           <id>9.29.1</id>
           <message>The document language code is invalid.</message>
@@ -348,7 +348,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.30</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.30.1</id>
           <message>The currency code is invalid.</message>
@@ -361,7 +361,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.31</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>classifications</category>
           <id>9.31.1</id>
           <message>The humanitarian scope type is invalid.</message>
@@ -374,7 +374,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.32</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>classifications</category>
           <id>9.32.1</id>
           <message>The humanitarian scope vocabulary is invalid.</message>
@@ -387,7 +387,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.33</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>geo</category>
           <id>9.33.1</id>
           <message>The location's administrative vocabulary is invalid.</message>
@@ -401,7 +401,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.117</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>geo</category>
           <id>9.117.1</id>
           <message>The country code is invalid.</message>
@@ -414,7 +414,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.120</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>geo</category>
           <id>9.120.1</id>
           <message>The location type code is invalid.</message>
@@ -427,7 +427,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.35</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>geo</category>
           <id>9.35.1</id>
           <message>The location class code is invalid.</message>
@@ -440,7 +440,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.36</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>geo</category>
           <id>9.36.1</id>
           <message>The location identifier vocabulary is invalid.</message>
@@ -453,7 +453,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.37</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>geo</category>
           <id>9.37.1</id>
           <message>The location reach code is invalid.</message>
@@ -466,7 +466,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.38</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>geo</category>
           <id>9.38.1</id>
           <message>The location exactness code is invalid.</message>
@@ -479,7 +479,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.39</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>identifiers</category>
           <id>9.39.1</id>
           <message>The "other identifier" type is invalid.</message>
@@ -492,7 +492,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.41</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>participating</category>
           <id>9.41.1</id>
           <message>The organisation role is invalid.</message>
@@ -505,7 +505,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.42</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>participating</category>
           <id>9.42.1</id>
           <message>The organisation type is invalid.</message>
@@ -518,7 +518,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.43</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.43.1</id>
           <message>The planned disbursement budget type is invalid.</message>
@@ -531,7 +531,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.44</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.44.1</id>
           <message>The organisation type is invalid.</message>
@@ -544,7 +544,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.45</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.45.1</id>
           <message>The organisation type is invalid.</message>
@@ -557,7 +557,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.46</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.46.1</id>
           <message>The currency code is invalid.</message>
@@ -571,7 +571,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.47</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>classifications</category>
           <id>9.47.1</id>
           <message>The policy marker code is invalid.</message>
@@ -584,7 +584,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.48</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>classifications</category>
           <id>9.48.1</id>
           <message>The policy marker significance is invalid.</message>
@@ -597,7 +597,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.49</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>classifications</category>
           <id>9.49.1</id>
           <message>The policy marker vocabulary is invalid.</message>
@@ -610,7 +610,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.50</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>geo</category>
           <id>9.50.1</id>
           <message>The recipient country code is invalid.</message>
@@ -624,7 +624,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.51</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>geo</category>
           <id>9.51.1</id>
           <message>The recipient region code is invalid.</message>
@@ -637,7 +637,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.52</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>geo</category>
           <id>9.52.1</id>
           <message>The recipient region vocabulary is invalid.</message>
@@ -650,7 +650,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.53</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>relations</category>
           <id>9.53.1</id>
           <message>The related activity type is invalid.</message>
@@ -663,7 +663,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.54</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>identifiers</category>
           <id>9.54.1</id>
           <message>The organisation type is invalid.</message>
@@ -676,7 +676,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.55</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>performance</category>
           <id>9.55.1</id>
           <message>The result type is invalid.</message>
@@ -689,7 +689,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.56</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>performance</category>
           <id>9.56.1</id>
           <message>The result description type is invalid.</message>
@@ -702,7 +702,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.60</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>performance</category>
           <id>9.60.1</id>
           <message>The indicator measure is invalid.</message>
@@ -715,7 +715,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.64</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>performance</category>
           <id>9.64.1</id>
           <message>The indicator description type is invalid.</message>
@@ -728,7 +728,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.74</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>performance</category>
           <id>9.74.1</id>
           <message>The indicator reference code vocabulary is invalid.</message>
@@ -742,7 +742,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.76</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>classifications</category>
           <id>9.76.1</id>
           <message>The OECD DAC sector is invalid.</message>
@@ -756,7 +756,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.77</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>classifications</category>
           <id>9.77.1</id>
           <message>The OECD DAC category is invalid.</message>
@@ -770,7 +770,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.129</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>classifications</category>
           <id>9.129.1</id>
           <message>The UNSDG goal code is invalid.</message>
@@ -784,7 +784,7 @@
         <validation-rules>
           <validation-rule>
             <priority>9.130</priority>
-            <severity>danger</severity>
+            <severity>error</severity>
             <category>classifications</category>
             <id>9.130.1</id>
             <message>The UNSDG target code is invalid.</message>
@@ -797,7 +797,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.78</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>classifications</category>
           <id>9.78.1</id>
           <message>The sector vocabulary is invalid.</message>
@@ -814,7 +814,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.82</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.82.1</id>
           <message>The disbursement channel code is invalid.</message>
@@ -827,7 +827,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.83</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.83.1</id>
           <message>The finance type is invalid.</message>
@@ -840,7 +840,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.84</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.84.1</id>
           <message>The flow type is invalid.</message>
@@ -853,7 +853,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.85</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.85.1</id>
           <message>The recipient country code is invalid.</message>
@@ -867,7 +867,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.86</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.86.1</id>
           <message>The recipient region code is invalid.</message>
@@ -880,7 +880,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.87</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.87.1</id>
           <message>The recipient region vocabulary is invalid.</message>
@@ -893,7 +893,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.88</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.88.1</id>
           <message>The organisation type is invalid.</message>
@@ -906,7 +906,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.89</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.89.1</id>
           <message>The organisation type is invalid.</message>
@@ -920,7 +920,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.90</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.90.1</id>
           <message>The OECD DAC sector is invalid.</message>
@@ -934,7 +934,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.124</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.124.1</id>
           <message>The DAC3 sector code is invalid.</message>
@@ -948,7 +948,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.131</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.131.1</id>
           <message>The UNSDG goal code is invalid.</message>
@@ -962,7 +962,7 @@
         <validation-rules>
           <validation-rule>
             <priority>9.132</priority>
-            <severity>danger</severity>
+            <severity>error</severity>
             <category>financial</category>
             <id>9.132.1</id>
             <message>The UNSDG target code is invalid.</message>
@@ -975,7 +975,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.91</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.91.1</id>
           <message>The sector vocabulary is invalid.</message>
@@ -988,7 +988,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.92</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.92.1</id>
           <message>The tied status code is invalid.</message>
@@ -1001,7 +1001,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.93</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.93.1</id>
           <message>The transaction type is invalid.</message>
@@ -1014,7 +1014,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.94</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.94.1</id>
           <message>The currency code is invalid.</message>
@@ -1027,7 +1027,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.95</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>iati</category>
           <id>9.95.1</id>
           <message>The language code is invalid.</message>
@@ -1040,7 +1040,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.96</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>organisation</category>
           <id>9.96.1</id>
           <message>The currency code is invalid.</message>
@@ -1053,7 +1053,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.97</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>iati</category>
           <id>9.97.1</id>
           <message>The IATI version of the dataset is not a valid version number.</message>
@@ -1066,7 +1066,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.98</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>documents</category>
           <id>9.98.1</id>
           <message>The document format is invalid.</message>
@@ -1079,7 +1079,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.99</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>documents</category>
           <id>9.99.1</id>
           <message>The document category code is invalid.</message>
@@ -1092,7 +1092,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.100</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>documents</category>
           <id>9.100.1</id>
           <message>The language code is invalid.</message>
@@ -1105,7 +1105,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.101</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>documents</category>
           <id>9.101.1</id>
           <message>The recipient country code is invalid.</message>
@@ -1118,7 +1118,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.102</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.102.1</id>
           <message>The budget status is invalid.</message>
@@ -1131,7 +1131,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.103</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.103.1</id>
           <message>The recipient country code is invalid.</message>
@@ -1144,7 +1144,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.122</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.122.1</id>
           <message>The currency code is invalid.</message>
@@ -1157,7 +1157,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.104</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.104.1</id>
           <message>The currency code is invalid.</message>
@@ -1170,7 +1170,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.105</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.105.1</id>
           <message>The budget status is invalid.</message>
@@ -1183,7 +1183,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.106</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.106.1</id>
           <message>The currency code is invalid.</message>
@@ -1196,7 +1196,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.123</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.123.1</id>
           <message>The currency code is invalid.</message>
@@ -1209,7 +1209,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.107</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.107.1</id>
           <message>The budget status is invalid.</message>
@@ -1222,7 +1222,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.109</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>geo</category>
           <id>9.109.1</id>
           <message>The recipient region vocabulary is invalid.</message>
@@ -1235,7 +1235,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.110</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>geo</category>
           <id>9.110.1</id>
           <message>The currency code is invalid.</message>
@@ -1249,7 +1249,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.108</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.108.1</id>
           <message>The recipient region budget code is invalid.</message>
@@ -1262,7 +1262,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.111</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>geo</category>
           <id>9.111.1</id>
           <message>The currency code is invalid.</message>
@@ -1275,7 +1275,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.112</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>information</category>
           <id>9.112.1</id>
           <message>The organisation type is invalid.</message>
@@ -1288,7 +1288,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.113</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.113.1</id>
           <message>The budget status is invalid.</message>
@@ -1301,7 +1301,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.114</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.114.1</id>
           <message>The currency code is invalid.</message>
