@@ -764,6 +764,34 @@
       </validation-rules>
     </mapping>
     <mapping>
+      <path>//iati-activity/sector/@code</path>
+      <codelist ref="UNSDG-Goals" />
+      <condition>@vocabulary = '7'</condition>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.129</priority>
+          <severity>danger</severity>
+          <category>classifications</category>
+          <id>9.129.1</id>
+          <message>The UNSDG goal code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+        <path>//iati-activity/sector/@code</path>
+        <codelist ref="UNSDG-Targets" />
+        <condition>@vocabulary = '8'</condition>
+        <validation-rules>
+          <validation-rule>
+            <priority>9.130</priority>
+            <severity>danger</severity>
+            <category>classifications</category>
+            <id>9.130.1</id>
+            <message>The UNSDG target code is invalid.</message>
+          </validation-rule>
+        </validation-rules>
+    </mapping>
+    <mapping>
       <path>//iati-activity/sector/@vocabulary</path>
       <codelist ref="SectorVocabulary"/>
       <validation-rules>
@@ -912,6 +940,34 @@
           <message>The DAC3 sector code is invalid.</message>
         </validation-rule>
       </validation-rules>
+    </mapping>
+    <mapping>
+      <path>//iati-activity/transaction/sector/@code</path>
+      <codelist ref="UNSDG-Goals" />
+      <condition>@vocabulary = '7'</condition>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.131</priority>
+          <severity>danger</severity>
+          <category>financial</category>
+          <id>9.131.1</id>
+          <message>The UNSDG goal code is invalid.</message>
+        </validation-rule>
+      </validation-rules>
+    </mapping>
+    <mapping>
+        <path>//iati-activity/transaction/sector/@code</path>
+        <codelist ref="UNSDG-Targets" />
+        <condition>@vocabulary = '8'</condition>
+        <validation-rules>
+          <validation-rule>
+            <priority>9.132</priority>
+            <severity>danger</severity>
+            <category>financial</category>
+            <id>9.132.1</id>
+            <message>The UNSDG target code is invalid.</message>
+          </validation-rule>
+        </validation-rules>
     </mapping>
     <mapping>
       <path>//iati-activity/transaction/sector/@vocabulary</path>
