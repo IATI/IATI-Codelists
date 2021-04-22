@@ -679,7 +679,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.129</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>classifications</category>
           <id>9.129.1</id>
           <message>The UNSDG goal code is invalid.</message>
@@ -693,7 +693,7 @@
         <validation-rules>
           <validation-rule>
             <priority>9.130</priority>
-            <severity>danger</severity>
+            <severity>error</severity>
             <category>classifications</category>
             <id>9.130.1</id>
             <message>The UNSDG target code is invalid.</message>
@@ -831,7 +831,7 @@
       <validation-rules>
         <validation-rule>
           <priority>9.131</priority>
-          <severity>danger</severity>
+          <severity>error</severity>
           <category>financial</category>
           <id>9.131.1</id>
           <message>The UNSDG goal code is invalid.</message>
@@ -845,7 +845,7 @@
         <validation-rules>
           <validation-rule>
             <priority>9.132</priority>
-            <severity>danger</severity>
+            <severity>error</severity>
             <category>financial</category>
             <id>9.132.1</id>
             <message>The UNSDG target code is invalid.</message>

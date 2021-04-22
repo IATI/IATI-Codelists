@@ -5245,7 +5245,7 @@
               "17"
             ],
             "priority": "9.129",
-            "severity": "danger",
+            "severity": "error",
             "category": "classifications",
             "id": "9.129.1",
             "message": "The UNSDG goal code is invalid."
@@ -5424,7 +5424,7 @@
               "17.19"
             ],
             "priority": "9.130",
-            "severity": "danger",
+            "severity": "error",
             "category": "classifications",
             "id": "9.130.1",
             "message": "The UNSDG target code is invalid."
@@ -6332,7 +6332,7 @@
               "17"
             ],
             "priority": "9.131",
-            "severity": "danger",
+            "severity": "error",
             "category": "financial",
             "id": "9.131.1",
             "message": "The UNSDG goal code is invalid."
@@ -6511,7 +6511,7 @@
               "17.19"
             ],
             "priority": "9.132",
-            "severity": "danger",
+            "severity": "error",
             "category": "financial",
             "id": "9.132.1",
             "message": "The UNSDG target code is invalid."
