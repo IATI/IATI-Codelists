@@ -2,11 +2,13 @@ import os
 import json
 from lxml import etree as ET
 
+
 def mapping_to_codelist_rules(mappings):
     data = dict()
     for mapping in mappings.getroot().xpath('//mapping'):
         path_ref = mapping.find('path').text.split('/@')
-        # handle edge case of path: '//iati-activity/crs-add/channel-code/text()'
+        # handle edge case of path:
+        #   '//iati-activity/crs-add/channel-code/text()'
         if len(path_ref) != 2:
             split = mapping.find('path').text.rpartition('/')
             path_ref = [split[0], split[2]]
@@ -32,14 +34,12 @@ def mapping_to_codelist_rules(mappings):
         existingPathAtr = ''
         if existingPath:
             existingPathAtr = data[path].get(attribute) is not None
-        
         out = {
                 path: {
                     attribute: {
                     }
                 }
             }
-        
         if (mapping.find('condition') is not None):
             # parse condition xpath
             condition = mapping.find('condition').text
@@ -53,7 +53,7 @@ def mapping_to_codelist_rules(mappings):
             if len(parts) > 1:
                 defaultLink = linkValue
 
-            if not existingPath or not existingPathAtr: 
+            if not existingPath or not existingPathAtr:
                 out[path][attribute]["conditions"] = {}
                 out[path][attribute]["conditions"]["mapping"] = {}
                 out[path][attribute]["conditions"]["linkedAttribute"] = link
@@ -62,15 +62,14 @@ def mapping_to_codelist_rules(mappings):
                 out[path][attribute]["conditions"]["mapping"] = {}
                 out[path][attribute]["conditions"]["linkedAttribute"] = link
             else:
-                out[path][attribute]["conditions"] = data[path][attribute]["conditions"]             
-                        
+                out[path][attribute]["conditions"] = data[path][attribute]["conditions"]
             if defaultLink:
                 out[path][attribute]["conditions"]["defaultLink"] = defaultLink
 
-            out[path][attribute]["conditions"]["mapping"][linkValue] = { "codelist": name, "allowedCodes": allowedCodes }
+            out[path][attribute]["conditions"]["mapping"][linkValue] = {"codelist": name, "allowedCodes": allowedCodes}
         else:
             out[path][attribute]["codelist"] = name
-            out[path][attribute]["allowedCodes"] =  allowedCodes
+            out[path][attribute]["allowedCodes"] = allowedCodes
 
         # add validation rules
         validation_rules = mapping.find('validation-rules')
@@ -81,10 +80,8 @@ def mapping_to_codelist_rules(mappings):
                         out[path][attribute]["conditions"]["mapping"][linkValue][child.tag] = child.text
                     else:
                         out[path][attribute][child.tag] = child.text
-
-        
         if existingPath:
-            data[path][attribute] = out[path][attribute]  
+            data[path][attribute] = out[path][attribute]
         else:
             data.update(out)
     return data
