@@ -1,11 +1,15 @@
 # This workflow will install Python dependencies, run tests and lint with a variety of Python versions
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
-name: CI
+name: CI_version-2.03
+
+env:
+  DEV_DEFAULT_KEY: ${{ secrets.DEV_CACHER_DEFAULT_KEY }} # Azure Functions default API Key for Redis-cacher
+  VERSION: 2.03
 
 on:
   push:
-    branches: [version-2.03]
+    branches: [version-2.03, v2.03/validatorCodelist]
   pull_request:
     branches: [version-2.03]
 
@@ -44,3 +48,26 @@ jobs:
 
       - name: flake8 lint
         run: flake8 --exclude=pyenv,pyenv3 --ignore E501
+
+  cache-codelist-rules:
+    needs: build
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'push' }} # only push to the redis cache on PUSH
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: POST codelist_rules.json to redis-cacher
+        run: | 
+          HTTP_CODE=$(curl --write-out "%{http_code}\n" \
+          --location --request POST 'https://func-iati-redis-cacher-dev.azurewebsites.net/api/pvt/cache?key=codelistRules'$VERSION \
+          --header 'x-functions-key: '$DEV_DEFAULT_KEY \
+          --header 'Content-Type: application/json' \
+          --data-binary '@./codelist_rules.json' \
+          --output curl_out.txt \
+          --silent )
+          echo $HTTP_CODE
+          if [[ $HTTP_CODE != '200' ]] ; then
+            echo "Reponse is not 200 from redis-cacher, check error logs"
+            cat curl_out.txt
+            exit 1
+          fi
