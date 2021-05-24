@@ -61,4 +61,5 @@ jobs:
           curl --location --request POST 'https://func-iati-redis-cacher-dev.azurewebsites.net/api/pvt/cache?key=codelistRules'$VERSION \
           --header 'x-functions-key: '$DEV_DEFAULT_KEY \
           --header 'Content-Type: application/json' \
-          --data-binary '@./codelist_rules.json'
+          --data-binary '@./codelist_rules.json' \
+          --include
