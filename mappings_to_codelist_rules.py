@@ -35,11 +35,11 @@ def mapping_to_codelist_rules(mappings):
         if existingPath:
             existingPathAtr = data[path].get(attribute) is not None
         out = {
-                path: {
-                    attribute: {
-                    }
+            path: {
+                attribute: {
                 }
             }
+        }
         if (mapping.find('condition') is not None):
             # parse condition xpath
             condition = mapping.find('condition').text
