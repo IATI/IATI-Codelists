@@ -62,9 +62,12 @@ jobs:
           --location --request POST 'https://func-iati-redis-cacher-dev.azurewebsites.net/api/pvt/cache?key=codelistRules'$VERSION \
           --header 'x-functions-key: '$DEV_DEFAULT_KEY \
           --header 'Content-Type: application/json' \
-          --data-binary '@./codelist_rules.json')
+          --data-binary '@./codelist_rules.json' \
+          --output curl_out.txt \
+          --silent )
           echo $HTTP_CODE
           if [[ $HTTP_CODE != '200' ]] ; then
             echo "Reponse is not 200 from redis-cacher, check error logs"
+            cat curl_out.txt
             exit 1
           fi
