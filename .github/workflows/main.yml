@@ -3,9 +3,13 @@
 
 name: CI_version-2.01
 
+env:
+  DEV_DEFAULT_KEY: ${{ secrets.DEV_CACHER_DEFAULT_KEY }} # Azure Functions default API Key for Redis-cacher
+  VERSION: 2.01
+
 on:
   push:
-    branches: [version-2.01]
+    branches: [version-2.01, v2.01/validatorCodelist]
   pull_request:
     branches: [version-2.01]
 
@@ -44,3 +48,17 @@ jobs:
 
       - name: flake8 lint
         run: flake8 --exclude=pyenv,pyenv3 --ignore E501
+
+  cache-codelist-rules:
+    needs: build
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'push' }} # only push to the redis cache on PUSH
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: POST codelist_rules.json to redis-cacher
+        run: |
+          curl --location --request POST 'https://func-iati-redis-cacher-dev.azurewebsites.net/api/pvt/cache?key=codelistRules'$VERSION \
+          --header 'x-functions-key: '$DEV_DEFAULT_KEY \
+          --header 'Content-Type: application/json' \
+          --data-binary '@./codelist_rules.json'
