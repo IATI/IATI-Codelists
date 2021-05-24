@@ -57,9 +57,14 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: POST codelist_rules.json to redis-cacher
-        run: |
-          curl --location --request POST 'https://func-iati-redis-cacher-dev.azurewebsites.net/api/pvt/cache?key=codelistRules'$VERSION \
+        run: | 
+          HTTP_CODE=$(curl --write-out "%{http_code}\n" \
+          --location --request POST 'https://func-iati-redis-cacher-dev.azurewebsites.net/api/pvt/cache?key=codelistRules'$VERSION \
           --header 'x-functions-key: '$DEV_DEFAULT_KEY \
           --header 'Content-Type: application/json' \
-          --data-binary '@./codelist_rules.json' \
-          --include
+          --data-binary '@./codelist_rules.json')
+          echo $HTTP_CODE
+          if [[ $HTTP_CODE != '200' ]] ; then
+            echo "Reponse is not 200 from redis-cacher, check error logs"
+            exit 1
+          fi
