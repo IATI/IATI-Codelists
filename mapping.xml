@@ -816,6 +816,15 @@
     <mapping>
       <path>//iati-activity/transaction/aid-type/@code</path>
       <codelist ref="AidType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.80</priority>
+          <severity>error</severity>
+          <category>financial</category>
+          <id>9.80.1</id>
+          <message>The aid type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
     </mapping>
     <mapping>
       <path>//iati-activity/transaction/disbursement-channel/@code</path>
