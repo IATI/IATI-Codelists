@@ -4549,11 +4549,11 @@
         "ZN",
         "ZOO"
       ],
-      "priority": "9.120",
+      "priority": "9.34",
       "severity": "error",
       "category": "geo",
-      "id": "9.120.1",
-      "message": "The location type code is invalid."
+      "id": "9.34.1",
+      "message": "The location feature designation type code is invalid."
     }
   },
   "/iati-activities/iati-activity/location/location-class": {
