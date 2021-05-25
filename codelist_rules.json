@@ -905,7 +905,12 @@
         "H03",
         "H04",
         "H05"
-      ]
+      ],
+      "priority": "9.21",
+      "severity": "error",
+      "category": "classifications",
+      "id": "9.21.1",
+      "message": "The default aid type is invalid."
     }
   },
   "/iati-activities/iati-activity/default-finance-type": {
@@ -5483,7 +5488,12 @@
         "H03",
         "H04",
         "H05"
-      ]
+      ],
+      "priority": "9.80",
+      "severity": "error",
+      "category": "financial",
+      "id": "9.80.1",
+      "message": "The aid type is invalid."
     }
   },
   "/iati-activities/iati-activity/transaction/disbursement-channel": {
