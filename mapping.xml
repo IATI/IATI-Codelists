@@ -250,6 +250,15 @@
     <mapping>
       <path>//iati-activity/default-aid-type/@code</path>
       <codelist ref="AidType"/>
+      <validation-rules>
+        <validation-rule>
+          <priority>9.21</priority>
+          <severity>error</severity>
+          <category>classifications</category>
+          <id>9.21.1</id>
+          <message>The default aid type is invalid.</message>
+        </validation-rule>
+      </validation-rules>
     </mapping>
     <mapping>
       <path>//iati-activity/default-finance-type/@code</path>
