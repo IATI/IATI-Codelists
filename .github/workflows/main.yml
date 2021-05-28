@@ -71,3 +71,15 @@ jobs:
             cat curl_out.txt
             exit 1
           fi
+
+  update-rule-tracker:
+      needs: build
+      runs-on: ubuntu-latest
+      if: ${{ github.event_name == 'push' }} # only push to the rule tracker on PUSH
+      steps:
+        - name: 'Trigger update of rule tracker repo .csv'
+          run: |
+            curl -X POST https://api.github.com/repos/IATI/validator-rule-tracker/dispatches \
+            -H 'Accept: application/vnd.github.everest-preview+json' \
+            -u ${{ secrets.NJO_PAT }} \
+            --data '{"event_type": "update", "client_payload": { "resourceName": "codelists", "repo": "'"$GITHUB_REPOSITORY"'", "sha": "'"$GITHUB_SHA"'"}}'

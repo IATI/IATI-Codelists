@@ -4608,7 +4608,7 @@
       "severity": "error",
       "category": "identifiers",
       "id": "9.39.1",
-      "message": "The \"other identifier\" type is invalid."
+      "message": "The other identifier type is invalid."
     }
   },
   "/iati-activities/iati-activity/participating-org": {
