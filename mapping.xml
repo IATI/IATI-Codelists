@@ -547,7 +547,7 @@
         <severity>error</severity>
         <category>identifiers</category>
         <id>9.39.1</id>
-        <message>The "other identifier" type is invalid.</message>
+        <message>The other identifier type is invalid.</message>
       </validation-rule>
     </validation-rules>
   </mapping>
