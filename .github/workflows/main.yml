@@ -8,6 +8,7 @@ env:
   VERSION: 2.03
 
 on:
+  workflow_dispatch:
   push:
     branches: [version-2.03, v2.03/validatorCodelist]
   pull_request:
