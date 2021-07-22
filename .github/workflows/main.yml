@@ -6,6 +6,7 @@ name: CI_version-2.02
 env:
   DEV_DEFAULT_KEY: ${{ secrets.DEV_CACHER_DEFAULT_KEY }} # Azure Functions default API Key for Redis-cacher
   VERSION: 2.02
+  COMMIT_SHA: ${{ github.sha }}
 
 on:
   workflow_dispatch:
@@ -60,7 +61,7 @@ jobs:
       - name: POST codelist_rules.json to redis-cacher
         run: | 
           HTTP_CODE=$(curl --write-out "%{http_code}\n" \
-          --location --request POST 'https://func-iati-redis-cacher-dev.azurewebsites.net/api/pvt/cache?key=codelistRules'$VERSION \
+          --location --request POST 'https://func-iati-redis-cacher-dev.azurewebsites.net/api/pvt/cache?key=codelistRules'$VERSION'&commitsha='$COMMIT_SHA \
           --header 'x-functions-key: '$DEV_DEFAULT_KEY \
           --header 'Content-Type: application/json' \
           --data-binary '@./codelist_rules.json' \
