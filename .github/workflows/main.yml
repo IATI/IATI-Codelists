@@ -5,6 +5,7 @@ name: CI_version-2.03
 
 env:
   DEV_DEFAULT_KEY: ${{ secrets.DEV_CACHER_DEFAULT_KEY }} # Azure Functions default API Key for Redis-cacher
+  PROD_DEFAULT_KEY: ${{ secrets.PROD_CACHER_DEFAULT_KEY }} # Azure Functions default API Key for Redis-cacher
   VERSION: 2.03
 
 on:
@@ -50,7 +51,7 @@ jobs:
       - name: flake8 lint
         run: flake8 --exclude=pyenv,pyenv3 --ignore E501
 
-  cache-codelist-rules:
+  cache-codelist-rules-dev:
     needs: build
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'push' }} # only push to the redis cache on PUSH
@@ -60,7 +61,7 @@ jobs:
           # Number of commits to fetch. 0 indicates all history for all branches and tags.
           fetch-depth: 0
 
-      - name: POST codelist_rules.json to redis-cacher
+      - name: POST codelist_rules.json to func-iati-redis-cacher-dev
         run: | 
           FILE_COMMIT_SHA=$(git log -1 --format='%H' -- './codelist_rules.json')
           echo $FILE_COMMIT_SHA
@@ -73,7 +74,35 @@ jobs:
           --silent )
           echo $HTTP_CODE
           if [[ $HTTP_CODE != '200' ]] ; then
-            echo "Reponse is not 200 from redis-cacher, check error logs"
+            echo "Reponse is not 200 from func-iati-redis-cacher-dev, check error logs"
+            cat curl_out.txt
+            exit 1
+          fi
+
+  cache-codelist-rules-PROD:
+    needs: cache-codelist-rules-dev
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'push' }} # only push to the redis cache on PUSH
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          # Number of commits to fetch. 0 indicates all history for all branches and tags.
+          fetch-depth: 0
+
+      - name: POST codelist_rules.json to func-iati-redis-cacher-PROD
+        run: | 
+          FILE_COMMIT_SHA=$(git log -1 --format='%H' -- './codelist_rules.json')
+          echo $FILE_COMMIT_SHA
+          HTTP_CODE=$(curl --write-out "%{http_code}\n" \
+          --location --request POST 'https://func-iati-redis-cacher-prod.azurewebsites.net/api/pvt/cache?key=codelistRules'$VERSION'&commitsha='$FILE_COMMIT_SHA \
+          --header 'x-functions-key: '$PROD_DEFAULT_KEY \
+          --header 'Content-Type: application/json' \
+          --data-binary '@./codelist_rules.json' \
+          --output curl_out.txt \
+          --silent )
+          echo $HTTP_CODE
+          if [[ $HTTP_CODE != '200' ]] ; then
+            echo "Reponse is not 200 from func-iati-redis-cacher-PROD, check error logs"
             cat curl_out.txt
             exit 1
           fi
