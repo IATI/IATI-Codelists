@@ -11,9 +11,13 @@ env:
 on:
   workflow_dispatch:
   push:
+    paths-ignore: 
+      - '**/README.rst' # don't run on README.rst file updates anywhere in repo
     branches: [version-2.03, v2.03/validatorCodelist]
   pull_request:
     branches: [version-2.03]
+    paths-ignore: 
+      - '**/README.rst' # don't run on README.rst file updates anywhere in repo
 
 jobs:
   build:
