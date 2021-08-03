@@ -4,11 +4,11 @@ IATI Codelists
 .. image:: https://github.com/IATI/IATI-Codelists/workflows/CI/badge.svg
    :target: https://github.com/IATI/IATI-Codelists/actions
 
-.. image:: https://requires.io/github/IATI/IATI-Codelists/requirements.svg?branch=version-2.02
-    :target: https://requires.io/github/IATI/IATI-Codelists/requirements/?branch=version-2.02
+.. image:: https://requires.io/github/IATI/IATI-Codelists/requirements.svg?branch=version-2.01
+    :target: https://requires.io/github/IATI/IATI-Codelists/requirements/?branch=version-2.01
     :alt: Requirements Status
 .. image:: https://img.shields.io/badge/license-MIT-blue.svg
-    :target: https://github.com/IATI/IATI-Codelists/blob/version-2.02/LICENSE
+    :target: https://github.com/IATI/IATI-Codelists/blob/version-2.01/LICENSE
 
 Introduction
 ------------
@@ -41,14 +41,14 @@ This format has been chosen for the single source of truth as it has a number of
 Codelists in Other Formats (.json, .csv)
 ========================================
 
-``gen.sh`` (which calls ``gen.py``) can be used to convert the Codelists to JSON and CSV format. Converted codelists are availible on https://iatistandard.org/en/iati-standard/202/codelists/
+``gen.sh`` (which calls ``gen.py``) can be used to convert the Codelists to JSON and CSV format. Converted codelists are availible on https://iatistandard.org/en/iati-standard/201/codelists/
 
 To do the conversion yourself, you will need BASH, Python and python-lxml. Then simply run ``gen.sh``. The generated codelists will be in the ``out`` folder.
 
 Codelist Mapping
 ================
 
-`mapping.xml <https://github.com/IATI/IATI-Codelists/blob/version-2.02/mapping.xml>`__ relates codelists to an XML path in the standard. This should make it easier for users to work out which codelists go with which element and vice versa.
+`mapping.xml <https://github.com/IATI/IATI-Codelists/blob/version-2.01/mapping.xml>`__ relates codelists to an XML path in the standard. This should make it easier for users to work out which codelists go with which element and vice versa.
 
 This mapping also contains the Codelist validation rule information used by the `IATI Validator <https://github.com/IATI/js-validator-api>`__.
 
@@ -87,12 +87,12 @@ It's structured as a list of `mapping` elements, which each have a `path` elemen
         ...
     </mappings>
 
-A `JSON version <https://iatistandard.org/202/codelists/downloads/clv1/mapping.json>`__ is also available. Note that the JSON version does not contain the validation-rules. See the Codelist Rules section for more information.
+A `JSON version <https://iatistandard.org/201/codelists/downloads/clv1/mapping.json>`__ is also available. Note that the JSON version does not contain the validation-rules. See the Codelist Rules section for more information.
 
 Codelist Rules
 ================
 
-`codelist_rules.json <https://github.com/IATI/IATI-Codelists/blob/version-2.02/codelist_rules.json>`__ is the format of Codelist validation rules used by the `IATI Validator <https://github.com/IATI/js-validator-api>`__.
+`codelist_rules.json <https://github.com/IATI/IATI-Codelists/blob/version-2.01/codelist_rules.json>`__ is the format of Codelist validation rules used by the `IATI Validator <https://github.com/IATI/js-validator-api>`__.
 
 It combines information from `mapping.xml` and the different available Codelists. 
 
