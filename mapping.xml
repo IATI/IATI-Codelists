@@ -78,6 +78,17 @@
     <mapping>
         <path>//iati-activity/default-aid-type/@code</path>
         <codelist ref="AidType" />
+        <condition>@vocabulary = '1' or not(@vocabulary)</condition>
+    </mapping>
+    <mapping>
+        <path>//iati-activity/default-aid-type/@code</path>
+        <codelist ref="EarmarkingCategory" />
+        <condition>@vocabulary = '2'</condition>
+    </mapping>
+    <mapping>
+        <path>//iati-activity/default-aid-type/@code</path>
+        <codelist ref="CashandVoucherModalities" />
+        <condition>@vocabulary = '4'</condition>
     </mapping>
     <mapping>
         <path>//iati-activity/default-aid-type/@vocabulary</path>
@@ -126,6 +137,11 @@
     <mapping>
         <path>//iati-activity/location/administrative/@vocabulary</path>
         <codelist ref="GeographicVocabulary" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/location/administrative/@code</path>
+        <codelist ref="Country" />
+        <condition>@vocabulary = 'A4'</condition>
     </mapping>
     <mapping>
         <path>//iati-activity/location/feature-designation/@code</path>
@@ -303,8 +319,33 @@
         <condition>@vocabulary = '1' or not(@vocabulary)</condition>
     </mapping>
     <mapping>
+        <path>//iati-activity/sector/@code</path>
+        <codelist ref="SectorCategory" />
+        <condition>@vocabulary = '2'</condition>
+    </mapping>
+    <mapping>
+        <path>//iati-activity/sector/@code</path>
+        <codelist ref="UNSDG-Goals" />
+        <condition>@vocabulary = '7'</condition>
+    </mapping>
+    <mapping>
+        <path>//iati-activity/sector/@code</path>
+        <codelist ref="UNSDG-Targets" />
+        <condition>@vocabulary = '8'</condition>
+    </mapping>
+    <mapping>
         <path>//iati-activity/sector/@vocabulary</path>
         <codelist ref="SectorVocabulary" />
+    </mapping>
+    <mapping>
+        <path>//iati-activity/tag/@code</path>
+        <codelist ref="UNSDG-Goals" />
+        <condition>@vocabulary = '2'</condition>
+    </mapping>
+    <mapping>
+        <path>//iati-activity/tag/@code</path>
+        <codelist ref="UNSDG-Targets" />
+        <condition>@vocabulary = '3'</condition>
     </mapping>
     <mapping>
         <path>//iati-activity/tag/@vocabulary</path>
@@ -313,6 +354,17 @@
     <mapping>
         <path>//iati-activity/transaction/aid-type/@code</path>
         <codelist ref="AidType" />
+        <condition>@vocabulary = '1' or not(@vocabulary)</condition>
+    </mapping>
+    <mapping>
+        <path>//iati-activity/transaction/aid-type/@code</path>
+        <codelist ref="EarmarkingCategory" />
+        <condition>@vocabulary = '2'</condition>
+    </mapping>
+    <mapping>
+        <path>//iati-activity/transaction/aid-type/@code</path>
+        <codelist ref="CashandVoucherModalities" />
+        <condition>@vocabulary = '4'</condition>
     </mapping>
     <mapping>
         <path>//iati-activity/transaction/aid-type/@vocabulary</path>
@@ -337,7 +389,7 @@
     <mapping>
         <path>//iati-activity/transaction/recipient-region/@code</path>
         <codelist ref="Region" />
-        <condition>@vocabulary = '1'</condition>
+        <condition>@vocabulary = '1' or not(@vocabulary)</condition>
     </mapping>
     <mapping>
         <path>//iati-activity/transaction/recipient-region/@vocabulary</path>
@@ -355,6 +407,21 @@
         <path>//iati-activity/transaction/sector/@code</path>
         <codelist ref="Sector" />
         <condition>@vocabulary = '1' or not(@vocabulary)</condition>
+    </mapping>
+    <mapping>
+        <path>//iati-activity/transaction/sector/@code</path>
+        <codelist ref="SectorCategory" />
+        <condition>@vocabulary = '2'</condition>
+    </mapping>
+    <mapping>
+        <path>//iati-activity/transaction/sector/@code</path>
+        <codelist ref="UNSDG-Goals" />
+        <condition>@vocabulary = '7'</condition>
+    </mapping>
+    <mapping>
+        <path>//iati-activity/transaction/sector/@code</path>
+        <codelist ref="UNSDG-Targets" />
+        <condition>@vocabulary = '8'</condition>
     </mapping>
     <mapping>
         <path>//iati-activity/transaction/sector/@vocabulary</path>
@@ -409,6 +476,10 @@
         <codelist ref="Country" />
     </mapping>
     <mapping>
+        <path>//iati-organisation/recipient-country-budget/budget-line/value/@currency</path>
+        <codelist ref="Currency" />
+    </mapping>
+    <mapping>
         <path>//iati-organisation/recipient-country-budget/value/@currency</path>
         <codelist ref="Currency" />
     </mapping>
@@ -421,11 +492,15 @@
         <codelist ref="Currency" />
     </mapping>
     <mapping>
+        <path>//iati-organisation/recipient-org-budget/budget-line/value/@currency</path>
+        <codelist ref="Currency" />
+    </mapping>
+    <mapping>
         <path>//iati-organisation/recipient-region-budget/@status</path>
         <codelist ref="BudgetStatus" />
     </mapping>
     <mapping>
-        <path>//iati-organisation/recipient-region-budget/@code</path>
+        <path>//iati-organisation/recipient-region-budget/recipient-region/@code</path>
         <codelist ref="Region" />
         <condition>@vocabulary = '1' or not(@vocabulary)</condition>
     </mapping>

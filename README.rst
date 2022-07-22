@@ -1,8 +1,9 @@
 IATI Codelists
 ^^^^^^^^^^^^^^
 
-.. image:: https://travis-ci.org/IATI/IATI-Codelists.svg?branch=version-2.01
-    :target: https://travis-ci.org/IATI/IATI-Codelists
+.. image:: https://github.com/IATI/IATI-Codelists/workflows/CI/badge.svg
+   :target: https://github.com/IATI/IATI-Codelists/actions
+
 .. image:: https://requires.io/github/IATI/IATI-Codelists/requirements.svg?branch=version-2.01
     :target: https://requires.io/github/IATI/IATI-Codelists/requirements/?branch=version-2.01
     :alt: Requirements Status
@@ -19,12 +20,12 @@ The Codelists
 
 The source codelists can be found in the `xml/` directory. 
 
-Embedded vs NonEmbedded Codelists
+Core vs Non-Core Codelists
 =================================
 
-This repository contains only codelists that are embedded in the IATI Standard. Embedded means that IATI is directly responsible for them, and any changes to them need to go through the same change control process as other changes to the standard.
+This repository contains only codelists that are core to the IATI Standard. Core means that IATI is directly responsible for them, and any changes to them need to go through the same change control process as other changes to the standard.
 
-Those codelists that are not embedded can be found in a seperate repository at `<https://github.com/IATI/IATI-Codelists-NonEmbedded/>`_. These lists are typically maintained by other organisations that IATI has no control over but which IATI data relies on such as country codes, language codes and so on. The aspiration for these codelists is to have them pulled from their external sources regularly and automatically.
+Those codelists that are not core can be found in a seperate repository at `<https://github.com/IATI/IATI-Codelists-NonEmbedded/>`_. These lists are typically maintained by other organisations that IATI has no control over but which IATI data relies on such as country codes, language codes and so on. The aspiration for these codelists is to have them pulled from their external sources regularly and automatically.
 
 Codelist XML Format
 ===============
@@ -71,9 +72,28 @@ A `JSON version <http://iatistandard.org/202/codelists/downloads/clv1/mapping.js
 Testing Compliance Against Codelists
 ===================================
 
-``testcodelists.py`` is can be run against an IATI Activity XML to check that it is using the correct codelists values. Only codelists that are complete will be tested (see next section).
+``testcodelists.py`` can be run against an IATI Activity XML to check that it is using the correct codelists values. Only codelists that are complete will be tested (see next section).
 
 Extra Metadata
 ==============
 
-`complete` - boolean that describes whether the codelist is 'complete' ie. having a value not on the codelist is definitely invalid. An example of an incomplete codelist is country codes, where extra codes may exist for disputed countries.
+``complete`` - boolean that describes whether the codelist is 'complete' ie. having a value not on the codelist is definitely invalid. An example of an incomplete codelist is country codes, where extra codes may exist for disputed countries.
+
+Translation script
+==================
+
+``translations_csv_to_xml.py`` can be run to output XML codelists with translated elements, the expected format of the CSV files is that they must have ``code`` and ``name (<language iso code>)`` columns, and they can have ``description (<language iso code>)`` as well. The python script must be modified to include ``OUTPUTDIR``, ``PATH_TO_CSV``, ``PATH_TO_XML`` and ``LANG``. 
+
+Add metadata categories
+=======================
+
+``category_csv_to_xml.py`` can be run to output XML codelists with ``metadata/category`` elements, the expected format of the CSV files is that they must have ``Codelist``, ``Type_version <version number>`` and ``New Type`` columns. The python script must be modified to include the output directories, ``VERSION``, ``PATH_TO_XML`` and ``CSV_FILE``. 
+
+Information for developers
+==========================
+
+This tool supports Python 3.x. To use this script, we recommend the use of a virtual environment::
+
+    python3 -m venv pyenv
+    source pyenv/bin/activate
+    pip install -r requirements.txt
