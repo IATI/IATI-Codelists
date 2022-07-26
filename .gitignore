@@ -6,3 +6,4 @@ combined-xml
 *.pyc
 *~
 mapping.json
+**/__pycache__
