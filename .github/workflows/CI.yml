@@ -5,8 +5,14 @@ name: CI
 
 on:
   push:
+    paths-ignore:
+      - "**/README.rst"
+      - "**/dependabot.yml"
     branches: [version-2.01]
   pull_request:
+    paths-ignore:
+      - "**/README.rst"
+      - "**/dependabot.yml"
     branches: [version-2.01]
 
 concurrency: CI-2.01
