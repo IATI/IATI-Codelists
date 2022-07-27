@@ -4,6 +4,7 @@ updates:
   - package-ecosystem: 'github-actions'
     # or GitHub Actions, set the directory to / to check for workflow files in .github/workflows.
     directory: '/'
+    target-branch: "version-2.02"
     schedule:
       interval: 'daily'
 
