@@ -4,3 +4,4 @@ combined-xml
 *.swp
 *.pyc
 *~
+**/__pycache__
