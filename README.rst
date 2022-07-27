@@ -56,12 +56,12 @@ It's structured as a list of `mapping` elements, which each have a `path` elemen
 
     <mappings>
         <mapping>
-            <path>//iati-activity/@default-currency</path>
-            <codelist ref="Currency" />
+            <path>//iati-activity/transaction/recipient-country/@code</path>
+            <codelist ref="Country" />
         </mapping>
         <mapping>
-            <path>//iati-activity/country-budget-items/budget-item/@code</path>
-            <codelist ref="BudgetIdentifier" />
+            <path>//iati-activity/transaction/recipient-region/@code</path>
+            <codelist ref="Region" />
             <condition>@vocabulary = '1'</condition>
         </mapping>
         ...
