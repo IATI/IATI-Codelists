@@ -3,7 +3,9 @@ out
 combined-xml
 *.swp
 *.csv
+!codelist_rules.csv
 *.pyc
 *~
 mapping.json
 **/__pycache__
+.vscode

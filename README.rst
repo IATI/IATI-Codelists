@@ -4,16 +4,16 @@ IATI Codelists
 .. image:: https://github.com/IATI/IATI-Codelists/workflows/CI/badge.svg
    :target: https://github.com/IATI/IATI-Codelists/actions
 
-.. image:: https://requires.io/github/IATI/IATI-Codelists/requirements.svg?branch=version-2.01
-    :target: https://requires.io/github/IATI/IATI-Codelists/requirements/?branch=version-2.01
+.. image:: https://requires.io/github/IATI/IATI-Codelists/requirements.svg?branch=version-2.03
+    :target: https://requires.io/github/IATI/IATI-Codelists/requirements/?branch=version-2.03
     :alt: Requirements Status
 .. image:: https://img.shields.io/badge/license-MIT-blue.svg
-    :target: https://github.com/IATI/IATI-Codelists/blob/version-2.01/LICENSE
+    :target: https://github.com/IATI/IATI-Codelists/blob/version-2.03/LICENSE
 
 Introduction
 ------------
 
-This repository contains the codelists for the IATI Standard, and is part of the Single Source of Truth (SSOT). For more information about the SSOT, please see http://iatistandard.org/202/developer/ssot/ 
+This repository contains the codelists for the IATI Standard, and is part of the Single Source of Truth (SSOT). For more information about the SSOT, please see https://iatistandard.org/en/guidance/developer/ssot/ 
 
 The Codelists
 =============
@@ -41,14 +41,16 @@ This format has been chosen for the single source of truth as it has a number of
 Codelists in Other Formats (.json, .csv)
 ========================================
 
-``gen.sh`` (which calls ``gen.py``) can be used to convert the Codelists to JSON and CSV format. Converted coedlists are availible on dev.iatistandard.org
+``gen.sh`` (which calls ``gen.py``) can be used to convert the Codelists to JSON and CSV format. Converted codelists are availible on https://iatistandard.org/en/iati-standard/203/codelists/
 
 To do the conversion yourself, you will need BASH, Python and python-lxml. Then simply run ``gen.sh``. The generated codelists will be in the ``out`` folder.
 
 Codelist Mapping
 ================
 
-`mapping.xml <https://github.com/IATI/IATI-Codelists/blob/version-2.02/mapping.xml>`__ relates codelists to an XML path in the standard. This should make it easier for users to work out which codelists go with which element and vice versa.
+`mapping.xml <https://github.com/IATI/IATI-Codelists/blob/version-2.03/mapping.xml>`__ relates codelists to an XML path in the standard. This should make it easier for users to work out which codelists go with which element and vice versa.
+
+This mapping also contains the Codelist validation rule information used by the `IATI Validator <https://github.com/IATI/js-validator-api>`__.
 
 It's structured as a list of `mapping` elements, which each have a `path` element that describes the relevant attribute, and a `codelist@ref` attribute which is the same ref as used in the codelist filenames. An optional `condition` element is an xpath expression which limits the scope of the given codelist - e.g. it only applies if a certain vocabulary is being used. A sample of the XML is as follows:
 
@@ -56,18 +58,56 @@ It's structured as a list of `mapping` elements, which each have a `path` elemen
 
     <mappings>
         <mapping>
-            <path>//iati-activity/transaction/recipient-country/@code</path>
-            <codelist ref="Country" />
+            <path>//iati-activity/@default-currency</path>
+            <codelist ref="Currency" />
+            <validation-rules>
+                <validation-rule>
+                    <priority>9.3</priority>
+                    <severity>error</severity>
+                    <category>financial</category>
+                    <id>9.3.1</id>
+                    <message>The default currency code is invalid.</message>
+                </validation-rule>
+            </validation-rules>
         </mapping>
         <mapping>
             <path>//iati-activity/transaction/recipient-region/@code</path>
             <codelist ref="Region" />
             <condition>@vocabulary = '1'</condition>
+            <validation-rules>
+                <validation-rule>
+                    <priority>9.14</priority>
+                    <severity>error</severity>
+                    <category>classifications</category>
+                    <id>9.14.1</id>
+                    <message>The country budget item identifier is invalid.</message>
+                </validation-rule>
+            </validation-rules>
         </mapping>
         ...
     </mappings>
 
-A `JSON version <http://iatistandard.org/202/codelists/downloads/clv1/mapping.json>`__ is also available.
+A `JSON version <https://iatistandard.org/203/codelists/downloads/clv1/mapping.json>`__ is also available. Note that the JSON version does not contain the validation-rules. See the Codelist Rules section for more information.
+
+Codelist Rules
+================
+
+`codelist_rules.json <https://github.com/IATI/IATI-Codelists/blob/version-2.03/codelist_rules.json>`__ is the format of Codelist validation rules used by the `IATI Validator <https://github.com/IATI/js-validator-api>`__.
+
+It combines information from `mapping.xml` and the different available Codelists. 
+
+``gen.sh`` (which eventually calls ``mappings_to_codelist_rules.py``) can be used to generate ``codelist_rules.json``. 
+
+Note running ``mappings_to_codelist_rules.py`` alone will not work as you need to pull in the NonEmbedded codelists repo, which is done in ``gen.sh``.
+
+GitHub Actions workflows
+=========================
+
+``.github/workflows/main.yml`` does a few things when new code is pushed to  version-2.0X branches. 
+
+* Runs xmllint and flake8 linting on the codelists in ``xml/``
+* Pushes ``codelist_rules.json`` to the Redis cache used by the IATI Validator
+* Triggers a workflow to update the .csv Validator rules in `Validator Rule Tracker <https://github.com/IATI/validator-rule-tracker>`__
 
 Testing Compliance Against Codelists
 ===================================
