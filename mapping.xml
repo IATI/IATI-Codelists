@@ -53,10 +53,6 @@
         <condition>../@vocabulary = '1'</condition>
     </mapping>
     <mapping>
-        <path>//iati-activity/country-budget-items/budget-item/description/@type</path>
-        <codelist ref="DescriptionType" />
-    </mapping>
-    <mapping>
         <path>//iati-activity/crs-add/channel-code/text()</path>
         <codelist ref="CRSChannelCode" />
     </mapping>
@@ -216,16 +212,8 @@
         <codelist ref="ResultType" />
     </mapping>
     <mapping>
-        <path>//iati-activity/result/description/@type</path>
-        <codelist ref="DescriptionType" />
-    </mapping>
-    <mapping>
         <path>//iati-activity/result/indicator/@measure</path>
         <codelist ref="IndicatorMeasure" />
-    </mapping>
-    <mapping>
-        <path>//iati-activity/result/indicator/description/@type</path>
-        <codelist ref="DescriptionType" />
     </mapping>
     <mapping>
         <path>//iati-activity/result/indicator/reference/@vocabulary</path>
