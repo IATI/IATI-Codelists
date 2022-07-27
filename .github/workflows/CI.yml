@@ -20,7 +20,7 @@ on:
       - "**/dependabot.yml"
     branches: [version-2.03, v2.03/validatorCodelist]
 
-concurrency: CI-2.03
+concurrency: CI-validator-2.03
 
 jobs:
   build:
@@ -121,14 +121,3 @@ jobs:
             -H 'Accept: application/vnd.github.everest-preview+json' \
             -u ${{ secrets.NJO_PAT }} \
             --data '{"event_type": "update", "client_payload": { "resourceName": "codelists", "repo": "'"$GITHUB_REPOSITORY"'", "sha": "'"$GITHUB_SHA"'"}}'
-
-  automerge:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pull-requests: write
-      contents: write
-    steps:
-      - uses: fastify/github-action-merge-dependabot@v3.2
-        with:
-          github-token: ${{secrets.GITHUB_TOKEN}}

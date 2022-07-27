@@ -4,7 +4,7 @@ updates:
   - package-ecosystem: 'github-actions'
     # or GitHub Actions, set the directory to / to check for workflow files in .github/workflows.
     directory: '/'
-    target-branch: "version-2.03"
+    target-branch: "v2.03/validatorCodelist"
     schedule:
       interval: 'daily'
 
@@ -12,6 +12,6 @@ updates:
   - package-ecosystem: 'pip'
   # Look for `requirements.txt` file
     directory: '/'
-    target-branch: "version-2.03"
+    target-branch: "v2.03/validatorCodelist"
     schedule:
       interval: 'daily'
