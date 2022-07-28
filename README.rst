@@ -71,16 +71,16 @@ It's structured as a list of `mapping` elements, which each have a `path` elemen
             </validation-rules>
         </mapping>
         <mapping>
-            <path>//iati-activity/country-budget-items/budget-item/@code</path>
-            <codelist ref="BudgetIdentifier" />
-            <condition>@vocabulary = '1'</condition>
+            <path>//iati-activity/recipient-region/@code</path>
+            <codelist ref="Region"/>
+            <condition>@vocabulary = '1' or not(@vocabulary)</condition>
             <validation-rules>
                 <validation-rule>
-                    <priority>9.14</priority>
+                    <priority>9.51</priority>
                     <severity>error</severity>
-                    <category>classifications</category>
-                    <id>9.14.1</id>
-                    <message>The country budget item identifier is invalid.</message>
+                    <category>geo</category>
+                    <id>9.51.1</id>
+                    <message>The recipient region code is invalid.</message>
                 </validation-rule>
             </validation-rules>
         </mapping>

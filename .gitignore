@@ -7,4 +7,5 @@ combined-xml
 *.pyc
 *~
 mapping.json
+**/__pycache__
 .vscode
