@@ -170,19 +170,6 @@
       </validation-rules>
     </mapping>
     <mapping>
-      <path>//iati-activity/country-budget-items/budget-item/description/@type</path>
-      <codelist ref="DescriptionType"/>
-      <validation-rules>
-        <validation-rule>
-          <priority>9.15</priority>
-          <severity>error</severity>
-          <category>classifications</category>
-          <id>9.15.1</id>
-          <message>The country budget item description type is invalid.</message>
-        </validation-rule>
-      </validation-rules>
-    </mapping>
-    <mapping>
       <path>//iati-activity/crs-add/channel-code/text()</path>
       <codelist ref="CRSChannelCode"/>
       <validation-rules>
@@ -693,19 +680,6 @@
       </validation-rules>
     </mapping>
     <mapping>
-      <path>//iati-activity/result/description/@type</path>
-      <codelist ref="DescriptionType"/>
-      <validation-rules>
-        <validation-rule>
-          <priority>9.56</priority>
-          <severity>error</severity>
-          <category>performance</category>
-          <id>9.56.1</id>
-          <message>The result description type is invalid.</message>
-        </validation-rule>
-      </validation-rules>
-    </mapping>
-    <mapping>
       <path>//iati-activity/result/indicator/@measure</path>
       <codelist ref="IndicatorMeasure"/>
       <validation-rules>
@@ -715,19 +689,6 @@
           <category>performance</category>
           <id>9.60.1</id>
           <message>The indicator measure is invalid.</message>
-        </validation-rule>
-      </validation-rules>
-    </mapping>
-    <mapping>
-      <path>//iati-activity/result/indicator/description/@type</path>
-      <codelist ref="DescriptionType"/>
-      <validation-rules>
-        <validation-rule>
-          <priority>9.64</priority>
-          <severity>error</severity>
-          <category>performance</category>
-          <id>9.64.1</id>
-          <message>The indicator description type is invalid.</message>
         </validation-rule>
       </validation-rules>
     </mapping>
