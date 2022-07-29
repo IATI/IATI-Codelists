@@ -21,6 +21,8 @@ on:
       - "**/dependabot.yml"
     branches: [version-2.02, v2.02/validatorCodelist]
 
+concurrency: CI-validator-2.02
+
 jobs:
   build:
     runs-on: ubuntu-latest
