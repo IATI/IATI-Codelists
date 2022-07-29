@@ -22,7 +22,11 @@
   "/iati-activities/iati-activity": {
     "budget-not-provided": {
       "codelist": "BudgetNotProvided",
-      "allowedCodes": ["1", "2", "3"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "3"
+      ],
       "priority": "9.2",
       "severity": "error",
       "category": "financial",
@@ -219,7 +223,12 @@
   "/iati-activities/iati-activity/activity-date": {
     "type": {
       "codelist": "ActivityDateType",
-      "allowedCodes": ["1", "2", "3", "4"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
       "priority": "9.4",
       "severity": "error",
       "category": "information",
@@ -230,7 +239,14 @@
   "/iati-activities/iati-activity/activity-status": {
     "code": {
       "codelist": "ActivityStatus",
-      "allowedCodes": ["1", "2", "3", "4", "5", "6"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
       "priority": "9.5",
       "severity": "error",
       "category": "information",
@@ -241,7 +257,16 @@
   "/iati-activities/iati-activity/activity-scope": {
     "code": {
       "codelist": "ActivityScope",
-      "allowedCodes": ["1", "2", "3", "4", "5", "6", "7", "8"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
       "priority": "9.6",
       "severity": "error",
       "category": "information",
@@ -252,7 +277,10 @@
   "/iati-activities/iati-activity/budget": {
     "status": {
       "codelist": "BudgetStatus",
-      "allowedCodes": ["1", "2"],
+      "allowedCodes": [
+        "1",
+        "2"
+      ],
       "priority": "9.7",
       "severity": "error",
       "category": "financial",
@@ -261,7 +289,10 @@
     },
     "type": {
       "codelist": "BudgetType",
-      "allowedCodes": ["1", "2"],
+      "allowedCodes": [
+        "1",
+        "2"
+      ],
       "priority": "9.8",
       "severity": "error",
       "category": "financial",
@@ -460,7 +491,15 @@
   "/iati-activities/iati-activity/collaboration-type": {
     "code": {
       "codelist": "CollaborationType",
-      "allowedCodes": ["1", "2", "3", "4", "6", "7", "8"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "6",
+        "7",
+        "8"
+      ],
       "priority": "9.10",
       "severity": "error",
       "category": "classifications",
@@ -471,7 +510,11 @@
   "/iati-activities/iati-activity/conditions/condition": {
     "type": {
       "codelist": "ConditionType",
-      "allowedCodes": ["1", "2", "3"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "3"
+      ],
       "priority": "9.11",
       "severity": "error",
       "category": "performance",
@@ -482,7 +525,12 @@
   "/iati-activities/iati-activity/contact-info": {
     "type": {
       "codelist": "ContactType",
-      "allowedCodes": ["1", "2", "3", "4"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
       "priority": "9.12",
       "severity": "error",
       "category": "information",
@@ -493,194 +541,18 @@
   "/iati-activities/iati-activity/country-budget-items": {
     "vocabulary": {
       "codelist": "BudgetIdentifierVocabulary",
-      "allowedCodes": ["1", "2", "3", "4", "5"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
       "priority": "9.13",
       "severity": "error",
       "category": "classifications",
       "id": "9.13.1",
       "message": "The country budget identifier vocabulary is invalid."
-    }
-  },
-  "/iati-activities/iati-activity/country-budget-items/budget-item": {
-    "code": {
-      "conditions": {
-        "mapping": {
-          "1": {
-            "codelist": "BudgetIdentifier",
-            "allowedCodes": [
-              "1.1.1",
-              "1.2.1",
-              "1.3.1",
-              "1.3.2",
-              "1.3.3",
-              "1.3.4",
-              "1.3.5",
-              "1.3.6",
-              "1.3.7",
-              "1.3.8",
-              "1.3.9",
-              "1.3.10",
-              "1.3.11",
-              "1.3.12",
-              "1.3.13",
-              "1.4.1",
-              "1.4.2",
-              "1.4.3",
-              "1.5.1",
-              "1.6.1",
-              "1.7.1",
-              "1.7.2",
-              "1.7.3",
-              "1.7.4",
-              "1.8.1",
-              "2.1.1",
-              "2.1.2",
-              "2.1.3",
-              "2.1.4",
-              "2.1.5",
-              "2.1.6",
-              "2.1.7",
-              "2.1.8",
-              "2.1.9",
-              "2.1.10",
-              "2.2.1",
-              "2.2.2",
-              "2.2.3",
-              "2.2.4",
-              "3.1.1",
-              "3.1.2",
-              "3.1.3",
-              "3.1.4",
-              "3.1.5",
-              "3.1.6",
-              "3.1.7",
-              "3.2.1",
-              "3.2.2",
-              "3.2.3",
-              "3.3.1",
-              "3.3.2",
-              "3.3.3",
-              "3.3.4",
-              "3.3.5",
-              "3.3.6",
-              "3.3.7",
-              "3.3.8",
-              "3.3.9",
-              "3.4.1",
-              "3.4.2",
-              "3.4.3",
-              "3.4.4",
-              "3.5.1",
-              "3.5.2",
-              "3.5.3",
-              "3.5.4",
-              "3.6.1",
-              "3.6.2",
-              "3.6.3",
-              "3.6.4",
-              "3.6.5",
-              "3.6.6",
-              "3.6.7",
-              "3.7.1",
-              "3.7.2",
-              "3.7.3",
-              "3.7.4",
-              "3.7.6",
-              "3.7.7",
-              "3.8.1",
-              "3.8.2",
-              "3.8.3",
-              "3.8.4",
-              "3.8.5",
-              "3.8.6",
-              "3.8.7",
-              "3.8.8",
-              "3.8.9",
-              "3.8.10",
-              "3.8.11",
-              "3.8.12",
-              "3.8.13",
-              "3.8.14",
-              "3.9.1",
-              "3.9.2",
-              "3.9.3",
-              "3.9.4",
-              "3.10.1",
-              "3.10.2",
-              "3.10.3",
-              "3.10.4",
-              "3.11.1",
-              "3.11.2",
-              "3.12.1",
-              "4.1.1",
-              "4.1.2",
-              "4.1.3",
-              "4.1.4",
-              "4.1.5",
-              "4.1.6",
-              "4.1.7",
-              "4.1.8",
-              "4.1.9",
-              "4.2.1",
-              "4.2.2",
-              "4.2.3",
-              "4.2.4",
-              "4.2.5",
-              "5.1.1",
-              "5.2.1",
-              "5.2.2",
-              "5.2.3",
-              "5.2.4",
-              "5.3.1",
-              "5.3.2",
-              "5.3.3",
-              "5.3.4",
-              "5.3.5",
-              "5.3.6",
-              "5.3.7",
-              "5.3.8",
-              "5.3.9",
-              "5.3.10",
-              "5.3.11",
-              "5.3.12",
-              "5.3.13",
-              "5.4.1",
-              "5.4.2",
-              "5.4.3",
-              "5.4.4",
-              "5.4.5",
-              "5.4.6",
-              "5.4.7",
-              "5.4.8",
-              "5.4.9",
-              "5.4.10",
-              "5.4.11",
-              "5.4.12",
-              "6.1.1",
-              "6.1.2",
-              "7.1.1",
-              "7.2.1"
-            ],
-            "priority": "9.14",
-            "severity": "error",
-            "category": "classifications",
-            "id": "9.14.1",
-            "message": "The country budget item identifier is invalid."
-          }
-        },
-        "linkedAttribute": "../@vocabulary"
-      }
-    }
-  },
-  "/iati-activities/iati-activity/country-budget-items/budget-item/description": {
-    "type": {
-      "codelist": "DescriptionType",
-      "allowedCodes": ["1", "2", "3", "4"],
-      "priority": "9.15",
-      "severity": "error",
-      "category": "classifications",
-      "id": "9.15.1",
-      "message": "The country budget item description type is invalid."
     }
   },
   "/iati-activities/iati-activity/crs-add/channel-code": {
@@ -1125,7 +997,12 @@
   "/iati-activities/iati-activity/crs-add/other-flags": {
     "code": {
       "codelist": "CRSAddOtherFlags",
-      "allowedCodes": ["1", "2", "3", "4"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
       "priority": "9.17",
       "severity": "error",
       "category": "classifications",
@@ -1324,7 +1201,12 @@
   "/iati-activities/iati-activity/crs-add/loan-terms/repayment-plan": {
     "code": {
       "codelist": "LoanRepaymentPeriod",
-      "allowedCodes": ["1", "2", "4", "12"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "4",
+        "12"
+      ],
       "priority": "9.19",
       "severity": "error",
       "category": "classifications",
@@ -1335,7 +1217,12 @@
   "/iati-activities/iati-activity/crs-add/loan-terms/repayment-type": {
     "code": {
       "codelist": "LoanRepaymentType",
-      "allowedCodes": ["1", "2", "3", "5"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "3",
+        "5"
+      ],
       "priority": "9.20",
       "severity": "error",
       "category": "classifications",
@@ -1382,7 +1269,12 @@
           },
           "2": {
             "codelist": "EarmarkingCategory",
-            "allowedCodes": ["1", "2", "3", "4"],
+            "allowedCodes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
             "priority": "9.127",
             "severity": "error",
             "category": "iati",
@@ -1391,7 +1283,10 @@
           },
           "4": {
             "codelist": "CashandVoucherModalities",
-            "allowedCodes": ["1", "2"],
+            "allowedCodes": [
+              "1",
+              "2"
+            ],
             "priority": "9.128",
             "severity": "error",
             "category": "iati",
@@ -1405,7 +1300,12 @@
     },
     "vocabulary": {
       "codelist": "AidTypeVocabulary",
-      "allowedCodes": ["1", "2", "3", "4"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
       "priority": "9.22",
       "severity": "error",
       "category": "classifications",
@@ -1518,7 +1418,11 @@
   "/iati-activities/iati-activity/default-tied-status": {
     "code": {
       "codelist": "TiedStatus",
-      "allowedCodes": ["3", "4", "5"],
+      "allowedCodes": [
+        "3",
+        "4",
+        "5"
+      ],
       "priority": "9.25",
       "severity": "error",
       "category": "classifications",
@@ -1529,7 +1433,12 @@
   "/iati-activities/iati-activity/description": {
     "type": {
       "codelist": "DescriptionType",
-      "allowedCodes": ["1", "2", "3", "4"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
       "priority": "9.26",
       "severity": "error",
       "category": "information",
@@ -3627,7 +3536,10 @@
   "/iati-activities/iati-activity/humanitarian-scope": {
     "type": {
       "codelist": "HumanitarianScopeType",
-      "allowedCodes": ["1", "2"],
+      "allowedCodes": [
+        "1",
+        "2"
+      ],
       "priority": "9.31",
       "severity": "error",
       "category": "classifications",
@@ -3636,7 +3548,11 @@
     },
     "vocabulary": {
       "codelist": "HumanitarianScopeVocabulary",
-      "allowedCodes": ["1-2", "2-1", "99"],
+      "allowedCodes": [
+        "1-2",
+        "2-1",
+        "99"
+      ],
       "priority": "9.32",
       "severity": "error",
       "category": "classifications",
@@ -3647,7 +3563,14 @@
   "/iati-activities/iati-activity/location/administrative": {
     "vocabulary": {
       "codelist": "GeographicVocabulary",
-      "allowedCodes": ["A1", "A2", "A3", "A4", "G1", "G2"],
+      "allowedCodes": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "G1",
+        "G2"
+      ],
       "priority": "9.33",
       "severity": "error",
       "category": "geo",
@@ -4620,7 +4543,12 @@
   "/iati-activities/iati-activity/location/location-class": {
     "code": {
       "codelist": "GeographicLocationClass",
-      "allowedCodes": ["1", "2", "3", "4"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
       "priority": "9.35",
       "severity": "error",
       "category": "geo",
@@ -4631,7 +4559,14 @@
   "/iati-activities/iati-activity/location/location-id": {
     "vocabulary": {
       "codelist": "GeographicVocabulary",
-      "allowedCodes": ["A1", "A2", "A3", "A4", "G1", "G2"],
+      "allowedCodes": [
+        "A1",
+        "A2",
+        "A3",
+        "A4",
+        "G1",
+        "G2"
+      ],
       "priority": "9.36",
       "severity": "error",
       "category": "geo",
@@ -4642,7 +4577,10 @@
   "/iati-activities/iati-activity/location/location-reach": {
     "code": {
       "codelist": "GeographicLocationReach",
-      "allowedCodes": ["1", "2"],
+      "allowedCodes": [
+        "1",
+        "2"
+      ],
       "priority": "9.37",
       "severity": "error",
       "category": "geo",
@@ -4653,7 +4591,10 @@
   "/iati-activities/iati-activity/location/exactness": {
     "code": {
       "codelist": "GeographicExactness",
-      "allowedCodes": ["1", "2"],
+      "allowedCodes": [
+        "1",
+        "2"
+      ],
       "priority": "9.38",
       "severity": "error",
       "category": "geo",
@@ -4664,7 +4605,14 @@
   "/iati-activities/iati-activity/other-identifier": {
     "type": {
       "codelist": "OtherIdentifierType",
-      "allowedCodes": ["A1", "A2", "A3", "A9", "B1", "B9"],
+      "allowedCodes": [
+        "A1",
+        "A2",
+        "A3",
+        "A9",
+        "B1",
+        "B9"
+      ],
       "priority": "9.39",
       "severity": "error",
       "category": "identifiers",
@@ -5112,7 +5060,12 @@
     },
     "role": {
       "codelist": "OrganisationRole",
-      "allowedCodes": ["1", "2", "3", "4"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
       "priority": "9.41",
       "severity": "error",
       "category": "participating",
@@ -5149,7 +5102,10 @@
   "/iati-activities/iati-activity/planned-disbursement": {
     "type": {
       "codelist": "BudgetType",
-      "allowedCodes": ["1", "2"],
+      "allowedCodes": [
+        "1",
+        "2"
+      ],
       "priority": "9.43",
       "severity": "error",
       "category": "financial",
@@ -5434,7 +5390,13 @@
     },
     "significance": {
       "codelist": "PolicySignificance",
-      "allowedCodes": ["0", "1", "2", "3", "4"],
+      "allowedCodes": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
       "priority": "9.48",
       "severity": "error",
       "category": "classifications",
@@ -5443,7 +5405,10 @@
     },
     "vocabulary": {
       "codelist": "PolicyMarkerVocabulary",
-      "allowedCodes": ["1", "99"],
+      "allowedCodes": [
+        "1",
+        "99"
+      ],
       "priority": "9.49",
       "severity": "error",
       "category": "classifications",
@@ -5761,7 +5726,11 @@
     },
     "vocabulary": {
       "codelist": "RegionVocabulary",
-      "allowedCodes": ["1", "2", "99"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "99"
+      ],
       "priority": "9.52",
       "severity": "error",
       "category": "geo",
@@ -5772,7 +5741,13 @@
   "/iati-activities/iati-activity/related-activity": {
     "type": {
       "codelist": "RelatedActivityType",
-      "allowedCodes": ["1", "2", "3", "4", "5"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
       "priority": "9.53",
       "severity": "error",
       "category": "relations",
@@ -5811,23 +5786,17 @@
   "/iati-activities/iati-activity/result": {
     "type": {
       "codelist": "ResultType",
-      "allowedCodes": ["1", "2", "3", "9"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "3",
+        "9"
+      ],
       "priority": "9.55",
       "severity": "error",
       "category": "performance",
       "id": "9.55.1",
       "message": "The result type is invalid."
-    }
-  },
-  "/iati-activities/iati-activity/result/description": {
-    "type": {
-      "codelist": "DescriptionType",
-      "allowedCodes": ["1", "2", "3", "4"],
-      "priority": "9.56",
-      "severity": "error",
-      "category": "performance",
-      "id": "9.56.1",
-      "message": "The result description type is invalid."
     }
   },
   "/iati-activities/iati-activity/result/document-link": {
@@ -7732,7 +7701,13 @@
   "/iati-activities/iati-activity/result/indicator": {
     "measure": {
       "codelist": "IndicatorMeasure",
-      "allowedCodes": ["1", "2", "3", "4", "5"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
       "priority": "9.60",
       "severity": "error",
       "category": "performance",
@@ -9637,17 +9612,6 @@
       "category": "performance",
       "id": "9.63.1",
       "message": "The language code is invalid."
-    }
-  },
-  "/iati-activities/iati-activity/result/indicator/description": {
-    "type": {
-      "codelist": "DescriptionType",
-      "allowedCodes": ["1", "2", "3", "4"],
-      "priority": "9.64",
-      "severity": "error",
-      "category": "performance",
-      "id": "9.64.1",
-      "message": "The indicator description type is invalid."
     }
   },
   "/iati-activities/iati-activity/result/indicator/document-link": {
@@ -15350,7 +15314,18 @@
   "/iati-activities/iati-activity/result/indicator/reference": {
     "vocabulary": {
       "codelist": "IndicatorVocabulary",
-      "allowedCodes": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "99"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "99"
+      ],
       "priority": "9.74",
       "severity": "error",
       "category": "performance",
@@ -15361,7 +15336,9 @@
   "/iati-activities/iati-activity/result/reference": {
     "vocabulary": {
       "codelist": "ResultVocabulary",
-      "allowedCodes": ["99"],
+      "allowedCodes": [
+        "99"
+      ],
       "priority": "9.75",
       "severity": "error",
       "category": "performance",
@@ -16214,7 +16191,12 @@
     },
     "vocabulary": {
       "codelist": "TagVocabulary",
-      "allowedCodes": ["1", "2", "3", "99"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "3",
+        "99"
+      ],
       "priority": "9.79",
       "severity": "error",
       "category": "classifications",
@@ -16261,7 +16243,12 @@
           },
           "2": {
             "codelist": "EarmarkingCategory",
-            "allowedCodes": ["1", "2", "3", "4"],
+            "allowedCodes": [
+              "1",
+              "2",
+              "3",
+              "4"
+            ],
             "priority": "9.129",
             "severity": "error",
             "category": "financial",
@@ -16270,7 +16257,10 @@
           },
           "4": {
             "codelist": "CashandVoucherModalities",
-            "allowedCodes": ["1", "2"],
+            "allowedCodes": [
+              "1",
+              "2"
+            ],
             "priority": "9.130",
             "severity": "error",
             "category": "financial",
@@ -16284,7 +16274,12 @@
     },
     "vocabulary": {
       "codelist": "AidTypeVocabulary",
-      "allowedCodes": ["1", "2", "3", "4"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
       "priority": "9.81",
       "severity": "error",
       "category": "financial",
@@ -16295,7 +16290,12 @@
   "/iati-activities/iati-activity/transaction/disbursement-channel": {
     "code": {
       "codelist": "DisbursementChannel",
-      "allowedCodes": ["1", "2", "3", "4"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
       "priority": "9.82",
       "severity": "error",
       "category": "financial",
@@ -16715,7 +16715,11 @@
     },
     "vocabulary": {
       "codelist": "RegionVocabulary",
-      "allowedCodes": ["1", "2", "99"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "99"
+      ],
       "priority": "9.87",
       "severity": "error",
       "category": "financial",
@@ -17411,7 +17415,11 @@
   "/iati-activities/iati-activity/transaction/tied-status": {
     "code": {
       "codelist": "TiedStatus",
-      "allowedCodes": ["3", "4", "5"],
+      "allowedCodes": [
+        "3",
+        "4",
+        "5"
+      ],
       "priority": "9.92",
       "severity": "error",
       "category": "financial",
@@ -20198,7 +20206,10 @@
   "/iati-organisations/iati-organisation/recipient-country-budget": {
     "status": {
       "codelist": "BudgetStatus",
-      "allowedCodes": ["1", "2"],
+      "allowedCodes": [
+        "1",
+        "2"
+      ],
       "priority": "9.102",
       "severity": "error",
       "category": "financial",
@@ -20848,7 +20859,10 @@
   "/iati-organisations/iati-organisation/recipient-org-budget": {
     "status": {
       "codelist": "BudgetStatus",
-      "allowedCodes": ["1", "2"],
+      "allowedCodes": [
+        "1",
+        "2"
+      ],
       "priority": "9.105",
       "severity": "error",
       "category": "financial",
@@ -21235,7 +21249,10 @@
   "/iati-organisations/iati-organisation/recipient-region-budget": {
     "status": {
       "codelist": "BudgetStatus",
-      "allowedCodes": ["1", "2"],
+      "allowedCodes": [
+        "1",
+        "2"
+      ],
       "priority": "9.107",
       "severity": "error",
       "category": "financial",
@@ -21290,7 +21307,11 @@
     },
     "vocabulary": {
       "codelist": "RegionVocabulary",
-      "allowedCodes": ["1", "2", "99"],
+      "allowedCodes": [
+        "1",
+        "2",
+        "99"
+      ],
       "priority": "9.109",
       "severity": "error",
       "category": "geo",
@@ -21705,7 +21726,10 @@
   "/iati-organisations/iati-organisation/total-budget": {
     "status": {
       "codelist": "BudgetStatus",
-      "allowedCodes": ["1", "2"],
+      "allowedCodes": [
+        "1",
+        "2"
+      ],
       "priority": "9.113",
       "severity": "error",
       "category": "financial",
