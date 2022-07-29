@@ -50,6 +50,11 @@ jobs:
       - name: flake8 lint
         run: flake8 --exclude=pyenv,pyenv3 --ignore E501
 
+      - name: Build and test
+        run: |
+          ./gen.sh
+          pytest tests
+
   cache-codelist-rules-dev:
     needs: build
     runs-on: ubuntu-latest
