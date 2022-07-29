@@ -9,6 +9,7 @@ env:
   VERSION: 2.03
 
 on:
+  workflow_dispatch:
   push:
     paths-ignore:
       - "**/README.rst"
