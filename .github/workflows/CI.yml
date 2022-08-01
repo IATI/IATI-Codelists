@@ -1,7 +1,7 @@
 # This workflow will install Python dependencies, run tests and lint with a variety of Python versions
 # For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
 
-name: CI_version-2.01
+name: CI
 
 env:
   DEV_DEFAULT_KEY: ${{ secrets.DEV_CACHER_DEFAULT_KEY }} # Azure Functions default API Key for Redis-cacher
@@ -13,49 +13,47 @@ on:
   push:
     paths-ignore: 
        - '**/README.rst' # don't run on README.rst file updates anywhere in repo
-    branches: [version-2.01, v2.01/validatorCodelist]
+       - "**/dependabot.yml"
+    branches: [v2.01/validatorCodelist]
   pull_request:
     paths-ignore: 
        - '**/README.rst' # don't run on README.rst file updates anywhere in repo
-    branches: [version-2.01]
+       - "**/dependabot.yml"
+    branches: [v2.01/validatorCodelist]
+
+concurrency: CI-validator-2.01
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: ["3.7"]
 
     steps:
-      - name: Install xmllint
-        run: |
-          sudo apt-get update
-          sudo apt-get install libxml2-utils
-
-      - uses: actions/checkout@v2
-
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v2
+      - uses: actions/checkout@v3
         with:
-          python-version: ${{ matrix.python-version }}
+          submodules: recursive
 
-      - uses: actions/cache@v2
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: |
-            ${{ runner.os }}-pip-
+          python-version: '3.9'
+          cache: 'pip'
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          sudo apt-get -y install libxml2-dev libxslt-dev libxslt1-dev python3-dev python3-lxml libxml2-utils
+          python -m pip install --upgrade pip setuptools wheel
+          python -m pip install -r requirements.txt
 
       - name: xmllint
         run: xmllint --schema codelist.xsd --noout xml/*
 
       - name: flake8 lint
         run: flake8 --exclude=pyenv,pyenv3 --ignore E501
+
+      - name: Build and test
+        run: |
+          ./gen.sh
+          pytest tests
 
   cache-codelist-rules-dev:
     needs: build
