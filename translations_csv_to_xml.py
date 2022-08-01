@@ -49,7 +49,7 @@ def write_narrative(xml, element, lang_string):
 def get_codelist_item(code, xml):
     """Match the codelist-item within the xml to the code from the row in the csv."""
     for codelist_item in xml.findall('codelist-item'):
-        if(code == codelist_item.find('code').text):
+        if (code == codelist_item.find('code').text):
             return codelist_item
 
 
