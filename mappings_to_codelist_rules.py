@@ -90,4 +90,4 @@ def mapping_to_codelist_rules(mappings):
 mappings = ET.parse('mapping.xml')
 with open('codelist_rules.json', 'w') as fp:
     data = mapping_to_codelist_rules(mappings)
-    json.dump(data, fp)
+    json.dump(data, fp, indent=2)
