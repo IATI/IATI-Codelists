@@ -19,7 +19,7 @@ on:
     paths-ignore: 
       - '**/README.rst' # don't run on README.rst file updates anywhere in repo
       - "**/dependabot.yml"
-    branches: [version-2.02, v2.02/validatorCodelist]
+    branches: [v2.02/validatorCodelist]
 
 concurrency: CI-validator-2.02
 
