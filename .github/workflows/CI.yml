@@ -120,5 +120,5 @@ jobs:
           run: |
             curl -X POST https://api.github.com/repos/IATI/validator-rule-tracker/dispatches \
             -H 'Accept: application/vnd.github.everest-preview+json' \
-            -u ${{ secrets.NJO_PAT }} \
+            -u ${{ secrets.IATI_BOT_PAT }} \
             --data '{"event_type": "update", "client_payload": { "resourceName": "codelists", "repo": "'"$GITHUB_REPOSITORY"'", "sha": "'"$GITHUB_SHA"'"}}'
