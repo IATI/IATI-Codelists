@@ -49,6 +49,18 @@ jobs:
           ./gen.sh
           pytest tests
 
+  update-validator-codelists:
+    needs: build
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'push' && github.actor != 'dependabot[bot]' }}
+    steps:
+      - name: 'Trigger update of Validator Codelists repository'
+        run: |
+          curl -X POST https://api.github.com/repos/IATI/IATI-Validator-Codelists/dispatches \
+          -H 'Accept: application/vnd.github.everest-preview+json' \
+          -u ${{ secrets.IATI_BOT_PAT }} \
+          --data '{"event_type": "update-203", "client_payload": { "repo": "'"$GITHUB_REPOSITORY"'", "sha": "'"$GITHUB_SHA"'"}}'
+
   automerge:
     needs: build
     runs-on: ubuntu-latest
