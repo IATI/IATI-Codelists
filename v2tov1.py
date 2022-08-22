@@ -59,7 +59,7 @@ for fname in os.listdir(os.path.join('out', 'clv2', 'xml')):
         '{http://www.w3.org/XML/1998/namespace}lang': language,
     })
     old_codelist = E.codelist(**old_codelist_json)
-    del(old_codelist_json['{http://www.w3.org/XML/1998/namespace}lang'])
+    del old_codelist_json['{http://www.w3.org/XML/1998/namespace}lang']
     old_codelist_json['xml:lang'] = language
 
     old_codelist_json_list = []
