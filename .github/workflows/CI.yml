@@ -64,8 +64,8 @@ jobs:
           --output curl_out.txt \
           --silent )
           echo $HTTP_CODE
-          if [[ $HTTP_CODE != '200' ]] ; then
-            echo "Reponse is not 200, check error logs"
+          if [[ $HTTP_CODE != '204' ]] ; then
+            echo "Reponse is not 204, check error logs"
             cat curl_out.txt
             exit 1
           fi
@@ -85,8 +85,8 @@ jobs:
           --output curl_out.txt \
           --silent )
           echo $HTTP_CODE
-          if [[ $HTTP_CODE != '200' ]] ; then
-            echo "Reponse is not 200, check error logs"
+          if [[ $HTTP_CODE != '204' ]] ; then
+            echo "Reponse is not 204, check error logs"
             cat curl_out.txt
             exit 1
           fi
