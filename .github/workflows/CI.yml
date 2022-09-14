@@ -56,9 +56,9 @@ jobs:
     steps:
       - name: 'Trigger update of Validator Codelists repository'
         run: |
-          curl -X POST https://api.github.com/repos/IATI/IATI-Validator-Codelists/dispatches \
-          -H 'Accept: application/vnd.github.everest-preview+json' \
-          -H "Authorization ${{ secrets.IATI_BOT_PAT }}"" \
+          curl  -H 'Accept: application/vnd.github.everest-preview+json' \
+          -H 'Authorization: Bearer ${{ secrets.IATI_BOT_PAT }}' \
+          -X POST https://api.github.com/repos/IATI/IATI-Validator-Codelists/dispatches \
           --data '{"event_type": "update-201", "client_payload": { "repo": "'"$GITHUB_REPOSITORY"'", "sha": "'"$GITHUB_SHA"'"}}'
 
   update-rule-tracker:
@@ -68,9 +68,9 @@ jobs:
     steps:
       - name: 'Trigger update of rule tracker repo .csv'
         run: |
-          curl -X POST https://api.github.com/repos/IATI/validator-rule-tracker/dispatches \
-          -H 'Accept: application/vnd.github.everest-preview+json' \
-          -H "Authorization ${{ secrets.IATI_BOT_PAT }}"" \
+          curl -H 'Accept: application/vnd.github.everest-preview+json' \
+          -H 'Authorization: Bearer ${{ secrets.IATI_BOT_PAT }}' \
+          -X POST https://api.github.com/repos/IATI/validator-rule-tracker/dispatches \
           --data '{"event_type": "update", "client_payload": { "resourceName": "codelists", "repo": "'"$GITHUB_REPOSITORY"'", "sha": "'"$GITHUB_SHA"'"}}'
 
   automerge:
