@@ -56,10 +56,19 @@ jobs:
     steps:
       - name: 'Trigger update of Validator Codelists repository'
         run: |
-          curl  -H 'Accept: application/vnd.github.everest-preview+json' \
+          HTTP_CODE=$(curl --write-out "%{http_code}\n" \
+          -H 'Accept: application/vnd.github.everest-preview+json' \
           -H 'Authorization: Bearer ${{ secrets.IATI_BOT_PAT }}' \
           -X POST https://api.github.com/repos/IATI/IATI-Validator-Codelists/actions/workflows/push-CI.yml/dispatches \
-          --data '{"ref": "version-2.03", "inputs": { "repo": "'"$GITHUB_REPOSITORY"'", "sha": "'"$GITHUB_SHA"'"}}'
+          --data '{"ref": "version-2.03", "inputs": { "repo": "'"$GITHUB_REPOSITORY"'", "sha": "'"$GITHUB_SHA"'"}}' \
+          --output curl_out.txt \
+          --silent )
+          echo $HTTP_CODE
+          if [[ $HTTP_CODE != '200' ]] ; then
+            echo "Reponse is not 200, check error logs"
+            cat curl_out.txt
+            exit 1
+          fi
 
   update-rule-tracker:
     needs: build
@@ -68,10 +77,19 @@ jobs:
     steps:
       - name: 'Trigger update of rule tracker repo .csv'
         run: |
-          curl -H 'Accept: application/vnd.github.everest-preview+json' \
+          HTTP_CODE=$(curl --write-out "%{http_code}\n" \
+          -H 'Accept: application/vnd.github.everest-preview+json' \
           -H 'Authorization: Bearer ${{ secrets.IATI_BOT_PAT }}' \
           -X POST https://api.github.com/repos/IATI/validator-rule-tracker/dispatches \
-          --data '{"event_type": "update", "client_payload": { "resourceName": "codelists", "repo": "'"$GITHUB_REPOSITORY"'", "sha": "'"$GITHUB_SHA"'"}}'
+          --data '{"event_type": "update", "client_payload": { "resourceName": "codelists", "repo": "'"$GITHUB_REPOSITORY"'", "sha": "'"$GITHUB_SHA"'"}}' \
+          --output curl_out.txt \
+          --silent )
+          echo $HTTP_CODE
+          if [[ $HTTP_CODE != '200' ]] ; then
+            echo "Reponse is not 200, check error logs"
+            cat curl_out.txt
+            exit 1
+          fi
 
   automerge:
     needs: build
