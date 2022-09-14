@@ -58,8 +58,8 @@ jobs:
         run: |
           curl  -H 'Accept: application/vnd.github.everest-preview+json' \
           -H 'Authorization: Bearer ${{ secrets.IATI_BOT_PAT }}' \
-          -X POST https://api.github.com/repos/IATI/IATI-Validator-Codelists/dispatches \
-          --data '{"event_type": "update-201", "client_payload": { "repo": "'"$GITHUB_REPOSITORY"'", "sha": "'"$GITHUB_SHA"'"}}'
+          -X POST https://api.github.com/repos/IATI/IATI-Validator-Codelists/actions/workflows/push-CI.yml/dispatches \
+          --data '{"ref": "version-2.01", "inputs": { "repo": "'"$GITHUB_REPOSITORY"'", "sha": "'"$GITHUB_SHA"'"}}'
 
   update-rule-tracker:
     needs: build
