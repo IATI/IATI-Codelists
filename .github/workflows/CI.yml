@@ -56,10 +56,22 @@ jobs:
     steps:
       - name: 'Trigger update of Validator Codelists repository'
         run: |
-          curl -X POST https://api.github.com/repos/IATI/IATI-Validator-Codelists/dispatches \
-          -H 'Accept: application/vnd.github.everest-preview+json' \
-          -u ${{ secrets.IATI_BOT_PAT }} \
-          --data '{"event_type": "update-203", "client_payload": { "repo": "'"$GITHUB_REPOSITORY"'", "sha": "'"$GITHUB_SHA"'"}}'
+          curl  -H 'Accept: application/vnd.github.everest-preview+json' \
+          -H 'Authorization: Bearer ${{ secrets.IATI_BOT_PAT }}' \
+          -X POST https://api.github.com/repos/IATI/IATI-Validator-Codelists/actions/workflows/push-CI.yml/dispatches \
+          --data '{"ref": "version-2.03", "inputs": { "repo": "'"$GITHUB_REPOSITORY"'", "sha": "'"$GITHUB_SHA"'"}}'
+
+  update-rule-tracker:
+    needs: build
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'push' && github.actor != 'dependabot[bot]' }} # only push to the rule tracker on PUSH
+    steps:
+      - name: 'Trigger update of rule tracker repo .csv'
+        run: |
+          curl -H 'Accept: application/vnd.github.everest-preview+json' \
+          -H 'Authorization: Bearer ${{ secrets.IATI_BOT_PAT }}' \
+          -X POST https://api.github.com/repos/IATI/validator-rule-tracker/dispatches \
+          --data '{"event_type": "update", "client_payload": { "resourceName": "codelists", "repo": "'"$GITHUB_REPOSITORY"'", "sha": "'"$GITHUB_SHA"'"}}'
 
   automerge:
     needs: build
@@ -68,6 +80,6 @@ jobs:
       pull-requests: write
       contents: write
     steps:
-      - uses: fastify/github-action-merge-dependabot@v3.2
+      - uses: fastify/github-action-merge-dependabot@v3.3
         with:
           github-token: ${{secrets.GITHUB_TOKEN}}
