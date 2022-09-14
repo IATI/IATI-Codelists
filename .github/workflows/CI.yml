@@ -58,7 +58,7 @@ jobs:
         run: |
           curl -X POST https://api.github.com/repos/IATI/IATI-Validator-Codelists/dispatches \
           -H 'Accept: application/vnd.github.everest-preview+json' \
-          -u ${{ secrets.IATI_BOT_PAT }} \
+          -H "Authorization ${{ secrets.IATI_BOT_PAT }}"" \
           --data '{"event_type": "update-201", "client_payload": { "repo": "'"$GITHUB_REPOSITORY"'", "sha": "'"$GITHUB_SHA"'"}}'
 
   automerge:
