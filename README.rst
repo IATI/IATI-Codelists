@@ -3,16 +3,13 @@ IATI Codelists
 
 .. image:: https://github.com/IATI/IATI-Codelists/workflows/CI_version-2.02/badge.svg
     :target: https://github.com/IATI/IATI-Codelists/actions
-.. image:: https://requires.io/github/IATI/IATI-Codelists/requirements.svg?branch=version-2.01
-    :target: https://requires.io/github/IATI/IATI-Codelists/requirements/?branch=version-2.01
-    :alt: Requirements Status
 .. image:: https://img.shields.io/badge/license-MIT-blue.svg
-    :target: https://github.com/IATI/IATI-Codelists/blob/version-2.01/LICENSE
+    :target: https://github.com/IATI/IATI-Codelists/blob/version-2.02/LICENSE
 
 Introduction
 ------------
 
-This repository contains the codelists for the IATI Standard, and is part of the Single Source of Truth (SSOT). For more information about the SSOT, please see http://iatistandard.org/202/developer/ssot/ 
+This repository contains the codelists for the IATI Standard, and is part of the Single Source of Truth (SSOT). For more information about the SSOT, please see https://iatistandard.org/202/developer/ssot/ 
 
 The Codelists
 =============
@@ -24,10 +21,10 @@ Core vs Non-Core Codelists
 
 This repository contains only codelists that are core to the IATI Standard. Core means that IATI is directly responsible for them, and any changes to them need to go through the same change control process as other changes to the standard.
 
-Those codelists that are not core can be found in a seperate repository at `<https://github.com/IATI/IATI-Codelists-NonEmbedded/>`_. These lists are typically maintained by other organisations that IATI has no control over but which IATI data relies on such as country codes, language codes and so on. The aspiration for these codelists is to have them pulled from their external sources regularly and automatically.
+Those codelists that are not core can be found in a separate repository at `<https://github.com/IATI/IATI-Codelists-NonEmbedded/>`_. These lists are typically maintained by other organisations that IATI has no control over but which IATI data relies on such as country codes, language codes and so on. The aspiration for these codelists is to have them pulled from their external sources regularly and automatically.
 
 Codelist XML Format
-===============
+===================
 
 The codelist are in an XML format described by the  ``codelist.xsd`` schema. 
 This format has been chosen for the single source of truth as it has a number of advantages over the previous format used by IATI.
@@ -86,3 +83,12 @@ This tool supports Python 3.x. To use this script, we recommend the use of a vir
     python3 -m venv pyenv
     source pyenv/bin/activate
     pip install -r requirements.txt
+
+Automated Downstream Updates
+============================
+
+The GitHub workflow ``.github/workflows/CI.yml``, triggers workflows in 2 repositories related to the IATI Validator that utilise the IATI codelists. 
+
+- `IATI/IATI-Validator-Codelists <https://github.com/IATI/IATI-Validator-Codelists>`__
+- `IATI/validator-rule-tracker <https://github.com/IATI/validator-rule-tracker>`__
+
