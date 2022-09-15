@@ -97,8 +97,7 @@ This tool supports Python 3.x. To use this script, we recommend the use of a vir
 Automated Downstream Updates
 ============================
 
-The GitHub workflow ``.github/workflows/CI.yml``, triggers workflows in 2 repositories related to the IATI Validator that utilise the IATI codelists. 
+The GitHub workflow ``.github/workflows/CI.yml``, triggers a workflow in a repository related to the IATI Validator that utilises the IATI codelists. 
 
 - `IATI/IATI-Validator-Codelists <https://github.com/IATI/IATI-Validator-Codelists>`__
-- `IATI/validator-rule-tracker <https://github.com/IATI/validator-rule-tracker>`__
 
