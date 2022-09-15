@@ -37,7 +37,7 @@ This format has been chosen for the single source of truth as it has a number of
 Codelists in Other Formats (.json, .csv)
 ========================================
 
-``gen.sh`` (which calls ``gen.py``) can be used to convert the Codelists to JSON and CSV format. Converted coedlists are availible on dev.iatistandard.org
+``gen.sh`` (which calls ``gen.py``) can be used to convert the Codelists to JSON and CSV format. Converted codelists are available on https://iatistandard.org/en/iati-standard/203/codelists
 
 To do the conversion yourself, you will need BASH, Python and python-lxml. Then simply run ``gen.sh``. The generated codelists will be in the ``out`` folder.
 
