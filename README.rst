@@ -32,7 +32,7 @@ This format has been chosen for the single source of truth as it has a number of
 * the codelists no longer include the element name as a tag name,
 * all have language information described the same way as IATI XML 
 * as there is a codelist schema we can validate all the source XML 
-* more metadata, including a description, is now included in the codesists
+* more metadata, including a description, is now included in the codelists
 
 Codelists in Other Formats (.json, .csv)
 ========================================
@@ -87,8 +87,7 @@ This tool supports Python 3.x. To use this script, we recommend the use of a vir
 Automated Downstream Updates
 ============================
 
-The GitHub workflow ``.github/workflows/CI.yml``, triggers workflows in 2 repositories related to the IATI Validator that utilise the IATI codelists. 
+The GitHub workflow ``.github/workflows/CI.yml``, triggers a workflow in a repository related to the IATI Validator that utilises the IATI codelists. 
 
 - `IATI/IATI-Validator-Codelists <https://github.com/IATI/IATI-Validator-Codelists>`__
-- `IATI/validator-rule-tracker <https://github.com/IATI/validator-rule-tracker>`__
 
