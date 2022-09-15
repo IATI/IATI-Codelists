@@ -9,7 +9,7 @@ IATI Codelists
 Introduction
 ------------
 
-This repository contains the codelists for the IATI Standard, and is part of the Single Source of Truth (SSOT). For more information about the SSOT, please see http://iatistandard.org/202/developer/ssot/ 
+This repository contains the codelists for the IATI Standard, and is part of the Single Source of Truth (SSOT). For more information about the SSOT, please see http://iatistandard.org/203/developer/ssot/ 
 
 The Codelists
 =============
@@ -97,7 +97,7 @@ This tool supports Python 3.x. To use this script, we recommend the use of a vir
 Automated Downstream Updates
 ============================
 
-The GitHub workflow `.github/workflows/CI.yml`, triggers worklows in 2 repositories related to the IATI Validator that utilise the IATI codelists. 
+The GitHub workflow ``.github/workflows/CI.yml``, triggers worklows in 2 repositories related to the IATI Validator that utilise the IATI codelists. 
 
 - `IATI/IATI-Validator-Codelists <https://github.com/IATI/IATI-Validator-Codelists>`__
 - `IATI/validator-rule-tracker <https://github.com/IATI/validator-rule-tracker>`__
