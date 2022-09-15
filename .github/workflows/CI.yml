@@ -49,18 +49,18 @@ jobs:
           ./gen.sh
           pytest tests
 
-  update-rule-tracker:
+  update-validator-codelists:
     needs: build
     runs-on: ubuntu-latest
-    if: ${{ github.event_name == 'push' && github.actor != 'dependabot[bot]' }} # only push to the rule tracker on PUSH
+    if: ${{ github.event_name == 'push' && github.actor != 'dependabot[bot]' }}
     steps:
-      - name: 'Trigger update of rule tracker repo .csv'
+      - name: 'Trigger update of Validator Codelists repository'
         run: |
           HTTP_CODE=$(curl --write-out "%{http_code}\n" \
           -H 'Accept: application/vnd.github.everest-preview+json' \
           -H 'Authorization: Bearer ${{ secrets.IATI_BOT_PAT }}' \
-          -X POST https://api.github.com/repos/IATI/validator-rule-tracker/dispatches \
-          --data '{"event_type": "update", "client_payload": { "resourceName": "codelists", "repo": "'"$GITHUB_REPOSITORY"'", "sha": "'"$GITHUB_SHA"'"}}' \
+          -X POST https://api.github.com/repos/IATI/IATI-Validator-Codelists/actions/workflows/push-CI.yml/dispatches \
+          --data '{"ref": "version-2.02", "inputs": { "repo": "'"$GITHUB_REPOSITORY"'", "sha": "'"$GITHUB_SHA"'"}}' \
           --output curl_out.txt \
           --silent )
           echo $HTTP_CODE
