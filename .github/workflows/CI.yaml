@@ -49,26 +49,14 @@ jobs:
           ./gen.sh
           pytest tests
 
-  update-validator-codelists:
+  call-update-validator-codelists:
     needs: build
-    runs-on: ubuntu-latest
     if: ${{ github.event_name == 'push' && github.actor != 'dependabot[bot]' }}
-    steps:
-      - name: 'Trigger update of Validator Codelists repository'
-        run: |
-          HTTP_CODE=$(curl --write-out "%{http_code}\n" \
-          -H 'Accept: application/vnd.github.everest-preview+json' \
-          -H 'Authorization: Bearer ${{ secrets.IATI_BOT_PAT }}' \
-          -X POST https://api.github.com/repos/IATI/IATI-Validator-Codelists/actions/workflows/push-CI.yml/dispatches \
-          --data '{"ref": "version-2.02", "inputs": { "repo": "'"$GITHUB_REPOSITORY"'", "sha": "'"$GITHUB_SHA"'"}}' \
-          --output curl_out.txt \
-          --silent )
-          echo $HTTP_CODE
-          if [[ $HTTP_CODE != '204' ]] ; then
-            echo "Reponse is not 204, check error logs"
-            cat curl_out.txt
-            exit 1
-          fi
+    uses: IATI/.github/.github/workflows/trigger_validator_codelists.yaml@main
+    with:
+      VERSION: '2.02'
+    secrets:
+      IATI_BOT_PAT: ${{ secrets.IATI_BOT_PAT }}
 
   automerge:
     needs: build
