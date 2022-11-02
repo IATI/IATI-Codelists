@@ -59,7 +59,7 @@ jobs:
           HTTP_CODE=$(curl --write-out "%{http_code}\n" \
           -H 'Accept: application/vnd.github.everest-preview+json' \
           -H 'Authorization: Bearer ${{ secrets.IATI_BOT_PAT }}' \
-          -X POST https://api.github.com/repos/IATI/IATI-Validator-Codelists/actions/workflows/push-CI.yml/dispatches \
+          -X POST https://api.github.com/repos/IATI/IATI-Validator-Codelists/actions/workflows/dispatch-CI.yaml/dispatches \
           --data '{"ref": "version-2.03", "inputs": { "repo": "'"$GITHUB_REPOSITORY"'", "sha": "'"$GITHUB_SHA"'"}}' \
           --output curl_out.txt \
           --silent )
