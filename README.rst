@@ -100,18 +100,18 @@ Downstream Updates
 IATI Standard Website
 ---------------------
 
-- The [IATI/IATI-Reference-Generator](https://github.com/IATI/IATI-Reference-Generator) repo should be used to rebuild the SSOT documentation and upload to the website following that process. 
+- The `IATI/IATI-Reference-Generator <https://github.com/IATI/IATI-Reference-Generator>`__ repo should be used to rebuild the SSOT documentation and upload to the website following that process. 
 - This will ensure the updates to the codelists are reflected on the IATI Standard website.
 
 IATI Validator
 --------------
 
-- The [Validator](https://iativalidator.iatistandard.org) utilises a transformed version of the Codelists stored in [IATI/IATI-Validator-Codelists](https://github.com/IATI/IATI-Validator-Codelists). 
-- When changes are pushed to this `master` branch, the `call-update-validator-codelists` job in `.github/workflows/CI.yml` triggers a GitHub action in [IATI/IATI-Validator-Codelists](https://github.com/IATI/IATI-Validator-Codelists). 
-- Follow the [Update Process](https://github.com/IATI/IATI-Validator-Codelists#update-process) as documented in the IATI-Validator-Codelists repo
+- The `Validator <https://iativalidator.iatistandard.org>`__ utilises a transformed version of the Codelists stored in `IATI/IATI-Validator-Codelists <https://github.com/IATI/IATI-Validator-Codelists>`__. 
+- When changes are pushed to this `master` branch, the `call-update-validator-codelists` job in `.github/workflows/CI.yml` triggers a GitHub action in `IATI/IATI-Validator-Codelists <https://github.com/IATI/IATI-Validator-Codelists>`__. 
+- Follow the `Update Process <https://github.com/IATI/IATI-Validator-Codelists#update-process>`__ as documented in the IATI-Validator-Codelists repo
 
 IATI Datastore
 --------------
 
-- The [Datastore Search](https://datastore.iatistandard.org) utilises a transformed version of the Codelists stored in [IATI/dss-filters](https://github.com/IATI/dss-filters)
-- See [IATI/dss-filters](https://github.com/IATI/dss-filters) for instructions on updating the Codelists used by Datastore Search.
+- The `Datastore Search <https://datastore.iatistandard.org>`__ utilises a transformed version of the Codelists stored in `IATI/dss-filters <https://github.com/IATI/dss-filters>`__
+- See `IATI/dss-filters <https://github.com/IATI/dss-filters>`__ for instructions on updating the Codelists used by Datastore Search.
