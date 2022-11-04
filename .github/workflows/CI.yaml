@@ -58,6 +58,13 @@ jobs:
     secrets:
       IATI_BOT_PAT: ${{ secrets.IATI_BOT_PAT }}
 
+  call-update-dss-filters:
+    needs: build
+    if: ${{ github.event_name == 'push' && github.actor != 'dependabot[bot]' }}
+    uses: IATI/.github/.github/workflows/trigger_dss_filters.yaml@main
+    secrets:
+      IATI_BOT_PAT: ${{ secrets.IATI_BOT_PAT }}
+
   automerge:
     needs: build
     runs-on: ubuntu-latest
