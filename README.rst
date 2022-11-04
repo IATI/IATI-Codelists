@@ -107,11 +107,12 @@ IATI Validator
 --------------
 
 - The `Validator <https://iativalidator.iatistandard.org>`__ utilises a transformed version of the Codelists stored in `IATI/IATI-Validator-Codelists <https://github.com/IATI/IATI-Validator-Codelists>`__. 
-- When changes are pushed to this `master` branch, the `call-update-validator-codelists` job in `.github/workflows/CI.yml` triggers a GitHub action in `IATI/IATI-Validator-Codelists <https://github.com/IATI/IATI-Validator-Codelists>`__. 
+- When changes are pushed to a version branch, the `call-update-validator-codelists` job in `.github/workflows/CI.yml` triggers a GitHub action in `IATI/IATI-Validator-Codelists <https://github.com/IATI/IATI-Validator-Codelists>`__. 
 - Follow the `Update Process <https://github.com/IATI/IATI-Validator-Codelists#update-process>`__ as documented in the IATI-Validator-Codelists repo
 
 IATI Datastore
 --------------
 
 - The `Datastore Search <https://datastore.iatistandard.org>`__ utilises a transformed version of the Codelists stored in `IATI/dss-filters <https://github.com/IATI/dss-filters>`__
+- When changes are pushed to a version-2.03 branch, the `call-update-dss-filters` job in `.github/workflows/CI.yml` triggers a GitHub action in `IATI/dss-filters <https://github.com/IATI/dss-filters>`__.
 - See `IATI/dss-filters <https://github.com/IATI/dss-filters>`__ for instructions on updating the Codelists used by Datastore Search.
