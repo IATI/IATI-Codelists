@@ -1,4 +1,4 @@
 lxml==5.3.1
-flake8==6.0.0
+flake8==7.1.2
 pytz
 pytest==8.3.4
