@@ -68,7 +68,7 @@ for language in languages:
         if fname == 'OrganisationRegistrationAgency.xml':
             fieldnames.append('public-database')
 
-        dw = csv.DictWriter(open(os.path.join(OUTPUTDIR, 'csv', language, attrib['name'] + '.csv'), 'w'), fieldnames)
+        dw = csv.DictWriter(open(os.path.join(OUTPUTDIR, 'csv', language, attrib['name'] + '.csv'), 'w'), fieldnames, extrasaction='ignore')
         dw.writeheader()
         for row in codelist_dicts:
             if sys.version_info.major == 2:
