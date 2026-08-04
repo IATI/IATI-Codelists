@@ -22,7 +22,11 @@ def normalize_whitespace(x):
 
 
 def codelist_item_todict(codelist_item, default_lang='', lang='en'):
-    out = dict([(child.tag, normalize_whitespace(child.text)) for child in codelist_item if child.tag not in ['name', 'description'] or child.attrib.get(xml_lang) == lang or (child.attrib.get(xml_lang) is None and lang == default_lang)])
+    # Namespaced elements (e.g. the `extras` namespace in
+    # IATI-Codelists-NonEmbedded) are extra fields that are not part of the
+    # published csv/json output, so are skipped here. They remain available in
+    # the xml output.
+    out = dict([(child.tag, normalize_whitespace(child.text)) for child in codelist_item if not child.tag.startswith('{') and (child.tag not in ['name', 'description'] or child.attrib.get(xml_lang) == lang or (child.attrib.get(xml_lang) is None and lang == default_lang))])
     if 'public-database' in codelist_item.attrib:
         out['public-database'] = True if codelist_item.attrib['public-database'] in ['1', 'true'] else False
     out['status'] = codelist_item.get('status', 'active')
@@ -68,7 +72,7 @@ for language in languages:
         if fname == 'OrganisationRegistrationAgency.xml':
             fieldnames.append('public-database')
 
-        dw = csv.DictWriter(open(os.path.join(OUTPUTDIR, 'csv', language, attrib['name'] + '.csv'), 'w'), fieldnames)
+        dw = csv.DictWriter(open(os.path.join(OUTPUTDIR, 'csv', language, attrib['name'] + '.csv'), 'w'), fieldnames, extrasaction='ignore')
         dw.writeheader()
         for row in codelist_dicts:
             if sys.version_info.major == 2:
